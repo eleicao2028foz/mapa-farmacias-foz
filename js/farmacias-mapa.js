@@ -115,7 +115,26 @@
     bar.querySelectorAll(".fm-item").forEach(b => b.addEventListener("click", () => selecionarLoja(b.dataset.id)));
     bar.querySelectorAll(".fm-acao").forEach(b => b.addEventListener("click", () => alternarModo(b.dataset.modo)));
     const painel = document.createElement("aside");
-    painel.id = "fm-painel"; painel.hidden = true; document.body.appendChild(painel);
+    painel.id = "fm-painel"; painel.hidden = true; painel.setAttribute("aria-live", "polite");
+    document.body.appendChild(painel);
+    const cartao = document.createElement("aside");
+    cartao.id = "fm-cartao"; cartao.hidden = true;
+    document.body.appendChild(cartao);
+  }
+  function ehMobile() { return window.innerWidth < 820; }
+  function fecharCartao() {
+    const c = $("#fm-cartao");
+    if (c) { c.hidden = true; c.innerHTML = ""; c.className = ""; }
+  }
+  function setPainelMin(min) {
+    const p = $("#fm-painel");
+    if (!p || p.hidden) return;
+    p.classList.toggle("is-min", !!min);
+    const x = p.querySelector(".fm-x");
+    if (x) {
+      x.textContent = min ? "▾" : "×";
+      x.setAttribute("aria-label", min ? "Abrir lista" : "Recolher lista");
+    }
   }
   function selecionarLoja(id, jump) {
     const l = st.dados.farmais.find(x => x.id === id); if (!l) return;
@@ -130,9 +149,10 @@
   /* ---------- modos 1 km ---------- */
   function limparModo() {
     st.markers.forEach(m => m.remove()); st.markers = [];
-    if (st.popup) { st.popup.remove(); st.popup = null; }
+    fecharCartao();
     const src = st.map.getSource("fm-raio"); if (src) src.setData({ type: "FeatureCollection", features: [] });
-    $("#fm-painel").hidden = true;
+    const p = $("#fm-painel");
+    if (p) { p.hidden = true; p.classList.remove("is-min"); p.innerHTML = ""; }
     document.querySelectorAll("#fm-bar .fm-acao").forEach(b => b.classList.remove("is-active"));
   }
   function vizinhos() {
@@ -143,8 +163,16 @@
   function alternarModo(modo, keepCam) {
     if (!st.loja) return;
     const mesmo = st.modo === modo;
+    if (mesmo) {
+      const p = $("#fm-painel");
+      if (p && !p.hidden && p.classList.contains("is-min")) {
+        setPainelMin(false);
+        return;
+      }
+      limparModo(); st.modo = null;
+      return;
+    }
     limparModo(); st.modo = null;
-    if (mesmo) return;
     st.modo = modo;
     document.querySelector(`#fm-bar .fm-acao[data-modo="${modo}"]`).classList.add("is-active");
     const c = [st.loja.lon, st.loja.lat];
@@ -164,7 +192,8 @@
         el.className = "fm-pin-perto" + (s.model.startsWith("farmais") ? " is-farmais" : "");
         el.innerHTML = `<span class="dot">✚</span><span class="nome">${esc(s.titulo)}</span><span class="km">${Math.round(s.d)} m</span>`;
       }
-      el.addEventListener("click", ev => { ev.stopPropagation(); abrirCard(s, modo); });
+      el.addEventListener("pointerdown", ev => ev.stopPropagation());
+      el.addEventListener("click", ev => { ev.preventDefault(); ev.stopPropagation(); abrirCard(s, modo); });
       st.markers.push(new maplibregl.Marker({ element: el, anchor: "bottom", offset: [0, -14] }).setLngLat(s.front || [s.lon, s.lat]).addTo(st.map));
     }
     resumo(modo, lista);
@@ -182,7 +211,7 @@
     const ps = st.promos.por_site[s.id] || [];
     if (!ps.length) return `<p class="fm-vazio">Nenhuma promoção válida registrada no radar.</p>`;
     return `<table class="fm-promos"><thead><tr><th>Produto</th><th>Preço</th><th>Condição</th><th>Validade</th><th>Fonte</th></tr></thead><tbody>${ps.map(p =>
-      `<tr><td>${esc(p.produto)}</td><td class="pr">${p.preco ? "R$ " + esc(p.preco) : "—"}</td><td>${esc(p.condicao || "—")}</td><td>${esc(p.validade || "não informada")}</td><td>${p.fonte && /^https?:/.test(p.fonte) ? `<a href="${esc(p.fonte)}" target="_blank" rel="noopener">abrir</a>` : esc(p.fonte || "—")}</td></tr>`).join("")}</tbody></table>`;
+      `<tr><td>${esc(p.produto)}</td><td class="pr" data-label="Preço">${p.preco ? "R$ " + esc(p.preco) : "—"}</td><td data-label="Condição">${esc(p.condicao || "—")}</td><td data-label="Validade">${esc(p.validade || "não informada")}</td><td data-label="Fonte">${p.fonte && /^https?:/.test(p.fonte) ? `<a href="${esc(p.fonte)}" target="_blank" rel="noopener">abrir</a>` : esc(p.fonte || "—")}</td></tr>`).join("")}</tbody></table>`;
   }
   function htmlContato(s) {
     const e = s.entradas[0] || {};
@@ -197,26 +226,44 @@
     </dl>${s.entradas.length > 1 ? `<p class="fm-obs">Mesmo endereço também listado como: ${s.entradas.slice(1).map(x => esc(x.nome)).join(", ")}.</p>` : ""}`;
   }
   function abrirCard(s, modo) {
-    if (st.popup) st.popup.remove();
-    st.map.flyTo({ center: s.front || [s.lon, s.lat], zoom: 17.8, pitch: 58, bearing: -s.phi * 180 / Math.PI + 15, duration: 1600, essential: true, offset: [0, 120] });
+    if (!s) return;
+    fecharCartao();
+    if (ehMobile()) setPainelMin(true);
+    st.map.flyTo({ center: s.front || [s.lon, s.lat], zoom: 17.8, pitch: 58, bearing: -s.phi * 180 / Math.PI + 15, duration: 1600, essential: true, offset: [0, 130] });
     const n = (st.promos.por_site[s.id] || []).length;
-    const html = `<div class="fm-card ${modo}"><header><span class="fm-card-kicker">${modo === "promo" ? n + " promoç" + (n === 1 ? "ão" : "ões") + " ativas" : "Farmácia a " + Math.round(s.d) + " m"}</span>
-      <h3>${esc(s.titulo)}</h3></header>${modo === "promo" ? htmlPromos(s) + `<details><summary>Contato</summary>${htmlContato(s)}</details>` : htmlContato(s) + (n ? `<p class="fm-obs promo">Tem ${n} promoç${n === 1 ? "ão" : "ões"} no radar — veja em “Promoções próximo a mim”.</p>` : "")}</div>`;
-    st.popup = new maplibregl.Popup({ maxWidth: modo === "promo" ? "560px" : "340px", offset: 48, className: "fm-popup", focusAfterOpen: false })
-      .setLngLat(s.front || [s.lon, s.lat]).setHTML(html).addTo(st.map);
+    const kicker = modo === "promo" ? n + " promoç" + (n === 1 ? "ão" : "ões") + " ativas" : "Farmácia a " + Math.round(s.d) + " m";
+    const corpo = modo === "promo" ? htmlPromos(s) + `<details><summary>Contato</summary>${htmlContato(s)}</details>` : htmlContato(s) + (n ? `<p class="fm-obs promo">Tem ${n} promoç${n === 1 ? "ão" : "ões"} no radar — veja em “Promoções próximo a mim”.</p>` : "");
+    const c = $("#fm-cartao");
+    c.className = modo;
+    c.innerHTML = `<div class="fm-card ${modo}"><header><span class="fm-card-kicker">${kicker}</span>
+      <h3>${esc(s.titulo)}</h3><button type="button" class="fm-x" aria-label="Fechar cartão">×</button></header>
+      <div class="fm-card-body">${corpo}</div></div>`;
+    c.hidden = false;
+    c.querySelector(".fm-x").addEventListener("click", ev => { ev.preventDefault(); ev.stopPropagation(); fecharCartao(); });
   }
   function resumo(modo, lista) {
     const p = $("#fm-painel");
     const tot = lista.reduce((a, s) => a + (st.promos.por_site[s.id] || []).length, 0);
     p.className = modo;
-    p.innerHTML = `<header><b>${modo === "promo" ? "Promoções em 1 km" : "Farmácias em 1 km"}</b><span>FARMAIS ${esc(st.loja.curto)}</span>
+    p.innerHTML = `<header><b>${modo === "promo" ? "Promoções em 1 km" : "Farmácias em 1 km"}</b><span class="fm-sub">FARMAIS ${esc(st.loja.curto)}</span>
+      <span class="fm-chip-n">${modo === "promo" ? `${lista.length} farmácia${lista.length === 1 ? "" : "s"} · ${tot} oferta${tot === 1 ? "" : "s"}` : `${lista.length} no raio`}</span>
       <button type="button" class="fm-x" aria-label="Fechar">×</button></header>
       <p class="fm-sum">${modo === "promo" ? `${lista.length} farmácia${lista.length === 1 ? "" : "s"} com promoção · ${tot} oferta${tot === 1 ? "" : "s"}` : `${lista.length} farmácia${lista.length === 1 ? "" : "s"} no raio de 1 km`}</p>
       <ol>${lista.map(s => `<li><button type="button" data-id="${esc(s.id)}"><span class="nm">${esc(s.titulo)}</span><span class="mt">${Math.round(s.d)} m${modo === "promo" ? " · " + st.promos.por_site[s.id].length + " promo" : ""}</span></button></li>`).join("") || `<li class="vazio">Nada encontrado no raio.</li>`}</ol>
       ${modo === "promo" ? `<p class="fm-nota">Fonte: radar de concorrentes (${esc(st.promos.gerado_em || "")}). Ofertas de rede valem para todas as lojas da rede, salvo indicação.</p>` : ""}`;
     p.hidden = false;
-    p.querySelector(".fm-x").onclick = () => alternarModo(st.modo);
-    p.querySelectorAll("li button").forEach(b => b.onclick = () => { const s = lista.find(x => x.id === b.dataset.id); abrirCard(s, modo); });
+    setPainelMin(ehMobile());
+    p.querySelector(".fm-x").addEventListener("click", ev => {
+      ev.preventDefault(); ev.stopPropagation();
+      setPainelMin(!p.classList.contains("is-min"));
+    });
+    p.querySelector("header").addEventListener("click", ev => {
+      if (p.classList.contains("is-min") && !ev.target.closest(".fm-x")) setPainelMin(false);
+    });
+    p.querySelectorAll("li button").forEach(b => b.addEventListener("click", ev => {
+      ev.preventDefault(); ev.stopPropagation();
+      abrirCard(lista.find(x => x.id === b.dataset.id), modo);
+    }));
   }
 
   async function iniciar() {
@@ -256,7 +303,7 @@
     const q = new URLSearchParams(location.search);
     if (!q.get("loja")) visaoCidade(true);
     if (q.get("loja")) selecionarLoja(q.get("loja"), true);
-    if (q.get("loja") && q.get("raio")) alternarModo(q.get("raio"), true);
+    if (q.get("loja") && q.get("raio")) alternarModo(q.get("raio"));
   }
   iniciar();
 })();
