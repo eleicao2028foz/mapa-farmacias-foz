@@ -174,6 +174,7 @@
     }
     limparModo(); st.modo = null;
     st.modo = modo;
+    if (typeof st.onModo === "function") { try { st.onModo(modo); } catch (e) { console.warn(e); } }
     document.querySelector(`#fm-bar .fm-acao[data-modo="${modo}"]`).classList.add("is-active");
     const c = [st.loja.lon, st.loja.lat];
     st.map.getSource("fm-raio").setData({ type: "FeatureCollection", features: [circulo(c, RAIO_M)] });
@@ -241,6 +242,8 @@
     c.hidden = false;
     c.querySelector(".fm-x").addEventListener("click", ev => { ev.preventDefault(); ev.stopPropagation(); fecharCartao(); });
   }
+  st.abrirCard = abrirCard;
+  st.desligarModo = function () { if (st.modo) { limparModo(); st.modo = null; } };
   function resumo(modo, lista) {
     const p = $("#fm-painel");
     const tot = lista.reduce((a, s) => a + (st.promos.por_site[s.id] || []).length, 0);

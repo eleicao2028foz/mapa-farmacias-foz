@@ -1,0 +1,98 @@
+/* Barra lateral esquerda — mesmo desenho do antigo botão de trânsito (traf-dock) do mapa de ônibus. */
+#fd-dock{--fd-btn:56px;--fd-bottom:150px;position:absolute;left:calc(10px + env(safe-area-inset-left,0px));top:calc(12px + env(safe-area-inset-top,0px));
+  bottom:var(--fd-bottom);z-index:9;display:flex;align-items:flex-start;gap:10px;pointer-events:none;
+  font-family:system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;-webkit-font-smoothing:antialiased;color:#2a3138}
+#fd-dock *{box-sizing:border-box}
+#fd-dock .fd-rail{pointer-events:auto;display:flex;flex-direction:column;align-items:center;gap:8px;padding:10px 6px;border-radius:28px;
+  background:linear-gradient(#f4f7fa,#e4eaf1);box-shadow:0 1px 0 #fff inset,0 6px 16px rgba(30,40,55,.22),0 0 0 1px rgba(160,175,190,.45);position:relative;flex:0 0 auto}
+#fd-dock .fd-btn{appearance:none;border:0;background:none;padding:0;margin:0;cursor:pointer;display:flex;flex-direction:column;align-items:center;gap:4px;
+  width:68px;font:inherit;color:#1e3a66;touch-action:manipulation;position:relative}
+#fd-dock .fd-ico{position:relative;width:var(--fd-btn);height:var(--fd-btn);border-radius:50%;color:#3a5a8c;display:grid;place-items:center;
+  background:radial-gradient(circle at 50% 32%,#ffffff 0%,#f3f6f9 58%,#d5dde6 100%);
+  box-shadow:inset 0 2px 2px rgba(255,255,255,.95),inset 0 -3px 5px rgba(120,135,155,.28),0 3px 6px rgba(40,50,70,.25);
+  border:1px solid rgba(170,182,196,.65);transition:transform .12s ease,box-shadow .12s ease}
+#fd-dock .fd-ico:before{content:"";position:absolute;left:14%;right:14%;top:8%;height:42%;border-radius:50% 50% 45% 45%;
+  background:linear-gradient(to bottom,rgba(255,255,255,.95),rgba(255,255,255,.05));pointer-events:none}
+#fd-dock .fd-ico svg{width:30px;height:30px;display:block;position:relative;z-index:1;overflow:visible}
+#fd-dock .fd-lbl{font-weight:800;font-size:10px;line-height:1.1;text-align:center;letter-spacing:.01em;color:#1e3a66}
+#fd-dock .fd-btn:hover .fd-ico{transform:translateY(-1px)}
+#fd-dock .fd-btn:active .fd-ico{transform:translateY(1px)}
+#fd-dock .fd-btn:focus{outline:none}
+#fd-dock .fd-btn:focus-visible .fd-ico{box-shadow:0 0 0 3px rgba(80,140,200,.5)}
+#fd-dock .fd-btn[aria-pressed="true"] .fd-ico{color:#1e4b8a;box-shadow:inset 0 2px 6px rgba(40,70,110,.25),0 0 0 2px rgba(80,140,200,.35),0 3px 6px rgba(40,50,70,.2)}
+#fd-dock .fd-btn[aria-pressed="true"] .fd-lbl{color:#DF2110}
+#fd-dock .fd-btn.tem-sel .fd-ico:after{content:"";position:absolute;right:1px;top:1px;width:13px;height:13px;border-radius:50%;background:#DF2110;border:2px solid #fff;z-index:2}
+
+#fd-dock .fd-panel{pointer-events:auto;width:min(380px,calc(100vw - 110px));max-height:100%;overflow:auto;-webkit-overflow-scrolling:touch;overscroll-behavior:contain;
+  background:linear-gradient(#fffefb,#f4f1ea);border-radius:16px;box-shadow:0 10px 28px rgba(30,40,50,.28),0 0 0 1px rgba(80,90,100,.12);
+  padding:12px 12px 10px;display:flex;flex-direction:column;min-width:0;font-size:13px;line-height:1.3}
+#fd-dock .fd-panel[hidden]{display:none!important}
+#fd-dock .fd-head{display:flex;align-items:flex-start;justify-content:space-between;gap:8px;margin-bottom:6px}
+#fd-dock .fd-title{font-weight:800;font-size:16px;letter-spacing:.01em;color:#22302a;margin:0}
+#fd-dock .aba-promos .fd-title{color:#b41708}
+#fd-dock .fd-meta{margin:2px 0 4px;font-size:11px;color:#5a655c;line-height:1.35}
+#fd-dock .fd-close{border:0;background:#ece8dc;color:#2a3138;width:32px;height:32px;border-radius:50%;font-size:20px;line-height:1;cursor:pointer;flex:0 0 auto;touch-action:manipulation}
+#fd-dock .fd-close:hover{background:#e0d8c6}
+#fd-dock .fd-voltar{border:0;background:none;padding:0 0 4px;color:#00428F;font:700 12.5px/1.2 inherit;cursor:pointer}
+#fd-dock .fd-tools{display:flex;flex-direction:column;gap:7px;margin:4px 0 8px;position:sticky;top:-12px;background:linear-gradient(#fffefb,#faf8f2);padding:6px 0 4px;z-index:2}
+#fd-dock .fd-busca{width:100%;border:1px solid #d6d0c2;border-radius:10px;padding:9px 11px;font:16px/1.2 inherit;background:#fff;color:#1d2a3a}
+#fd-dock .fd-busca:focus{outline:2px solid rgba(0,66,143,.35);border-color:#00428F}
+#fd-dock .fd-seg{display:flex;background:#ece8dc;border-radius:10px;padding:3px;gap:3px}
+#fd-dock .fd-seg button{flex:1 1 0;border:0;background:none;border-radius:8px;padding:7px 6px;font:700 12px/1.1 inherit;color:#4a5560;cursor:pointer;touch-action:manipulation}
+#fd-dock .fd-seg button.on{background:#fff;color:#00428F;box-shadow:0 1px 3px rgba(0,0,0,.15)}
+#fd-dock .fd-seg-mini button{font-size:11px;padding:5px 4px}
+#fd-dock .fd-list{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:6px}
+#fd-dock .fd-item{display:flex;flex-direction:column;align-items:flex-start;gap:3px;width:100%;text-align:left;border:0;cursor:pointer;padding:8px 10px;border-radius:12px;
+  background:#fff;box-shadow:0 1px 0 rgba(255,255,255,.8) inset,0 1px 3px rgba(40,50,40,.1);color:inherit;font:inherit;position:relative;touch-action:manipulation}
+#fd-dock .fd-item:hover,#fd-dock .fd-item:focus-visible{background:#f7f3e8;outline:none}
+#fd-dock .fd-item.is-sel{box-shadow:0 0 0 2px rgba(223,33,16,.55)}
+#fd-dock .fd-nome{font-weight:700;font-size:13px;color:#1f2a24;line-height:1.25}
+#fd-dock .fd-mv .fd-item{padding-left:40px}
+#fd-dock .fd-pos{position:absolute;left:8px;top:8px;width:26px;height:26px;border-radius:50%;background:#00428F;color:#fff;display:grid;place-items:center;font:800 11px/1 inherit}
+#fd-dock .fd-linha{display:flex;flex-wrap:wrap;align-items:center;gap:4px 8px;font-size:11.5px;color:#5a655c}
+#fd-dock .fd-badge{display:inline-block;padding:2px 8px;border-radius:999px;background:#DF2110;color:#fff;font-weight:800;font-size:11px}
+#fd-dock .fd-badge.sem{background:#e3e0d6;color:#5a655c}
+#fd-dock .fd-preco{font-weight:700;color:#1d3d2a}
+#fd-dock .fd-preco.forte{font-size:14px;color:#b41708}
+#fd-dock .fd-preco s{color:#8a8f96;font-weight:500;font-size:11.5px}
+#fd-dock .fd-desc{font-weight:800;color:#0b7a3b}
+#fd-dock .fd-redes,#fd-dock .fd-prod,#fd-dock .fd-val{font-size:11px;color:#6b7a8c}
+#fd-dock .fd-dist{color:#00428F;font-weight:600}
+#fd-dock .fd-un{font-weight:800;color:#1f2a24}
+#fd-dock .fd-tend{font-weight:800}
+#fd-dock .fd-tend.sobe{color:#0b7a3b}#fd-dock .fd-tend.cai{color:#c0392b}#fd-dock .fd-tend.est{color:#6b7a8c}
+#fd-dock .fd-vazio{font-size:13px;color:#5a655c;margin:8px 4px}
+#fd-dock .fd-explica{font-size:12px;color:#4a5560;margin:0 2px 8px;background:#fff6dc;border-radius:10px;padding:7px 9px}
+#fd-dock .fd-sub{font-weight:800;font-size:12px;margin:12px 2px 4px;color:#22302a}
+#fd-dock .fd-camp{margin:0;padding:0 0 0 16px;font-size:11.5px;color:#4a5560}
+#fd-dock .fd-nota{margin:10px 2px 2px;font-size:10.5px;color:#6b7a8c;line-height:1.35}
+#fd-dock .fd-acoes{display:flex;gap:8px;margin-top:10px;position:sticky;bottom:-10px;background:linear-gradient(rgba(244,241,234,0),#f4f1ea 30%);padding:8px 0 4px}
+#fd-dock .fd-acoes button{flex:1 1 0;border:0;border-radius:999px;padding:9px 10px;font:800 12.5px/1 inherit;cursor:pointer;touch-action:manipulation}
+#fd-dock .fd-ver{background:#00428F;color:#fff}
+#fd-dock .fd-limpar{background:#ece8dc;color:#2a3138}
+.fm-pin-promo.fd-pin{background:linear-gradient(180deg,#ff6a3d,#DF2110)}
+.fm-pin-promo.fd-pin .n{color:#0b7a3b}
+/* cartão da loja não fica embaixo da barra lateral */
+@media (min-width:821px){
+  #fm-cartao{left:96px;width:min(560px,calc(100% - 420px))}
+  body.fd-aberto #fm-cartao{left:500px;width:min(520px,calc(100% - 830px))}
+}
+@media (max-width:960px){
+  #fd-dock{--fd-btn:50px;left:calc(6px + env(safe-area-inset-left,0px));top:calc(8px + env(safe-area-inset-top,0px))}
+  #fd-dock .fd-ico svg{width:26px;height:26px}
+}
+@media (max-width:820px){
+  /* abaixo do chip recolhido do modo 1 km (canto superior esquerdo) */
+  #fd-dock{--fd-btn:46px;top:calc(66px + env(safe-area-inset-top,0px));gap:6px}
+  #fd-dock .fd-rail{padding:8px 4px;gap:6px;border-radius:24px}
+  #fd-dock .fd-btn{width:58px}
+  #fd-dock .fd-lbl{font-size:9px}
+  #fd-dock .fd-panel{position:fixed;left:calc(76px + env(safe-area-inset-left,0px));right:8px;width:auto;top:calc(66px + env(safe-area-inset-top,0px));bottom:var(--fd-bottom);max-height:none;padding:10px 10px 8px}
+  /* produto selecionado: painel baixo, mapa com os marcadores visível em cima */
+  #fd-dock .fd-panel.view-detalhe{top:auto;left:8px;max-height:min(36vh,calc(100dvh - var(--fd-bottom) - 200px))}
+  #fd-dock .fd-panel.view-detalhe .fd-explica{font-size:11px;padding:5px 8px;margin-bottom:6px}
+  #fd-dock .fd-panel.view-detalhe .fd-acoes{margin-top:6px;padding-top:4px}
+  #fd-dock .fd-panel.view-detalhe .fd-acoes button{padding:8px}
+  #fd-dock .fd-title{font-size:15px}
+}
+#fm-cartao{z-index:10}
