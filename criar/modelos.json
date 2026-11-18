@@ -1,0 +1,559 @@
+{
+ "versao": "2026-11-18 17:02",
+ "modelos": [
+  {
+   "n": 1,
+   "tema": "sexta-feira",
+   "titulo": "Sexta-Feira",
+   "classe": "tema-escuro tema-sexta-feira",
+   "layout": "grid",
+   "maxp": 4,
+   "fmts": [
+    "quadrado",
+    "vertical"
+   ],
+   "t1": "",
+   "t13": "",
+   "t2": "",
+   "preco_gigante": false,
+   "barcode": false,
+   "thumb": "thumbs/01.webp"
+  },
+  {
+   "n": 2,
+   "tema": "esquenta",
+   "titulo": "Esquenta",
+   "classe": "tema-escuro tema-esquenta",
+   "layout": "grid",
+   "maxp": 4,
+   "fmts": [
+    "quadrado",
+    "vertical"
+   ],
+   "t1": "",
+   "t13": "",
+   "t2": "",
+   "preco_gigante": false,
+   "barcode": false,
+   "thumb": "thumbs/02.webp"
+  },
+  {
+   "n": 3,
+   "tema": "black-friday",
+   "titulo": "Black Friday",
+   "classe": "tema-escuro tema-black-friday",
+   "layout": "grid",
+   "maxp": 4,
+   "fmts": [
+    "quadrado",
+    "vertical"
+   ],
+   "t1": "",
+   "t13": "",
+   "t2": "",
+   "preco_gigante": false,
+   "barcode": false,
+   "thumb": "thumbs/03.webp"
+  },
+  {
+   "n": 4,
+   "tema": "super-ofertas",
+   "titulo": "Super Ofertas",
+   "classe": "tema-super-ofertas",
+   "layout": "grid",
+   "maxp": 4,
+   "fmts": [
+    "quadrado",
+    "vertical"
+   ],
+   "t1": "",
+   "t13": "",
+   "t2": "",
+   "preco_gigante": false,
+   "barcode": false,
+   "thumb": "thumbs/04.webp"
+  },
+  {
+   "n": 5,
+   "tema": "hero",
+   "titulo": "Oferta destaque",
+   "classe": "tema-hero",
+   "layout": "hero",
+   "maxp": 1,
+   "fmts": [
+    "quadrado",
+    "vertical"
+   ],
+   "t1": "",
+   "t13": "",
+   "t2": "",
+   "preco_gigante": false,
+   "barcode": false,
+   "thumb": "thumbs/05.webp"
+  },
+  {
+   "n": 6,
+   "tema": "grade-6",
+   "titulo": "Grade 6 produtos",
+   "classe": "tema-grade-6",
+   "layout": "grid6",
+   "maxp": 6,
+   "fmts": [
+    "quadrado",
+    "vertical"
+   ],
+   "t1": "",
+   "t13": "",
+   "t2": "",
+   "preco_gigante": false,
+   "barcode": false,
+   "thumb": "thumbs/06.webp"
+  },
+  {
+   "n": 7,
+   "tema": "etiqueta",
+   "titulo": "Etiqueta de gôndola",
+   "classe": "tema-etiqueta",
+   "layout": "etiqueta",
+   "maxp": 8,
+   "fmts": [
+    "folha",
+    "a6"
+   ],
+   "t1": "",
+   "t13": "",
+   "t2": "",
+   "preco_gigante": false,
+   "barcode": false,
+   "thumb": "thumbs/07.webp"
+  },
+  {
+   "n": 8,
+   "tema": "cartaz",
+   "titulo": "Cartaz A4 (vitrine)",
+   "classe": "tema-cartaz",
+   "layout": "grid",
+   "maxp": 4,
+   "fmts": [
+    "a4"
+   ],
+   "t1": "",
+   "t13": "",
+   "t2": "",
+   "preco_gigante": false,
+   "barcode": false,
+   "thumb": "thumbs/08.webp"
+  },
+  {
+   "n": 9,
+   "tema": "oferta-do-dia",
+   "titulo": "Oferta do dia",
+   "classe": "tema-oferta-do-dia",
+   "layout": "grid",
+   "maxp": 4,
+   "fmts": [
+    "quadrado",
+    "vertical"
+   ],
+   "t1": "",
+   "t13": "",
+   "t2": "",
+   "preco_gigante": false,
+   "barcode": false,
+   "thumb": "thumbs/09.webp"
+  },
+  {
+   "n": 10,
+   "tema": "dermo",
+   "titulo": "Dermo & Beleza",
+   "classe": "tema-dermo",
+   "layout": "grid",
+   "maxp": 4,
+   "fmts": [
+    "quadrado",
+    "vertical"
+   ],
+   "t1": "",
+   "t13": "",
+   "t2": "",
+   "preco_gigante": false,
+   "barcode": false,
+   "thumb": "thumbs/10.webp"
+  },
+  {
+   "n": 11,
+   "tema": "bebe",
+   "titulo": "Bebê",
+   "classe": "tema-bebe",
+   "layout": "grid",
+   "maxp": 4,
+   "fmts": [
+    "quadrado",
+    "vertical"
+   ],
+   "t1": "",
+   "t13": "",
+   "t2": "",
+   "preco_gigante": false,
+   "barcode": false,
+   "thumb": "thumbs/11.webp"
+  },
+  {
+   "n": 12,
+   "tema": "leve-2",
+   "titulo": "Leve 2 pague menos",
+   "classe": "tema-leve-2",
+   "layout": "grid",
+   "maxp": 4,
+   "fmts": [
+    "quadrado",
+    "vertical"
+   ],
+   "t1": "",
+   "t13": "",
+   "t2": "",
+   "preco_gigante": false,
+   "barcode": false,
+   "thumb": "thumbs/12.webp"
+  },
+  {
+   "n": 13,
+   "tema": "natal",
+   "titulo": "Natal / Festas",
+   "classe": "tema-natal",
+   "layout": "grid",
+   "maxp": 4,
+   "fmts": [
+    "quadrado",
+    "vertical"
+   ],
+   "t1": "",
+   "t13": "",
+   "t2": "",
+   "preco_gigante": false,
+   "barcode": false,
+   "thumb": "thumbs/13.webp"
+  },
+  {
+   "n": 14,
+   "tema": "convenio",
+   "titulo": "Convênio empresas",
+   "classe": "tema-convenio",
+   "layout": "grid",
+   "maxp": 4,
+   "fmts": [
+    "quadrado",
+    "vertical"
+   ],
+   "t1": "",
+   "t13": "",
+   "t2": "",
+   "preco_gigante": false,
+   "barcode": false,
+   "thumb": "thumbs/14.webp"
+  },
+  {
+   "n": 15,
+   "tema": "suico",
+   "titulo": "Editorial suíço",
+   "classe": "tema-suico",
+   "layout": "grid",
+   "maxp": 4,
+   "fmts": [
+    "quadrado",
+    "vertical"
+   ],
+   "t1": "OFERTA",
+   "t13": "",
+   "t2": "FARMAIS",
+   "preco_gigante": false,
+   "barcode": false,
+   "thumb": "thumbs/15.webp"
+  },
+  {
+   "n": 16,
+   "tema": "tipografico",
+   "titulo": "Pôster tipográfico",
+   "classe": "tema-tipografico",
+   "layout": "hero",
+   "maxp": 1,
+   "fmts": [
+    "quadrado",
+    "vertical"
+   ],
+   "t1": "O PREÇO",
+   "t13": "",
+   "t2": "FALA MAIS ALTO",
+   "preco_gigante": true,
+   "barcode": false,
+   "thumb": "thumbs/16.webp"
+  },
+  {
+   "n": 17,
+   "tema": "neon",
+   "titulo": "Neon noturno",
+   "classe": "tema-neon",
+   "layout": "grid",
+   "maxp": 4,
+   "fmts": [
+    "quadrado",
+    "vertical"
+   ],
+   "t1": "OFERTA",
+   "t13": "",
+   "t2": "NOITE",
+   "preco_gigante": false,
+   "barcode": false,
+   "thumb": "thumbs/17.webp"
+  },
+  {
+   "n": 18,
+   "tema": "glass",
+   "titulo": "Glassmorphism",
+   "classe": "tema-glass",
+   "layout": "grid",
+   "maxp": 4,
+   "fmts": [
+    "quadrado",
+    "vertical"
+   ],
+   "t1": "OFERTAS",
+   "t13": "",
+   "t2": "FARMAIS",
+   "preco_gigante": false,
+   "barcode": false,
+   "thumb": "thumbs/18.webp"
+  },
+  {
+   "n": 19,
+   "tema": "pastel",
+   "titulo": "Pastel flat",
+   "classe": "tema-pastel",
+   "layout": "grid",
+   "maxp": 4,
+   "fmts": [
+    "quadrado",
+    "vertical"
+   ],
+   "t1": "OFERTAS",
+   "t13": "",
+   "t2": "DA SEMANA",
+   "preco_gigante": false,
+   "barcode": false,
+   "thumb": "thumbs/19.webp"
+  },
+  {
+   "n": 20,
+   "tema": "vintage",
+   "titulo": "Etiqueta retrô",
+   "classe": "tema-vintage",
+   "layout": "grid",
+   "maxp": 4,
+   "fmts": [
+    "quadrado",
+    "vertical"
+   ],
+   "t1": "OFERTAS",
+   "t13": "",
+   "t2": "DA CASA",
+   "preco_gigante": false,
+   "barcode": false,
+   "thumb": "thumbs/20.webp"
+  },
+  {
+   "n": 21,
+   "tema": "revista",
+   "titulo": "Capa de revista",
+   "classe": "tema-revista",
+   "layout": "hero",
+   "maxp": 1,
+   "fmts": [
+    "quadrado",
+    "vertical"
+   ],
+   "t1": "FARMAIS",
+   "t13": "",
+   "t2": "EDIÇÃO ESPECIAL",
+   "preco_gigante": false,
+   "barcode": true,
+   "thumb": "thumbs/21.webp"
+  },
+  {
+   "n": 23,
+   "tema": "memphis",
+   "titulo": "Stickers Memphis",
+   "classe": "tema-memphis",
+   "layout": "grid",
+   "maxp": 4,
+   "fmts": [
+    "quadrado",
+    "vertical"
+   ],
+   "t1": "OFERTAS",
+   "t13": "",
+   "t2": "PRA VOCÊ",
+   "preco_gigante": false,
+   "barcode": false,
+   "thumb": "thumbs/23.webp"
+  },
+  {
+   "n": 24,
+   "tema": "cupom",
+   "titulo": "Cupom / ticket",
+   "classe": "tema-cupom",
+   "layout": "hero",
+   "maxp": 1,
+   "fmts": [
+    "quadrado",
+    "vertical"
+   ],
+   "t1": "CUPOM",
+   "t13": "",
+   "t2": "FARMAIS",
+   "preco_gigante": false,
+   "barcode": true,
+   "thumb": "thumbs/24.webp"
+  },
+  {
+   "n": 25,
+   "tema": "tabloide",
+   "titulo": "Tabloide / encarte",
+   "classe": "tema-tabloide",
+   "layout": "grid",
+   "maxp": 4,
+   "fmts": [
+    "quadrado",
+    "vertical"
+   ],
+   "t1": "O FARMAIS",
+   "t13": "",
+   "t2": "JORNAL DE OFERTAS",
+   "preco_gigante": false,
+   "barcode": false,
+   "thumb": "thumbs/25.webp"
+  },
+  {
+   "n": 26,
+   "tema": "mesh",
+   "titulo": "Gradient mesh",
+   "classe": "tema-mesh",
+   "layout": "grid",
+   "maxp": 4,
+   "fmts": [
+    "quadrado",
+    "vertical"
+   ],
+   "t1": "SUPER",
+   "t13": "",
+   "t2": "OFERTAS",
+   "preco_gigante": false,
+   "barcode": false,
+   "thumb": "thumbs/26.webp"
+  },
+  {
+   "n": 27,
+   "tema": "duotone",
+   "titulo": "Duotone",
+   "classe": "tema-duotone",
+   "layout": "grid",
+   "maxp": 4,
+   "fmts": [
+    "quadrado",
+    "vertical"
+   ],
+   "t1": "OFERTAS",
+   "t13": "",
+   "t2": "EM DUAS TINTAS",
+   "preco_gigante": false,
+   "barcode": false,
+   "thumb": "thumbs/27.webp"
+  },
+  {
+   "n": 28,
+   "tema": "brutalista",
+   "titulo": "Brutalista",
+   "classe": "tema-brutalista",
+   "layout": "grid",
+   "maxp": 4,
+   "fmts": [
+    "quadrado",
+    "vertical"
+   ],
+   "t1": "OFERTA",
+   "t13": "",
+   "t2": "AGORA",
+   "preco_gigante": false,
+   "barcode": false,
+   "thumb": "thumbs/28.webp"
+  },
+  {
+   "n": 29,
+   "tema": "cinema",
+   "titulo": "Cinemático",
+   "classe": "tema-cinema",
+   "layout": "hero",
+   "maxp": 1,
+   "fmts": [
+    "quadrado",
+    "vertical"
+   ],
+   "t1": "EM CARTAZ",
+   "t13": "",
+   "t2": "FARMAIS",
+   "preco_gigante": true,
+   "barcode": false,
+   "thumb": "thumbs/29.webp"
+  }
+ ],
+ "formatos": {
+  "quadrado": {
+   "view": [
+    1080,
+    1080
+   ],
+   "dsf": 1,
+   "page_mm": null
+  },
+  "vertical": {
+   "view": [
+    1080,
+    1920
+   ],
+   "dsf": 1.5,
+   "page_mm": null
+  },
+  "a4": {
+   "view": [
+    1240,
+    1754
+   ],
+   "dsf": 2,
+   "page_mm": [
+    210,
+    297
+   ]
+  },
+  "a6": {
+   "view": [
+    620,
+    874
+   ],
+   "dsf": 2,
+   "page_mm": [
+    105,
+    148
+   ]
+  },
+  "folha": {
+   "view": [
+    1240,
+    1754
+   ],
+   "dsf": 2,
+   "page_mm": [
+    210,
+    297
+   ]
+  }
+ }
+}

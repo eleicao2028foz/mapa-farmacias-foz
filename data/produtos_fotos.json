@@ -1,0 +1,636 @@
+{
+"gerado_em": "2026-11-18 17:03",
+"n": 70,
+"produtos": [
+{
+"id": "babyfree",
+"nome": "Lenço Baby Free",
+"detalhe": "Lenço umedecido · 50 unidades",
+"arquivo": "img/produtos/babyfree.webp",
+"busca": "lenco umedecido babyfree bebe",
+"w": 720,
+"h": 402
+},
+{
+"id": "colgate-luminous-white",
+"nome": "Colgate Luminous White",
+"detalhe": "Carvão Ativado · 70 g",
+"arquivo": "img/produtos/colgate-luminous-white.webp",
+"busca": "creme dental pasta de dente clareador",
+"w": 720,
+"h": 513
+},
+{
+"id": "curaprox-cs5460",
+"nome": "Curaprox CS 5460",
+"detalhe": "Ultra Soft · kit com 3 escovas",
+"arquivo": "img/produtos/curaprox-cs5460.webp",
+"busca": "escova dental",
+"w": 228,
+"h": 720
+},
+{
+"id": "dove-aero-invisible-dry",
+"nome": "Desodorante Dove Invisible Dry",
+"detalhe": "Aerossol 150 ml",
+"arquivo": "img/produtos/dove-aero-invisible-dry.webp",
+"busca": "desodorante antitranspirante aerosol",
+"w": 183,
+"h": 720
+},
+{
+"id": "dove-aero-original",
+"nome": "Desodorante Dove Original",
+"detalhe": "Aerossol 150 ml",
+"arquivo": "img/produtos/dove-aero-original.webp",
+"busca": "desodorante antitranspirante aerosol",
+"w": 183,
+"h": 720
+},
+{
+"id": "epocler",
+"nome": "Epocler",
+"detalhe": "6 flaconetes de 10 ml",
+"arquivo": "img/produtos/epocler.webp",
+"busca": "figado ressaca flaconete",
+"w": 720,
+"h": 508
+},
+{
+"id": "jb-condicionador",
+"nome": "Condicionador Johnson's Baby Regular",
+"detalhe": "200 ml",
+"arquivo": "img/produtos/jb-condicionador.webp",
+"busca": "johnsons bebe infantil",
+"w": 362,
+"h": 720
+},
+{
+"id": "jb-shampoo",
+"nome": "Shampoo Johnson's Baby Regular",
+"detalhe": "200 ml",
+"arquivo": "img/produtos/jb-shampoo.webp",
+"busca": "johnsons bebe infantil",
+"w": 361,
+"h": 720
+},
+{
+"id": "neosaldina",
+"nome": "Neosaldina",
+"detalhe": "30 comprimidos revestidos",
+"arquivo": "img/produtos/neosaldina.webp",
+"busca": "dor de cabeca analgesico",
+"w": 720,
+"h": 458
+},
+{
+"id": "nivea-creme-56",
+"nome": "Nivea Creme",
+"detalhe": "Lata 56 g",
+"arquivo": "img/produtos/nivea-creme-56.webp",
+"busca": "hidratante lata",
+"w": 718,
+"h": 720
+},
+{
+"id": "nivea-bw-clear",
+"nome": "Nivea Black & White Invisible Clear",
+"detalhe": "Roll-on 50 ml",
+"arquivo": "img/produtos/nivea-bw-clear.webp",
+"busca": "desodorante rollon feminino",
+"w": 265,
+"h": 720
+},
+{
+"id": "nivea-bw-men",
+"nome": "Nivea Men Black & White Invisible",
+"detalhe": "Roll-on 50 ml",
+"arquivo": "img/produtos/nivea-bw-men.webp",
+"busca": "desodorante rollon masculino",
+"w": 265,
+"h": 720
+},
+{
+"id": "colgate-plax-500",
+"nome": "Colgate Plax Fresh Mint",
+"detalhe": "Enxaguante bucal · 500 ml",
+"arquivo": "img/produtos/colgate-plax-500.webp",
+"busca": "antisseptico bucal",
+"w": 312,
+"h": 720
+},
+{
+"id": "rexona-invisible",
+"nome": "Rexona Invisible",
+"detalhe": "Aerossol 150 ml",
+"arquivo": "img/produtos/rexona-invisible.webp",
+"busca": "desodorante antitranspirante aerosol",
+"w": 290,
+"h": 720
+},
+{
+"id": "vitamina-d3-neo-quimica",
+"nome": "Vitamina D3 Neo Química",
+"detalhe": "50.000 UI · 8 cápsulas moles",
+"arquivo": "img/produtos/vitamina-d3-neo-quimica.webp",
+"busca": "colecalciferol vitamina d",
+"w": 393,
+"h": 720
+},
+{
+"id": "abidor",
+"nome": "Abidor Paracetamol 750 mg",
+"detalhe": "20 comprimidos",
+"arquivo": "img/produtos/abidor.webp",
+"busca": "paracetamol analgesico febre",
+"w": 399,
+"h": 654
+},
+{
+"id": "dipirona-500",
+"nome": "Dipirona 500 mg",
+"detalhe": "20 comprimidos",
+"arquivo": "img/produtos/dipirona-500.webp",
+"busca": "dipirona sodica analgesico febre generico",
+"w": 267,
+"h": 611
+},
+{
+"id": "dipirona-abidor",
+"nome": "Dipirona 500 mg ou Abidor Paracetamol 750 mg",
+"detalhe": "20 comprimidos",
+"arquivo": "img/produtos/dipirona-abidor.webp",
+"busca": "paracetamol analgesico febre",
+"w": 720,
+"h": 695
+},
+{
+"id": "vitamina-b12-maxinutri",
+"nome": "Vitamina B12 Maxinutri",
+"detalhe": "60 comprimidos mastigáveis",
+"arquivo": "img/produtos/vitamina-b12-maxinutri.webp",
+"busca": "b12 suplemento",
+"w": 460,
+"h": 720
+},
+{
+"id": "calcium-maxx-artro",
+"nome": "Calcium Maxx Artro Maxinutri",
+"detalhe": "60 comprimidos revestidos",
+"arquivo": "img/produtos/calcium-maxx-artro.webp",
+"busca": "calcio suplemento",
+"w": 567,
+"h": 720
+},
+{
+"id": "kit-cetaphil",
+"nome": "Kit Cetaphil",
+"detalhe": "Creme 453 g + Loção de Limpeza 100 ml",
+"arquivo": "img/produtos/kit-cetaphil.webp",
+"busca": "hidratante dermo",
+"w": 571,
+"h": 720
+},
+{
+"id": "dove-liquido-serum",
+"nome": "Dove Sabonete Líquido Sérum",
+"detalhe": "547 ml · Skin Firming / Radiant Glow / Uniform Skin",
+"arquivo": "img/produtos/dove-liquido-serum.webp",
+"busca": "sabonete liquido corpo",
+"w": 720,
+"h": 639
+},
+{
+"id": "gh-pump",
+"nome": "GH Pump",
+"detalhe": "60 cápsulas",
+"arquivo": "img/produtos/gh-pump.webp",
+"busca": "suplemento",
+"w": 337,
+"h": 720
+},
+{
+"id": "creatina-gummy",
+"nome": "Creatina Gummy Original",
+"detalhe": "Zero açúcar · morango · 90 gomas",
+"arquivo": "img/produtos/creatina-gummy.webp",
+"busca": "creatina goma suplemento",
+"w": 388,
+"h": 701
+},
+{
+"id": "creatina-integralmedica",
+"nome": "Creatina Hardcore Integralmédica",
+"detalhe": "300 g",
+"arquivo": "img/produtos/creatina-integralmedica.webp",
+"busca": "creatina suplemento",
+"w": 596,
+"h": 720
+},
+{
+"id": "intimus-tripla",
+"nome": "Intimus Tripla Proteção",
+"detalhe": "Suave com abas · 16 un",
+"arquivo": "img/produtos/intimus-tripla.webp",
+"busca": "absorvente",
+"w": 379,
+"h": 720
+},
+{
+"id": "melatonina-120",
+"nome": "Melatonina Fini Dr. Good",
+"detalhe": "Goma · morango · 120 unidades",
+"arquivo": "img/produtos/melatonina-120.webp",
+"busca": "melatonina sono",
+"w": 326,
+"h": 720
+},
+{
+"id": "melatonina-60",
+"nome": "Melatonina Fini Dr. Good",
+"detalhe": "Goma · morango · 60 unidades",
+"arquivo": "img/produtos/melatonina-60.webp",
+"busca": "melatonina sono",
+"w": 365,
+"h": 652
+},
+{
+"id": "nivea-intimo",
+"nome": "Nivea Íntimo",
+"detalhe": "Suave ou Natural · 250 ml",
+"arquivo": "img/produtos/nivea-intimo.webp",
+"busca": "sabonete intimo",
+"w": 720,
+"h": 709
+},
+{
+"id": "nivea-intimo-natural",
+"nome": "Nivea Íntimo Natural",
+"detalhe": "Sabonete líquido · 250 ml",
+"arquivo": "img/produtos/nivea-intimo-natural.webp",
+"busca": "sabonete intimo",
+"w": 464,
+"h": 720
+},
+{
+"id": "creatina-super-nutrition",
+"nome": "Creatina Gummy Super Nutrition",
+"detalhe": "Monohidratada · 60 gomas",
+"arquivo": "img/produtos/creatina-super-nutrition.webp",
+"busca": "creatina goma suplemento",
+"w": 382,
+"h": 700
+},
+{
+"id": "whey-forbis",
+"nome": "Whey Gourmet FN Forbis",
+"detalhe": "907 g · Baunilha ou Doce de Leite",
+"arquivo": "img/produtos/whey-forbis.webp",
+"busca": "whey proteina suplemento",
+"w": 720,
+"h": 577
+},
+{
+"id": "whey-forbis-baunilha",
+"nome": "Whey Gourmet FN Forbis Baunilha",
+"detalhe": "907 g",
+"arquivo": "img/produtos/whey-forbis-baunilha.webp",
+"busca": "whey proteina suplemento",
+"w": 444,
+"h": 720
+},
+{
+"id": "whey-forbis-doce-leite",
+"nome": "Whey Gourmet FN Forbis Doce de Leite",
+"detalhe": "907 g",
+"arquivo": "img/produtos/whey-forbis-doce-leite.webp",
+"busca": "whey proteina suplemento",
+"w": 422,
+"h": 720
+},
+{
+"id": "advil",
+"nome": "Advil 400 mg",
+"detalhe": "Embalagem econômica",
+"arquivo": "img/produtos/advil.webp",
+"busca": "ibuprofeno analgesico dor",
+"w": 720,
+"h": 484
+},
+{
+"id": "always",
+"nome": "Always",
+"detalhe": "Absorvente com abas · 16 unidades",
+"arquivo": "img/produtos/always.webp",
+"busca": "absorvente",
+"w": 699,
+"h": 720
+},
+{
+"id": "cerave",
+"nome": "CeraVe",
+"detalhe": "Loção hidratante",
+"arquivo": "img/produtos/cerave.webp",
+"busca": "hidratante dermo cerave",
+"w": 310,
+"h": 720
+},
+{
+"id": "colgate-tripla-acao",
+"nome": "Colgate",
+"detalhe": "Creme dental",
+"arquivo": "img/produtos/colgate-tripla-acao.webp",
+"busca": "pasta de dente creme dental",
+"w": 720,
+"h": 184
+},
+{
+"id": "dove-condicionador",
+"nome": "Condicionador Dove",
+"detalhe": "Reconstrução",
+"arquivo": "img/produtos/dove-condicionador.webp",
+"busca": "cabelo",
+"w": 256,
+"h": 720
+},
+{
+"id": "dove-shampoo",
+"nome": "Shampoo Dove",
+"detalhe": "Reconstrução",
+"arquivo": "img/produtos/dove-shampoo.webp",
+"busca": "cabelo",
+"w": 244,
+"h": 720
+},
+{
+"id": "eno",
+"nome": "Sal de Fruta Eno",
+"detalhe": "Envelopes",
+"arquivo": "img/produtos/eno.webp",
+"busca": "azia estomago antiacido",
+"w": 584,
+"h": 720
+},
+{
+"id": "gillette-prestobarba3",
+"nome": "Gillette Prestobarba 3",
+"detalhe": "Aparelho de barbear",
+"arquivo": "img/produtos/gillette-prestobarba3.webp",
+"busca": "barbeador lamina",
+"w": 413,
+"h": 720
+},
+{
+"id": "huggies-m",
+"nome": "Fralda Huggies Tripla Proteção",
+"detalhe": "Tam. M · 28 unidades",
+"arquivo": "img/produtos/huggies-m.webp",
+"busca": "fralda bebe",
+"w": 689,
+"h": 720
+},
+{
+"id": "huggies-p",
+"nome": "Fralda Huggies",
+"detalhe": "Pacote P",
+"arquivo": "img/produtos/huggies-p.webp",
+"busca": "fralda bebe",
+"w": 720,
+"h": 394
+},
+{
+"id": "jb-lenco-extra",
+"nome": "Lenço Johnson's Baby",
+"detalhe": "Lenço umedecido",
+"arquivo": "img/produtos/jb-lenco-extra.webp",
+"busca": "lenco umedecido bebe johnsons",
+"w": 720,
+"h": 411
+},
+{
+"id": "jb-lenco-sono",
+"nome": "Lenço Johnson's Baby Hora do Sono",
+"detalhe": "Lenço umedecido",
+"arquivo": "img/produtos/jb-lenco-sono.webp",
+"busca": "lenco umedecido bebe johnsons",
+"w": 720,
+"h": 412
+},
+{
+"id": "lavitan-az",
+"nome": "Lavitan A-Z",
+"detalhe": "Multivitamínico · 60 comprimidos",
+"arquivo": "img/produtos/lavitan-az.webp",
+"busca": "vitamina polivitaminico",
+"w": 418,
+"h": 720
+},
+{
+"id": "listerine-cool-mint",
+"nome": "Listerine Cool Mint",
+"detalhe": "Enxaguante bucal",
+"arquivo": "img/produtos/listerine-cool-mint.webp",
+"busca": "antisseptico bucal",
+"w": 293,
+"h": 720
+},
+{
+"id": "neutrogena-sun-fresh",
+"nome": "Neutrogena Sun Fresh",
+"detalhe": "Protetor solar FPS 50 · 200 ml",
+"arquivo": "img/produtos/neutrogena-sun-fresh.webp",
+"busca": "protetor solar",
+"w": 288,
+"h": 720
+},
+{
+"id": "nivea-micelar",
+"nome": "Nivea Água Micelar",
+"detalhe": "7 em 1 Refrescante · 200 ml",
+"arquivo": "img/produtos/nivea-micelar.webp",
+"busca": "demaquilante agua micelar",
+"w": 234,
+"h": 720
+},
+{
+"id": "centrum-essentials",
+"nome": "Centrum Essentials",
+"detalhe": "Multivitamínico · 30 comprimidos",
+"arquivo": "img/produtos/centrum-essentials.webp",
+"busca": "vitamina polivitaminico",
+"w": 414,
+"h": 720
+},
+{
+"id": "colgate-total-140",
+"nome": "Colgate Total 12 Anti-tártaro",
+"detalhe": "Creme dental · 140 g",
+"arquivo": "img/produtos/colgate-total-140.webp",
+"busca": "pasta de dente creme dental",
+"w": 165,
+"h": 720
+},
+{
+"id": "colgate-total-90",
+"nome": "Colgate Total 12 Prevenção Ativa",
+"detalhe": "Creme dental · 90 g",
+"arquivo": "img/produtos/colgate-total-90.webp",
+"busca": "pasta de dente creme dental",
+"w": 720,
+"h": 536
+},
+{
+"id": "cotonetes",
+"nome": "Cotonetes Johnson's",
+"detalhe": "Hastes flexíveis · 150 unidades",
+"arquivo": "img/produtos/cotonetes.webp",
+"busca": "hastes flexiveis algodao",
+"w": 466,
+"h": 720
+},
+{
+"id": "dorflex",
+"nome": "Dorflex",
+"detalhe": "36 comprimidos",
+"arquivo": "img/produtos/dorflex.webp",
+"busca": "relaxante muscular dor analgesico",
+"w": 720,
+"h": 347
+},
+{
+"id": "dove-sabonete-barra",
+"nome": "Sabonete Dove Original",
+"detalhe": "Barra 90 g",
+"arquivo": "img/produtos/dove-sabonete-barra.webp",
+"busca": "sabonete barra",
+"w": 720,
+"h": 512
+},
+{
+"id": "isababy-g",
+"nome": "Fralda IsaBaby",
+"detalhe": "Pacotão Tam. G · 60 unidades",
+"arquivo": "img/produtos/isababy-g.webp",
+"busca": "fralda bebe",
+"w": 719,
+"h": 720
+},
+{
+"id": "nivea-milk-400",
+"nome": "Nivea Milk Hidratante",
+"detalhe": "Pele seca a extrasseca · 400 ml",
+"arquivo": "img/produtos/nivea-milk-400.webp",
+"busca": "hidratante corporal locao",
+"w": 252,
+"h": 720
+},
+{
+"id": "oral-b-indicator",
+"nome": "Escova Oral-B Indicator",
+"detalhe": "Color Collection · 4 unidades",
+"arquivo": "img/produtos/oral-b-indicator.webp",
+"busca": "escova dental",
+"w": 210,
+"h": 720
+},
+{
+"id": "rexona-clinical-classic",
+"nome": "Rexona Clinical Classic",
+"detalhe": "Aerossol 150 ml",
+"arquivo": "img/produtos/rexona-clinical-classic.webp",
+"busca": "desodorante antitranspirante aerosol",
+"w": 189,
+"h": 720
+},
+{
+"id": "rexona-clinical-extra-dry",
+"nome": "Rexona Clinical Extra Dry",
+"detalhe": "Aerossol 150 ml",
+"arquivo": "img/produtos/rexona-clinical-extra-dry.webp",
+"busca": "desodorante antitranspirante aerosol",
+"w": 184,
+"h": 720
+},
+{
+"id": "nivea-soft-milk-200",
+"nome": "Nivea Soft Milk",
+"detalhe": "Hidratante corporal · 200 ml",
+"arquivo": "img/produtos/nivea-soft-milk-200.webp",
+"busca": "hidratante corporal locao",
+"w": 251,
+"h": 720
+},
+{
+"id": "nivea-sun-100",
+"nome": "Nivea Sun Protect & Hidrata FPS 50",
+"detalhe": "Protetor solar · 100 ml",
+"arquivo": "img/produtos/nivea-sun-100.webp",
+"busca": "protetor solar",
+"w": 249,
+"h": 720
+},
+{
+"id": "nivea-sun-200",
+"nome": "Nivea Sun Protect & Hidrata FPS 50",
+"detalhe": "Protetor solar · 200 ml",
+"arquivo": "img/produtos/nivea-sun-200.webp",
+"busca": "protetor solar",
+"w": 248,
+"h": 720
+},
+{
+"id": "tylenol-750",
+"nome": "Tylenol 750 mg",
+"detalhe": "Paracetamol · 20 comprimidos",
+"arquivo": "img/produtos/tylenol-750.webp",
+"busca": "paracetamol analgesico febre",
+"w": 720,
+"h": 549
+},
+{
+"id": "vitaxon-c",
+"nome": "Vitaxon C",
+"detalhe": "Vitamina C 1 g · 30 efervescentes",
+"arquivo": "img/produtos/vitaxon-c.webp",
+"busca": "vitamina c efervescente",
+"w": 720,
+"h": 695
+},
+{
+"id": "vitaxon-tripla",
+"nome": "Vitaxon C Tripla Ação",
+"detalhe": "C + D + Zinco · 30 efervescentes",
+"arquivo": "img/produtos/vitaxon-tripla.webp",
+"busca": "vitamina c d zinco efervescente",
+"w": 720,
+"h": 692
+},
+{
+"id": "vitamina-c-neo-quimica",
+"nome": "Vitamina C Neo Química 500 mg",
+"detalhe": "30 comprimidos",
+"arquivo": "img/produtos/vitamina-c-neo-quimica.webp",
+"busca": "vitamina c",
+"w": 388,
+"h": 720
+},
+{
+"id": "vitamina-c-zinco-neo-quimica",
+"nome": "Vitamina C + Zinco Neo Química",
+"detalhe": "10 comprimidos efervescentes",
+"arquivo": "img/produtos/vitamina-c-zinco-neo-quimica.webp",
+"busca": "vitamina c zinco efervescente",
+"w": 282,
+"h": 720
+},
+{
+"id": "nivea-sun-kit",
+"nome": "Kit Nivea Sun FPS 50",
+"detalhe": "200 ml + 100 ml grátis",
+"arquivo": "img/produtos/nivea-sun-kit.webp",
+"busca": "protetor solar kit",
+"w": 500,
+"h": 720
+}
+]
+}
