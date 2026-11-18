@@ -1,9 +1,9 @@
 {
- "gerado_em": "17/11/2026 19:26 (horário de Brasília)",
+ "gerado_em": "17/11/2026 21:29 (horário de Brasília)",
  "hoje": "2026-11-17",
  "fonte": "/workspace/concorrentes/historico.csv",
  "por_site": {
-  "f067": [
+  "f071": [
    {
     "produto": "Tadalafila Cimed Com 30 Comprimidos Revestidos 5mg Generico",
     "preco": "20,59",
@@ -482,7 +482,7 @@
     "farmacia_radar": "Preço Popular"
    }
   ],
-  "f068": [
+  "f072": [
    {
     "produto": "Tadalafila Cimed Com 30 Comprimidos Revestidos 5mg Generico",
     "preco": "20,59",
@@ -959,6 +959,71 @@
     "fonte": "story @precopopular",
     "coletado_em": "2026-11-17",
     "farmacia_radar": "Preço Popular"
+   }
+  ],
+  "f031": [
+   {
+    "produto": "Kit Vult Shampoo + Condicionador",
+    "preco": "de 29,90 por 19,90",
+    "condicao": "Especial Autocuidado, limite 12 und/CPF",
+    "validade": "16 a 22/11",
+    "fonte": "https://www.instagram.com/p/DfzQJuYijRe/",
+    "coletado_em": "2026-11-17",
+    "farmacia_radar": "Mini Preço (@miniprecofarmacias)"
+   },
+   {
+    "produto": "Smart Life Cabelos & Unhas 60",
+    "preco": "por 69,90",
+    "condicao": "Especial Autocuidado, limite 12 und/CPF",
+    "validade": "16 a 22/11",
+    "fonte": "https://www.instagram.com/p/DfzQJuYijRe/",
+    "coletado_em": "2026-11-17",
+    "farmacia_radar": "Mini Preço (@miniprecofarmacias)"
+   },
+   {
+    "produto": "Fio dental J&J Expansion Plus 50m",
+    "preco": "de 20,99 por 14,99",
+    "condicao": "Especial Autocuidado, limite 12 und/CPF",
+    "validade": "16 a 22/11",
+    "fonte": "https://www.instagram.com/p/DfzQJuYijRe/",
+    "coletado_em": "2026-11-17",
+    "farmacia_radar": "Mini Preço (@miniprecofarmacias)"
+   },
+   {
+    "produto": "Protetor solar Principia FPS60 200ml",
+    "preco": "de 86,25 por 68,99",
+    "condicao": "Especial Autocuidado, limite 12 und/CPF",
+    "validade": "16 a 22/11",
+    "fonte": "https://www.instagram.com/p/DfzQJuYijRe/",
+    "coletado_em": "2026-11-17",
+    "farmacia_radar": "Mini Preço (@miniprecofarmacias)"
+   },
+   {
+    "produto": "Vitamina B12 Maxinutri 60 cp",
+    "preco": "por 49,90",
+    "condicao": "Especial Autocuidado, limite 12 und/CPF",
+    "validade": "16 a 22/11",
+    "fonte": "https://www.instagram.com/p/DfzQJuYijRe/",
+    "coletado_em": "2026-11-17",
+    "farmacia_radar": "Mini Preço (@miniprecofarmacias)"
+   },
+   {
+    "produto": "Lactosil 10.000 FCC 30 cp",
+    "preco": "por 39,90",
+    "condicao": "Especial Autocuidado, limite 12 und/CPF",
+    "validade": "16 a 22/11",
+    "fonte": "https://www.instagram.com/p/DfzQJuYijRe/",
+    "coletado_em": "2026-11-17",
+    "farmacia_radar": "Mini Preço (@miniprecofarmacias)"
+   },
+   {
+    "produto": "Tintura Koleston (exceto cores especiais)",
+    "preco": "de 29,95 por 24,90",
+    "condicao": "Especial Autocuidado, limite 12 und/CPF",
+    "validade": "16 a 22/11",
+    "fonte": "https://www.instagram.com/p/DfzQJuYijRe/",
+    "coletado_em": "2026-11-17",
+    "farmacia_radar": "Mini Preço (@miniprecofarmacias)"
    }
   ],
   "f032": [
@@ -1351,69 +1416,24 @@
     "farmacia_radar": "Mini Preço (@miniprecofarmacias)"
    }
   ],
-  "f038": [
+  "f023": [
    {
-    "produto": "Kit Vult Shampoo + Condicionador",
-    "preco": "de 29,90 por 19,90",
-    "condicao": "Especial Autocuidado, limite 12 und/CPF",
-    "validade": "16 a 22/11",
-    "fonte": "https://www.instagram.com/p/DfzQJuYijRe/",
+    "produto": "Lenço umedecido (needs Baby)",
+    "preco": "sem preço",
+    "condicao": "Leve 4 pague 3; até 70% off; frete grátis",
+    "validade": "",
+    "fonte": "https://www.instagram.com/raiaoficial/p/Dfw1v9Kl06b/",
     "coletado_em": "2026-11-17",
-    "farmacia_radar": "Mini Preço (@miniprecofarmacias)"
+    "farmacia_radar": "Droga Raia (@raiaoficial)"
    },
    {
-    "produto": "Smart Life Cabelos & Unhas 60",
-    "preco": "por 69,90",
-    "condicao": "Especial Autocuidado, limite 12 und/CPF",
+    "produto": "Cupom APROVEITA25 / APROVEITA55",
+    "preco": "R$25 off acima de R$200; R$55 off acima de R$500",
+    "condicao": "Black Raia/Drogasil, exceto GLP-1",
     "validade": "16 a 22/11",
-    "fonte": "https://www.instagram.com/p/DfzQJuYijRe/",
+    "fonte": "story @raiaoficial",
     "coletado_em": "2026-11-17",
-    "farmacia_radar": "Mini Preço (@miniprecofarmacias)"
-   },
-   {
-    "produto": "Fio dental J&J Expansion Plus 50m",
-    "preco": "de 20,99 por 14,99",
-    "condicao": "Especial Autocuidado, limite 12 und/CPF",
-    "validade": "16 a 22/11",
-    "fonte": "https://www.instagram.com/p/DfzQJuYijRe/",
-    "coletado_em": "2026-11-17",
-    "farmacia_radar": "Mini Preço (@miniprecofarmacias)"
-   },
-   {
-    "produto": "Protetor solar Principia FPS60 200ml",
-    "preco": "de 86,25 por 68,99",
-    "condicao": "Especial Autocuidado, limite 12 und/CPF",
-    "validade": "16 a 22/11",
-    "fonte": "https://www.instagram.com/p/DfzQJuYijRe/",
-    "coletado_em": "2026-11-17",
-    "farmacia_radar": "Mini Preço (@miniprecofarmacias)"
-   },
-   {
-    "produto": "Vitamina B12 Maxinutri 60 cp",
-    "preco": "por 49,90",
-    "condicao": "Especial Autocuidado, limite 12 und/CPF",
-    "validade": "16 a 22/11",
-    "fonte": "https://www.instagram.com/p/DfzQJuYijRe/",
-    "coletado_em": "2026-11-17",
-    "farmacia_radar": "Mini Preço (@miniprecofarmacias)"
-   },
-   {
-    "produto": "Lactosil 10.000 FCC 30 cp",
-    "preco": "por 39,90",
-    "condicao": "Especial Autocuidado, limite 12 und/CPF",
-    "validade": "16 a 22/11",
-    "fonte": "https://www.instagram.com/p/DfzQJuYijRe/",
-    "coletado_em": "2026-11-17",
-    "farmacia_radar": "Mini Preço (@miniprecofarmacias)"
-   },
-   {
-    "produto": "Tintura Koleston (exceto cores especiais)",
-    "preco": "de 29,95 por 24,90",
-    "condicao": "Especial Autocuidado, limite 12 und/CPF",
-    "validade": "16 a 22/11",
-    "fonte": "https://www.instagram.com/p/DfzQJuYijRe/",
-    "coletado_em": "2026-11-17",
-    "farmacia_radar": "Mini Preço (@miniprecofarmacias)"
+    "farmacia_radar": "Raia/Drogasil"
    }
   ],
   "f024": [
@@ -1437,26 +1457,6 @@
    }
   ],
   "f025": [
-   {
-    "produto": "Lenço umedecido (needs Baby)",
-    "preco": "sem preço",
-    "condicao": "Leve 4 pague 3; até 70% off; frete grátis",
-    "validade": "",
-    "fonte": "https://www.instagram.com/raiaoficial/p/Dfw1v9Kl06b/",
-    "coletado_em": "2026-11-17",
-    "farmacia_radar": "Droga Raia (@raiaoficial)"
-   },
-   {
-    "produto": "Cupom APROVEITA25 / APROVEITA55",
-    "preco": "R$25 off acima de R$200; R$55 off acima de R$500",
-    "condicao": "Black Raia/Drogasil, exceto GLP-1",
-    "validade": "16 a 22/11",
-    "fonte": "story @raiaoficial",
-    "coletado_em": "2026-11-17",
-    "farmacia_radar": "Raia/Drogasil"
-   }
-  ],
-  "f026": [
    {
     "produto": "Lenço umedecido (needs Baby)",
     "preco": "sem preço",
@@ -6470,7 +6470,7 @@
     "farmacia_radar": "Coperfarma"
    }
   ],
-  "f023": [
+  "f092": [
    {
     "produto": "Kit Body Splash e Perfume Amakha Paris 15mL (Al Sabah | Hasan Rose)",
     "preco": "39,90",
@@ -6724,7 +6724,7 @@
     "farmacia_radar": "Coperfarma"
    }
   ],
-  "f109": [
+  "f127": [
    {
     "produto": "Lenço Babyfree 50un",
     "preco": "2,99",
@@ -6870,7 +6870,7 @@
     "farmacia_radar": "Farma D (@farmadfoz)"
    }
   ],
-  "f144": [
+  "f185": [
    {
     "produto": "Sabonete Dove",
     "preco": "de 32,50 por 24,98",
@@ -6915,6 +6915,44 @@
     "fonte": "story @masterfarma_foz",
     "coletado_em": "2026-11-17",
     "farmacia_radar": "Masterfarma (@masterfarma_foz)"
+   }
+  ],
+  "f038": [
+   {
+    "produto": "Tintura Koleston",
+    "preco": "de 29,90 por 23,95",
+    "condicao": "Black Friday Beleza",
+    "validade": "16 a 22/11",
+    "fonte": "story @farmaciasnissei",
+    "coletado_em": "2026-11-17",
+    "farmacia_radar": "Nissei (@farmaciasnissei)"
+   },
+   {
+    "produto": "Palmolive Naturals 250ml",
+    "preco": "de 11,90 por 6,95",
+    "condicao": "Black Friday Beleza",
+    "validade": "16 a 22/11",
+    "fonte": "story @farmaciasnissei",
+    "coletado_em": "2026-11-17",
+    "farmacia_radar": "Nissei (@farmaciasnissei)"
+   },
+   {
+    "produto": "Colgate Plax 250ml",
+    "preco": "de 19,95 por 11,95",
+    "condicao": "Black Friday Beleza",
+    "validade": "16 a 22/11",
+    "fonte": "story @farmaciasnissei",
+    "coletado_em": "2026-11-17",
+    "farmacia_radar": "Nissei (@farmaciasnissei)"
+   },
+   {
+    "produto": "Palmolive Luminous Oil 250ml",
+    "preco": "de 16,78 por 9,95",
+    "condicao": "Black Friday Beleza",
+    "validade": "16 a 22/11",
+    "fonte": "story @farmaciasnissei",
+    "coletado_em": "2026-11-17",
+    "farmacia_radar": "Nissei (@farmaciasnissei)"
    }
   ],
   "f039": [
@@ -7297,7 +7335,7 @@
     "farmacia_radar": "Nissei (@farmaciasnissei)"
    }
   ],
-  "f069": [
+  "f073": [
    {
     "produto": "Cupom APROVEITA25 / APROVEITA55",
     "preco": "R$25 off acima de R$200; R$55 off acima de R$500",
@@ -7308,7 +7346,40 @@
     "farmacia_radar": "Raia/Drogasil"
    }
   ],
-  "f070": [
+  "f074": [
+   {
+    "produto": "Cupom APROVEITA25 / APROVEITA55",
+    "preco": "R$25 off acima de R$200; R$55 off acima de R$500",
+    "condicao": "Black Raia/Drogasil, exceto GLP-1",
+    "validade": "16 a 22/11",
+    "fonte": "story @raiaoficial",
+    "coletado_em": "2026-11-17",
+    "farmacia_radar": "Raia/Drogasil"
+   }
+  ],
+  "f075": [
+   {
+    "produto": "Cupom APROVEITA25 / APROVEITA55",
+    "preco": "R$25 off acima de R$200; R$55 off acima de R$500",
+    "condicao": "Black Raia/Drogasil, exceto GLP-1",
+    "validade": "16 a 22/11",
+    "fonte": "story @raiaoficial",
+    "coletado_em": "2026-11-17",
+    "farmacia_radar": "Raia/Drogasil"
+   }
+  ],
+  "f076": [
+   {
+    "produto": "Cupom APROVEITA25 / APROVEITA55",
+    "preco": "R$25 off acima de R$200; R$55 off acima de R$500",
+    "condicao": "Black Raia/Drogasil, exceto GLP-1",
+    "validade": "16 a 22/11",
+    "fonte": "story @raiaoficial",
+    "coletado_em": "2026-11-17",
+    "farmacia_radar": "Raia/Drogasil"
+   }
+  ],
+  "f077": [
    {
     "produto": "Cupom APROVEITA25 / APROVEITA55",
     "preco": "R$25 off acima de R$200; R$55 off acima de R$500",
