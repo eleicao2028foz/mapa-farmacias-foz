@@ -110,3 +110,19 @@
 #fd-dock .fd-gtitle{display:block;width:100%;text-align:center;font:800 9px/1 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;letter-spacing:.06em;
   text-transform:uppercase;color:#00428F;padding:2px 0 6px;margin-bottom:-2px;border-bottom:2px solid rgba(0,66,143,.18)}
 @media (max-width:820px){#fd-dock .fd-gtitle{font-size:8px;letter-spacing:.04em;padding-bottom:5px}#fd-dock .fd-groups{gap:8px}}
+
+/* fm8: Dermo & Beleza — mais vendidos online */
+#fd-dock .fd-online .fd-item{cursor:pointer}
+#fd-dock .fd-online .fd-item.sem-mapa{cursor:default}
+#fd-dock .fd-online .fd-item.sem-mapa:hover{background:#fff}
+#fd-dock .fd-store{display:inline-flex;align-items:center;gap:3px;padding:2px 7px;border-radius:999px;background:#eef3fa;color:#00428F;font-weight:700;font-size:11px;text-decoration:none;border:1px solid rgba(0,66,143,.18)}
+#fd-dock .fd-store b{font-weight:900}
+#fd-dock .fd-store:hover{background:#dde8f6}
+#fd-dock .fd-badge.marca{background:#f39c12}
+#fd-dock .fd-badge.oport{background:#0b7a3b}
+#fd-dock .fd-online .fd-nome{font-size:12.5px}
+#fd-dock .fd-fonte{color:#4a5560}
+#fd-dock .fd-panel{position:relative;z-index:5}
+#fd-dock .fd-gtitle.duas{line-height:1.15}
+@media (min-width:821px){#fd-dock .fd-gtitle.duas br{display:none}}
+@media (max-width:820px){#fd-dock .fd-panel{position:fixed;z-index:5}}
