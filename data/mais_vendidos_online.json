@@ -1,7 +1,7 @@
 {
- "gerado_em": "18/11/2026 09:40 (horário de Brasília)",
- "atualizado": "Atualizado em 18/11 09h",
- "ultima_coleta": "2026-11-18 09:39",
+ "gerado_em": "18/11/2026 15:29 (horário de Brasília)",
+ "atualizado": "Atualizado em 18/11 15h",
+ "ultima_coleta": "2026-11-18 15:28",
  "fontes_ultima_coleta": [
   "Amazon · Beleza (departamento)",
   "Amazon · Corpo e banho",
@@ -21,8 +21,8 @@
  "banco_inicio": "2026-11-18",
  "banco_inicio_txt": "18/11",
  "dias_no_banco": 1,
- "n_coletas": 2,
- "n_linhas_banco": 516,
+ "n_coletas": 3,
+ "n_linhas_banco": 774,
  "aviso_7dias": "Banco iniciado em 18/11 — histórico ainda em formação (1 de 7 dias).",
  "criterio_hoje": "Coleta mais recente. Cada lista em que o produto aparece soma pontos (1º lugar = 1 ponto, 30º = 0,03); o mesmo produto em várias lojas/categorias sobe no ranking.",
  "criterio_7dias": "Últimos 7 dias (12/11 a 18/11): soma, por dia, da melhor rodada (aparições × posição). Tendência = melhor posição do 1º x último dia.",
@@ -43,7 +43,7 @@
     },
     {
      "loja": "Mercado Livre",
-     "melhor_posicao": 6,
+     "melhor_posicao": 5,
      "categoria": "Beleza e Cuidado Pessoal",
      "url": "https://www.mercadolivre.com.br/locao-hidratante-corporal-3-ceramidas-hidratacao-120h-cerave-473ml/p/MLB21361292"
     }
@@ -70,7 +70,7 @@
     "n_semana": 0,
     "farmacias_semana": []
    },
-   "pontos": 3.97,
+   "pontos": 4.0,
    "pos": 1
   },
   {
@@ -142,21 +142,24 @@
     "Mercado Livre · Beleza e Cuidado Pessoal"
    ],
    "n_listas": 3,
-   "preco_min": 29.9,
-   "preco_max": 36.14,
+   "preco_min": 28.91,
+   "preco_max": 31.99,
    "url": "https://www.amazon.com.br/dp/B07H113TPQ",
    "promo_foz": {
     "tipo": "marca",
-    "n_farmacias": 2,
-    "selo": "marca em promoção em 2 farmácias de Foz (outro item)",
+    "n_farmacias": 13,
+    "selo": "marca em promoção em 13 farmácias de Foz (outro item)",
     "redes": [
-     "Farmácia Preço Popular"
+     "Farmácia Preço Popular",
+     "Nissei"
     ],
     "chaves": [
+     "oleocapilarouleaveinelseve100ml",
      "serumlorealpariselsevelisosonhos100ml"
     ],
     "nomes": [
-     "Sérum Loreal Paris Elseve Liso Dos Sonhos 100ml"
+     "Sérum Loreal Paris Elseve Liso Dos Sonhos 100ml",
+     "Óleo capilar ou leave-in Elseve 100ml"
     ],
     "n_semana": 0,
     "farmacias_semana": []
@@ -185,7 +188,7 @@
     "Amazon · Protetores solares"
    ],
    "n_listas": 4,
-   "preco_min": 48.69,
+   "preco_min": 47.7,
    "preco_max": 63.72,
    "url": "https://www.amazon.com.br/dp/B08NVMP2YZ",
    "promo_foz": {
@@ -233,12 +236,18 @@
    "preco_max": 29.88,
    "url": "https://www.amazon.com.br/dp/B0DK4975DJ",
    "promo_foz": {
-    "tipo": "nenhum",
-    "n_farmacias": 0,
-    "selo": "ninguém promove em Foz — oportunidade",
-    "redes": [],
-    "chaves": [],
-    "nomes": [],
+    "tipo": "marca",
+    "n_farmacias": 11,
+    "selo": "marca em promoção em 11 farmácias de Foz (outro item)",
+    "redes": [
+     "São João"
+    ],
+    "chaves": [
+     "aguamicelarniveaacnecontrol"
+    ],
+    "nomes": [
+     "Água micelar Nivea Acne Control"
+    ],
     "n_semana": 0,
     "farmacias_semana": []
    },
@@ -299,24 +308,26 @@
     "Amazon · Cuidados com o cabelo"
    ],
    "n_listas": 2,
-   "preco_min": 25.19,
-   "preco_max": 25.19,
+   "preco_min": 32.06,
+   "preco_max": 32.06,
    "url": "https://www.amazon.com.br/dp/B0G3YGYW4Z",
    "promo_foz": {
-    "tipo": "marca",
-    "n_farmacias": 2,
-    "selo": "marca em promoção em 2 farmácias de Foz (outro item)",
+    "tipo": "linha",
+    "n_farmacias": 11,
+    "selo": "11 farmácias em promoção em Foz",
     "redes": [
-     "Farmácia Preço Popular"
+     "Nissei"
     ],
     "chaves": [
-     "serumlorealpariselsevelisosonhos100ml"
+     "oleocapilarouleaveinelseve100ml"
     ],
     "nomes": [
-     "Sérum Loreal Paris Elseve Liso Dos Sonhos 100ml"
+     "Óleo capilar ou leave-in Elseve 100ml"
     ],
-    "n_semana": 0,
-    "farmacias_semana": []
+    "n_semana": 1,
+    "farmacias_semana": [
+     "Nissei (@farmaciasnissei)"
+    ]
    },
    "pontos": 1.93,
    "pos": 7
@@ -345,19 +356,28 @@
    "url": "https://www.amazon.com.br/dp/B0DC74428B",
    "promo_foz": {
     "tipo": "marca",
-    "n_farmacias": 12,
-    "selo": "marca em promoção em 12 farmácias de Foz (outro item)",
+    "n_farmacias": 14,
+    "selo": "marca em promoção em 14 farmácias de Foz (outro item)",
     "redes": [
      "Masterfarma",
-     "Nissei"
+     "Nissei",
+     "Preço Popular"
     ],
     "chaves": [
+     "serumhidratantecorporaldoveintensivo450g",
      "mascaradove2em1320g",
+     "serumcorporaldovecicapan20g",
+     "sprayoleocorporaldoveserumdeo150ml",
+     "saboneteliquidodoveoleobanho240ml",
      "sabonetedove"
     ],
     "nomes": [
      "Máscara Dove 2 em 1 320g",
-     "Sabonete Dove"
+     "Sabonete Dove",
+     "Sabonete líquido Dove Óleo de Banho 240ml",
+     "Spray óleo corporal Dove Sérum Deo 150ml",
+     "Sérum corporal Dove Cicapan 20g",
+     "Sérum hidratante corporal Dove Intensivo 450g"
     ],
     "n_semana": 0,
     "farmacias_semana": []
@@ -379,7 +399,7 @@
     },
     {
      "loja": "Mercado Livre",
-     "melhor_posicao": 18,
+     "melhor_posicao": 19,
      "categoria": "Beleza e Cuidado Pessoal",
      "url": "https://www.mercadolivre.com.br/cetaphil-locao-hidratante-corporal-e-facial-para-pele-sensivel-normal-a-seca-1l-hidratacao-48h/p/MLB55232692"
     }
@@ -413,7 +433,7 @@
      "Coperfarma"
     ]
    },
-   "pontos": 1.9,
+   "pontos": 1.87,
    "pos": 9
   },
   {
@@ -439,12 +459,18 @@
    "preco_max": 16.79,
    "url": "https://www.amazon.com.br/dp/B08VGBZGWV",
    "promo_foz": {
-    "tipo": "nenhum",
-    "n_farmacias": 0,
-    "selo": "ninguém promove em Foz — oportunidade",
-    "redes": [],
-    "chaves": [],
-    "nomes": [],
+    "tipo": "marca",
+    "n_farmacias": 11,
+    "selo": "marca em promoção em 11 farmácias de Foz (outro item)",
+    "redes": [
+     "São João"
+    ],
+    "chaves": [
+     "aguamicelarniveaacnecontrol"
+    ],
+    "nomes": [
+     "Água micelar Nivea Acne Control"
+    ],
     "n_semana": 0,
     "farmacias_semana": []
    },
@@ -470,8 +496,8 @@
     "Amazon · Cuidados com o cabelo"
    ],
    "n_listas": 2,
-   "preco_min": 14.41,
-   "preco_max": 14.41,
+   "preco_min": 24.46,
+   "preco_max": 24.46,
    "url": "https://www.amazon.com.br/dp/B07SBXMSGB",
    "promo_foz": {
     "tipo": "nenhum",
@@ -555,12 +581,18 @@
    "preco_max": 37.17,
    "url": "https://www.amazon.com.br/dp/B077BY8HQV",
    "promo_foz": {
-    "tipo": "nenhum",
-    "n_farmacias": 0,
-    "selo": "ninguém promove em Foz — oportunidade",
-    "redes": [],
-    "chaves": [],
-    "nomes": [],
+    "tipo": "marca",
+    "n_farmacias": 11,
+    "selo": "marca em promoção em 11 farmácias de Foz (outro item)",
+    "redes": [
+     "São João"
+    ],
+    "chaves": [
+     "aguamicelarniveaacnecontrol"
+    ],
+    "nomes": [
+     "Água micelar Nivea Acne Control"
+    ],
     "n_semana": 0,
     "farmacias_semana": []
    },
@@ -591,20 +623,24 @@
    "url": "https://www.amazon.com.br/dp/B088Z64C82",
    "promo_foz": {
     "tipo": "linha",
-    "n_farmacias": 1,
-    "selo": "1 farmácia em promoção em Foz",
+    "n_farmacias": 3,
+    "selo": "3 farmácias em promoção em Foz",
     "redes": [
-     "Masterfarma"
+     "Masterfarma",
+     "Preço Popular"
     ],
     "chaves": [
+     "saboneteliquidodoveoleobanho240ml",
      "sabonetedove"
     ],
     "nomes": [
-     "Sabonete Dove"
+     "Sabonete Dove",
+     "Sabonete líquido Dove Óleo de Banho 240ml"
     ],
-    "n_semana": 1,
+    "n_semana": 2,
     "farmacias_semana": [
-     "Masterfarma (@masterfarma_foz)"
+     "Masterfarma (@masterfarma_foz)",
+     "Preço Popular"
     ]
    },
    "pontos": 1.63,
@@ -712,16 +748,19 @@
    "url": "https://www.amazon.com.br/dp/B0G45KPX15",
    "promo_foz": {
     "tipo": "marca",
-    "n_farmacias": 2,
-    "selo": "marca em promoção em 2 farmácias de Foz (outro item)",
+    "n_farmacias": 13,
+    "selo": "marca em promoção em 13 farmácias de Foz (outro item)",
     "redes": [
-     "Farmácia Preço Popular"
+     "Farmácia Preço Popular",
+     "Nissei"
     ],
     "chaves": [
+     "oleocapilarouleaveinelseve100ml",
      "serumlorealpariselsevelisosonhos100ml"
     ],
     "nomes": [
-     "Sérum Loreal Paris Elseve Liso Dos Sonhos 100ml"
+     "Sérum Loreal Paris Elseve Liso Dos Sonhos 100ml",
+     "Óleo capilar ou leave-in Elseve 100ml"
     ],
     "n_semana": 0,
     "farmacias_semana": []
@@ -748,8 +787,8 @@
     "Amazon · Dermocosméticos"
    ],
    "n_listas": 2,
-   "preco_min": 238.9,
-   "preco_max": 238.9,
+   "preco_min": 209.0,
+   "preco_max": 209.0,
    "url": "https://www.amazon.com.br/dp/B07SJSZHD7",
    "promo_foz": {
     "tipo": "nenhum",
@@ -787,12 +826,18 @@
    "preco_max": 15.39,
    "url": "https://www.amazon.com.br/dp/B07F3DK2CK",
    "promo_foz": {
-    "tipo": "nenhum",
-    "n_farmacias": 0,
-    "selo": "ninguém promove em Foz — oportunidade",
-    "redes": [],
-    "chaves": [],
-    "nomes": [],
+    "tipo": "marca",
+    "n_farmacias": 11,
+    "selo": "marca em promoção em 11 farmácias de Foz (outro item)",
+    "redes": [
+     "São João"
+    ],
+    "chaves": [
+     "aguamicelarniveaacnecontrol"
+    ],
+    "nomes": [
+     "Água micelar Nivea Acne Control"
+    ],
     "n_semana": 0,
     "farmacias_semana": []
    },
@@ -818,8 +863,8 @@
     "Amazon · Cuidados com o cabelo"
    ],
    "n_listas": 2,
-   "preco_min": 30.17,
-   "preco_max": 30.17,
+   "preco_min": 28.66,
+   "preco_max": 28.66,
    "url": "https://www.amazon.com.br/dp/B074LTNQBP",
    "promo_foz": {
     "tipo": "nenhum",
@@ -888,8 +933,8 @@
     "Amazon · Corpo e banho"
    ],
    "n_listas": 2,
-   "preco_min": 27.99,
-   "preco_max": 27.99,
+   "preco_min": 37.9,
+   "preco_max": 37.9,
    "url": "https://www.amazon.com.br/dp/B0GZ7535SW",
    "promo_foz": {
     "tipo": "nenhum",
@@ -1184,27 +1229,26 @@
     "Amazon · Cuidados com a pele"
    ],
    "n_listas": 2,
-   "preco_min": 39.99,
-   "preco_max": 39.99,
+   "preco_min": 43.9,
+   "preco_max": 43.9,
    "url": "https://www.amazon.com.br/dp/B0D8RHX3C6",
    "promo_foz": {
-    "tipo": "marca",
-    "n_farmacias": 12,
-    "selo": "marca em promoção em 12 farmácias de Foz (outro item)",
+    "tipo": "linha",
+    "n_farmacias": 11,
+    "selo": "11 farmácias em promoção em Foz",
     "redes": [
-     "Masterfarma",
      "Nissei"
     ],
     "chaves": [
-     "mascaradove2em1320g",
-     "sabonetedove"
+     "serumhidratantecorporaldoveintensivo450g"
     ],
     "nomes": [
-     "Máscara Dove 2 em 1 320g",
-     "Sabonete Dove"
+     "Sérum hidratante corporal Dove Intensivo 450g"
     ],
-    "n_semana": 0,
-    "farmacias_semana": []
+    "n_semana": 1,
+    "farmacias_semana": [
+     "Nissei (@farmaciasnissei)"
+    ]
    },
    "pontos": 1.17,
    "pos": 30
@@ -1474,12 +1518,18 @@
    "preco_max": 23.2,
    "url": "https://www.amazon.com.br/dp/B07LFMZBKW",
    "promo_foz": {
-    "tipo": "nenhum",
-    "n_farmacias": 0,
-    "selo": "ninguém promove em Foz — oportunidade",
-    "redes": [],
-    "chaves": [],
-    "nomes": [],
+    "tipo": "marca",
+    "n_farmacias": 11,
+    "selo": "marca em promoção em 11 farmácias de Foz (outro item)",
+    "redes": [
+     "São João"
+    ],
+    "chaves": [
+     "aguamicelarniveaacnecontrol"
+    ],
+    "nomes": [
+     "Água micelar Nivea Acne Control"
+    ],
     "n_semana": 0,
     "farmacias_semana": []
    },
@@ -1715,8 +1765,8 @@
     "Amazon · Cuidados com a pele"
    ],
    "n_listas": 2,
-   "preco_min": 26.9,
-   "preco_max": 26.9,
+   "preco_min": 31.98,
+   "preco_max": 31.98,
    "url": "https://www.amazon.com.br/dp/B07Y38NFPS",
    "promo_foz": {
     "tipo": "nenhum",
@@ -1749,8 +1799,8 @@
     "Amazon · Higiene íntima"
    ],
    "n_listas": 1,
-   "preco_min": 16.64,
-   "preco_max": 16.64,
+   "preco_min": 32.49,
+   "preco_max": 32.49,
    "url": "https://www.amazon.com.br/dp/B0DX7BHGWP",
    "promo_foz": {
     "tipo": "nenhum",
@@ -1783,8 +1833,8 @@
     "Amazon · Fraldas descartáveis"
    ],
    "n_listas": 1,
-   "preco_min": 237.65,
-   "preco_max": 237.65,
+   "preco_min": 249.0,
+   "preco_max": 249.0,
    "url": "https://www.amazon.com.br/dp/B09FFRMKNQ",
    "promo_foz": {
     "tipo": "marca",
@@ -1876,8 +1926,8 @@
     "Amazon · Protetores solares"
    ],
    "n_listas": 2,
-   "preco_min": 59.89,
-   "preco_max": 59.89,
+   "preco_min": 59.9,
+   "preco_max": 59.9,
    "url": "https://www.amazon.com.br/dp/B079VW5KT6",
    "promo_foz": {
     "tipo": "nenhum",
@@ -1984,12 +2034,18 @@
    "preco_max": 18.89,
    "url": "https://www.amazon.com.br/dp/B08NX5DKM1",
    "promo_foz": {
-    "tipo": "nenhum",
-    "n_farmacias": 0,
-    "selo": "ninguém promove em Foz — oportunidade",
-    "redes": [],
-    "chaves": [],
-    "nomes": [],
+    "tipo": "marca",
+    "n_farmacias": 11,
+    "selo": "marca em promoção em 11 farmácias de Foz (outro item)",
+    "redes": [
+     "São João"
+    ],
+    "chaves": [
+     "aguamicelarniveaacnecontrol"
+    ],
+    "nomes": [
+     "Água micelar Nivea Acne Control"
+    ],
     "n_semana": 0,
     "farmacias_semana": []
    },
@@ -2018,12 +2074,18 @@
    "preco_max": 34.9,
    "url": "https://www.amazon.com.br/dp/B0BD6755LC",
    "promo_foz": {
-    "tipo": "nenhum",
-    "n_farmacias": 0,
-    "selo": "ninguém promove em Foz — oportunidade",
-    "redes": [],
-    "chaves": [],
-    "nomes": [],
+    "tipo": "marca",
+    "n_farmacias": 11,
+    "selo": "marca em promoção em 11 farmácias de Foz (outro item)",
+    "redes": [
+     "São João"
+    ],
+    "chaves": [
+     "aguamicelarniveaacnecontrol"
+    ],
+    "nomes": [
+     "Água micelar Nivea Acne Control"
+    ],
     "n_semana": 0,
     "farmacias_semana": []
    },
@@ -2237,17 +2299,32 @@
    "preco_max": 44.65,
    "url": "https://www.amazon.com.br/dp/B0CTR4FL63",
    "promo_foz": {
-    "tipo": "linha",
-    "n_farmacias": 7,
-    "selo": "7 farmácias em promoção em Foz",
+    "tipo": "marca",
+    "n_farmacias": 21,
+    "selo": "marca em promoção em 21 farmácias de Foz (outro item)",
     "redes": [
-     "Mini Preço"
+     "Coperfarma",
+     "Farma D"
     ],
     "chaves": [
-     "protetorsolarprincipiafps60200ml"
+     "hidratanteprincipiach02454g",
+     "cremeareaolhosco01principia15g",
+     "hidratanteprincipialh02500ml",
+     "principiaantitranspirantead0170ml",
+     "principiacremehidratantech02250g",
+     "principiagelhidratantegh0150g",
+     "principiagellimpezagl01gl02",
+     "principiagellimpezagl03",
+     "principiashampooanticaspaac01250ml",
+     "principiatonicofacialal7120ml"
     ],
     "nomes": [
-     "Protetor solar Principia FPS60 200ml"
+     "Creme para Área dos Olhos CO-01 Principia 15g",
+     "Hidratante Principia CH-02 454g",
+     "Hidratante Principia LH-02 500ml",
+     "Principia Antitranspirante AD-01 70ml",
+     "Principia Creme Hidratante CH-02 250g",
+     "Principia Gel Hidratante GH-01 50g"
     ],
     "n_semana": 2,
     "farmacias_semana": [
@@ -2352,9 +2429,9 @@
     },
     {
      "loja": "Mercado Livre",
-     "melhor_posicao": 6,
+     "melhor_posicao": 5,
      "categoria": "Beleza e Cuidado Pessoal",
-     "url": "https://produto.mercadolivre.com.br/MLB-3269837602"
+     "url": "https://www.mercadolivre.com.br/locao-hidratante-corporal-3-ceramidas-hidratacao-120h-cerave-473ml/p/MLB21361292"
     }
    ],
    "melhor_posicao": 2,
@@ -2379,7 +2456,7 @@
     "n_semana": 0,
     "farmacias_semana": []
    },
-   "pontos": 3.97,
+   "pontos": 4.0,
    "n_dias": 1,
    "primeiro": "18/11",
    "ultimo": "18/11",
@@ -2463,21 +2540,24 @@
     "Mercado Livre · Beleza e Cuidado Pessoal"
    ],
    "n_listas": 3,
-   "preco_min": 29.9,
+   "preco_min": 28.91,
    "preco_max": 36.14,
    "url": "https://www.amazon.com.br/dp/B07H113TPQ",
    "promo_foz": {
     "tipo": "marca",
-    "n_farmacias": 2,
-    "selo": "marca em promoção em 2 farmácias de Foz (outro item)",
+    "n_farmacias": 13,
+    "selo": "marca em promoção em 13 farmácias de Foz (outro item)",
     "redes": [
-     "Farmácia Preço Popular"
+     "Farmácia Preço Popular",
+     "Nissei"
     ],
     "chaves": [
+     "oleocapilarouleaveinelseve100ml",
      "serumlorealpariselsevelisosonhos100ml"
     ],
     "nomes": [
-     "Sérum Loreal Paris Elseve Liso Dos Sonhos 100ml"
+     "Sérum Loreal Paris Elseve Liso Dos Sonhos 100ml",
+     "Óleo capilar ou leave-in Elseve 100ml"
     ],
     "n_semana": 0,
     "farmacias_semana": []
@@ -2512,7 +2592,7 @@
     "Amazon · Protetores solares"
    ],
    "n_listas": 4,
-   "preco_min": 48.69,
+   "preco_min": 47.7,
    "preco_max": 63.72,
    "url": "https://www.amazon.com.br/dp/B08NVMP2YZ",
    "promo_foz": {
@@ -2566,12 +2646,18 @@
    "preco_max": 29.88,
    "url": "https://www.amazon.com.br/dp/B0DK4975DJ",
    "promo_foz": {
-    "tipo": "nenhum",
-    "n_farmacias": 0,
-    "selo": "ninguém promove em Foz — oportunidade",
-    "redes": [],
-    "chaves": [],
-    "nomes": [],
+    "tipo": "marca",
+    "n_farmacias": 11,
+    "selo": "marca em promoção em 11 farmácias de Foz (outro item)",
+    "redes": [
+     "São João"
+    ],
+    "chaves": [
+     "aguamicelarniveaacnecontrol"
+    ],
+    "nomes": [
+     "Água micelar Nivea Acne Control"
+    ],
     "n_semana": 0,
     "farmacias_semana": []
    },
@@ -2645,23 +2731,25 @@
    ],
    "n_listas": 2,
    "preco_min": 25.19,
-   "preco_max": 25.19,
+   "preco_max": 32.06,
    "url": "https://www.amazon.com.br/dp/B0G3YGYW4Z",
    "promo_foz": {
-    "tipo": "marca",
-    "n_farmacias": 2,
-    "selo": "marca em promoção em 2 farmácias de Foz (outro item)",
+    "tipo": "linha",
+    "n_farmacias": 11,
+    "selo": "11 farmácias em promoção em Foz",
     "redes": [
-     "Farmácia Preço Popular"
+     "Nissei"
     ],
     "chaves": [
-     "serumlorealpariselsevelisosonhos100ml"
+     "oleocapilarouleaveinelseve100ml"
     ],
     "nomes": [
-     "Sérum Loreal Paris Elseve Liso Dos Sonhos 100ml"
+     "Óleo capilar ou leave-in Elseve 100ml"
     ],
-    "n_semana": 0,
-    "farmacias_semana": []
+    "n_semana": 1,
+    "farmacias_semana": [
+     "Nissei (@farmaciasnissei)"
+    ]
    },
    "pontos": 1.93,
    "n_dias": 1,
@@ -2696,19 +2784,28 @@
    "url": "https://www.amazon.com.br/dp/B0DC74428B",
    "promo_foz": {
     "tipo": "marca",
-    "n_farmacias": 12,
-    "selo": "marca em promoção em 12 farmácias de Foz (outro item)",
+    "n_farmacias": 14,
+    "selo": "marca em promoção em 14 farmácias de Foz (outro item)",
     "redes": [
      "Masterfarma",
-     "Nissei"
+     "Nissei",
+     "Preço Popular"
     ],
     "chaves": [
+     "serumhidratantecorporaldoveintensivo450g",
      "mascaradove2em1320g",
+     "serumcorporaldovecicapan20g",
+     "sprayoleocorporaldoveserumdeo150ml",
+     "saboneteliquidodoveoleobanho240ml",
      "sabonetedove"
     ],
     "nomes": [
      "Máscara Dove 2 em 1 320g",
-     "Sabonete Dove"
+     "Sabonete Dove",
+     "Sabonete líquido Dove Óleo de Banho 240ml",
+     "Spray óleo corporal Dove Sérum Deo 150ml",
+     "Sérum corporal Dove Cicapan 20g",
+     "Sérum hidratante corporal Dove Intensivo 450g"
     ],
     "n_semana": 0,
     "farmacias_semana": []
@@ -2802,12 +2899,18 @@
    "preco_max": 16.79,
    "url": "https://www.amazon.com.br/dp/B08VGBZGWV",
    "promo_foz": {
-    "tipo": "nenhum",
-    "n_farmacias": 0,
-    "selo": "ninguém promove em Foz — oportunidade",
-    "redes": [],
-    "chaves": [],
-    "nomes": [],
+    "tipo": "marca",
+    "n_farmacias": 11,
+    "selo": "marca em promoção em 11 farmácias de Foz (outro item)",
+    "redes": [
+     "São João"
+    ],
+    "chaves": [
+     "aguamicelarniveaacnecontrol"
+    ],
+    "nomes": [
+     "Água micelar Nivea Acne Control"
+    ],
     "n_semana": 0,
     "farmacias_semana": []
    },
@@ -2840,7 +2943,7 @@
    ],
    "n_listas": 2,
    "preco_min": 14.41,
-   "preco_max": 14.41,
+   "preco_max": 24.46,
    "url": "https://www.amazon.com.br/dp/B07SBXMSGB",
    "promo_foz": {
     "tipo": "nenhum",
@@ -2936,12 +3039,18 @@
    "preco_max": 37.17,
    "url": "https://www.amazon.com.br/dp/B077BY8HQV",
    "promo_foz": {
-    "tipo": "nenhum",
-    "n_farmacias": 0,
-    "selo": "ninguém promove em Foz — oportunidade",
-    "redes": [],
-    "chaves": [],
-    "nomes": [],
+    "tipo": "marca",
+    "n_farmacias": 11,
+    "selo": "marca em promoção em 11 farmácias de Foz (outro item)",
+    "redes": [
+     "São João"
+    ],
+    "chaves": [
+     "aguamicelarniveaacnecontrol"
+    ],
+    "nomes": [
+     "Água micelar Nivea Acne Control"
+    ],
     "n_semana": 0,
     "farmacias_semana": []
    },
@@ -2978,20 +3087,24 @@
    "url": "https://www.amazon.com.br/dp/B088Z64C82",
    "promo_foz": {
     "tipo": "linha",
-    "n_farmacias": 1,
-    "selo": "1 farmácia em promoção em Foz",
+    "n_farmacias": 3,
+    "selo": "3 farmácias em promoção em Foz",
     "redes": [
-     "Masterfarma"
+     "Masterfarma",
+     "Preço Popular"
     ],
     "chaves": [
+     "saboneteliquidodoveoleobanho240ml",
      "sabonetedove"
     ],
     "nomes": [
-     "Sabonete Dove"
+     "Sabonete Dove",
+     "Sabonete líquido Dove Óleo de Banho 240ml"
     ],
-    "n_semana": 1,
+    "n_semana": 2,
     "farmacias_semana": [
-     "Masterfarma (@masterfarma_foz)"
+     "Masterfarma (@masterfarma_foz)",
+     "Preço Popular"
     ]
    },
    "pontos": 1.63,
@@ -3117,16 +3230,19 @@
    "url": "https://www.amazon.com.br/dp/B0G45KPX15",
    "promo_foz": {
     "tipo": "marca",
-    "n_farmacias": 2,
-    "selo": "marca em promoção em 2 farmácias de Foz (outro item)",
+    "n_farmacias": 13,
+    "selo": "marca em promoção em 13 farmácias de Foz (outro item)",
     "redes": [
-     "Farmácia Preço Popular"
+     "Farmácia Preço Popular",
+     "Nissei"
     ],
     "chaves": [
+     "oleocapilarouleaveinelseve100ml",
      "serumlorealpariselsevelisosonhos100ml"
     ],
     "nomes": [
-     "Sérum Loreal Paris Elseve Liso Dos Sonhos 100ml"
+     "Sérum Loreal Paris Elseve Liso Dos Sonhos 100ml",
+     "Óleo capilar ou leave-in Elseve 100ml"
     ],
     "n_semana": 0,
     "farmacias_semana": []
@@ -3204,12 +3320,18 @@
    "preco_max": 15.39,
    "url": "https://www.amazon.com.br/dp/B07F3DK2CK",
    "promo_foz": {
-    "tipo": "nenhum",
-    "n_farmacias": 0,
-    "selo": "ninguém promove em Foz — oportunidade",
-    "redes": [],
-    "chaves": [],
-    "nomes": [],
+    "tipo": "marca",
+    "n_farmacias": 11,
+    "selo": "marca em promoção em 11 farmácias de Foz (outro item)",
+    "redes": [
+     "São João"
+    ],
+    "chaves": [
+     "aguamicelarniveaacnecontrol"
+    ],
+    "nomes": [
+     "Água micelar Nivea Acne Control"
+    ],
     "n_semana": 0,
     "farmacias_semana": []
    },
@@ -3241,7 +3363,7 @@
     "Amazon · Cuidados com o cabelo"
    ],
    "n_listas": 2,
-   "preco_min": 30.17,
+   "preco_min": 28.66,
    "preco_max": 30.17,
    "url": "https://www.amazon.com.br/dp/B074LTNQBP",
    "promo_foz": {
@@ -3324,7 +3446,7 @@
    ],
    "n_listas": 2,
    "preco_min": 27.99,
-   "preco_max": 27.99,
+   "preco_max": 37.9,
    "url": "https://www.amazon.com.br/dp/B0GZ7535SW",
    "promo_foz": {
     "tipo": "nenhum",
@@ -3671,23 +3793,22 @@
    "preco_max": 43.9,
    "url": "https://www.amazon.com.br/dp/B0D8RHX3C6",
    "promo_foz": {
-    "tipo": "marca",
-    "n_farmacias": 12,
-    "selo": "marca em promoção em 12 farmácias de Foz (outro item)",
+    "tipo": "linha",
+    "n_farmacias": 11,
+    "selo": "11 farmácias em promoção em Foz",
     "redes": [
-     "Masterfarma",
      "Nissei"
     ],
     "chaves": [
-     "mascaradove2em1320g",
-     "sabonetedove"
+     "serumhidratantecorporaldoveintensivo450g"
     ],
     "nomes": [
-     "Máscara Dove 2 em 1 320g",
-     "Sabonete Dove"
+     "Sérum hidratante corporal Dove Intensivo 450g"
     ],
-    "n_semana": 0,
-    "farmacias_semana": []
+    "n_semana": 1,
+    "farmacias_semana": [
+     "Nissei (@farmaciasnissei)"
+    ]
    },
    "pontos": 1.17,
    "n_dias": 1,
@@ -4005,12 +4126,18 @@
    "preco_max": 23.2,
    "url": "https://www.amazon.com.br/dp/B07LFMZBKW",
    "promo_foz": {
-    "tipo": "nenhum",
-    "n_farmacias": 0,
-    "selo": "ninguém promove em Foz — oportunidade",
-    "redes": [],
-    "chaves": [],
-    "nomes": [],
+    "tipo": "marca",
+    "n_farmacias": 11,
+    "selo": "marca em promoção em 11 farmácias de Foz (outro item)",
+    "redes": [
+     "São João"
+    ],
+    "chaves": [
+     "aguamicelarniveaacnecontrol"
+    ],
+    "nomes": [
+     "Água micelar Nivea Acne Control"
+    ],
     "n_semana": 0,
     "farmacias_semana": []
    },
@@ -4283,7 +4410,7 @@
    ],
    "n_listas": 2,
    "preco_min": 26.9,
-   "preco_max": 26.9,
+   "preco_max": 31.98,
    "url": "https://www.amazon.com.br/dp/B07Y38NFPS",
    "promo_foz": {
     "tipo": "nenhum",
@@ -4323,7 +4450,7 @@
    ],
    "n_listas": 1,
    "preco_min": 16.64,
-   "preco_max": 16.64,
+   "preco_max": 32.49,
    "url": "https://www.amazon.com.br/dp/B0DX7BHGWP",
    "promo_foz": {
     "tipo": "nenhum",
@@ -4363,7 +4490,7 @@
    ],
    "n_listas": 1,
    "preco_min": 237.65,
-   "preco_max": 237.65,
+   "preco_max": 249.0,
    "url": "https://www.amazon.com.br/dp/B09FFRMKNQ",
    "promo_foz": {
     "tipo": "marca",
@@ -4468,7 +4595,7 @@
    ],
    "n_listas": 2,
    "preco_min": 59.89,
-   "preco_max": 59.89,
+   "preco_max": 59.9,
    "url": "https://www.amazon.com.br/dp/B079VW5KT6",
    "promo_foz": {
     "tipo": "nenhum",
@@ -4593,12 +4720,18 @@
    "preco_max": 18.89,
    "url": "https://www.amazon.com.br/dp/B08NX5DKM1",
    "promo_foz": {
-    "tipo": "nenhum",
-    "n_farmacias": 0,
-    "selo": "ninguém promove em Foz — oportunidade",
-    "redes": [],
-    "chaves": [],
-    "nomes": [],
+    "tipo": "marca",
+    "n_farmacias": 11,
+    "selo": "marca em promoção em 11 farmácias de Foz (outro item)",
+    "redes": [
+     "São João"
+    ],
+    "chaves": [
+     "aguamicelarniveaacnecontrol"
+    ],
+    "nomes": [
+     "Água micelar Nivea Acne Control"
+    ],
     "n_semana": 0,
     "farmacias_semana": []
    },
@@ -4633,12 +4766,18 @@
    "preco_max": 34.9,
    "url": "https://www.amazon.com.br/dp/B0BD6755LC",
    "promo_foz": {
-    "tipo": "nenhum",
-    "n_farmacias": 0,
-    "selo": "ninguém promove em Foz — oportunidade",
-    "redes": [],
-    "chaves": [],
-    "nomes": [],
+    "tipo": "marca",
+    "n_farmacias": 11,
+    "selo": "marca em promoção em 11 farmácias de Foz (outro item)",
+    "redes": [
+     "São João"
+    ],
+    "chaves": [
+     "aguamicelarniveaacnecontrol"
+    ],
+    "nomes": [
+     "Água micelar Nivea Acne Control"
+    ],
     "n_semana": 0,
     "farmacias_semana": []
    },
@@ -4888,17 +5027,32 @@
    "preco_max": 44.65,
    "url": "https://www.amazon.com.br/dp/B0CTR4FL63",
    "promo_foz": {
-    "tipo": "linha",
-    "n_farmacias": 7,
-    "selo": "7 farmácias em promoção em Foz",
+    "tipo": "marca",
+    "n_farmacias": 21,
+    "selo": "marca em promoção em 21 farmácias de Foz (outro item)",
     "redes": [
-     "Mini Preço"
+     "Coperfarma",
+     "Farma D"
     ],
     "chaves": [
-     "protetorsolarprincipiafps60200ml"
+     "hidratanteprincipiach02454g",
+     "cremeareaolhosco01principia15g",
+     "hidratanteprincipialh02500ml",
+     "principiaantitranspirantead0170ml",
+     "principiacremehidratantech02250g",
+     "principiagelhidratantegh0150g",
+     "principiagellimpezagl01gl02",
+     "principiagellimpezagl03",
+     "principiashampooanticaspaac01250ml",
+     "principiatonicofacialal7120ml"
     ],
     "nomes": [
-     "Protetor solar Principia FPS60 200ml"
+     "Creme para Área dos Olhos CO-01 Principia 15g",
+     "Hidratante Principia CH-02 454g",
+     "Hidratante Principia LH-02 500ml",
+     "Principia Antitranspirante AD-01 70ml",
+     "Principia Creme Hidratante CH-02 250g",
+     "Principia Gel Hidratante GH-01 50g"
     ],
     "n_semana": 2,
     "farmacias_semana": [
@@ -5005,5 +5159,5 @@
    "pos": 60
   }
  ],
- "n_7dias": 147
+ "n_7dias": 148
 }
