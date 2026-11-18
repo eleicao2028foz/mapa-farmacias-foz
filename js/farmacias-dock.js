@@ -1,5 +1,6 @@
 /* Barra lateral esquerda (mesmo estilo do antigo botão de trânsito do mapa de ônibus):
    "Promoções do dia" (data/promocoes_do_dia.json) e "Mais vendidos em Foz" (data/mais_vendidos.json).
+   "Últimos 7 dias" (data/promocoes_7dias.json) é a 3ª aba do painel de promoções.
    Tocar num produto marca no mapa as farmácias com ele em promoção. Fechar o painel não apaga as marcações
    nem mexe nos modos de 1 km; "Limpar do mapa" apaga. */
 (function () {
@@ -75,7 +76,8 @@
 
   /* ---------- dados ---------- */
   function produtoPorChave(k) { return (D.dia.produtos || []).find(p => p.chave === k); }
-  function lojasDe(chaves) {
+  function lojasDe(chaves, fixas) {
+    if (fixas) return fixas.slice();   // aba "Últimos 7 dias": lojas vindas do banco (promocoes_7dias.json)
     const m = new Map();
     for (const k of chaves) {
       const p = produtoPorChave(k); if (!p) continue;
@@ -103,25 +105,56 @@
   function renderPromos(p) {
     const d = D.dia;
     if (!d) { p.innerHTML = cab("Promoções do dia", "Carregando…"); ligarFechar(p); return; }
-    p.innerHTML = cab("Promoções do dia", `${esc(d.atualizado || "")} · ${plural(d.n_produtos, "produto", "produtos")}`) + `
+    const s7 = D.ordem === "7dias" ? D.sete : null;
+    const meta = s7 ? `Banco do radar, ${esc(s7.janela_txt || "")} · ${plural(s7.n_produtos || 0, "produto", "produtos")}`
+      : `${esc(d.atualizado || "")} · ${plural(d.n_produtos, "produto", "produtos")}`;
+    p.innerHTML = cab("Promoções do dia", meta) + `
       <div class="fd-tools">
         <input type="search" class="fd-busca" placeholder="Buscar produto (ex.: dipirona, fralda)" value="${esc(D.q)}" aria-label="Buscar produto">
         <div class="fd-seg" role="tablist" aria-label="Ordenar">
           <button type="button" data-ordem="farmacias" class="${D.ordem === "farmacias" ? "on" : ""}">Mais farmácias</button>
           <button type="button" data-ordem="desconto" class="${D.ordem === "desconto" ? "on" : ""}">Maior desconto</button>
+          <button type="button" data-ordem="7dias" class="${D.ordem === "7dias" ? "on" : ""}">Últimos 7 dias</button>
         </div>
       </div>
+      <p class="fd-explica fd-aviso7"${s7 && s7.aviso ? "" : " hidden"}>${esc(s7 && s7.aviso || "")}</p>
       <ul class="fd-list"></ul>
       <div class="fd-foot"></div>`;
     ligarFechar(p);
     const inp = p.querySelector(".fd-busca");
     inp.addEventListener("input", () => { D.q = inp.value; listaPromos(p); });
     p.querySelectorAll(".fd-seg button").forEach(b => b.addEventListener("click", () => {
-      D.ordem = b.dataset.ordem; p.querySelectorAll(".fd-seg button").forEach(x => x.classList.toggle("on", x === b)); listaPromos(p);
+      const era7 = D.ordem === "7dias"; D.ordem = b.dataset.ordem;
+      if (era7 !== (D.ordem === "7dias")) { const pos = inp.selectionStart; render(); const i2 = $("#fd-panel .fd-busca"); if (i2 && document.activeElement === inp) { i2.focus(); try { i2.setSelectionRange(pos, pos); } catch (e) {} } return; }
+      p.querySelectorAll(".fd-seg button").forEach(x => x.classList.toggle("on", x === b)); listaPromos(p);
     }));
     listaPromos(p);
   }
+  function lista7(p, q) {
+    const s7 = D.sete || { produtos: [], n_produtos: 0 };
+    const itens = (s7.produtos || []).filter(x => !q.length || q.every(t => semAcento(x.nome + " " + x.variantes.join(" ") + " " + x.redes.join(" ")).includes(t)));
+    const tend = x => x.tendencia === "cai" ? `<span class="fd-tend cai" title="Menor preço: primeiro x último dia">↓ preço ${fmtPct(x.var_preco_pct)}</span>`
+      : x.tendencia === "sobe" ? `<span class="fd-tend sobe-p" title="Menor preço: primeiro x último dia">↑ preço ${fmtPct(x.var_preco_pct)}</span>`
+      : x.tendencia === "estavel" ? `<span class="fd-tend est" title="Menor preço: primeiro x último dia">→ preço igual</span>` : "";
+    const ul = p.querySelector(".fd-list"); ul.classList.add("fd-mv", "fd-7d");
+    ul.innerHTML = itens.map(x => `<li><button type="button" class="fd-item${D.sel && D.sel.sete && D.sel.chave === x.chave ? " is-sel" : ""}" data-k="${esc(x.chave)}">
+        <span class="fd-pos">${x.pos}º</span>
+        <span class="fd-nome">${esc(x.nome)}</span>
+        <span class="fd-linha"><span class="fd-badge">em promoção em ${plural(x.n_dias, "dia", "dias")}</span><span class="fd-nredes">· ${plural(x.n_redes, "rede/farmácia", "redes/farmácias")}</span>
+        ${x.menor_preco != null ? `<span class="fd-preco">menor preço ${brl(x.menor_preco)}</span>` : ""}
+        ${x.maior_desconto != null ? `<span class="fd-desc">até −${x.maior_desconto}%</span>` : ""}${tend(x)}
+        ${x.ativo_hoje ? `<span class="fd-hoje">em promoção hoje</span>` : ""}</span>
+        <span class="fd-redes">${esc(x.redes.join(" · "))}${x.n_dias > 1 ? ` · ${esc(x.primeiro)}–${esc(x.ultimo)}` : ` · ${esc(x.ultimo)}`}</span>
+      </button></li>`).join("") || `<li class="fd-vazio">${D.sete ? `Nenhum produto encontrado${D.q ? ` para “${esc(D.q)}”` : ""}.` : "Carregando o banco de promoções…"}</li>`;
+    ul.querySelectorAll(".fd-item").forEach(b => b.addEventListener("click", ev => {
+      ev.preventDefault(); ev.stopPropagation();
+      const x = (D.sete.produtos || []).find(y => y.chave === b.dataset.k); if (!x) return;
+      selecionar({ aba: "promos", sete: true, chave: x.chave, nome: x.nome, chaves: [x.chave], lojas: x.lojas, x });
+    }));
+    p.querySelector(".fd-foot").innerHTML = `<p class="fd-nota">${itens.length} de ${s7.n_produtos || 0} produtos. ${esc(s7.criterio || "")}${s7.banco_inicio_txt ? ` Banco iniciado em ${esc(s7.banco_inicio_txt)}; ${plural(s7.dias_com_coleta_total || 0, "dia", "dias")} com coleta até agora.` : ""} Fonte: radar de concorrentes (stories e sites).</p>`;
+  }
   function listaPromos(p) {
+    if (D.ordem === "7dias") return lista7(p, semAcento(D.q).trim().split(/\s+/).filter(Boolean));
     const d = D.dia, q = semAcento(D.q).trim().split(/\s+/).filter(Boolean);
     let itens = d.produtos.filter(x => !q.length || q.every(t => semAcento(x.nome + " " + x.variantes.join(" ") + " " + x.redes.join(" ")).includes(t)));
     if (D.ordem === "desconto") itens = itens.slice().sort((a, b) => (b.maior_desconto ?? -1) - (a.maior_desconto ?? -1) || b.n_farmacias - a.n_farmacias);
@@ -187,11 +220,11 @@
   function fmtPct(v) { return v == null ? "" : (v > 0 ? "+" : v < 0 ? "−" : "") + String(Math.abs(v)).replace(".", ",") + "%"; }
 
   function renderDetalhe(p) {
-    const s = D.sel, lojas = lojasDe(s.chaves);
+    const s = D.sel, lojas = lojasDe(s.chaves, s.lojas);
     const precos = lojas.map(l => l.preco).filter(v => v != null);
-    const sub = lojas.length ? `${plural(lojas.length, "farmácia em promoção", "farmácias em promoção")}${precos.length ? " · a partir de " + brl(Math.min(...precos)) : ""}` : "Nenhuma farmácia com promoção hoje";
-    const extra = s.g ? `<p class="fd-explica">${milhar(s.g.unidades)} unidades vendidas em ${D.muni === "foz" ? "Foz" : "Santa Terezinha"} (jan–out 2026) · ${s.g.pos}º lugar${s.g.produtos_nomes && s.g.produtos_nomes.length ? `<br>Em promoção: ${esc(s.g.produtos_nomes.join("; "))}` : ""}</p>` : "";
-    p.innerHTML = `<header class="fd-head"><div><button type="button" class="fd-voltar">‹ ${s.aba === "promos" ? "Todos os produtos" : "Mais vendidos"}</button>
+    const sub = lojas.length ? `${plural(lojas.length, s.sete ? "farmácia (7 dias)" : "farmácia em promoção", s.sete ? "farmácias (7 dias)" : "farmácias em promoção")}${precos.length ? " · a partir de " + brl(Math.min(...precos)) : ""}` : "Nenhuma farmácia com promoção hoje";
+    const extra = s.x ? `<p class="fd-explica">Últimos 7 dias: em promoção em ${plural(s.x.n_dias, "dia", "dias")} · ${plural(s.x.n_redes, "rede/farmácia", "redes/farmácias")} (${esc(s.x.redes.join(", "))})${s.x.menor_preco != null ? ` · menor preço ${brl(s.x.menor_preco)}` : ""}${s.x.ativo_hoje ? " · em promoção hoje" : " · não está em promoção hoje"}</p>` : s.g ? `<p class="fd-explica">${milhar(s.g.unidades)} unidades vendidas em ${D.muni === "foz" ? "Foz" : "Santa Terezinha"} (jan–out 2026) · ${s.g.pos}º lugar${s.g.produtos_nomes && s.g.produtos_nomes.length ? `<br>Em promoção: ${esc(s.g.produtos_nomes.join("; "))}` : ""}</p>` : "";
+    p.innerHTML = `<header class="fd-head"><div><button type="button" class="fd-voltar">‹ ${s.sete ? "Últimos 7 dias" : s.aba === "promos" ? "Todos os produtos" : "Mais vendidos"}</button>
         <h2 class="fd-title">${esc(s.nome)}</h2><p class="fd-meta">${sub}</p></div>
         <button type="button" class="fd-close" aria-label="Fechar painel" title="Fechar (as marcações continuam no mapa)">×</button></header>
       ${extra}
@@ -201,9 +234,10 @@
           <span class="fd-linha">${l.preco != null ? `<span class="fd-preco forte">${l.de ? `<s>${brl(l.de)}</s> ` : ""}${brl(l.preco)}</span>` : `<span class="fd-preco">${esc(l.preco_txt || "—")}</span>`}
             ${l.desconto != null ? `<span class="fd-desc">−${l.desconto}%</span>` : ""}
             <span class="fd-dist">${milhar(l.dist_m)} m da FARMAIS ${esc(l.farmais)}</span></span>
-          ${l.validade ? `<span class="fd-val">Validade: ${esc(l.validade)}</span>` : ""}
+          ${l.validade || l.visto_em ? `<span class="fd-val">${l.visto_em ? `Visto em ${esc(l.visto_em)}` : ""}${l.visto_em && l.validade ? " · " : ""}${l.validade ? `Validade: ${esc(l.validade)}` : ""}</span>` : ""}
         </button></li>`).join("") || `<li class="fd-vazio">${s.aba === "mv" ? "Nenhuma farmácia do radar está com este princípio ativo em promoção hoje — boa oportunidade para a FARMAIS anunciar." : "Nenhuma loja."}</li>`}</ul>
       <div class="fd-acoes">${lojas.length ? `<button type="button" class="fd-ver">Ver todas no mapa</button>` : ""}<button type="button" class="fd-limpar">Limpar do mapa</button></div>`;
+    p.scrollTop = 0;
     ligarFechar(p);
     p.querySelector(".fd-voltar").addEventListener("click", ev => { ev.preventDefault(); ev.stopPropagation(); D.view = "lista"; render(); });
     p.querySelector(".fd-limpar").addEventListener("click", ev => { ev.preventDefault(); ev.stopPropagation(); limparSel(); D.view = "lista"; render(); });
@@ -221,7 +255,7 @@
     if (S && S.desligarModo) S.desligarModo();   // evita marcadores sobrepostos com o modo de 1 km
     limparMarcadores();
     D.sel = sel; D.view = "detalhe";
-    const lojas = lojasDe(sel.chaves);
+    const lojas = lojasDe(sel.chaves, sel.lojas);
     for (const l of lojas) {
       const el = document.createElement("button");
       el.type = "button"; el.className = "fm-pin-promo fd-pin";
@@ -268,6 +302,12 @@
     S.onModo = () => { if (D.sel) { limparSel(); if (D.aberto && D.view === "detalhe") { D.view = "lista"; render(); } } };
     montar();
     const t = Date.now();
+    const q0 = new URLSearchParams(location.search);
+    if (q0.get("ordem") === "7dias") D.ordem = "7dias";
+    fetch("data/promocoes_7dias.json?t=" + t).then(r => r.ok ? r.json() : null).catch(() => null).then(j => {
+      D.sete = j || { produtos: [], n_produtos: 0, aviso: "Banco de promoções ainda não disponível." };
+      if (D.aberto && D.aba === "promos" && D.view === "lista" && D.ordem === "7dias") render();
+    });
     const [dia, mv] = await Promise.all([
       fetch("data/promocoes_do_dia.json?t=" + t).then(r => r.ok ? r.json() : null).catch(() => null),
       fetch("data/mais_vendidos.json?t=" + t).then(r => r.ok ? r.json() : null).catch(() => null)]);
