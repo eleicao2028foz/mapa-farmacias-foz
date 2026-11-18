@@ -14,6 +14,14 @@
   const ICON_PROMO = '<svg viewBox="0 0 32 32" aria-hidden="true"><path d="M4 15.2V6.5A2.5 2.5 0 0 1 6.5 4h8.7a2.5 2.5 0 0 1 1.77.73l10.3 10.3a2.5 2.5 0 0 1 0 3.54l-8.7 8.7a2.5 2.5 0 0 1-3.54 0L4.73 16.97A2.5 2.5 0 0 1 4 15.2z" fill="currentColor" opacity=".18" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round"/><circle cx="10" cy="10" r="2.3" fill="currentColor"/><path d="M13.2 21.2l7.6-7.6" stroke="#DF2110" stroke-width="2.4" stroke-linecap="round"/><circle cx="14.4" cy="15" r="1.7" fill="#DF2110"/><circle cx="19.6" cy="20.2" r="1.7" fill="#DF2110"/></svg>';
   const ICON_TOP = '<svg viewBox="0 0 32 32" aria-hidden="true"><rect x="4" y="17" width="6" height="11" rx="1.5" fill="currentColor" opacity=".35"/><rect x="13" y="10" width="6" height="18" rx="1.5" fill="currentColor" opacity=".6"/><rect x="22" y="4" width="6" height="24" rx="1.5" fill="currentColor"/><path d="M3 13.5l7-5 5 3 10-7.5" fill="none" stroke="#DF2110" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"/></svg>';
 
+  /* Grupos da barra lateral: cada grupo = título + botões. Para um novo grupo (ex.: "Dermo & Beleza"),
+     basta acrescentar um objeto aqui (e tratar a nova "aba" em render()). */
+  const GRUPOS = [
+    { id: "medicamentos", titulo: "Medicamentos", botoes: [
+      { aba: "promos", nome: "Promoções do dia", rotulo: "Promoções<br>do dia", icone: ICON_PROMO, extra: '<span class="fd-dot" hidden></span>' },
+      { aba: "mv", nome: "Mais vendidos em Foz", rotulo: "Mais vendidos<br>em Foz", icone: ICON_TOP } ] }
+  ];
+
   const D = { aba: null, view: "lista", dia: null, mv: null, q: "", ordem: "farmacias", muni: "foz", mvAba: "top", sel: null, markers: [], aberto: false };
   window.__FARMACIAS_DOCK__ = D;
 
@@ -25,11 +33,14 @@
     const dock = document.createElement("aside");
     dock.id = "fd-dock";
     dock.innerHTML = `
-      <div class="fd-rail" role="toolbar" aria-label="Ferramentas do mapa">
-        <button type="button" class="fd-btn" data-aba="promos" aria-pressed="false" aria-label="Promoções do dia" title="Promoções do dia">
-          <span class="fd-ico">${ICON_PROMO}</span><span class="fd-lbl">Promoções<br>do dia</span><span class="fd-dot" hidden></span></button>
-        <button type="button" class="fd-btn" data-aba="mv" aria-pressed="false" aria-label="Mais vendidos em Foz" title="Mais vendidos em Foz">
-          <span class="fd-ico">${ICON_TOP}</span><span class="fd-lbl">Mais vendidos<br>em Foz</span></button>
+      <div class="fd-groups">${GRUPOS.map(g => `
+        <div class="fd-group" data-grupo="${g.id}">
+          <div class="fd-rail" role="toolbar" aria-label="${esc(g.titulo)}">
+            <span class="fd-gtitle" aria-hidden="true">${esc(g.titulo)}</span>
+            ${g.botoes.map(b => `<button type="button" class="fd-btn" data-aba="${b.aba}" aria-pressed="false" aria-label="${esc(b.nome)}" title="${esc(b.nome)}">
+              <span class="fd-ico">${b.icone}</span><span class="fd-lbl">${b.rotulo}</span>${b.extra || ""}</button>`).join("")}
+          </div>
+        </div>`).join("")}
       </div>
       <section class="fd-panel" id="fd-panel" hidden aria-live="polite"></section>`;
     document.body.appendChild(dock);
