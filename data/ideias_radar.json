@@ -1,32 +1,32 @@
 {
- "gerado_em": "19/11/2026 15:41",
- "relatorio": "relatorio_2026-11-19_08h.md",
- "titulo": "Radar de concorrentes — quinta, 19/11/2026, 8h (horário de Brasília)",
+ "gerado_em": "19/11/2026 15:42",
+ "relatorio": "relatorio_2026-11-19_15h.md",
+ "titulo": "Radar de concorrentes — quinta, 19/11/2026, 15h (horário de Brasília)",
  "ideias": [
   {
-   "texto": "Ninho Fases 1+ 800 g: a Farma D está a R$ 38,99 só hoje e a Mini Preço a R$ 43,90. Dá para cobrir em R$ 38,90 hoje, com limite por CPF.",
+   "texto": "Consalter: a Preço Justo, a 71 m, está com Ninho Fases 1+ a R$ 40,99 e Nistatina a R$ 8,99 até amanhã. A Farma D (R$ 38,99) encerra hoje. Um Ninho a R$ 39,90 na Consalter amanhã fica abaixo da vizinha.",
    "itens": [
     {
-     "nome": "Farma D",
-     "valor_citado": "38,99"
+     "nome": "Ninho Fases 1+",
+     "valor_citado": "40,99"
     },
     {
-     "nome": "Mini Preço",
-     "valor_citado": "43,90"
+     "nome": "Nistatina",
+     "valor_citado": "8,99"
+    },
+    {
+     "nome": "Ninho",
+     "valor_citado": "39,90"
     }
    ]
   },
   {
-   "texto": "Fralda Huggies Máxima Proteção: a Preço Popular baixou para R$ 89,90 no site. Dá para fazer um combo com lenço umedecido, já que a Farma D vende o Puro Amor a R$ 1,99.",
-   "itens": []
-  },
-  {
-   "texto": "Preparar a Black Friday de sexta (20/11): Preço Justo (72 m do Consalter) e Gabriela (394 m da República Argentina) prometem preços a partir de amanhã. Vale ter a arte pronta hoje à noite.",
-   "itens": []
-  },
-  {
-   "texto": "Elseve óleo 100 ml: é o 3º mais vendido online (a partir de R$ 29,90) e a Farma D está a R$ 44,90. Um preço de R$ 38,90 na Muffato JK bate as duas farmácias.",
+   "texto": "Elseve óleo 100 ml: Preço Justo a R$ 34,99, Farma D a R$ 44,90 e a partir de R$ 29,90 online (3º mais vendido). Um preço de R$ 33,90 na Consalter e na Muffato JK bate as concorrentes de rua.",
    "itens": [
+    {
+     "nome": "Preço Justo",
+     "valor_citado": "34,99"
+    },
     {
      "nome": "Farma D",
      "valor_citado": "44,90"
@@ -34,8 +34,34 @@
    ]
   },
   {
-   "texto": "CeraVe loção hidratante (a partir de R$ 81,82 online) e Cicaplast B5+ (a partir de R$ 64,37) seguem no topo online, e nenhuma concorrente de Foz promove. Dá para fazer uma vitrine dermo na Black Friday.",
+   "texto": "Combo banho barato: a Nissei vende Palmolive a R$ 6,95 e a Preço Popular, Monange e Paixão 400 ml a R$ 11,99. Um combo de sabonete líquido + hidratante 400 ml por R$ 17,90 chama a atenção sem brigar item a item.",
    "itens": [
+    {
+     "nome": "Nissei vende Palmolive",
+     "valor_citado": "6,95"
+    },
+    {
+     "nome": "Paixão 400 ml",
+     "valor_citado": "11,99"
+    }
+   ]
+  },
+  {
+   "texto": "Black Friday amanhã (20/11): Gabriela (393 m da República Argentina) começa amanhã com soro nasal 3 por R$ 9,99, e a Preço Justo anunciou preços a partir das 15h. Vale deixar a arte pronta hoje à noite, com um soro nasal no mesmo nível.",
+   "itens": [
+    {
+     "nome": "soro nasal 3",
+     "valor_citado": "9,99"
+    }
+   ]
+  },
+  {
+   "texto": "Vitrine dermo + sol: Cicaplast B5+ (a partir de R$ 64,37 online), CeraVe loção (R$ 81,82) e Neutrogena Sun Fresh FPS70 (R$ 47,70) estão no topo online, e nenhuma concorrente de Foz promove. A Nissei puxa o protetor com o kit Helioderm a R$ 49,95.",
+   "itens": [
+    {
+     "nome": "kit Helioderm",
+     "valor_citado": "49,95"
+    },
     {
      "nome": "CeraVe",
      "foto_id": "cerave"
