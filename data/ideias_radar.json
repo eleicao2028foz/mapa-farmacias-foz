@@ -1,66 +1,81 @@
 {
- "gerado_em": "20/11/2026 08:24",
- "relatorio": "relatorio_2026-11-19_15h.md",
- "titulo": "Radar de concorrentes — quinta, 19/11/2026, 15h (horário de Brasília)",
+ "gerado_em": "20/11/2026 15:19",
+ "relatorio": "relatorio_2026-11-20_08h.md",
+ "titulo": "Radar de concorrentes — sexta, 20/11/2026, 8h (horário de Brasília)",
  "ideias": [
   {
-   "texto": "Consalter: a Preço Justo, a 71 m, está com Ninho Fases 1+ a R$ 40,99 e Nistatina a R$ 8,99 até amanhã. A Farma D (R$ 38,99) encerra hoje. Um Ninho a R$ 39,90 na Consalter amanhã fica abaixo da vizinha.",
+   "texto": "República Argentina: a Gabriela, a 393 m, abriu a Black Friday com Torsilax a R$ 9,99, dipirona a R$ 8,99 e Dermafeme a R$ 9,99. Cobrir os três a R$ 9,90 / R$ 8,90 / R$ 9,90 a partir de hoje.",
+   "itens": [
+    {
+     "nome": "Torsilax",
+     "valor_citado": "9,99"
+    },
+    {
+     "nome": "dipirona",
+     "valor_citado": "8,99",
+     "foto_id": "dipirona-500"
+    },
+    {
+     "nome": "Dermafeme",
+     "valor_citado": "9,99"
+    },
+    {
+     "nome": "Cobrir os três",
+     "valor_citado": "9,90"
+    }
+   ]
+  },
+  {
+   "texto": "Consalter: o Esquenta da Preço Justo (71 m) acaba hoje. A partir de amanhã, um Ninho Fases 1+ a R$ 39,90 e um Elseve óleo a R$ 33,90 ficam abaixo da vizinha e da Três Lagoas (R$ 41,99).",
    "itens": [
     {
      "nome": "Ninho Fases 1+",
-     "valor_citado": "40,99"
-    },
-    {
-     "nome": "Nistatina",
-     "valor_citado": "8,99"
-    },
-    {
-     "nome": "Ninho",
      "valor_citado": "39,90"
-    }
-   ]
-  },
-  {
-   "texto": "Elseve óleo 100 ml: Preço Justo a R$ 34,99, Farma D a R$ 44,90 e a partir de R$ 29,90 online (3º mais vendido). Um preço de R$ 33,90 na Consalter e na Muffato JK bate as concorrentes de rua.",
-   "itens": [
-    {
-     "nome": "Preço Justo",
-     "valor_citado": "34,99"
     },
     {
-     "nome": "Farma D",
-     "valor_citado": "44,90"
+     "nome": "Elseve óleo",
+     "valor_citado": "33,90"
     }
    ]
   },
   {
-   "texto": "Combo banho barato: a Nissei vende Palmolive a R$ 6,95 e a Preço Popular, Monange e Paixão 400 ml a R$ 11,99. Um combo de sabonete líquido + hidratante 400 ml por R$ 17,90 chama a atenção sem brigar item a item.",
+   "texto": "Combo desodorante: a Três Lagoas vende Monange a R$ 7,99 e Rexona a R$ 9,99, e a São João, Nivea Men no leve 2 a R$ 11,90. Um \"2 aerossóis por R$ 17,90\" na Muffato JK e na Jules Rimet chama a atenção.",
    "itens": [
     {
-     "nome": "Nissei vende Palmolive",
-     "valor_citado": "6,95"
+     "nome": "Três Lagoas vende Monange",
+     "valor_citado": "7,99"
     },
     {
-     "nome": "Paixão 400 ml",
-     "valor_citado": "11,99"
+     "nome": "Rexona",
+     "valor_citado": "9,99",
+     "foto_id": "rexona-invisible"
+    },
+    {
+     "nome": "Nivea Men no leve 2",
+     "valor_citado": "11,90",
+     "foto_id": "nivea-bw-men"
+    },
+    {
+     "nome": "\"2 aerossóis",
+     "valor_citado": "17,90"
     }
    ]
   },
   {
-   "texto": "Black Friday amanhã (20/11): Gabriela (393 m da República Argentina) começa amanhã com soro nasal 3 por R$ 9,99, e a Preço Justo anunciou preços a partir das 15h. Vale deixar a arte pronta hoje à noite, com um soro nasal no mesmo nível.",
+   "texto": "Fraldas na Black Friday: Huggies Máxima está a R$ 66,99 (Três Lagoas), R$ 68,90 (Farma D) e R$ 89,90 (Preço Popular). Uma Huggies Máxima a R$ 65,90 vira o melhor preço da cidade.",
    "itens": [
     {
-     "nome": "soro nasal 3",
-     "valor_citado": "9,99"
+     "nome": "Huggies Máxima",
+     "valor_citado": "66,99"
     }
    ]
   },
   {
-   "texto": "Vitrine dermo + sol: Cicaplast B5+ (a partir de R$ 64,37 online), CeraVe loção (R$ 81,82) e Neutrogena Sun Fresh FPS70 (R$ 47,70) estão no topo online, e nenhuma concorrente de Foz promove. A Nissei puxa o protetor com o kit Helioderm a R$ 49,95.",
+   "texto": "Vitrine dermo: CeraVe loção (R$ 112,90 online, 1º lugar) e Cicaplast B5+ (R$ 64,37, 2º lugar) não estão em promoção em nenhuma farmácia de Foz. A Raia puxa o Aquaphor a R$ 44,99 só online. Dá para montar uma vitrine \"reparação da pele\" com CeraVe + Cicaplast.",
    "itens": [
     {
-     "nome": "kit Helioderm",
-     "valor_citado": "49,95"
+     "nome": "Raia puxa o Aquaphor",
+     "valor_citado": "44,99"
     },
     {
      "nome": "CeraVe",
