@@ -1,7 +1,7 @@
 {
- "gerado_em": "20/11/2026 08:22 (horário de Brasília)",
+ "gerado_em": "20/11/2026 08:24 (horário de Brasília)",
  "atualizado": "Atualizado em 20/11 08h",
- "ultima_coleta": "2026-11-20 08:21",
+ "ultima_coleta": "2026-11-20 08:23",
  "fontes_ultima_coleta": [
   "Amazon · Beleza (departamento)",
   "Amazon · Corpo e banho",
@@ -19,8 +19,8 @@
  "banco_inicio": "2026-11-18",
  "banco_inicio_txt": "18/11",
  "dias_no_banco": 3,
- "n_coletas": 6,
- "n_linhas_banco": 1533,
+ "n_coletas": 7,
+ "n_linhas_banco": 1780,
  "aviso_7dias": "Banco iniciado em 18/11 — histórico ainda em formação (3 de 7 dias).",
  "criterio_hoje": "Coleta mais recente. Cada lista em que o produto aparece soma pontos (1º lugar = 1 ponto, 30º = 0,03); o mesmo produto em várias lojas/categorias sobe no ranking.",
  "criterio_7dias": "Últimos 7 dias (14/11 a 20/11): soma, por dia, da melhor rodada (aparições × posição). Tendência = melhor posição do 1º x último dia.",
