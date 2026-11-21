@@ -1,52 +1,74 @@
 {
- "gerado_em": "21/11/2026 15:22",
- "relatorio": "relatorio_2026-11-21_08h.md",
- "titulo": "Radar de concorrentes: sábado, 21/11/2026, 8h (horário de Brasília)",
+ "gerado_em": "21/11/2026 15:23",
+ "relatorio": "relatorio_2026-11-21_15h.md",
+ "titulo": "Radar de concorrentes: sábado, 21/11/2026, 15h (horário de Brasília)",
  "ideias": [
   {
-   "texto": "Consalter: a Preço Justo, a 72 m, começa a Black November hoje. Vale lançar já as nossas ofertas nessa loja, antes de ela divulgar os preços.",
+   "texto": "Consalter e Muffato JK: a Preço Justo puxa a Black November com repelente (Action spray a R$ 8,99) e Ômega 3 a R$ 19,99. Monte um \"kit verão\" com repelente + protetor solar a preço fechado e destaque o Ômega 3 em até R$ 19,90.",
+   "itens": [
+    {
+     "nome": "Action spray",
+     "valor_citado": "8,99"
+    },
+    {
+     "nome": "Ômega 3",
+     "valor_citado": "19,99"
+    }
+   ]
+  },
+  {
+   "texto": "Infantil: Farma D, Três Lagoas e Preço Justo concentram as ofertas em fraldas e leites, como Ninho Fases 1+ 800 g a R$ 38,99 na Farma D e Bepantol Baby a R$ 54,90 na Preço Justo. Vale um combo \"bebê\" com fralda, lenço e pomada de assadura, com a Nistatina abaixo de R$ 8,90.",
+   "itens": [
+    {
+     "nome": "Ninho Fases 1+ 800 g",
+     "valor_citado": "38,99"
+    },
+    {
+     "nome": "Bepantol Baby",
+     "valor_citado": "54,90"
+    },
+    {
+     "nome": "Nistatina",
+     "valor_citado": "8,90"
+    }
+   ]
+  },
+  {
+   "texto": "Proteção solar: a São João está com Sundown FPS50 por R$ 38,99 e kit Nivea por R$ 49,90 até domingo. Na segunda-feira (23/11), quando o Esquenta deles acaba, entre com um protetor FPS50 abaixo de R$ 38,99.",
+   "itens": [
+    {
+     "nome": "Sundown FPS50",
+     "valor_citado": "38,99"
+    },
+    {
+     "nome": "kit Nivea",
+     "valor_citado": "49,90",
+     "foto_id": "nivea-creme-56"
+    },
+    {
+     "nome": "protetor FPS50",
+     "valor_citado": "38,99"
+    }
+   ]
+  },
+  {
+   "texto": "Dermo que ninguém promove em Foz e que está entre os mais vendidos online: Cicaplast Baume B5+ (R$ 64,37 na Amazon) e Neutrogena Sun Fresh FPS70 (a partir de R$ 39,00). São bons para a campanha \"pele de verão\".",
    "itens": []
   },
   {
-   "texto": "Muffato JK: cobrir a Nissei até domingo. Koleston abaixo de R$ 23,95 e um combo Dove (sérum corporal + máscara 2 em 1) abaixo de R$ 49,90, que é a soma de R$ 29,95 e R$ 19,95 da Nissei.",
+   "texto": "Analgésicos: Dorflex DIP está a R$ 9,99 na Preço Justo e na Três Lagoas, e a dipirona 1 g a R$ 8,99 na Gabriela. Igualar a R$ 9,99 evita perder a venda de balcão.",
    "itens": [
     {
-     "nome": "Koleston",
-     "valor_citado": "23,95"
-    }
-   ]
-  },
-  {
-   "texto": "Higiene: a Preço Popular está com Seda a R$ 9,90 e Oral-B 3D White a R$ 15,90. Um combo \"banho completo\" (shampoo + creme dental + desodorante) bate essas ofertas de uma vez.",
-   "itens": [
-    {
-     "nome": "Seda",
-     "valor_citado": "9,90"
+     "nome": "Dorflex DIP",
+     "valor_citado": "9,99"
     },
     {
-     "nome": "Oral-B 3D White",
-     "valor_citado": "15,90"
-    }
-   ]
-  },
-  {
-   "texto": "Dermo que ninguém promove em Foz e que está entre os mais vendidos online: Cicaplast Baume B5+ (R$ 64,37 na Amazon), loção CeraVe com ácido hialurônico (R$ 112,90) e Minesol Oil Control FPS70 (R$ 55,44). Dá para montar uma campanha \"pele de verão\" com esses três.",
-   "itens": [
-    {
-     "nome": "CeraVe",
-     "foto_id": "cerave"
-    }
-   ]
-  },
-  {
-   "texto": "República Argentina: a Gabriela tem losartana por R$ 3,49 e Torsilax por R$ 9,99 até 27/11. Vale igualar os genéricos de uso contínuo para não perder o cliente recorrente.",
-   "itens": [
-    {
-     "nome": "Gabriela tem losartana",
-     "valor_citado": "3,49"
+     "nome": "dipirona 1 g",
+     "valor_citado": "8,99",
+     "foto_id": "dipirona-500"
     },
     {
-     "nome": "Torsilax",
+     "nome": "Igualar",
      "valor_citado": "9,99"
     }
    ]
