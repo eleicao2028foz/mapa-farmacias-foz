@@ -1,32 +1,27 @@
 {
- "gerado_em": "20/11/2026 15:19",
- "relatorio": "relatorio_2026-11-20_08h.md",
- "titulo": "Radar de concorrentes — sexta, 20/11/2026, 8h (horário de Brasília)",
+ "gerado_em": "21/11/2026 08:22",
+ "relatorio": "relatorio_2026-11-20_15h.md",
+ "titulo": "Radar de concorrentes — sexta, 20/11/2026, 15h (horário de Brasília)",
  "ideias": [
   {
-   "texto": "República Argentina: a Gabriela, a 393 m, abriu a Black Friday com Torsilax a R$ 9,99, dipirona a R$ 8,99 e Dermafeme a R$ 9,99. Cobrir os três a R$ 9,90 / R$ 8,90 / R$ 9,90 a partir de hoje.",
+   "texto": "República Argentina: a Gabriela, a 393 m, puxa genéricos a preço de isca: losartana a R$ 3,49, ibuprofeno gotas a R$ 9,99 e Torsilax a R$ 9,99. Cobrir com losartana a R$ 3,29 e Torsilax a R$ 9,49 até 27/11.",
    "itens": [
+    {
+     "nome": "losartana",
+     "valor_citado": "3,49"
+    },
+    {
+     "nome": "ibuprofeno gotas",
+     "valor_citado": "9,99"
+    },
     {
      "nome": "Torsilax",
      "valor_citado": "9,99"
-    },
-    {
-     "nome": "dipirona",
-     "valor_citado": "8,99",
-     "foto_id": "dipirona-500"
-    },
-    {
-     "nome": "Dermafeme",
-     "valor_citado": "9,99"
-    },
-    {
-     "nome": "Cobrir os três",
-     "valor_citado": "9,90"
     }
    ]
   },
   {
-   "texto": "Consalter: o Esquenta da Preço Justo (71 m) acaba hoje. A partir de amanhã, um Ninho Fases 1+ a R$ 39,90 e um Elseve óleo a R$ 33,90 ficam abaixo da vizinha e da Três Lagoas (R$ 41,99).",
+   "texto": "Consalter: a Preço Justo, a 71 m, encerrou o Esquenta hoje e anuncia algo para \"amanhã\". Antecipar no sábado um \"Black FARMAIS\" com Ninho Fases 1+ a R$ 39,90 (lá era R$ 40,99) e Elseve óleo a R$ 33,90.",
    "itens": [
     {
      "nome": "Ninho Fases 1+",
@@ -39,49 +34,43 @@
    ]
   },
   {
-   "texto": "Combo desodorante: a Três Lagoas vende Monange a R$ 7,99 e Rexona a R$ 9,99, e a São João, Nivea Men no leve 2 a R$ 11,90. Um \"2 aerossóis por R$ 17,90\" na Muffato JK e na Jules Rimet chama a atenção.",
+   "texto": "Combo cabelo: Três Lagoas tem Seda a R$ 7,99/9,99 e kit Dove a R$ 19,99, e a Gabriela, kit Novex a R$ 17,99. Um \"shampoo + condicionador por R$ 16,90\" no Muffato JK fica abaixo dos três.",
    "itens": [
     {
-     "nome": "Três Lagoas vende Monange",
+     "nome": "Três Lagoas tem Seda",
      "valor_citado": "7,99"
     },
     {
-     "nome": "Rexona",
-     "valor_citado": "9,99",
-     "foto_id": "rexona-invisible"
+     "nome": "kit Dove",
+     "valor_citado": "19,99",
+     "foto_id": "dove-aero-invisible-dry"
     },
     {
-     "nome": "Nivea Men no leve 2",
-     "valor_citado": "11,90",
-     "foto_id": "nivea-bw-men"
+     "nome": "kit Novex",
+     "valor_citado": "17,99"
     },
     {
-     "nome": "\"2 aerossóis",
-     "valor_citado": "17,90"
+     "nome": "\"shampoo + condicionador",
+     "valor_citado": "16,90"
     }
    ]
   },
   {
-   "texto": "Fraldas na Black Friday: Huggies Máxima está a R$ 66,99 (Três Lagoas), R$ 68,90 (Farma D) e R$ 89,90 (Preço Popular). Uma Huggies Máxima a R$ 65,90 vira o melhor preço da cidade.",
+   "texto": "Fraldas no fim de semana: Babysec Mega a R$ 28,99 (Três Lagoas) e Babysec Hiper a R$ 54,99 (Dr. Guilherme). Uma Babysec Hiper a R$ 52,90 de sexta a domingo vira o melhor preço visto.",
    "itens": [
     {
-     "nome": "Huggies Máxima",
-     "valor_citado": "66,99"
+     "nome": "Babysec Mega",
+     "valor_citado": "28,99"
+    },
+    {
+     "nome": "Babysec Hiper",
+     "valor_citado": "54,99"
     }
    ]
   },
   {
-   "texto": "Vitrine dermo: CeraVe loção (R$ 112,90 online, 1º lugar) e Cicaplast B5+ (R$ 64,37, 2º lugar) não estão em promoção em nenhuma farmácia de Foz. A Raia puxa o Aquaphor a R$ 44,99 só online. Dá para montar uma vitrine \"reparação da pele\" com CeraVe + Cicaplast.",
-   "itens": [
-    {
-     "nome": "Raia puxa o Aquaphor",
-     "valor_citado": "44,99"
-    },
-    {
-     "nome": "CeraVe",
-     "foto_id": "cerave"
-    }
-   ]
+   "texto": "Vitrine dermo: Cicaplast B5+ é o 2º mais vendido online (R$ 64,37 na Amazon) e nenhuma farmácia de Foz promove. Juntar com Neutrogena Sun Fresh FPS70 (1º online, só 2 farmácias em promoção) numa vitrine \"proteção e reparação\".",
+   "itens": []
   }
  ]
 }

@@ -1,8 +1,10 @@
 {
- "gerado_em": "20/11/2026 15:19 (horário de Brasília)",
- "atualizado": "Atualizado em 20/11 15h",
- "ultima_coleta": "2026-11-20 15:17",
+ "gerado_em": "21/11/2026 08:22 (horário de Brasília)",
+ "atualizado": "Atualizado em 21/11 08h",
+ "ultima_coleta": "2026-11-21 08:21",
  "fontes_ultima_coleta": [
+  "Amazon · Beleza (departamento)",
+  "Amazon · Corpo e banho",
   "Amazon · Cuidados com a pele",
   "Amazon · Cuidados com o cabelo",
   "Amazon · Dermocosméticos",
@@ -16,15 +18,176 @@
  ],
  "banco_inicio": "2026-11-18",
  "banco_inicio_txt": "18/11",
- "dias_no_banco": 3,
- "n_coletas": 8,
- "n_linhas_banco": 1970,
- "aviso_7dias": "Banco iniciado em 18/11 — histórico ainda em formação (3 de 7 dias).",
+ "dias_no_banco": 4,
+ "n_coletas": 9,
+ "n_linhas_banco": 2221,
+ "aviso_7dias": "Banco iniciado em 18/11 — histórico ainda em formação (4 de 7 dias).",
  "criterio_hoje": "Coleta mais recente. Cada lista em que o produto aparece soma pontos (1º lugar = 1 ponto, 30º = 0,03); o mesmo produto em várias lojas/categorias sobe no ranking.",
- "criterio_7dias": "Últimos 7 dias (14/11 a 20/11): soma, por dia, da melhor rodada (aparições × posição). Tendência = melhor posição do 1º x último dia.",
+ "criterio_7dias": "Últimos 7 dias (15/11 a 21/11): soma, por dia, da melhor rodada (aparições × posição). Tendência = melhor posição do 1º x último dia.",
  "criterio_promo": "Selo: farmácias do radar de Foz com a mesma marca e linha em promoção hoje (promocoes_do_dia.json); 'outro item' = só a marca bate; 7 dias = banco do radar.",
  "fonte": "Fonte: mais vendidos da Amazon e do Mercado Livre (vendas online, não de farmácia).",
  "hoje": [
+  {
+   "chave": "cetaphil||hidratante",
+   "nome": "Cetaphil Loção Hidratante",
+   "marca": "Cetaphil",
+   "linha": "",
+   "lojas": [
+    {
+     "loja": "Amazon",
+     "melhor_posicao": 2,
+     "categoria": "Dermocosméticos",
+     "url": "https://www.amazon.com.br/dp/B079VPMXHF"
+    }
+   ],
+   "melhor_posicao": 2,
+   "categorias": [
+    "Amazon · Beleza (departamento)",
+    "Amazon · Corpo e banho",
+    "Amazon · Cuidados com a pele",
+    "Amazon · Dermocosméticos"
+   ],
+   "n_listas": 4,
+   "preco_min": 69.99,
+   "preco_max": 69.99,
+   "url": "https://www.amazon.com.br/dp/B079VPMXHF",
+   "promo_foz": {
+    "tipo": "linha",
+    "n_farmacias": 20,
+    "selo": "20 farmácias em promoção em Foz",
+    "redes": [
+     "Coperfarma"
+    ],
+    "chaves": [
+     "locaohidratantecetaphil473ml"
+    ],
+    "nomes": [
+     "Loção Hidratante Cetaphil 473mL"
+    ],
+    "n_semana": 1,
+    "farmacias_semana": [
+     "Coperfarma"
+    ]
+   },
+   "pontos": 3.03,
+   "pos": 1
+  },
+  {
+   "chave": "la roche-posay|cicaplast|pomada",
+   "nome": "La Roche-Posay Cicaplast Baume B5+ Cuidado Multirreparador Calmante",
+   "marca": "La Roche-Posay",
+   "linha": "cicaplast",
+   "lojas": [
+    {
+     "loja": "Amazon",
+     "melhor_posicao": 1,
+     "categoria": "Dermocosméticos",
+     "url": "https://www.amazon.com.br/dp/B072MK7BN2"
+    }
+   ],
+   "melhor_posicao": 1,
+   "categorias": [
+    "Amazon · Beleza (departamento)",
+    "Amazon · Cuidados com a pele",
+    "Amazon · Dermocosméticos"
+   ],
+   "n_listas": 3,
+   "preco_min": 64.37,
+   "preco_max": 64.37,
+   "url": "https://www.amazon.com.br/dp/B072MK7BN2",
+   "promo_foz": {
+    "tipo": "nenhum",
+    "n_farmacias": 0,
+    "selo": "ninguém promove em Foz — oportunidade",
+    "redes": [],
+    "chaves": [],
+    "nomes": [],
+    "n_semana": 0,
+    "farmacias_semana": []
+   },
+   "pontos": 2.9,
+   "pos": 2
+  },
+  {
+   "chave": "Amazon:B0FKW1RZ1B",
+   "nome": "Protetor Solar Facial Diário FPS 50 Cenoura & Bronze 50g | Proteção facial para uso diário",
+   "marca": "",
+   "linha": "",
+   "lojas": [
+    {
+     "loja": "Amazon",
+     "melhor_posicao": 1,
+     "categoria": "Protetores solares",
+     "url": "https://www.amazon.com.br/dp/B0FKW1RZ1B"
+    }
+   ],
+   "melhor_posicao": 1,
+   "categorias": [
+    "Amazon · Beleza (departamento)",
+    "Amazon · Cuidados com a pele",
+    "Amazon · Protetores solares"
+   ],
+   "n_listas": 3,
+   "preco_min": 29.22,
+   "preco_max": 29.22,
+   "url": "https://www.amazon.com.br/dp/B0FKW1RZ1B",
+   "promo_foz": {
+    "tipo": "sem_marca",
+    "n_farmacias": 0,
+    "selo": "marca não identificada no anúncio — sem cruzamento com Foz",
+    "redes": [],
+    "chaves": [],
+    "nomes": [],
+    "n_semana": 0,
+    "farmacias_semana": []
+   },
+   "pontos": 2.43,
+   "pos": 3
+  },
+  {
+   "chave": "nivea|milk|hidratante|kit",
+   "nome": "NIVEA Kit Loção Hidratante Milk Pele Seca a Extrasseca 400ml (2 unidades)",
+   "marca": "Nivea",
+   "linha": "milk",
+   "lojas": [
+    {
+     "loja": "Amazon",
+     "melhor_posicao": 2,
+     "categoria": "Cuidados com a pele",
+     "url": "https://www.amazon.com.br/dp/B0DK4975DJ"
+    }
+   ],
+   "melhor_posicao": 2,
+   "categorias": [
+    "Amazon · Beleza (departamento)",
+    "Amazon · Corpo e banho",
+    "Amazon · Cuidados com a pele"
+   ],
+   "n_listas": 3,
+   "preco_min": 36.9,
+   "preco_max": 36.9,
+   "url": "https://www.amazon.com.br/dp/B0DK4975DJ",
+   "promo_foz": {
+    "tipo": "linha",
+    "n_farmacias": 3,
+    "selo": "3 farmácias em promoção em Foz",
+    "redes": [
+     "Droga Raia"
+    ],
+    "chaves": [
+     "nivealocaohidratante"
+    ],
+    "nomes": [
+     "Nivea loção hidratante (Banho Radiante, Milk, Soft Milk)"
+    ],
+    "n_semana": 1,
+    "farmacias_semana": [
+     "Droga Raia (@raiaoficial)"
+    ]
+   },
+   "pontos": 2.43,
+   "pos": 4
+  },
   {
    "chave": "neutrogena|sun fresh|protetor solar|fps70",
    "nome": "Protetor Solar Facial Neutrogena Sun Fresh Derm Care, Sem Cor, FPS 70, 40g | Pele Oleosa, Não…",
@@ -33,18 +196,19 @@
    "lojas": [
     {
      "loja": "Amazon",
-     "melhor_posicao": 1,
+     "melhor_posicao": 4,
      "categoria": "Protetores solares",
      "url": "https://www.amazon.com.br/dp/B08NVMP2YZ"
     }
    ],
-   "melhor_posicao": 1,
+   "melhor_posicao": 4,
    "categorias": [
+    "Amazon · Beleza (departamento)",
     "Amazon · Cuidados com a pele",
     "Amazon · Dermocosméticos",
     "Amazon · Protetores solares"
    ],
-   "n_listas": 3,
+   "n_listas": 4,
    "preco_min": 39.0,
    "preco_max": 60.84,
    "url": "https://www.amazon.com.br/dp/B08NVMP2YZ",
@@ -70,31 +234,32 @@
      "Farmácia Preço Popular (CLAMED)"
     ]
    },
-   "pontos": 2.27,
-   "pos": 1
+   "pontos": 2.3,
+   "pos": 5
   },
   {
-   "chave": "la roche-posay|cicaplast|pomada",
-   "nome": "La Roche-Posay Cicaplast Baume B5+ Cuidado Multirreparador Calmante",
-   "marca": "La Roche-Posay",
-   "linha": "cicaplast",
+   "chave": "cerave||hidratante",
+   "nome": "CeraVe, Loção Hidratante Corporal, com textura Fluida e Ácido Hialurônico",
+   "marca": "CeraVe",
+   "linha": "",
    "lojas": [
     {
      "loja": "Amazon",
-     "melhor_posicao": 1,
+     "melhor_posicao": 4,
      "categoria": "Dermocosméticos",
-     "url": "https://www.amazon.com.br/dp/B072MK7BN2"
+     "url": "https://www.amazon.com.br/dp/B07RK4HST7"
     }
    ],
-   "melhor_posicao": 1,
+   "melhor_posicao": 4,
    "categorias": [
+    "Amazon · Corpo e banho",
     "Amazon · Cuidados com a pele",
     "Amazon · Dermocosméticos"
    ],
-   "n_listas": 2,
-   "preco_min": 64.37,
-   "preco_max": 64.37,
-   "url": "https://www.amazon.com.br/dp/B072MK7BN2",
+   "n_listas": 3,
+   "preco_min": 112.9,
+   "preco_max": 112.9,
+   "url": "https://www.amazon.com.br/dp/B07RK4HST7",
    "promo_foz": {
     "tipo": "nenhum",
     "n_farmacias": 0,
@@ -105,51 +270,54 @@
     "n_semana": 0,
     "farmacias_semana": []
    },
-   "pontos": 2.0,
-   "pos": 2
+   "pontos": 2.17,
+   "pos": 6
   },
   {
-   "chave": "cetaphil||hidratante",
-   "nome": "Cetaphil Loção Hidratante",
-   "marca": "Cetaphil",
-   "linha": "",
+   "chave": "l'oreal paris (elseve)|oleo extraordinario|leave-in",
+   "nome": "L'Oréal Paris Elseve Óleo Extraordinário Finalizador Capilar, Nutrição Profunda com 6 Óleos Preciosos,…",
+   "marca": "L'Oréal Paris (Elseve)",
+   "linha": "oleo extraordinario",
    "lojas": [
     {
      "loja": "Amazon",
-     "melhor_posicao": 2,
-     "categoria": "Dermocosméticos",
-     "url": "https://www.amazon.com.br/dp/B079VPMXHF"
+     "melhor_posicao": 1,
+     "categoria": "Cuidados com o cabelo",
+     "url": "https://www.amazon.com.br/dp/B07H113TPQ"
     }
    ],
-   "melhor_posicao": 2,
+   "melhor_posicao": 1,
    "categorias": [
-    "Amazon · Cuidados com a pele",
-    "Amazon · Dermocosméticos"
+    "Amazon · Beleza (departamento)",
+    "Amazon · Cuidados com o cabelo"
    ],
    "n_listas": 2,
-   "preco_min": 69.99,
-   "preco_max": 69.99,
-   "url": "https://www.amazon.com.br/dp/B079VPMXHF",
+   "preco_min": 29.9,
+   "preco_max": 29.9,
+   "url": "https://www.amazon.com.br/dp/B07H113TPQ",
    "promo_foz": {
-    "tipo": "linha",
-    "n_farmacias": 20,
-    "selo": "20 farmácias em promoção em Foz",
+    "tipo": "marca",
+    "n_farmacias": 5,
+    "selo": "marca em promoção em 5 farmácias de Foz (outro item)",
     "redes": [
-     "Coperfarma"
+     "Droga Raia",
+     "Farmácia Preço Popular"
     ],
     "chaves": [
-     "locaohidratantecetaphil473ml"
+     "elseveserumreparacaomolecular",
+     "serumlorealpariselsevelisosonhos100ml"
     ],
     "nomes": [
-     "Loção Hidratante Cetaphil 473mL"
+     "Elseve sérum Reparação Molecular",
+     "Sérum Loreal Paris Elseve Liso Dos Sonhos 100ml"
     ],
     "n_semana": 1,
     "farmacias_semana": [
-     "Coperfarma"
+     "Preço Justo (@precojustoclubjusto)"
     ]
    },
-   "pontos": 1.83,
-   "pos": 3
+   "pontos": 2.0,
+   "pos": 7
   },
   {
    "chave": "nivea|sun|protetor solar|fps60",
@@ -166,26 +334,25 @@
    ],
    "melhor_posicao": 2,
    "categorias": [
+    "Amazon · Beleza (departamento)",
     "Amazon · Cuidados com a pele",
     "Amazon · Protetores solares"
    ],
-   "n_listas": 2,
+   "n_listas": 3,
    "preco_min": 37.17,
    "preco_max": 37.17,
    "url": "https://www.amazon.com.br/dp/B077BY8HQV",
    "promo_foz": {
     "tipo": "marca",
-    "n_farmacias": 38,
-    "selo": "marca em promoção em 38 farmácias de Foz (outro item)",
+    "n_farmacias": 19,
+    "selo": "marca em promoção em 19 farmácias de Foz (outro item)",
     "redes": [
      "Droga Raia",
      "Farmácia Preço Popular",
      "Panvel",
-     "Preço Justo",
      "São João"
     ],
     "chaves": [
-     "cremeniveafacial100g",
      "desodoranteaerosolniveamenoriginalprotectprotectcareembalagemeconomica",
      "desodoranteaerosolniveainvisibleblackwhiteclear200ml",
      "nivealocaohidratante",
@@ -193,7 +360,6 @@
      "sabonetenivealiquido200mloleobanho"
     ],
     "nomes": [
-     "Creme Nivea facial 100g",
      "Desodorante aerosol Nivea Invisible Black&White Clear 200ml",
      "Desodorante aerosol Nivea Men Original Protect / Protect & Care embalagem econômica",
      "Nivea loção hidratante (Banho Radiante, Milk, Soft Milk)",
@@ -203,8 +369,136 @@
     "n_semana": 0,
     "farmacias_semana": []
    },
-   "pontos": 1.77,
-   "pos": 4
+   "pontos": 1.97,
+   "pos": 8
+  },
+  {
+   "chave": "nivea||sabonete",
+   "nome": "Sabonete em Barra NIVEA Creme Care, 90g, Pack com 6 Unidades | Com Glicerina, Fragrância NIVEA Creme, Com…",
+   "marca": "Nivea",
+   "linha": "",
+   "lojas": [
+    {
+     "loja": "Amazon",
+     "melhor_posicao": 1,
+     "categoria": "Corpo e banho",
+     "url": "https://www.amazon.com.br/dp/B08VGBZGWV"
+    }
+   ],
+   "melhor_posicao": 1,
+   "categorias": [
+    "Amazon · Beleza (departamento)",
+    "Amazon · Corpo e banho"
+   ],
+   "n_listas": 2,
+   "preco_min": 16.79,
+   "preco_max": 16.79,
+   "url": "https://www.amazon.com.br/dp/B08VGBZGWV",
+   "promo_foz": {
+    "tipo": "linha",
+    "n_farmacias": 5,
+    "selo": "5 farmácias em promoção em Foz",
+    "redes": [
+     "Farmácia Preço Popular",
+     "Panvel"
+    ],
+    "chaves": [
+     "saboneteliquidoniveaoleobanho200ml",
+     "sabonetenivealiquido200mloleobanho"
+    ],
+    "nomes": [
+     "Sabonete Nivea Liquido 200ml Oleo De Banho",
+     "Sabonete líquido Nivea Óleo de Banho 200ml"
+    ],
+    "n_semana": 2,
+    "farmacias_semana": [
+     "Farmácia Preço Popular (CLAMED)",
+     "Panvel (@panvelfarmacias)"
+    ]
+   },
+   "pontos": 1.93,
+   "pos": 9
+  },
+  {
+   "chave": "lola cosmetics|||B09KCYYZNG",
+   "nome": "Densidade Acidificante Capilar 250g, Lola Cosmetics | Praticidade no dia a dia – 250g",
+   "marca": "Lola Cosmetics",
+   "linha": "",
+   "lojas": [
+    {
+     "loja": "Amazon",
+     "melhor_posicao": 2,
+     "categoria": "Cuidados com o cabelo",
+     "url": "https://www.amazon.com.br/dp/B09KCYYZNG"
+    }
+   ],
+   "melhor_posicao": 2,
+   "categorias": [
+    "Amazon · Beleza (departamento)",
+    "Amazon · Cuidados com o cabelo"
+   ],
+   "n_listas": 2,
+   "preco_min": 20.78,
+   "preco_max": 20.78,
+   "url": "https://www.amazon.com.br/dp/B09KCYYZNG",
+   "promo_foz": {
+    "tipo": "nenhum",
+    "n_farmacias": 0,
+    "selo": "ninguém promove em Foz — oportunidade",
+    "redes": [],
+    "chaves": [],
+    "nomes": [],
+    "n_semana": 0,
+    "farmacias_semana": []
+   },
+   "pontos": 1.93,
+   "pos": 10
+  },
+  {
+   "chave": "dove|sabonete|sabonete",
+   "nome": "Dove Sabonete em Barra Original 90g 6 Unidades | Hidratação clássica em pack",
+   "marca": "Dove",
+   "linha": "sabonete",
+   "lojas": [
+    {
+     "loja": "Amazon",
+     "melhor_posicao": 2,
+     "categoria": "Corpo e banho",
+     "url": "https://www.amazon.com.br/dp/B07LFFGZ93"
+    }
+   ],
+   "melhor_posicao": 2,
+   "categorias": [
+    "Amazon · Beleza (departamento)",
+    "Amazon · Corpo e banho"
+   ],
+   "n_listas": 2,
+   "preco_min": 26.99,
+   "preco_max": 26.99,
+   "url": "https://www.amazon.com.br/dp/B07LFFGZ93",
+   "promo_foz": {
+    "tipo": "linha",
+    "n_farmacias": 20,
+    "selo": "20 farmácias em promoção em Foz",
+    "redes": [
+     "Masterfarma",
+     "Preço Justo Três Lagoas"
+    ],
+    "chaves": [
+     "sabonetedove"
+    ],
+    "nomes": [
+     "Sabonete Dove"
+    ],
+    "n_semana": 3,
+    "farmacias_semana": [
+     "Masterfarma (@masterfarma_foz)",
+     "Preço Justo Três Lagoas (@farmaciaprecojustotreslagoas)",
+     "Preço Popular"
+    ]
+   },
+   "pontos": 1.83,
+   "pos": 11
   },
   {
    "chave": "minesol||protetor solar|fps70",
@@ -221,10 +515,11 @@
    ],
    "melhor_posicao": 3,
    "categorias": [
+    "Amazon · Beleza (departamento)",
     "Amazon · Cuidados com a pele",
     "Amazon · Protetores solares"
    ],
-   "n_listas": 2,
+   "n_listas": 3,
    "preco_min": 55.44,
    "preco_max": 55.44,
    "url": "https://www.amazon.com.br/dp/B07Y2BK4GJ",
@@ -238,8 +533,373 @@
     "n_semana": 0,
     "farmacias_semana": []
    },
+   "pontos": 1.83,
+   "pos": 12
+  },
+  {
+   "chave": "l'oreal paris (elseve)||leave-in",
+   "nome": "Sérum Leave-in Cabelos Finos Elseve L'Oréal Paris Colágeno Encorpador 100ml | Injeção de massa, 7% de…",
+   "marca": "L'Oréal Paris (Elseve)",
+   "linha": "",
+   "lojas": [
+    {
+     "loja": "Amazon",
+     "melhor_posicao": 3,
+     "categoria": "Cuidados com o cabelo",
+     "url": "https://www.amazon.com.br/dp/B0G3YGYW4Z"
+    }
+   ],
+   "melhor_posicao": 3,
+   "categorias": [
+    "Amazon · Beleza (departamento)",
+    "Amazon · Cuidados com o cabelo"
+   ],
+   "n_listas": 2,
+   "preco_min": 34.42,
+   "preco_max": 34.42,
+   "url": "https://www.amazon.com.br/dp/B0G3YGYW4Z",
+   "promo_foz": {
+    "tipo": "marca",
+    "n_farmacias": 5,
+    "selo": "marca em promoção em 5 farmácias de Foz (outro item)",
+    "redes": [
+     "Droga Raia",
+     "Farmácia Preço Popular"
+    ],
+    "chaves": [
+     "elseveserumreparacaomolecular",
+     "serumlorealpariselsevelisosonhos100ml"
+    ],
+    "nomes": [
+     "Elseve sérum Reparação Molecular",
+     "Sérum Loreal Paris Elseve Liso Dos Sonhos 100ml"
+    ],
+    "n_semana": 3,
+    "farmacias_semana": [
+     "Nissei (@farmaciasnissei)",
+     "Preço Justo (@precojustoclubjusto)",
+     "Preço Popular"
+    ]
+   },
+   "pontos": 1.77,
+   "pos": 13
+  },
+  {
+   "chave": "secret||desodorante",
+   "nome": "Secret Desodorante Antitranspirante em Gel Berry 45g",
+   "marca": "Secret",
+   "linha": "",
+   "lojas": [
+    {
+     "loja": "Amazon",
+     "melhor_posicao": 3,
+     "categoria": "Corpo e banho",
+     "url": "https://www.amazon.com.br/dp/B0CZC5XTVJ"
+    }
+   ],
+   "melhor_posicao": 3,
+   "categorias": [
+    "Amazon · Beleza (departamento)",
+    "Amazon · Corpo e banho"
+   ],
+   "n_listas": 2,
+   "preco_min": 16.1,
+   "preco_max": 16.1,
+   "url": "https://www.amazon.com.br/dp/B0CZC5XTVJ",
+   "promo_foz": {
+    "tipo": "linha",
+    "n_farmacias": 2,
+    "selo": "2 farmácias em promoção em Foz",
+    "redes": [
+     "Preço Popular"
+    ],
+    "chaves": [
+     "desodorantegelsecret45g"
+    ],
+    "nomes": [
+     "Desodorante gel Secret 45g"
+    ],
+    "n_semana": 1,
+    "farmacias_semana": [
+     "Preço Popular"
+    ]
+   },
+   "pontos": 1.7,
+   "pos": 14
+  },
+  {
+   "chave": "clear|men|shampoo",
+   "nome": "Clear Shampoo Men Anticaspa Ice Cool Menthol 400Ml | Anticaspa mentolado refrescante",
+   "marca": "Clear",
+   "linha": "men",
+   "lojas": [
+    {
+     "loja": "Amazon",
+     "melhor_posicao": 4,
+     "categoria": "Cuidados com o cabelo",
+     "url": "https://www.amazon.com.br/dp/B07LFGWRC7"
+    }
+   ],
+   "melhor_posicao": 4,
+   "categorias": [
+    "Amazon · Beleza (departamento)",
+    "Amazon · Cuidados com o cabelo"
+   ],
+   "n_listas": 2,
+   "preco_min": 17.0,
+   "preco_max": 17.0,
+   "url": "https://www.amazon.com.br/dp/B07LFGWRC7",
+   "promo_foz": {
+    "tipo": "linha",
+    "n_farmacias": 19,
+    "selo": "19 farmácias em promoção em Foz",
+    "redes": [
+     "Preço Justo Três Lagoas"
+    ],
+    "chaves": [
+     "shampooclearmen400ml"
+    ],
+    "nomes": [
+     "Shampoo Clear Men 400ml"
+    ],
+    "n_semana": 1,
+    "farmacias_semana": [
+     "Preço Justo Três Lagoas (@farmaciaprecojustotreslagoas)"
+    ]
+   },
+   "pontos": 1.7,
+   "pos": 15
+  },
+  {
+   "chave": "neutrogena|hydro boost|hidratante",
+   "nome": "Hidratante Facial Neutrogena Hydro Boost Water Gel, Refil, 50g | Controle de Oleosidade, Textura…",
+   "marca": "Neutrogena",
+   "linha": "hydro boost",
+   "lojas": [
+    {
+     "loja": "Amazon",
+     "melhor_posicao": 7,
+     "categoria": "Cuidados com a pele",
+     "url": "https://www.amazon.com.br/dp/B0CB716LLZ"
+    }
+   ],
+   "melhor_posicao": 7,
+   "categorias": [
+    "Amazon · Beleza (departamento)",
+    "Amazon · Cuidados com a pele",
+    "Amazon · Dermocosméticos"
+   ],
+   "n_listas": 3,
+   "preco_min": 46.9,
+   "preco_max": 57.63,
+   "url": "https://www.amazon.com.br/dp/B0CB716LLZ",
+   "promo_foz": {
+    "tipo": "linha",
+    "n_farmacias": 2,
+    "selo": "2 farmácias em promoção em Foz",
+    "redes": [
+     "Farmácia Preço Popular"
+    ],
+    "chaves": [
+     "hidratantefacialneutrogenahydroboostwatergel50g"
+    ],
+    "nomes": [
+     "Hidratante Facial Neutrogena Hydro Boost Water Gel 50g"
+    ],
+    "n_semana": 2,
+    "farmacias_semana": [
+     "Farmácia Preço Popular (CLAMED)",
+     "Nissei (@farmaciasnissei)"
+    ]
+   },
    "pontos": 1.67,
-   "pos": 5
+   "pos": 16
+  },
+  {
+   "chave": "l'oreal paris (elseve)||mascara capilar",
+   "nome": "Máscara de Tratamento Elseve L'Oréal Paris Colágeno Encorpador 300g | Fórmula reconstrutora, efeito teia,…",
+   "marca": "L'Oréal Paris (Elseve)",
+   "linha": "",
+   "lojas": [
+    {
+     "loja": "Amazon",
+     "melhor_posicao": 5,
+     "categoria": "Cuidados com o cabelo",
+     "url": "https://www.amazon.com.br/dp/B0G45KPX15"
+    }
+   ],
+   "melhor_posicao": 5,
+   "categorias": [
+    "Amazon · Beleza (departamento)",
+    "Amazon · Cuidados com o cabelo"
+   ],
+   "n_listas": 2,
+   "preco_min": 24.14,
+   "preco_max": 24.14,
+   "url": "https://www.amazon.com.br/dp/B0G45KPX15",
+   "promo_foz": {
+    "tipo": "marca",
+    "n_farmacias": 5,
+    "selo": "marca em promoção em 5 farmácias de Foz (outro item)",
+    "redes": [
+     "Droga Raia",
+     "Farmácia Preço Popular"
+    ],
+    "chaves": [
+     "elseveserumreparacaomolecular",
+     "serumlorealpariselsevelisosonhos100ml"
+    ],
+    "nomes": [
+     "Elseve sérum Reparação Molecular",
+     "Sérum Loreal Paris Elseve Liso Dos Sonhos 100ml"
+    ],
+    "n_semana": 0,
+    "farmacias_semana": []
+   },
+   "pontos": 1.6,
+   "pos": 17
+  },
+  {
+   "chave": "dove|||B0DC74428B",
+   "nome": "Dove Óleo de Banho Hidratação Intensa e Limpeza Delicada, Glicerinado com 96% Ingredientes de Origem…",
+   "marca": "Dove",
+   "linha": "",
+   "lojas": [
+    {
+     "loja": "Amazon",
+     "melhor_posicao": 4,
+     "categoria": "Corpo e banho",
+     "url": "https://www.amazon.com.br/dp/B0DC74428B"
+    }
+   ],
+   "melhor_posicao": 4,
+   "categorias": [
+    "Amazon · Beleza (departamento)",
+    "Amazon · Corpo e banho"
+   ],
+   "n_listas": 2,
+   "preco_min": 29.9,
+   "preco_max": 29.9,
+   "url": "https://www.amazon.com.br/dp/B0DC74428B",
+   "promo_foz": {
+    "tipo": "marca",
+    "n_farmacias": 31,
+    "selo": "marca em promoção em 31 farmácias de Foz (outro item)",
+    "redes": [
+     "Masterfarma",
+     "Nissei",
+     "Preço Justo Três Lagoas"
+    ],
+    "chaves": [
+     "sabonetedove",
+     "kitdoveshampoocondicionador",
+     "desodoranteaerossoldove150ml",
+     "desodorantedoveinvisiblecare250ml",
+     "serumcorporaldovefragrancias380ml",
+     "mascaradove2em1320g",
+     "serumcapilaroleodovebondintenseuvrepairglowferulico110ml",
+     "sprayoleocorporaldoveserumdeo150ml"
+    ],
+    "nomes": [
+     "Desodorante Dove Invisible Care 250ml",
+     "Desodorante aerossol Dove 150ml",
+     "Kit Dove shampoo + condicionador",
+     "Máscara Dove 2 em 1 320g",
+     "Sabonete Dove",
+     "Spray óleo corporal Dove Sérum Deo 150ml"
+    ],
+    "n_semana": 0,
+    "farmacias_semana": []
+   },
+   "pontos": 1.57,
+   "pos": 18
+  },
+  {
+   "chave": "lola cosmetics||hidratante",
+   "nome": "Morte Súbita Máscara Super Hidratante 450g , Lola Cosmetics | Hidratação profunda para fios – 450g",
+   "marca": "Lola Cosmetics",
+   "linha": "",
+   "lojas": [
+    {
+     "loja": "Amazon",
+     "melhor_posicao": 6,
+     "categoria": "Cuidados com o cabelo",
+     "url": "https://www.amazon.com.br/dp/B074LTNQBP"
+    }
+   ],
+   "melhor_posicao": 6,
+   "categorias": [
+    "Amazon · Beleza (departamento)",
+    "Amazon · Cuidados com o cabelo"
+   ],
+   "n_listas": 2,
+   "preco_min": 30.17,
+   "preco_max": 30.17,
+   "url": "https://www.amazon.com.br/dp/B074LTNQBP",
+   "promo_foz": {
+    "tipo": "nenhum",
+    "n_farmacias": 0,
+    "selo": "ninguém promove em Foz — oportunidade",
+    "redes": [],
+    "chaves": [],
+    "nomes": [],
+    "n_semana": 0,
+    "farmacias_semana": []
+   },
+   "pontos": 1.53,
+   "pos": 19
+  },
+  {
+   "chave": "nivea|labial|hidratante labial",
+   "nome": "NIVEA Hidratante Labial Amora Shine 4,8g, Hidratação Intensa 24h, Cor Suave, Brilho Delicado, Cuidado…",
+   "marca": "Nivea",
+   "linha": "labial",
+   "lojas": [
+    {
+     "loja": "Amazon",
+     "melhor_posicao": 3,
+     "categoria": "Cuidados com a pele",
+     "url": "https://www.amazon.com.br/dp/B07LFLRQXP"
+    }
+   ],
+   "melhor_posicao": 3,
+   "categorias": [
+    "Amazon · Beleza (departamento)",
+    "Amazon · Cuidados com a pele"
+   ],
+   "n_listas": 2,
+   "preco_min": 12.87,
+   "preco_max": 12.87,
+   "url": "https://www.amazon.com.br/dp/B07LFLRQXP",
+   "promo_foz": {
+    "tipo": "marca",
+    "n_farmacias": 19,
+    "selo": "marca em promoção em 19 farmácias de Foz (outro item)",
+    "redes": [
+     "Droga Raia",
+     "Farmácia Preço Popular",
+     "Panvel",
+     "São João"
+    ],
+    "chaves": [
+     "desodoranteaerosolniveamenoriginalprotectprotectcareembalagemeconomica",
+     "desodoranteaerosolniveainvisibleblackwhiteclear200ml",
+     "nivealocaohidratante",
+     "saboneteliquidoniveaoleobanho200ml",
+     "sabonetenivealiquido200mloleobanho"
+    ],
+    "nomes": [
+     "Desodorante aerosol Nivea Invisible Black&White Clear 200ml",
+     "Desodorante aerosol Nivea Men Original Protect / Protect & Care embalagem econômica",
+     "Nivea loção hidratante (Banho Radiante, Milk, Soft Milk)",
+     "Sabonete Nivea Liquido 200ml Oleo De Banho",
+     "Sabonete líquido Nivea Óleo de Banho 200ml"
+    ],
+    "n_semana": 0,
+    "farmacias_semana": []
+   },
+   "pontos": 1.5,
+   "pos": 20
   },
   {
    "chave": "neutrogena|sun fresh|protetor solar|fps50",
@@ -249,19 +909,19 @@
    "lojas": [
     {
      "loja": "Amazon",
-     "melhor_posicao": 7,
+     "melhor_posicao": 8,
      "categoria": "Dermocosméticos",
      "url": "https://www.amazon.com.br/dp/B079ZS4Z5Z"
     }
    ],
-   "melhor_posicao": 7,
+   "melhor_posicao": 8,
    "categorias": [
     "Amazon · Dermocosméticos",
     "Amazon · Protetores solares"
    ],
    "n_listas": 2,
-   "preco_min": 52.9,
-   "preco_max": 52.9,
+   "preco_min": 57.59,
+   "preco_max": 57.59,
    "url": "https://www.amazon.com.br/dp/B079ZS4Z5Z",
    "promo_foz": {
     "tipo": "linha",
@@ -285,43 +945,8 @@
      "Farmácia Preço Popular (CLAMED)"
     ]
    },
-   "pontos": 1.5,
-   "pos": 6
-  },
-  {
-   "chave": "la roche-posay|anthelios|",
-   "nome": "La Roche-Posay Anthelios Airlicium",
-   "marca": "La Roche-Posay",
-   "linha": "anthelios",
-   "lojas": [
-    {
-     "loja": "Amazon",
-     "melhor_posicao": 8,
-     "categoria": "Protetores solares",
-     "url": "https://www.amazon.com.br/dp/B0BJ347WND"
-    }
-   ],
-   "melhor_posicao": 8,
-   "categorias": [
-    "Amazon · Dermocosméticos",
-    "Amazon · Protetores solares"
-   ],
-   "n_listas": 2,
-   "preco_min": 79.39,
-   "preco_max": 79.39,
-   "url": "https://www.amazon.com.br/dp/B0BJ347WND",
-   "promo_foz": {
-    "tipo": "nenhum",
-    "n_farmacias": 0,
-    "selo": "ninguém promove em Foz — oportunidade",
-    "redes": [],
-    "chaves": [],
-    "nomes": [],
-    "n_semana": 0,
-    "farmacias_semana": []
-   },
-   "pontos": 1.5,
-   "pos": 7
+   "pontos": 1.47,
+   "pos": 21
   },
   {
    "chave": "nivea|intimo|sabonete",
@@ -347,17 +972,15 @@
    "url": "https://www.amazon.com.br/dp/B07F3DK2CK",
    "promo_foz": {
     "tipo": "marca",
-    "n_farmacias": 38,
-    "selo": "marca em promoção em 38 farmácias de Foz (outro item)",
+    "n_farmacias": 19,
+    "selo": "marca em promoção em 19 farmácias de Foz (outro item)",
     "redes": [
      "Droga Raia",
      "Farmácia Preço Popular",
      "Panvel",
-     "Preço Justo",
      "São João"
     ],
     "chaves": [
-     "cremeniveafacial100g",
      "desodoranteaerosolniveamenoriginalprotectprotectcareembalagemeconomica",
      "desodoranteaerosolniveainvisibleblackwhiteclear200ml",
      "nivealocaohidratante",
@@ -365,7 +988,6 @@
      "sabonetenivealiquido200mloleobanho"
     ],
     "nomes": [
-     "Creme Nivea facial 100g",
      "Desodorante aerosol Nivea Invisible Black&White Clear 200ml",
      "Desodorante aerosol Nivea Men Original Protect / Protect & Care embalagem econômica",
      "Nivea loção hidratante (Banho Radiante, Milk, Soft Milk)",
@@ -376,30 +998,30 @@
     "farmacias_semana": []
    },
    "pontos": 1.43,
-   "pos": 8
+   "pos": 22
   },
   {
-   "chave": "cerave||hidratante",
-   "nome": "CeraVe, Loção Hidratante Corporal, com textura Fluida e Ácido Hialurônico",
-   "marca": "CeraVe",
+   "chave": "lola cosmetics|||B07SBXMSGB",
+   "nome": "Argan Óleo Reparador 50ml , Lola Cosmetics | Fios brilhantes e reparação",
+   "marca": "Lola Cosmetics",
    "linha": "",
    "lojas": [
     {
      "loja": "Amazon",
-     "melhor_posicao": 4,
-     "categoria": "Dermocosméticos",
-     "url": "https://www.amazon.com.br/dp/B07RK4HST7"
+     "melhor_posicao": 7,
+     "categoria": "Cuidados com o cabelo",
+     "url": "https://www.amazon.com.br/dp/B07SBXMSGB"
     }
    ],
-   "melhor_posicao": 4,
+   "melhor_posicao": 7,
    "categorias": [
-    "Amazon · Cuidados com a pele",
-    "Amazon · Dermocosméticos"
+    "Amazon · Beleza (departamento)",
+    "Amazon · Cuidados com o cabelo"
    ],
    "n_listas": 2,
-   "preco_min": 112.9,
-   "preco_max": 112.9,
-   "url": "https://www.amazon.com.br/dp/B07RK4HST7",
+   "preco_min": 17.43,
+   "preco_max": 17.43,
+   "url": "https://www.amazon.com.br/dp/B07SBXMSGB",
    "promo_foz": {
     "tipo": "nenhum",
     "n_farmacias": 0,
@@ -410,31 +1032,31 @@
     "n_semana": 0,
     "farmacias_semana": []
    },
-   "pontos": 1.4,
-   "pos": 9
+   "pontos": 1.43,
+   "pos": 23
   },
   {
-   "chave": "vichy|dercos|shampoo",
-   "nome": "Shampoo Antiqueda Vichy Dercos Energy+ Aminexil 1,5% 400g",
-   "marca": "Vichy",
-   "linha": "dercos",
+   "chave": "la roche-posay|anthelios|",
+   "nome": "La Roche-Posay Anthelios Airlicium",
+   "marca": "La Roche-Posay",
+   "linha": "anthelios",
    "lojas": [
     {
      "loja": "Amazon",
-     "melhor_posicao": 5,
+     "melhor_posicao": 9,
      "categoria": "Dermocosméticos",
-     "url": "https://www.amazon.com.br/dp/B0C3SQL65C"
+     "url": "https://www.amazon.com.br/dp/B0BJ347WND"
     }
    ],
-   "melhor_posicao": 5,
+   "melhor_posicao": 9,
    "categorias": [
-    "Amazon · Cuidados com o cabelo",
-    "Amazon · Dermocosméticos"
+    "Amazon · Dermocosméticos",
+    "Amazon · Protetores solares"
    ],
    "n_listas": 2,
-   "preco_min": 94.39,
-   "preco_max": 117.13,
-   "url": "https://www.amazon.com.br/dp/B0C3SQL65C",
+   "preco_min": 79.39,
+   "preco_max": 79.39,
+   "url": "https://www.amazon.com.br/dp/B0BJ347WND",
    "promo_foz": {
     "tipo": "nenhum",
     "n_farmacias": 0,
@@ -446,7 +1068,7 @@
     "farmacias_semana": []
    },
    "pontos": 1.4,
-   "pos": 10
+   "pos": 24
   },
   {
    "chave": "carefree||absorvente",
@@ -480,52 +1102,84 @@
     "n_semana": 0,
     "farmacias_semana": []
    },
-   "pontos": 1.33,
-   "pos": 11
+   "pontos": 1.2,
+   "pos": 25
   },
   {
-   "chave": "neutrogena|hydro boost|hidratante",
-   "nome": "Hidratante Facial Neutrogena Hydro Boost Water Gel, Refil, 50g | Controle de Oleosidade, Textura…",
-   "marca": "Neutrogena",
-   "linha": "hydro boost",
+   "chave": "eucerin|oil control|protetor solar|fps60",
+   "nome": "EUCERIN Protetor Solar Facial Oil Control FPS60 50ml, Antioleosidade, Rosto, Proteção UVA, UVB e Luz Visível",
+   "marca": "Eucerin",
+   "linha": "oil control",
    "lojas": [
     {
      "loja": "Amazon",
-     "melhor_posicao": 6,
-     "categoria": "Cuidados com a pele",
-     "url": "https://www.amazon.com.br/dp/B0CB716LLZ"
+     "melhor_posicao": 11,
+     "categoria": "Dermocosméticos",
+     "url": "https://www.amazon.com.br/dp/B079VW5KT6"
     }
    ],
-   "melhor_posicao": 6,
+   "melhor_posicao": 11,
    "categorias": [
-    "Amazon · Cuidados com a pele",
+    "Amazon · Dermocosméticos",
+    "Amazon · Protetores solares"
+   ],
+   "n_listas": 2,
+   "preco_min": 59.9,
+   "preco_max": 59.9,
+   "url": "https://www.amazon.com.br/dp/B079VW5KT6",
+   "promo_foz": {
+    "tipo": "marca",
+    "n_farmacias": 3,
+    "selo": "marca em promoção em 3 farmácias de Foz (outro item)",
+    "redes": [
+     "Droga Raia"
+    ],
+    "chaves": [
+     "eucerinaquaphorpomada"
+    ],
+    "nomes": [
+     "Eucerin Aquaphor pomada"
+    ],
+    "n_semana": 0,
+    "farmacias_semana": []
+   },
+   "pontos": 1.2,
+   "pos": 26
+  },
+  {
+   "chave": "vichy|dercos|shampoo",
+   "nome": "Shampoo Antiqueda Vichy Dercos Energy+ Aminexil 1,5% 400g",
+   "marca": "Vichy",
+   "linha": "dercos",
+   "lojas": [
+    {
+     "loja": "Amazon",
+     "melhor_posicao": 5,
+     "categoria": "Dermocosméticos",
+     "url": "https://www.amazon.com.br/dp/B0C3SQL65C"
+    }
+   ],
+   "melhor_posicao": 5,
+   "categorias": [
+    "Amazon · Cuidados com o cabelo",
     "Amazon · Dermocosméticos"
    ],
    "n_listas": 2,
-   "preco_min": 47.39,
-   "preco_max": 51.9,
-   "url": "https://www.amazon.com.br/dp/B0CB716LLZ",
+   "preco_min": 94.39,
+   "preco_max": 117.13,
+   "url": "https://www.amazon.com.br/dp/B0C3SQL65C",
    "promo_foz": {
-    "tipo": "linha",
-    "n_farmacias": 2,
-    "selo": "2 farmácias em promoção em Foz",
-    "redes": [
-     "Farmácia Preço Popular"
-    ],
-    "chaves": [
-     "hidratantefacialneutrogenahydroboostwatergel50g"
-    ],
-    "nomes": [
-     "Hidratante Facial Neutrogena Hydro Boost Water Gel 50g"
-    ],
-    "n_semana": 2,
-    "farmacias_semana": [
-     "Farmácia Preço Popular (CLAMED)",
-     "Nissei (@farmaciasnissei)"
-    ]
+    "tipo": "nenhum",
+    "n_farmacias": 0,
+    "selo": "ninguém promove em Foz — oportunidade",
+    "redes": [],
+    "chaves": [],
+    "nomes": [],
+    "n_semana": 0,
+    "farmacias_semana": []
    },
-   "pontos": 1.27,
-   "pos": 12
+   "pontos": 1.17,
+   "pos": 27
   },
   {
    "chave": "skin aqua||protetor solar|fps50",
@@ -535,12 +1189,12 @@
    "lojas": [
     {
      "loja": "Amazon",
-     "melhor_posicao": 4,
+     "melhor_posicao": 5,
      "categoria": "Protetores solares",
      "url": "https://www.amazon.com.br/dp/B0C9L4ZNZ8"
     }
    ],
-   "melhor_posicao": 4,
+   "melhor_posicao": 5,
    "categorias": [
     "Amazon · Cuidados com a pele",
     "Amazon · Protetores solares"
@@ -559,105 +1213,51 @@
     "n_semana": 0,
     "farmacias_semana": []
    },
-   "pontos": 1.23,
-   "pos": 13
+   "pontos": 1.1,
+   "pos": 28
   },
   {
-   "chave": "nivea|sun|protetor solar|fps70",
-   "nome": "NIVEA SUN Protetor Solar Facial Toque Seco Antissinais FPS 70 40ml - Com muito alta proteção contra raios…",
-   "marca": "Nivea",
-   "linha": "sun",
+   "chave": "dove|serum corporal|serum",
+   "nome": "Dove Hidratante Sérum Corporal Glicólico + Reparador de Textura 380ml",
+   "marca": "Dove",
+   "linha": "serum corporal",
    "lojas": [
     {
      "loja": "Amazon",
-     "melhor_posicao": 6,
-     "categoria": "Protetores solares",
-     "url": "https://www.amazon.com.br/dp/B0BD6755LC"
+     "melhor_posicao": 12,
+     "categoria": "Corpo e banho",
+     "url": "https://www.amazon.com.br/dp/B0GY9B1RQL"
     }
    ],
-   "melhor_posicao": 6,
+   "melhor_posicao": 12,
    "categorias": [
-    "Amazon · Cuidados com a pele",
-    "Amazon · Protetores solares"
+    "Amazon · Corpo e banho",
+    "Amazon · Cuidados com a pele"
    ],
    "n_listas": 2,
-   "preco_min": 34.9,
-   "preco_max": 34.9,
-   "url": "https://www.amazon.com.br/dp/B0BD6755LC",
-   "promo_foz": {
-    "tipo": "marca",
-    "n_farmacias": 38,
-    "selo": "marca em promoção em 38 farmácias de Foz (outro item)",
-    "redes": [
-     "Droga Raia",
-     "Farmácia Preço Popular",
-     "Panvel",
-     "Preço Justo",
-     "São João"
-    ],
-    "chaves": [
-     "cremeniveafacial100g",
-     "desodoranteaerosolniveamenoriginalprotectprotectcareembalagemeconomica",
-     "desodoranteaerosolniveainvisibleblackwhiteclear200ml",
-     "nivealocaohidratante",
-     "saboneteliquidoniveaoleobanho200ml",
-     "sabonetenivealiquido200mloleobanho"
-    ],
-    "nomes": [
-     "Creme Nivea facial 100g",
-     "Desodorante aerosol Nivea Invisible Black&White Clear 200ml",
-     "Desodorante aerosol Nivea Men Original Protect / Protect & Care embalagem econômica",
-     "Nivea loção hidratante (Banho Radiante, Milk, Soft Milk)",
-     "Sabonete Nivea Liquido 200ml Oleo De Banho",
-     "Sabonete líquido Nivea Óleo de Banho 200ml"
-    ],
-    "n_semana": 0,
-    "farmacias_semana": []
-   },
-   "pontos": 1.03,
-   "pos": 14
-  },
-  {
-   "chave": "l'oreal paris (elseve)|oleo extraordinario|leave-in",
-   "nome": "L'Oréal Paris Elseve Óleo Extraordinário Finalizador Capilar, Nutrição Profunda com 6 Óleos Preciosos,…",
-   "marca": "L'Oréal Paris (Elseve)",
-   "linha": "oleo extraordinario",
-   "lojas": [
-    {
-     "loja": "Amazon",
-     "melhor_posicao": 1,
-     "categoria": "Cuidados com o cabelo",
-     "url": "https://www.amazon.com.br/dp/B07H113TPQ"
-    }
-   ],
-   "melhor_posicao": 1,
-   "categorias": [
-    "Amazon · Cuidados com o cabelo"
-   ],
-   "n_listas": 1,
-   "preco_min": 29.9,
-   "preco_max": 29.9,
-   "url": "https://www.amazon.com.br/dp/B07H113TPQ",
+   "preco_min": 27.54,
+   "preco_max": 27.54,
+   "url": "https://www.amazon.com.br/dp/B0GY9B1RQL",
    "promo_foz": {
     "tipo": "linha",
-    "n_farmacias": 19,
-    "selo": "19 farmácias em promoção em Foz",
+    "n_farmacias": 11,
+    "selo": "11 farmácias em promoção em Foz",
     "redes": [
-     "Preço Justo"
+     "Nissei"
     ],
     "chaves": [
-     "elseveoleoextraordinario100ml"
+     "serumcorporaldovefragrancias380ml"
     ],
     "nomes": [
-     "Elseve Óleo Extraordinário 100ml"
+     "Sérum corporal Dove Fragrâncias 380ml"
     ],
     "n_semana": 1,
     "farmacias_semana": [
-     "Preço Justo (@precojustoclubjusto)"
+     "Nissei (@farmaciasnissei)"
     ]
    },
-   "pontos": 1.0,
-   "pos": 15
+   "pontos": 1.07,
+   "pos": 29
   },
   {
    "chave": "Amazon:B099KTRZP7",
@@ -691,96 +1291,141 @@
     "farmacias_semana": []
    },
    "pontos": 1.0,
-   "pos": 16
+   "pos": 30
   },
   {
-   "chave": "nivea|milk|hidratante|kit",
-   "nome": "NIVEA Kit Loção Hidratante Milk Pele Seca a Extrasseca 400ml (2 unidades)",
+   "chave": "nivea|sun|protetor solar|fps70",
+   "nome": "NIVEA SUN Protetor Solar Facial Toque Seco Antissinais FPS 70 40ml - Com muito alta proteção contra raios…",
    "marca": "Nivea",
-   "linha": "milk",
+   "linha": "sun",
    "lojas": [
     {
      "loja": "Amazon",
-     "melhor_posicao": 2,
-     "categoria": "Cuidados com a pele",
-     "url": "https://www.amazon.com.br/dp/B0DK4975DJ"
+     "melhor_posicao": 6,
+     "categoria": "Protetores solares",
+     "url": "https://www.amazon.com.br/dp/B0BD6755LC"
     }
    ],
-   "melhor_posicao": 2,
+   "melhor_posicao": 6,
    "categorias": [
-    "Amazon · Cuidados com a pele"
+    "Amazon · Cuidados com a pele",
+    "Amazon · Protetores solares"
    ],
-   "n_listas": 1,
-   "preco_min": 34.9,
-   "preco_max": 34.9,
-   "url": "https://www.amazon.com.br/dp/B0DK4975DJ",
+   "n_listas": 2,
+   "preco_min": 24.9,
+   "preco_max": 24.9,
+   "url": "https://www.amazon.com.br/dp/B0BD6755LC",
    "promo_foz": {
-    "tipo": "linha",
-    "n_farmacias": 3,
-    "selo": "3 farmácias em promoção em Foz",
+    "tipo": "marca",
+    "n_farmacias": 19,
+    "selo": "marca em promoção em 19 farmácias de Foz (outro item)",
     "redes": [
-     "Droga Raia"
+     "Droga Raia",
+     "Farmácia Preço Popular",
+     "Panvel",
+     "São João"
     ],
     "chaves": [
-     "nivealocaohidratante"
+     "desodoranteaerosolniveamenoriginalprotectprotectcareembalagemeconomica",
+     "desodoranteaerosolniveainvisibleblackwhiteclear200ml",
+     "nivealocaohidratante",
+     "saboneteliquidoniveaoleobanho200ml",
+     "sabonetenivealiquido200mloleobanho"
     ],
     "nomes": [
-     "Nivea loção hidratante (Banho Radiante, Milk, Soft Milk)"
+     "Desodorante aerosol Nivea Invisible Black&White Clear 200ml",
+     "Desodorante aerosol Nivea Men Original Protect / Protect & Care embalagem econômica",
+     "Nivea loção hidratante (Banho Radiante, Milk, Soft Milk)",
+     "Sabonete Nivea Liquido 200ml Oleo De Banho",
+     "Sabonete líquido Nivea Óleo de Banho 200ml"
     ],
-    "n_semana": 1,
-    "farmacias_semana": [
-     "Droga Raia (@raiaoficial)"
-    ]
+    "n_semana": 0,
+    "farmacias_semana": []
    },
-   "pontos": 0.97,
-   "pos": 17
+   "pontos": 1.0,
+   "pos": 31
   },
   {
-   "chave": "l'oreal paris (elseve)||leave-in",
-   "nome": "Sérum Leave-in Cabelos Finos Elseve L'Oréal Paris Colágeno Encorpador 100ml | Injeção de massa, 7% de…",
-   "marca": "L'Oréal Paris (Elseve)",
+   "chave": "lola cosmetics|||kit|B0DKVJ1HWB",
+   "nome": "Kit Cronograma Capilar Lola Cosmetics Be(m) Dita Ghee, 3 Produtos | Resultados potencializados em conjunto",
+   "marca": "Lola Cosmetics",
    "linha": "",
    "lojas": [
     {
      "loja": "Amazon",
-     "melhor_posicao": 2,
+     "melhor_posicao": 8,
      "categoria": "Cuidados com o cabelo",
-     "url": "https://www.amazon.com.br/dp/B0G3YGYW4Z"
+     "url": "https://www.amazon.com.br/dp/B0DKVJ1HWB"
     }
    ],
-   "melhor_posicao": 2,
+   "melhor_posicao": 8,
    "categorias": [
+    "Amazon · Beleza (departamento)",
     "Amazon · Cuidados com o cabelo"
    ],
-   "n_listas": 1,
-   "preco_min": 32.99,
-   "preco_max": 32.99,
-   "url": "https://www.amazon.com.br/dp/B0G3YGYW4Z",
+   "n_listas": 2,
+   "preco_min": 35.64,
+   "preco_max": 35.64,
+   "url": "https://www.amazon.com.br/dp/B0DKVJ1HWB",
    "promo_foz": {
-    "tipo": "linha",
-    "n_farmacias": 30,
-    "selo": "30 farmácias em promoção em Foz",
+    "tipo": "nenhum",
+    "n_farmacias": 0,
+    "selo": "ninguém promove em Foz — oportunidade",
+    "redes": [],
+    "chaves": [],
+    "nomes": [],
+    "n_semana": 0,
+    "farmacias_semana": []
+   },
+   "pontos": 1.0,
+   "pos": 32
+  },
+  {
+   "chave": "neutrogena|hidrata&repara|hidratante|kit",
+   "nome": "Creme Hidratante Neutrogena Hidrata&Repara, Kit 2 Unidades de 400ml | Corporal, Fragrância Suave, Cruelty-Free",
+   "marca": "Neutrogena",
+   "linha": "hidrata&repara",
+   "lojas": [
+    {
+     "loja": "Amazon",
+     "melhor_posicao": 13,
+     "categoria": "Corpo e banho",
+     "url": "https://www.amazon.com.br/dp/B0F4G1GF7W"
+    }
+   ],
+   "melhor_posicao": 13,
+   "categorias": [
+    "Amazon · Corpo e banho",
+    "Amazon · Cuidados com a pele"
+   ],
+   "n_listas": 2,
+   "preco_min": 47.39,
+   "preco_max": 47.39,
+   "url": "https://www.amazon.com.br/dp/B0F4G1GF7W",
+   "promo_foz": {
+    "tipo": "marca",
+    "n_farmacias": 2,
+    "selo": "marca em promoção em 2 farmácias de Foz (outro item)",
     "redes": [
-     "Nissei",
-     "Preço Justo"
+     "Farmácia Preço Popular"
     ],
     "chaves": [
-     "elseveoleoextraordinario100ml",
-     "oleocapilarouleaveinelseve100ml"
+     "hidratantefacialneutrogenahydroboostwatergel50g",
+     "neutrogenasunfreshprotetorsolar200mlfps7040gfps70facialespecial",
+     "protetorsolarneutrogenasunfreshfps70200ml",
+     "protetorsolarneutrogenasunfreshfps50200ml"
     ],
     "nomes": [
-     "Elseve Óleo Extraordinário 100ml",
-     "Óleo capilar ou leave-in Elseve 100ml"
+     "Hidratante Facial Neutrogena Hydro Boost Water Gel 50g",
+     "Neutrogena Sun Fresh Protetor Solar 200ml Fps70 + 40g Fps70 Facial  Especial",
+     "Protetor Solar Neutrogena Sun Fresh Fps50 200ml",
+     "Protetor Solar Neutrogena Sun Fresh Fps70 200ml"
     ],
-    "n_semana": 3,
-    "farmacias_semana": [
-     "Nissei (@farmaciasnissei)",
-     "Preço Justo (@precojustoclubjusto)",
-     "Preço Popular"
-    ]
+    "n_semana": 0,
+    "farmacias_semana": []
    },
-   "pontos": 0.97,
-   "pos": 18
+   "pontos": 1.0,
+   "pos": 33
   },
   {
    "chave": "Amazon:B0979VS2JH",
@@ -814,103 +1459,7 @@
     "farmacias_semana": []
    },
    "pontos": 0.97,
-   "pos": 19
-  },
-  {
-   "chave": "nivea|labial|hidratante labial",
-   "nome": "NIVEA Hidratante Labial Amora Shine 4,8g, Hidratação Intensa 24h, Cor Suave, Brilho Delicado, Cuidado…",
-   "marca": "Nivea",
-   "linha": "labial",
-   "lojas": [
-    {
-     "loja": "Amazon",
-     "melhor_posicao": 3,
-     "categoria": "Cuidados com a pele",
-     "url": "https://www.amazon.com.br/dp/B07LFLRQXP"
-    }
-   ],
-   "melhor_posicao": 3,
-   "categorias": [
-    "Amazon · Cuidados com a pele"
-   ],
-   "n_listas": 1,
-   "preco_min": 12.87,
-   "preco_max": 12.87,
-   "url": "https://www.amazon.com.br/dp/B07LFLRQXP",
-   "promo_foz": {
-    "tipo": "marca",
-    "n_farmacias": 38,
-    "selo": "marca em promoção em 38 farmácias de Foz (outro item)",
-    "redes": [
-     "Droga Raia",
-     "Farmácia Preço Popular",
-     "Panvel",
-     "Preço Justo",
-     "São João"
-    ],
-    "chaves": [
-     "cremeniveafacial100g",
-     "desodoranteaerosolniveamenoriginalprotectprotectcareembalagemeconomica",
-     "desodoranteaerosolniveainvisibleblackwhiteclear200ml",
-     "nivealocaohidratante",
-     "saboneteliquidoniveaoleobanho200ml",
-     "sabonetenivealiquido200mloleobanho"
-    ],
-    "nomes": [
-     "Creme Nivea facial 100g",
-     "Desodorante aerosol Nivea Invisible Black&White Clear 200ml",
-     "Desodorante aerosol Nivea Men Original Protect / Protect & Care embalagem econômica",
-     "Nivea loção hidratante (Banho Radiante, Milk, Soft Milk)",
-     "Sabonete Nivea Liquido 200ml Oleo De Banho",
-     "Sabonete líquido Nivea Óleo de Banho 200ml"
-    ],
-    "n_semana": 0,
-    "farmacias_semana": []
-   },
-   "pontos": 0.93,
-   "pos": 20
-  },
-  {
-   "chave": "clear|men|shampoo",
-   "nome": "Clear Shampoo Men Anticaspa Ice Cool Menthol 400Ml | Anticaspa mentolado refrescante",
-   "marca": "Clear",
-   "linha": "men",
-   "lojas": [
-    {
-     "loja": "Amazon",
-     "melhor_posicao": 3,
-     "categoria": "Cuidados com o cabelo",
-     "url": "https://www.amazon.com.br/dp/B07LFGWRC7"
-    }
-   ],
-   "melhor_posicao": 3,
-   "categorias": [
-    "Amazon · Cuidados com o cabelo"
-   ],
-   "n_listas": 1,
-   "preco_min": 17.0,
-   "preco_max": 17.0,
-   "url": "https://www.amazon.com.br/dp/B07LFGWRC7",
-   "promo_foz": {
-    "tipo": "linha",
-    "n_farmacias": 19,
-    "selo": "19 farmácias em promoção em Foz",
-    "redes": [
-     "Preço Justo Três Lagoas"
-    ],
-    "chaves": [
-     "shampooclearmen400ml"
-    ],
-    "nomes": [
-     "Shampoo Clear Men 400ml"
-    ],
-    "n_semana": 1,
-    "farmacias_semana": [
-     "Preço Justo Três Lagoas (@farmaciaprecojustotreslagoas)"
-    ]
-   },
-   "pontos": 0.93,
-   "pos": 21
+   "pos": 34
   },
   {
    "chave": "carefree|||B07F1Z5CVS",
@@ -944,7 +1493,7 @@
     "farmacias_semana": []
    },
    "pontos": 0.93,
-   "pos": 22
+   "pos": 35
   },
   {
    "chave": "pampers|premium care|fralda",
@@ -996,84 +1545,64 @@
     "farmacias_semana": []
    },
    "pontos": 0.93,
-   "pos": 23
+   "pos": 36
   },
   {
-   "chave": "colgate|total|creme dental|kit",
-   "nome": "Colgate Total Antitártaro Creme Dental com Flúor, 3x90g",
-   "marca": "Colgate",
-   "linha": "total",
+   "chave": "dove|hidratante|serum",
+   "nome": "Sérum Hidratante Corporal Para Pele com Tom Irregular 48h de Hidratação Regenerativa Dove Dermo Renovador…",
+   "marca": "Dove",
+   "linha": "hidratante",
    "lojas": [
     {
      "loja": "Amazon",
-     "melhor_posicao": 3,
-     "categoria": "Saúde e bem-estar (departamento)",
-     "url": "https://www.amazon.com.br/dp/B08BGQY8RN"
+     "melhor_posicao": 14,
+     "categoria": "Corpo e banho",
+     "url": "https://www.amazon.com.br/dp/B0D8RHX3C6"
     }
    ],
-   "melhor_posicao": 3,
+   "melhor_posicao": 14,
    "categorias": [
-    "Amazon · Saúde e bem-estar (departamento)"
+    "Amazon · Corpo e banho",
+    "Amazon · Cuidados com a pele"
    ],
-   "n_listas": 1,
-   "preco_min": 17.41,
-   "preco_max": 17.41,
-   "url": "https://www.amazon.com.br/dp/B08BGQY8RN",
+   "n_listas": 2,
+   "preco_min": 43.49,
+   "preco_max": 43.49,
+   "url": "https://www.amazon.com.br/dp/B0D8RHX3C6",
    "promo_foz": {
     "tipo": "marca",
-    "n_farmacias": 20,
-    "selo": "marca em promoção em 20 farmácias de Foz (outro item)",
+    "n_farmacias": 31,
+    "selo": "marca em promoção em 31 farmácias de Foz (outro item)",
     "redes": [
      "Masterfarma",
-     "Preço Justo"
+     "Nissei",
+     "Preço Justo Três Lagoas"
     ],
     "chaves": [
-     "cremedentalcolgateanticaries90g",
-     "colgatecloseup"
+     "sabonetedove",
+     "kitdoveshampoocondicionador",
+     "desodoranteaerossoldove150ml",
+     "desodorantedoveinvisiblecare250ml",
+     "serumcorporaldovefragrancias380ml",
+     "mascaradove2em1320g",
+     "serumcapilaroleodovebondintenseuvrepairglowferulico110ml",
+     "sprayoleocorporaldoveserumdeo150ml"
     ],
     "nomes": [
-     "Colgate + Closeup",
-     "Creme dental Colgate Anticáries 90g"
+     "Desodorante Dove Invisible Care 250ml",
+     "Desodorante aerossol Dove 150ml",
+     "Kit Dove shampoo + condicionador",
+     "Máscara Dove 2 em 1 320g",
+     "Sabonete Dove",
+     "Spray óleo corporal Dove Sérum Deo 150ml"
     ],
-    "n_semana": 0,
-    "farmacias_semana": []
+    "n_semana": 1,
+    "farmacias_semana": [
+     "Nissei (@farmaciasnissei)"
+    ]
    },
    "pontos": 0.93,
-   "pos": 24
-  },
-  {
-   "chave": "lola cosmetics|||B07SBXMSGB",
-   "nome": "Argan Óleo Reparador 50ml , Lola Cosmetics | Fios brilhantes e reparação",
-   "marca": "Lola Cosmetics",
-   "linha": "",
-   "lojas": [
-    {
-     "loja": "Amazon",
-     "melhor_posicao": 4,
-     "categoria": "Cuidados com o cabelo",
-     "url": "https://www.amazon.com.br/dp/B07SBXMSGB"
-    }
-   ],
-   "melhor_posicao": 4,
-   "categorias": [
-    "Amazon · Cuidados com o cabelo"
-   ],
-   "n_listas": 1,
-   "preco_min": 17.43,
-   "preco_max": 17.43,
-   "url": "https://www.amazon.com.br/dp/B07SBXMSGB",
-   "promo_foz": {
-    "tipo": "nenhum",
-    "n_farmacias": 0,
-    "selo": "ninguém promove em Foz — oportunidade",
-    "redes": [],
-    "chaves": [],
-    "nomes": [],
-    "n_semana": 0,
-    "farmacias_semana": []
-   },
-   "pontos": 0.9,
-   "pos": 25
+   "pos": 37
   },
   {
    "chave": "intimus|||B07W6B8LCZ",
@@ -1097,23 +1626,17 @@
    "preco_max": 17.99,
    "url": "https://www.amazon.com.br/dp/B07W6B8LCZ",
    "promo_foz": {
-    "tipo": "marca",
-    "n_farmacias": 19,
-    "selo": "marca em promoção em 19 farmácias de Foz (outro item)",
-    "redes": [
-     "Preço Justo"
-    ],
-    "chaves": [
-     "absorventeintimusinternomedio8un"
-    ],
-    "nomes": [
-     "Absorvente Intimus interno médio 8un"
-    ],
+    "tipo": "nenhum",
+    "n_farmacias": 0,
+    "selo": "ninguém promove em Foz — oportunidade",
+    "redes": [],
+    "chaves": [],
+    "nomes": [],
     "n_semana": 0,
     "farmacias_semana": []
    },
    "pontos": 0.9,
-   "pos": 26
+   "pos": 38
   },
   {
    "chave": "huggies|natural care|fralda",
@@ -1142,12 +1665,10 @@
     "selo": "marca em promoção em 21 farmácias de Foz (outro item)",
     "redes": [
      "Farmácia Preço Popular",
-     "Preço Justo",
      "Preço Justo Três Lagoas"
     ],
     "chaves": [
      "fraldahuggiesmaximaprotecao",
-     "fraldahuggiessupremecarebag",
      "fraldahuggiesgmaximaprotecao92un",
      "fraldahuggiesmmaximaprotecao104un",
      "fraldahuggiesxgmaximaprotecao82un",
@@ -1158,66 +1679,61 @@
      "Fralda Huggies G Máxima Proteção 92 Unidades",
      "Fralda Huggies M Máxima Proteção 104 Unidades",
      "Fralda Huggies Máxima Proteção",
-     "Fralda Huggies Supreme Care Bag",
      "Fralda Huggies Xg Máxima Proteção 82 Unidades",
-     "Fralda Huggies Xxg Máxima Proteção 80 Unidades"
+     "Fralda Huggies Xxg Máxima Proteção 80 Unidades",
+     "Fralda Huggies Xxxg Máxima Proteção 70 Unidades"
     ],
     "n_semana": 0,
     "farmacias_semana": []
    },
    "pontos": 0.9,
-   "pos": 27
+   "pos": 39
   },
   {
-   "chave": "l'oreal paris (elseve)||mascara capilar",
-   "nome": "Máscara de Tratamento Elseve L'Oréal Paris Colágeno Encorpador 300g | Fórmula reconstrutora, efeito teia,…",
-   "marca": "L'Oréal Paris (Elseve)",
+   "chave": "dove||serum",
+   "nome": "Dove Óleo + Sérum Bifásico Bond Intense Repair 110 ml",
+   "marca": "Dove",
    "linha": "",
    "lojas": [
     {
      "loja": "Amazon",
-     "melhor_posicao": 5,
+     "melhor_posicao": 9,
      "categoria": "Cuidados com o cabelo",
-     "url": "https://www.amazon.com.br/dp/B0G45KPX15"
+     "url": "https://www.amazon.com.br/dp/B0CXBJMSQF"
     }
    ],
-   "melhor_posicao": 5,
+   "melhor_posicao": 9,
    "categorias": [
+    "Amazon · Beleza (departamento)",
     "Amazon · Cuidados com o cabelo"
    ],
-   "n_listas": 1,
-   "preco_min": 24.14,
-   "preco_max": 24.14,
-   "url": "https://www.amazon.com.br/dp/B0G45KPX15",
+   "n_listas": 2,
+   "preco_min": 24.0,
+   "preco_max": 24.0,
+   "url": "https://www.amazon.com.br/dp/B0CXBJMSQF",
    "promo_foz": {
-    "tipo": "marca",
-    "n_farmacias": 35,
-    "selo": "marca em promoção em 35 farmácias de Foz (outro item)",
+    "tipo": "linha",
+    "n_farmacias": 11,
+    "selo": "11 farmácias em promoção em Foz",
     "redes": [
-     "Droga Raia",
-     "Farmácia Preço Popular",
-     "Nissei",
-     "Preço Justo"
+     "Nissei"
     ],
     "chaves": [
-     "elseveoleoextraordinario100ml",
-     "oleocapilarouleaveinelseve100ml",
-     "cremetratamentoelseve300g",
-     "elseveserumreparacaomolecular",
-     "serumlorealpariselsevelisosonhos100ml"
+     "serumcorporaldovefragrancias380ml",
+     "sprayoleocorporaldoveserumdeo150ml"
     ],
     "nomes": [
-     "Creme de tratamento Elseve 300g",
-     "Elseve sérum Reparação Molecular",
-     "Elseve Óleo Extraordinário 100ml",
-     "Sérum Loreal Paris Elseve Liso Dos Sonhos 100ml",
-     "Óleo capilar ou leave-in Elseve 100ml"
+     "Spray óleo corporal Dove Sérum Deo 150ml",
+     "Sérum corporal Dove Fragrâncias 380ml"
     ],
-    "n_semana": 0,
-    "farmacias_semana": []
+    "n_semana": 2,
+    "farmacias_semana": [
+     "Nissei (@farmaciasnissei)",
+     "Preço Justo Dr. Guilherme (@precojustodrguilherme)"
+    ]
    },
-   "pontos": 0.87,
-   "pos": 28
+   "pontos": 0.9,
+   "pos": 40
   },
   {
    "chave": "intimus||absorvente",
@@ -1241,37 +1757,31 @@
    "preco_max": 16.64,
    "url": "https://www.amazon.com.br/dp/B0DX7BHGWP",
    "promo_foz": {
-    "tipo": "linha",
-    "n_farmacias": 19,
-    "selo": "19 farmácias em promoção em Foz",
-    "redes": [
-     "Preço Justo"
-    ],
-    "chaves": [
-     "absorventeintimusinternomedio8un"
-    ],
-    "nomes": [
-     "Absorvente Intimus interno médio 8un"
-    ],
+    "tipo": "nenhum",
+    "n_farmacias": 0,
+    "selo": "promovido em Foz nos últimos 7 dias (1 farmácia), hoje não",
+    "redes": [],
+    "chaves": [],
+    "nomes": [],
     "n_semana": 1,
     "farmacias_semana": [
      "Preço Justo (@precojustoclubjusto)"
     ]
    },
    "pontos": 0.87,
-   "pos": 29
+   "pos": 41
   },
   {
-   "chave": "oral-b||creme dental",
-   "nome": "Oral-B Pasta de Dente 3D White Brilliant Fresh, 3 Unidades de 70 g | Sorriso branco em trio",
-   "marca": "Oral-B",
-   "linha": "",
+   "chave": "colgate|total|creme dental|kit",
+   "nome": "Colgate Total Antitártaro Creme Dental com Flúor, 3x90g",
+   "marca": "Colgate",
+   "linha": "total",
    "lojas": [
     {
      "loja": "Amazon",
      "melhor_posicao": 5,
      "categoria": "Saúde e bem-estar (departamento)",
-     "url": "https://www.amazon.com.br/dp/B07GMDZX9M"
+     "url": "https://www.amazon.com.br/dp/B08BGQY8RN"
     }
    ],
    "melhor_posicao": 5,
@@ -1279,9 +1789,53 @@
     "Amazon · Saúde e bem-estar (departamento)"
    ],
    "n_listas": 1,
-   "preco_min": 12.99,
-   "preco_max": 12.99,
-   "url": "https://www.amazon.com.br/dp/B07GMDZX9M",
+   "preco_min": 17.41,
+   "preco_max": 17.41,
+   "url": "https://www.amazon.com.br/dp/B08BGQY8RN",
+   "promo_foz": {
+    "tipo": "marca",
+    "n_farmacias": 12,
+    "selo": "marca em promoção em 12 farmácias de Foz (outro item)",
+    "redes": [
+     "Masterfarma",
+     "Nissei"
+    ],
+    "chaves": [
+     "kitcremedentalcolgateluminouswhiteglow70g2un",
+     "colgatecloseup"
+    ],
+    "nomes": [
+     "Colgate + Closeup",
+     "Kit creme dental Colgate Luminous White Glow 70g 2un"
+    ],
+    "n_semana": 0,
+    "farmacias_semana": []
+   },
+   "pontos": 0.87,
+   "pos": 42
+  },
+  {
+   "chave": "la roche-posay|ultra cover|protetor solar|fps60",
+   "nome": "La Roche-Posay, Ultra Cover, Protetor Solar com Cor e Performance de Maquiagem, 12h de cobertura de base…",
+   "marca": "La Roche-Posay",
+   "linha": "ultra cover",
+   "lojas": [
+    {
+     "loja": "Amazon",
+     "melhor_posicao": 7,
+     "categoria": "Protetores solares",
+     "url": "https://www.amazon.com.br/dp/B0BLZVD5S5"
+    }
+   ],
+   "melhor_posicao": 7,
+   "categorias": [
+    "Amazon · Cuidados com a pele",
+    "Amazon · Protetores solares"
+   ],
+   "n_listas": 2,
+   "preco_min": 74.85,
+   "preco_max": 74.85,
+   "url": "https://www.amazon.com.br/dp/B0BLZVD5S5",
    "promo_foz": {
     "tipo": "nenhum",
     "n_farmacias": 0,
@@ -1293,7 +1847,7 @@
     "farmacias_semana": []
    },
    "pontos": 0.87,
-   "pos": 30
+   "pos": 43
   },
   {
    "chave": "la roche-posay|effaclar|",
@@ -1313,8 +1867,8 @@
     "Amazon · Dermocosméticos"
    ],
    "n_listas": 1,
-   "preco_min": 90.9,
-   "preco_max": 90.9,
+   "preco_min": 76.79,
+   "preco_max": 76.79,
    "url": "https://www.amazon.com.br/dp/B07KYVSKWR",
    "promo_foz": {
     "tipo": "nenhum",
@@ -1327,33 +1881,78 @@
     "farmacias_semana": []
    },
    "pontos": 0.83,
-   "pos": 31
+   "pos": 44
   },
   {
-   "chave": "lola cosmetics||hidratante",
-   "nome": "Morte Súbita Máscara Super Hidratante 450g , Lola Cosmetics | Hidratação profunda para fios – 450g",
-   "marca": "Lola Cosmetics",
-   "linha": "",
+   "chave": "pampers|confort sec|fralda",
+   "nome": "Fralda Pampers Confort Sec Tamanho XG 148 Unidades",
+   "marca": "Pampers",
+   "linha": "confort sec",
    "lojas": [
     {
      "loja": "Amazon",
      "melhor_posicao": 6,
-     "categoria": "Cuidados com o cabelo",
-     "url": "https://www.amazon.com.br/dp/B074LTNQBP"
+     "categoria": "Fraldas descartáveis",
+     "url": "https://www.amazon.com.br/dp/B09DQ6CMG2"
     }
    ],
    "melhor_posicao": 6,
    "categorias": [
-    "Amazon · Cuidados com o cabelo"
+    "Amazon · Fraldas descartáveis"
    ],
    "n_listas": 1,
-   "preco_min": 30.17,
-   "preco_max": 30.17,
-   "url": "https://www.amazon.com.br/dp/B074LTNQBP",
+   "preco_min": 182.44,
+   "preco_max": 182.44,
+   "url": "https://www.amazon.com.br/dp/B09DQ6CMG2",
    "promo_foz": {
-    "tipo": "nenhum",
+    "tipo": "linha",
+    "n_farmacias": 3,
+    "selo": "3 farmácias em promoção em Foz",
+    "redes": [
+     "Panvel"
+    ],
+    "chaves": [
+     "fraldapampersconfortsecjumboxxg112un"
+    ],
+    "nomes": [
+     "Fralda Pampers Confort Sec Jumbo XXG 112un"
+    ],
+    "n_semana": 3,
+    "farmacias_semana": [
+     "Farma D (@farmadfoz)",
+     "Panvel (@panvelfarmacias)",
+     "São João (@farmaciassaojoao)"
+    ]
+   },
+   "pontos": 0.83,
+   "pos": 45
+  },
+  {
+   "chave": "Amazon:B09GSQMVJS",
+   "nome": "L'Oréal Professionnel Inforcer Shampoo Fortificante Antiqueda por Quebra, Crescimento Saudável Para…",
+   "marca": "",
+   "linha": "",
+   "lojas": [
+    {
+     "loja": "Amazon",
+     "melhor_posicao": 10,
+     "categoria": "Cuidados com o cabelo",
+     "url": "https://www.amazon.com.br/dp/B09GSQMVJS"
+    }
+   ],
+   "melhor_posicao": 10,
+   "categorias": [
+    "Amazon · Beleza (departamento)",
+    "Amazon · Cuidados com o cabelo"
+   ],
+   "n_listas": 2,
+   "preco_min": 56.89,
+   "preco_max": 56.89,
+   "url": "https://www.amazon.com.br/dp/B09GSQMVJS",
+   "promo_foz": {
+    "tipo": "sem_marca",
     "n_farmacias": 0,
-    "selo": "ninguém promove em Foz — oportunidade",
+    "selo": "marca não identificada no anúncio — sem cruzamento com Foz",
     "redes": [],
     "chaves": [],
     "nomes": [],
@@ -1361,29 +1960,29 @@
     "farmacias_semana": []
    },
    "pontos": 0.83,
-   "pos": 32
+   "pos": 46
   },
   {
-   "chave": "la roche-posay|ultra cover|protetor solar|fps60",
-   "nome": "La Roche-Posay, Ultra Cover, Protetor Solar com Cor e Performance de Maquiagem, 12h de cobertura de base…",
-   "marca": "La Roche-Posay",
-   "linha": "ultra cover",
+   "chave": "mantecorp (epidrat/episol)|epidrat|hidratante",
+   "nome": "MANTECORP - Hidratante Epidrat Calm B5 - Hidrata e Acalma a Pele, Conforto Imediato, D-Pantenol",
+   "marca": "Mantecorp (Epidrat/Episol)",
+   "linha": "epidrat",
    "lojas": [
     {
      "loja": "Amazon",
      "melhor_posicao": 7,
-     "categoria": "Protetores solares",
-     "url": "https://www.amazon.com.br/dp/B0BLZVD5S5"
+     "categoria": "Dermocosméticos",
+     "url": "https://www.amazon.com.br/dp/B09RL3X7RB"
     }
    ],
    "melhor_posicao": 7,
    "categorias": [
-    "Amazon · Protetores solares"
+    "Amazon · Dermocosméticos"
    ],
    "n_listas": 1,
-   "preco_min": 74.85,
-   "preco_max": 74.85,
-   "url": "https://www.amazon.com.br/dp/B0BLZVD5S5",
+   "preco_min": 71.94,
+   "preco_max": 71.94,
+   "url": "https://www.amazon.com.br/dp/B09RL3X7RB",
    "promo_foz": {
     "tipo": "nenhum",
     "n_farmacias": 0,
@@ -1395,41 +1994,7 @@
     "farmacias_semana": []
    },
    "pontos": 0.8,
-   "pos": 33
-  },
-  {
-   "chave": "lola cosmetics|||B09KCYYZNG",
-   "nome": "Densidade Acidificante Capilar 250g, Lola Cosmetics | Praticidade no dia a dia – 250g",
-   "marca": "Lola Cosmetics",
-   "linha": "",
-   "lojas": [
-    {
-     "loja": "Amazon",
-     "melhor_posicao": 7,
-     "categoria": "Cuidados com o cabelo",
-     "url": "https://www.amazon.com.br/dp/B09KCYYZNG"
-    }
-   ],
-   "melhor_posicao": 7,
-   "categorias": [
-    "Amazon · Cuidados com o cabelo"
-   ],
-   "n_listas": 1,
-   "preco_min": 20.78,
-   "preco_max": 20.78,
-   "url": "https://www.amazon.com.br/dp/B09KCYYZNG",
-   "promo_foz": {
-    "tipo": "nenhum",
-    "n_farmacias": 0,
-    "selo": "ninguém promove em Foz — oportunidade",
-    "redes": [],
-    "chaves": [],
-    "nomes": [],
-    "n_semana": 0,
-    "farmacias_semana": []
-   },
-   "pontos": 0.8,
-   "pos": 34
+   "pos": 47
   },
   {
    "chave": "cremer||absorvente",
@@ -1463,19 +2028,19 @@
     "farmacias_semana": []
    },
    "pontos": 0.8,
-   "pos": 35
+   "pos": 48
   },
   {
-   "chave": "pampers|confort sec|fralda",
-   "nome": "Fralda Pampers Confort Sec Tamanho XG 148 Unidades",
+   "chave": "pampers||fralda",
+   "nome": "Fralda Pampers Primeiros Dias Tamanho RN (Até 4 kg), 36 Unidades",
    "marca": "Pampers",
-   "linha": "confort sec",
+   "linha": "",
    "lojas": [
     {
      "loja": "Amazon",
      "melhor_posicao": 7,
      "categoria": "Fraldas descartáveis",
-     "url": "https://www.amazon.com.br/dp/B09DQ6CMG2"
+     "url": "https://www.amazon.com.br/dp/B07GQB93FT"
     }
    ],
    "melhor_posicao": 7,
@@ -1483,87 +2048,161 @@
     "Amazon · Fraldas descartáveis"
    ],
    "n_listas": 1,
-   "preco_min": 182.44,
-   "preco_max": 182.44,
-   "url": "https://www.amazon.com.br/dp/B09DQ6CMG2",
+   "preco_min": 45.17,
+   "preco_max": 45.17,
+   "url": "https://www.amazon.com.br/dp/B07GQB93FT",
    "promo_foz": {
     "tipo": "linha",
-    "n_farmacias": 3,
-    "selo": "3 farmácias em promoção em Foz",
+    "n_farmacias": 5,
+    "selo": "5 farmácias em promoção em Foz",
     "redes": [
-     "Panvel"
+     "Farmácia Preço Popular",
+     "Panvel",
+     "Preço Popular"
     ],
     "chaves": [
-     "fraldapampersconfortsecjumboxxg112un"
+     "fraldapampersconfortsecjumboxxg112un",
+     "fraldapamperssupersequinhababyshark",
+     "fraldapamperssupersequinhababysharkg60un",
+     "fraldapamperssupersequinhababysharkm68un",
+     "fraldapamperssupersequinhababysharkxg56un",
+     "fraldapamperssupersequinhababysharkxxg50un"
     ],
     "nomes": [
-     "Fralda Pampers Confort Sec Jumbo XXG 112un"
+     "Fralda Pampers Confort Sec Jumbo XXG 112un",
+     "Fralda Pampers Supersequinha Baby Shark",
+     "Fralda Pampers Supersequinha Baby Shark G 60 Unidades",
+     "Fralda Pampers Supersequinha Baby Shark M 68 Unidades",
+     "Fralda Pampers Supersequinha Baby Shark Xg 56 Unidades",
+     "Fralda Pampers Supersequinha Baby Shark Xxg 50 Unidades"
     ],
-    "n_semana": 3,
+    "n_semana": 5,
     "farmacias_semana": [
      "Farma D (@farmadfoz)",
+     "Farmácia Preço Popular (CLAMED)",
      "Panvel (@panvelfarmacias)",
+     "Preço Popular",
      "São João (@farmaciassaojoao)"
     ]
    },
    "pontos": 0.8,
-   "pos": 36
+   "pos": 49
   },
   {
-   "chave": "mantecorp (epidrat/episol)|epidrat|hidratante",
-   "nome": "MANTECORP - Hidratante Epidrat Calm B5 - Hidrata e Acalma a Pele, Conforto Imediato, D-Pantenol",
-   "marca": "Mantecorp (Epidrat/Episol)",
-   "linha": "epidrat",
-   "lojas": [
-    {
-     "loja": "Amazon",
-     "melhor_posicao": 8,
-     "categoria": "Dermocosméticos",
-     "url": "https://www.amazon.com.br/dp/B09RL3X7RB"
-    }
-   ],
-   "melhor_posicao": 8,
-   "categorias": [
-    "Amazon · Dermocosméticos"
-   ],
-   "n_listas": 1,
-   "preco_min": 71.94,
-   "preco_max": 71.94,
-   "url": "https://www.amazon.com.br/dp/B09RL3X7RB",
-   "promo_foz": {
-    "tipo": "nenhum",
-    "n_farmacias": 0,
-    "selo": "ninguém promove em Foz — oportunidade",
-    "redes": [],
-    "chaves": [],
-    "nomes": [],
-    "n_semana": 0,
-    "farmacias_semana": []
-   },
-   "pontos": 0.77,
-   "pos": 37
-  },
-  {
-   "chave": "truss|||B0D9YTVXWT",
-   "nome": "Truss Óleo Reconstrutor Uso Obrigatório | Tratamento Capilar para Brilho, Reconstrução e Proteção | 30ml",
-   "marca": "Truss",
+   "chave": "oral-b||creme dental",
+   "nome": "Oral-B Pasta de Dente 3D White Brilliant Fresh, 3 Unidades de 70 g | Sorriso branco em trio",
+   "marca": "Oral-B",
    "linha": "",
    "lojas": [
     {
      "loja": "Amazon",
+     "melhor_posicao": 7,
+     "categoria": "Saúde e bem-estar (departamento)",
+     "url": "https://www.amazon.com.br/dp/B07GMDZX9M"
+    }
+   ],
+   "melhor_posicao": 7,
+   "categorias": [
+    "Amazon · Saúde e bem-estar (departamento)"
+   ],
+   "n_listas": 1,
+   "preco_min": 12.99,
+   "preco_max": 12.99,
+   "url": "https://www.amazon.com.br/dp/B07GMDZX9M",
+   "promo_foz": {
+    "tipo": "linha",
+    "n_farmacias": 2,
+    "selo": "2 farmácias em promoção em Foz",
+    "redes": [
+     "Farmácia Preço Popular"
+    ],
+    "chaves": [
+     "cremedentaloralb3dwhite70g3un"
+    ],
+    "nomes": [
+     "Creme dental Oral-B 3D White 70g 3un"
+    ],
+    "n_semana": 1,
+    "farmacias_semana": [
+     "Farmácia Preço Popular (CLAMED)"
+    ]
+   },
+   "pontos": 0.8,
+   "pos": 50
+  },
+  {
+   "chave": "nivea|q10|hidratante",
+   "nome": "NIVEA Loção Hidratante Firmador Q10 + Vitamina C 400ml, Hidratação Intensa 48h, Pele Firme e Elasticidade,…",
+   "marca": "Nivea",
+   "linha": "q10",
+   "lojas": [
+    {
+     "loja": "Amazon",
+     "melhor_posicao": 16,
+     "categoria": "Corpo e banho",
+     "url": "https://www.amazon.com.br/dp/B07LFMZBKW"
+    }
+   ],
+   "melhor_posicao": 16,
+   "categorias": [
+    "Amazon · Corpo e banho",
+    "Amazon · Cuidados com a pele"
+   ],
+   "n_listas": 2,
+   "preco_min": 23.2,
+   "preco_max": 23.2,
+   "url": "https://www.amazon.com.br/dp/B07LFMZBKW",
+   "promo_foz": {
+    "tipo": "marca",
+    "n_farmacias": 19,
+    "selo": "marca em promoção em 19 farmácias de Foz (outro item)",
+    "redes": [
+     "Droga Raia",
+     "Farmácia Preço Popular",
+     "Panvel",
+     "São João"
+    ],
+    "chaves": [
+     "desodoranteaerosolniveamenoriginalprotectprotectcareembalagemeconomica",
+     "desodoranteaerosolniveainvisibleblackwhiteclear200ml",
+     "nivealocaohidratante",
+     "saboneteliquidoniveaoleobanho200ml",
+     "sabonetenivealiquido200mloleobanho"
+    ],
+    "nomes": [
+     "Desodorante aerosol Nivea Invisible Black&White Clear 200ml",
+     "Desodorante aerosol Nivea Men Original Protect / Protect & Care embalagem econômica",
+     "Nivea loção hidratante (Banho Radiante, Milk, Soft Milk)",
+     "Sabonete Nivea Liquido 200ml Oleo De Banho",
+     "Sabonete líquido Nivea Óleo de Banho 200ml"
+    ],
+    "n_semana": 0,
+    "farmacias_semana": []
+   },
+   "pontos": 0.8,
+   "pos": 51
+  },
+  {
+   "chave": "bioderma|atoderm|hidratante",
+   "nome": "BIODERMA Óleo De Banho Higiene Hidratante Atoderm 1L Refil",
+   "marca": "Bioderma",
+   "linha": "atoderm",
+   "lojas": [
+    {
+     "loja": "Amazon",
      "melhor_posicao": 8,
-     "categoria": "Cuidados com o cabelo",
-     "url": "https://www.amazon.com.br/dp/B0D9YTVXWT"
+     "categoria": "Corpo e banho",
+     "url": "https://www.amazon.com.br/dp/B0D9NN7XFD"
     }
    ],
    "melhor_posicao": 8,
    "categorias": [
-    "Amazon · Cuidados com o cabelo"
+    "Amazon · Corpo e banho"
    ],
    "n_listas": 1,
-   "preco_min": 60.0,
-   "preco_max": 60.0,
-   "url": "https://www.amazon.com.br/dp/B0D9YTVXWT",
+   "preco_min": 193.99,
+   "preco_max": 193.99,
+   "url": "https://www.amazon.com.br/dp/B0D9NN7XFD",
    "promo_foz": {
     "tipo": "nenhum",
     "n_farmacias": 0,
@@ -1575,7 +2214,7 @@
     "farmacias_semana": []
    },
    "pontos": 0.77,
-   "pos": 38
+   "pos": 52
   },
   {
    "chave": "sempre livre||absorvente",
@@ -1619,48 +2258,7 @@
     ]
    },
    "pontos": 0.77,
-   "pos": 39
-  },
-  {
-   "chave": "eucerin|oil control|protetor solar|fps60",
-   "nome": "EUCERIN Protetor Solar Facial Oil Control FPS60 50ml, Antioleosidade, Rosto, Proteção UVA, UVB e Luz Visível",
-   "marca": "Eucerin",
-   "linha": "oil control",
-   "lojas": [
-    {
-     "loja": "Amazon",
-     "melhor_posicao": 11,
-     "categoria": "Dermocosméticos",
-     "url": "https://www.amazon.com.br/dp/B079VW5KT6"
-    }
-   ],
-   "melhor_posicao": 11,
-   "categorias": [
-    "Amazon · Dermocosméticos",
-    "Amazon · Protetores solares"
-   ],
-   "n_listas": 2,
-   "preco_min": 59.89,
-   "preco_max": 59.89,
-   "url": "https://www.amazon.com.br/dp/B079VW5KT6",
-   "promo_foz": {
-    "tipo": "marca",
-    "n_farmacias": 3,
-    "selo": "marca em promoção em 3 farmácias de Foz (outro item)",
-    "redes": [
-     "Droga Raia"
-    ],
-    "chaves": [
-     "eucerinaquaphorpomada"
-    ],
-    "nomes": [
-     "Eucerin Aquaphor pomada"
-    ],
-    "n_semana": 0,
-    "farmacias_semana": []
-   },
-   "pontos": 0.77,
-   "pos": 40
+   "pos": 53
   },
   {
    "chave": "principia||protetor solar|fps60",
@@ -1680,8 +2278,8 @@
     "Amazon · Protetores solares"
    ],
    "n_listas": 1,
-   "preco_min": 48.14,
-   "preco_max": 48.14,
+   "preco_min": 48.99,
+   "preco_max": 48.99,
    "url": "https://www.amazon.com.br/dp/B0CTR4FL63",
    "promo_foz": {
     "tipo": "marca",
@@ -1708,176 +2306,49 @@
     ]
    },
    "pontos": 0.73,
-   "pos": 41
+   "pos": 54
   },
   {
-   "chave": "lola cosmetics|||kit|B0DKVJ1HWB",
-   "nome": "Kit Cronograma Capilar Lola Cosmetics Be(m) Dita Ghee, 3 Produtos | Resultados potencializados em conjunto",
-   "marca": "Lola Cosmetics",
-   "linha": "",
+   "chave": "nivea|men|desodorante|kit",
+   "nome": "Kit NIVEA Desodorante Aerosol Men Black&White Invisible - 2 unidades",
+   "marca": "Nivea",
+   "linha": "men",
    "lojas": [
     {
      "loja": "Amazon",
      "melhor_posicao": 9,
-     "categoria": "Cuidados com o cabelo",
-     "url": "https://www.amazon.com.br/dp/B0DKVJ1HWB"
+     "categoria": "Corpo e banho",
+     "url": "https://www.amazon.com.br/dp/B08NX5DKM1"
     }
    ],
    "melhor_posicao": 9,
    "categorias": [
-    "Amazon · Cuidados com o cabelo"
+    "Amazon · Corpo e banho"
    ],
    "n_listas": 1,
-   "preco_min": 35.64,
-   "preco_max": 35.64,
-   "url": "https://www.amazon.com.br/dp/B0DKVJ1HWB",
-   "promo_foz": {
-    "tipo": "nenhum",
-    "n_farmacias": 0,
-    "selo": "ninguém promove em Foz — oportunidade",
-    "redes": [],
-    "chaves": [],
-    "nomes": [],
-    "n_semana": 0,
-    "farmacias_semana": []
-   },
-   "pontos": 0.73,
-   "pos": 42
-  },
-  {
-   "chave": "Amazon:B0DP3J64BX",
-   "nome": "Gino-Canesten Sabonete Íntimo Puro Cuidado, Hipoalergênico, 200ml | Puro Cuidado 200ml, Sem fragrância,…",
-   "marca": "",
-   "linha": "",
-   "lojas": [
-    {
-     "loja": "Amazon",
-     "melhor_posicao": 9,
-     "categoria": "Higiene íntima",
-     "url": "https://www.amazon.com.br/dp/B0DP3J64BX"
-    }
-   ],
-   "melhor_posicao": 9,
-   "categorias": [
-    "Amazon · Higiene íntima"
-   ],
-   "n_listas": 1,
-   "preco_min": 19.89,
-   "preco_max": 19.89,
-   "url": "https://www.amazon.com.br/dp/B0DP3J64BX",
-   "promo_foz": {
-    "tipo": "sem_marca",
-    "n_farmacias": 0,
-    "selo": "marca não identificada no anúncio — sem cruzamento com Foz",
-    "redes": [],
-    "chaves": [],
-    "nomes": [],
-    "n_semana": 0,
-    "farmacias_semana": []
-   },
-   "pontos": 0.73,
-   "pos": 43
-  },
-  {
-   "chave": "pampers||fralda",
-   "nome": "Fralda Pampers Primeiros Dias Tamanho RN (Até 4 kg), 36 Unidades",
-   "marca": "Pampers",
-   "linha": "",
-   "lojas": [
-    {
-     "loja": "Amazon",
-     "melhor_posicao": 9,
-     "categoria": "Fraldas descartáveis",
-     "url": "https://www.amazon.com.br/dp/B07GQB93FT"
-    }
-   ],
-   "melhor_posicao": 9,
-   "categorias": [
-    "Amazon · Fraldas descartáveis"
-   ],
-   "n_listas": 1,
-   "preco_min": 45.17,
-   "preco_max": 45.17,
-   "url": "https://www.amazon.com.br/dp/B07GQB93FT",
+   "preco_min": null,
+   "preco_max": null,
+   "url": "https://www.amazon.com.br/dp/B08NX5DKM1",
    "promo_foz": {
     "tipo": "linha",
-    "n_farmacias": 5,
-    "selo": "5 farmácias em promoção em Foz",
+    "n_farmacias": 11,
+    "selo": "11 farmácias em promoção em Foz",
     "redes": [
-     "Farmácia Preço Popular",
-     "Panvel",
-     "Preço Popular"
+     "São João"
     ],
     "chaves": [
-     "fraldapampersconfortsecjumboxxg112un",
-     "fraldapamperssupersequinhababyshark",
-     "fraldapamperssupersequinhababysharkg60un",
-     "fraldapamperssupersequinhababysharkm68un",
-     "fraldapamperssupersequinhababysharkxg56un",
-     "fraldapamperssupersequinhababysharkxxg50un"
+     "desodoranteaerosolniveamenoriginalprotectprotectcareembalagemeconomica"
     ],
     "nomes": [
-     "Fralda Pampers Confort Sec Jumbo XXG 112un",
-     "Fralda Pampers Supersequinha Baby Shark",
-     "Fralda Pampers Supersequinha Baby Shark G 60 Unidades",
-     "Fralda Pampers Supersequinha Baby Shark M 68 Unidades",
-     "Fralda Pampers Supersequinha Baby Shark Xg 56 Unidades",
-     "Fralda Pampers Supersequinha Baby Shark Xxg 50 Unidades"
+     "Desodorante aerosol Nivea Men Original Protect / Protect & Care embalagem econômica"
     ],
-    "n_semana": 5,
+    "n_semana": 1,
     "farmacias_semana": [
-     "Farma D (@farmadfoz)",
-     "Farmácia Preço Popular (CLAMED)",
-     "Panvel (@panvelfarmacias)",
-     "Preço Popular",
      "São João (@farmaciassaojoao)"
     ]
    },
    "pontos": 0.73,
-   "pos": 44
-  },
-  {
-   "chave": "colgate|||B08K4HMYHH",
-   "nome": "Colgate Slim Soft Black Escova de Dente Macia, 4 Unidades | Com Cerdas Antibacterianas com Infusão de…",
-   "marca": "Colgate",
-   "linha": "",
-   "lojas": [
-    {
-     "loja": "Amazon",
-     "melhor_posicao": 9,
-     "categoria": "Saúde e bem-estar (departamento)",
-     "url": "https://www.amazon.com.br/dp/B08K4HMYHH"
-    }
-   ],
-   "melhor_posicao": 9,
-   "categorias": [
-    "Amazon · Saúde e bem-estar (departamento)"
-   ],
-   "n_listas": 1,
-   "preco_min": 29.97,
-   "preco_max": 29.97,
-   "url": "https://www.amazon.com.br/dp/B08K4HMYHH",
-   "promo_foz": {
-    "tipo": "marca",
-    "n_farmacias": 20,
-    "selo": "marca em promoção em 20 farmácias de Foz (outro item)",
-    "redes": [
-     "Masterfarma",
-     "Preço Justo"
-    ],
-    "chaves": [
-     "cremedentalcolgateanticaries90g",
-     "colgatecloseup"
-    ],
-    "nomes": [
-     "Colgate + Closeup",
-     "Creme dental Colgate Anticáries 90g"
-    ],
-    "n_semana": 0,
-    "farmacias_semana": []
-   },
-   "pontos": 0.73,
-   "pos": 45
+   "pos": 55
   },
   {
    "chave": "eucerin|anti-pigment|serum",
@@ -1897,8 +2368,8 @@
     "Amazon · Dermocosméticos"
    ],
    "n_listas": 1,
-   "preco_min": 212.8,
-   "preco_max": 212.8,
+   "preco_min": 238.9,
+   "preco_max": 238.9,
    "url": "https://www.amazon.com.br/dp/B07SJSZHD7",
    "promo_foz": {
     "tipo": "marca",
@@ -1917,7 +2388,41 @@
     "farmacias_semana": []
    },
    "pontos": 0.7,
-   "pos": 46
+   "pos": 56
+  },
+  {
+   "chave": "Amazon:B0DP3J64BX",
+   "nome": "Gino-Canesten Sabonete Íntimo Puro Cuidado, Hipoalergênico, 200ml | Puro Cuidado 200ml, Sem fragrância,…",
+   "marca": "",
+   "linha": "",
+   "lojas": [
+    {
+     "loja": "Amazon",
+     "melhor_posicao": 10,
+     "categoria": "Higiene íntima",
+     "url": "https://www.amazon.com.br/dp/B0DP3J64BX"
+    }
+   ],
+   "melhor_posicao": 10,
+   "categorias": [
+    "Amazon · Higiene íntima"
+   ],
+   "n_listas": 1,
+   "preco_min": 19.89,
+   "preco_max": 19.89,
+   "url": "https://www.amazon.com.br/dp/B0DP3J64BX",
+   "promo_foz": {
+    "tipo": "sem_marca",
+    "n_farmacias": 0,
+    "selo": "marca não identificada no anúncio — sem cruzamento com Foz",
+    "redes": [],
+    "chaves": [],
+    "nomes": [],
+    "n_semana": 0,
+    "farmacias_semana": []
+   },
+   "pontos": 0.7,
+   "pos": 57
   },
   {
    "chave": "darrow|actine|gel de limpeza|kit",
@@ -1927,16 +2432,17 @@
    "lojas": [
     {
      "loja": "Amazon",
-     "melhor_posicao": 10,
+     "melhor_posicao": 12,
      "categoria": "Cuidados com a pele",
      "url": "https://www.amazon.com.br/dp/B0HDVZQPT6"
     }
    ],
-   "melhor_posicao": 10,
+   "melhor_posicao": 12,
    "categorias": [
+    "Amazon · Beleza (departamento)",
     "Amazon · Cuidados com a pele"
    ],
-   "n_listas": 1,
+   "n_listas": 2,
    "preco_min": 63.99,
    "preco_max": 63.99,
    "url": "https://www.amazon.com.br/dp/B0HDVZQPT6",
@@ -1951,7 +2457,7 @@
     "farmacias_semana": []
    },
    "pontos": 0.7,
-   "pos": 47
+   "pos": 58
   },
   {
    "chave": "amend|||B0DJMP5Z6Z",
@@ -1961,12 +2467,12 @@
    "lojas": [
     {
      "loja": "Amazon",
-     "melhor_posicao": 10,
+     "melhor_posicao": 11,
      "categoria": "Cuidados com o cabelo",
      "url": "https://www.amazon.com.br/dp/B0DJMP5Z6Z"
     }
    ],
-   "melhor_posicao": 10,
+   "melhor_posicao": 11,
    "categorias": [
     "Amazon · Cuidados com o cabelo"
    ],
@@ -1984,234 +2490,8 @@
     "n_semana": 0,
     "farmacias_semana": []
    },
-   "pontos": 0.7,
-   "pos": 48
-  },
-  {
-   "chave": "isdin|fusion water|protetor solar|fps60",
-   "nome": "ISDIN Protetor Solar Facial Fusion Water 5 Stars Sem Cor FPS 60-50ml",
-   "marca": "ISDIN",
-   "linha": "fusion water",
-   "lojas": [
-    {
-     "loja": "Amazon",
-     "melhor_posicao": 11,
-     "categoria": "Protetores solares",
-     "url": "https://www.amazon.com.br/dp/B08F864LDD"
-    }
-   ],
-   "melhor_posicao": 11,
-   "categorias": [
-    "Amazon · Protetores solares"
-   ],
-   "n_listas": 1,
-   "preco_min": 89.9,
-   "preco_max": 89.9,
-   "url": "https://www.amazon.com.br/dp/B08F864LDD",
-   "promo_foz": {
-    "tipo": "nenhum",
-    "n_farmacias": 0,
-    "selo": "ninguém promove em Foz — oportunidade",
-    "redes": [],
-    "chaves": [],
-    "nomes": [],
-    "n_semana": 0,
-    "farmacias_semana": []
-   },
    "pontos": 0.67,
-   "pos": 49
-  },
-  {
-   "chave": "dove||serum",
-   "nome": "Dove Óleo + Sérum Bifásico Bond Intense Repair 110 ml",
-   "marca": "Dove",
-   "linha": "",
-   "lojas": [
-    {
-     "loja": "Amazon",
-     "melhor_posicao": 11,
-     "categoria": "Cuidados com o cabelo",
-     "url": "https://www.amazon.com.br/dp/B0CXBJMSQF"
-    }
-   ],
-   "melhor_posicao": 11,
-   "categorias": [
-    "Amazon · Cuidados com o cabelo"
-   ],
-   "n_listas": 1,
-   "preco_min": 24.0,
-   "preco_max": 24.0,
-   "url": "https://www.amazon.com.br/dp/B0CXBJMSQF",
-   "promo_foz": {
-    "tipo": "linha",
-    "n_farmacias": 30,
-    "selo": "30 farmácias em promoção em Foz",
-    "redes": [
-     "Nissei",
-     "Preço Justo Dr. Guilherme"
-    ],
-    "chaves": [
-     "desodorantedoveserum",
-     "serumcorporaldovefragrancias380ml",
-     "serumcorporaldovecicapan20g"
-    ],
-    "nomes": [
-     "Desodorante Dove Sérum",
-     "Sérum corporal Dove Cicapan 20g",
-     "Sérum corporal Dove Fragrâncias 380ml"
-    ],
-    "n_semana": 2,
-    "farmacias_semana": [
-     "Nissei (@farmaciasnissei)",
-     "Preço Justo Dr. Guilherme (@precojustodrguilherme)"
-    ]
-   },
-   "pontos": 0.67,
-   "pos": 50
-  },
-  {
-   "chave": "cerave||gel de limpeza",
-   "nome": "CeraVe Acne Control Refil Gel de Limpeza Facial, Pele Normal a Oleosa, 60g",
-   "marca": "CeraVe",
-   "linha": "",
-   "lojas": [
-    {
-     "loja": "Amazon",
-     "melhor_posicao": 12,
-     "categoria": "Dermocosméticos",
-     "url": "https://www.amazon.com.br/dp/B0CZ122V49"
-    }
-   ],
-   "melhor_posicao": 12,
-   "categorias": [
-    "Amazon · Dermocosméticos"
-   ],
-   "n_listas": 1,
-   "preco_min": 46.81,
-   "preco_max": 46.81,
-   "url": "https://www.amazon.com.br/dp/B0CZ122V49",
-   "promo_foz": {
-    "tipo": "nenhum",
-    "n_farmacias": 0,
-    "selo": "ninguém promove em Foz — oportunidade",
-    "redes": [],
-    "chaves": [],
-    "nomes": [],
-    "n_semana": 0,
-    "farmacias_semana": []
-   },
-   "pontos": 0.63,
-   "pos": 51
-  },
-  {
-   "chave": "eucerin|aquaphor|hidratante labial",
-   "nome": "EUCERIN Pomada Reparadora Aquaphor Duopack 10ml, Hidratação Intensiva, Hidratante Labial",
-   "marca": "Eucerin",
-   "linha": "aquaphor",
-   "lojas": [
-    {
-     "loja": "Amazon",
-     "melhor_posicao": 12,
-     "categoria": "Cuidados com a pele",
-     "url": "https://www.amazon.com.br/dp/B07R2DDVVG"
-    }
-   ],
-   "melhor_posicao": 12,
-   "categorias": [
-    "Amazon · Cuidados com a pele"
-   ],
-   "n_listas": 1,
-   "preco_min": 35.97,
-   "preco_max": 35.97,
-   "url": "https://www.amazon.com.br/dp/B07R2DDVVG",
-   "promo_foz": {
-    "tipo": "linha",
-    "n_farmacias": 3,
-    "selo": "3 farmácias em promoção em Foz",
-    "redes": [
-     "Droga Raia"
-    ],
-    "chaves": [
-     "eucerinaquaphorpomada"
-    ],
-    "nomes": [
-     "Eucerin Aquaphor pomada"
-    ],
-    "n_semana": 1,
-    "farmacias_semana": [
-     "Droga Raia (@raiaoficial)"
-    ]
-   },
-   "pontos": 0.63,
-   "pos": 52
-  },
-  {
-   "chave": "wella||shampoo",
-   "nome": "Shampoo Invigo Nutri Enrich Wella Professionals 1000 ml",
-   "marca": "Wella",
-   "linha": "",
-   "lojas": [
-    {
-     "loja": "Amazon",
-     "melhor_posicao": 12,
-     "categoria": "Cuidados com o cabelo",
-     "url": "https://www.amazon.com.br/dp/B0BG312BMR"
-    }
-   ],
-   "melhor_posicao": 12,
-   "categorias": [
-    "Amazon · Cuidados com o cabelo"
-   ],
-   "n_listas": 1,
-   "preco_min": 117.0,
-   "preco_max": 117.0,
-   "url": "https://www.amazon.com.br/dp/B0BG312BMR",
-   "promo_foz": {
-    "tipo": "nenhum",
-    "n_farmacias": 0,
-    "selo": "ninguém promove em Foz — oportunidade",
-    "redes": [],
-    "chaves": [],
-    "nomes": [],
-    "n_semana": 0,
-    "farmacias_semana": []
-   },
-   "pontos": 0.63,
-   "pos": 53
-  },
-  {
-   "chave": "always||absorvente",
-   "nome": "Always Absorvente Noite Ultra Suave com Abas Fluxo Muito Intenso, 42 Un",
-   "marca": "Always",
-   "linha": "",
-   "lojas": [
-    {
-     "loja": "Amazon",
-     "melhor_posicao": 12,
-     "categoria": "Higiene íntima",
-     "url": "https://www.amazon.com.br/dp/B0DHSZ51GF"
-    }
-   ],
-   "melhor_posicao": 12,
-   "categorias": [
-    "Amazon · Higiene íntima"
-   ],
-   "n_listas": 1,
-   "preco_min": 27.54,
-   "preco_max": 27.54,
-   "url": "https://www.amazon.com.br/dp/B0DHSZ51GF",
-   "promo_foz": {
-    "tipo": "nenhum",
-    "n_farmacias": 0,
-    "selo": "ninguém promove em Foz — oportunidade",
-    "redes": [],
-    "chaves": [],
-    "nomes": [],
-    "n_semana": 0,
-    "farmacias_semana": []
-   },
-   "pontos": 0.63,
-   "pos": 54
+   "pos": 59
   },
   {
    "chave": "colgate|sensitive|creme dental|kit",
@@ -2221,12 +2501,12 @@
    "lojas": [
     {
      "loja": "Amazon",
-     "melhor_posicao": 12,
+     "melhor_posicao": 11,
      "categoria": "Saúde e bem-estar (departamento)",
      "url": "https://www.amazon.com.br/dp/B097NRKZYH"
     }
    ],
-   "melhor_posicao": 12,
+   "melhor_posicao": 11,
    "categorias": [
     "Amazon · Saúde e bem-estar (departamento)"
    ],
@@ -2236,207 +2516,28 @@
    "url": "https://www.amazon.com.br/dp/B097NRKZYH",
    "promo_foz": {
     "tipo": "marca",
-    "n_farmacias": 20,
-    "selo": "marca em promoção em 20 farmácias de Foz (outro item)",
+    "n_farmacias": 12,
+    "selo": "marca em promoção em 12 farmácias de Foz (outro item)",
     "redes": [
      "Masterfarma",
-     "Preço Justo"
+     "Nissei"
     ],
     "chaves": [
-     "cremedentalcolgateanticaries90g",
+     "kitcremedentalcolgateluminouswhiteglow70g2un",
      "colgatecloseup"
     ],
     "nomes": [
      "Colgate + Closeup",
-     "Creme dental Colgate Anticáries 90g"
+     "Kit creme dental Colgate Luminous White Glow 70g 2un"
     ],
     "n_semana": 0,
     "farmacias_semana": []
    },
-   "pontos": 0.63,
-   "pos": 55
-  },
-  {
-   "chave": "vasenol||hidratante",
-   "nome": "Vasenol Geleia de Vaselina Hidratante para Pele Ressecada",
-   "marca": "Vasenol",
-   "linha": "",
-   "lojas": [
-    {
-     "loja": "Amazon",
-     "melhor_posicao": 13,
-     "categoria": "Cuidados com a pele",
-     "url": "https://www.amazon.com.br/dp/B07JR55K68"
-    }
-   ],
-   "melhor_posicao": 13,
-   "categorias": [
-    "Amazon · Cuidados com a pele"
-   ],
-   "n_listas": 1,
-   "preco_min": 23.98,
-   "preco_max": 23.98,
-   "url": "https://www.amazon.com.br/dp/B07JR55K68",
-   "promo_foz": {
-    "tipo": "nenhum",
-    "n_farmacias": 0,
-    "selo": "ninguém promove em Foz — oportunidade",
-    "redes": [],
-    "chaves": [],
-    "nomes": [],
-    "n_semana": 0,
-    "farmacias_semana": []
-   },
-   "pontos": 0.6,
-   "pos": 56
-  },
-  {
-   "chave": "Amazon:B00CZC5F0G",
-   "nome": "Revlon Profissional Uniq One - Leave-in 150ml",
-   "marca": "",
-   "linha": "",
-   "lojas": [
-    {
-     "loja": "Amazon",
-     "melhor_posicao": 13,
-     "categoria": "Cuidados com o cabelo",
-     "url": "https://www.amazon.com.br/dp/B00CZC5F0G"
-    }
-   ],
-   "melhor_posicao": 13,
-   "categorias": [
-    "Amazon · Cuidados com o cabelo"
-   ],
-   "n_listas": 1,
-   "preco_min": 61.64,
-   "preco_max": 61.64,
-   "url": "https://www.amazon.com.br/dp/B00CZC5F0G",
-   "promo_foz": {
-    "tipo": "sem_marca",
-    "n_farmacias": 0,
-    "selo": "marca não identificada no anúncio — sem cruzamento com Foz",
-    "redes": [],
-    "chaves": [],
-    "nomes": [],
-    "n_semana": 0,
-    "farmacias_semana": []
-   },
-   "pontos": 0.6,
-   "pos": 57
-  },
-  {
-   "chave": "colgate|tripla acao|creme dental|kit",
-   "nome": "Colgate Tripla Ação Menta Original Creme Dental, 6x90g",
-   "marca": "Colgate",
-   "linha": "tripla acao",
-   "lojas": [
-    {
-     "loja": "Amazon",
-     "melhor_posicao": 13,
-     "categoria": "Saúde e bem-estar (departamento)",
-     "url": "https://www.amazon.com.br/dp/B07L63Y3PT"
-    }
-   ],
-   "melhor_posicao": 13,
-   "categorias": [
-    "Amazon · Saúde e bem-estar (departamento)"
-   ],
-   "n_listas": 1,
-   "preco_min": 22.06,
-   "preco_max": 22.06,
-   "url": "https://www.amazon.com.br/dp/B07L63Y3PT",
-   "promo_foz": {
-    "tipo": "marca",
-    "n_farmacias": 20,
-    "selo": "marca em promoção em 20 farmácias de Foz (outro item)",
-    "redes": [
-     "Masterfarma",
-     "Preço Justo"
-    ],
-    "chaves": [
-     "cremedentalcolgateanticaries90g",
-     "colgatecloseup"
-    ],
-    "nomes": [
-     "Colgate + Closeup",
-     "Creme dental Colgate Anticáries 90g"
-    ],
-    "n_semana": 0,
-    "farmacias_semana": []
-   },
-   "pontos": 0.6,
-   "pos": 58
-  },
-  {
-   "chave": "darrow|actine|gel de limpeza",
-   "nome": "Darrow Actine Gel de Limpeza Dermatológico Facial com Ácido Salicílico, Vitamina C e Lactato de Mentila,…",
-   "marca": "Darrow",
-   "linha": "actine",
-   "lojas": [
-    {
-     "loja": "Amazon",
-     "melhor_posicao": 14,
-     "categoria": "Dermocosméticos",
-     "url": "https://www.amazon.com.br/dp/B0BT86GL3F"
-    }
-   ],
-   "melhor_posicao": 14,
-   "categorias": [
-    "Amazon · Dermocosméticos"
-   ],
-   "n_listas": 1,
-   "preco_min": 54.92,
-   "preco_max": 54.92,
-   "url": "https://www.amazon.com.br/dp/B0BT86GL3F",
-   "promo_foz": {
-    "tipo": "nenhum",
-    "n_farmacias": 0,
-    "selo": "ninguém promove em Foz — oportunidade",
-    "redes": [],
-    "chaves": [],
-    "nomes": [],
-    "n_semana": 0,
-    "farmacias_semana": []
-   },
-   "pontos": 0.57,
-   "pos": 59
-  },
-  {
-   "chave": "Amazon:B0B6LZ36XV",
-   "nome": "Gel de Limpeza Facial, Com 2% Ácido Salicílico, 350g | 13% de Tensoativos, 5% de Glicerina",
-   "marca": "",
-   "linha": "",
-   "lojas": [
-    {
-     "loja": "Amazon",
-     "melhor_posicao": 14,
-     "categoria": "Cuidados com a pele",
-     "url": "https://www.amazon.com.br/dp/B0B6LZ36XV"
-    }
-   ],
-   "melhor_posicao": 14,
-   "categorias": [
-    "Amazon · Cuidados com a pele"
-   ],
-   "n_listas": 1,
-   "preco_min": 49.0,
-   "preco_max": 49.0,
-   "url": "https://www.amazon.com.br/dp/B0B6LZ36XV",
-   "promo_foz": {
-    "tipo": "sem_marca",
-    "n_farmacias": 0,
-    "selo": "marca não identificada no anúncio — sem cruzamento com Foz",
-    "redes": [],
-    "chaves": [],
-    "nomes": [],
-    "n_semana": 0,
-    "farmacias_semana": []
-   },
-   "pontos": 0.57,
+   "pontos": 0.67,
    "pos": 60
   }
  ],
- "n_hoje": 123,
+ "n_hoje": 140,
  "7dias": [
   {
    "chave": "cerave||hidratante",
@@ -2479,12 +2580,12 @@
     "n_semana": 0,
     "farmacias_semana": []
    },
-   "pontos": 11.2,
-   "n_dias": 3,
+   "pontos": 13.37,
+   "n_dias": 4,
    "primeiro": "18/11",
-   "ultimo": "20/11",
-   "tendencia": "estavel",
-   "var_posicoes": 0,
+   "ultimo": "21/11",
+   "tendencia": "cai",
+   "var_posicoes": -2,
    "hoje": true,
    "pos": 1
   },
@@ -2528,10 +2629,10 @@
     "n_semana": 0,
     "farmacias_semana": []
    },
-   "pontos": 10.37,
-   "n_dias": 3,
+   "pontos": 13.27,
+   "n_dias": 4,
    "primeiro": "18/11",
-   "ultimo": "20/11",
+   "ultimo": "21/11",
    "tendencia": "estavel",
    "var_posicoes": 0,
    "hoje": true,
@@ -2583,12 +2684,12 @@
      "Farmácia Preço Popular (CLAMED)"
     ]
    },
-   "pontos": 8.4,
-   "n_dias": 3,
+   "pontos": 10.7,
+   "n_dias": 4,
    "primeiro": "18/11",
-   "ultimo": "20/11",
-   "tendencia": "estavel",
-   "var_posicoes": 0,
+   "ultimo": "21/11",
+   "tendencia": "cai",
+   "var_posicoes": -3,
    "hoje": true,
    "pos": 3
   },
@@ -2633,70 +2734,14 @@
      "Droga Raia (@raiaoficial)"
     ]
    },
-   "pontos": 8.17,
-   "n_dias": 3,
+   "pontos": 10.6,
+   "n_dias": 4,
    "primeiro": "18/11",
-   "ultimo": "20/11",
+   "ultimo": "21/11",
    "tendencia": "estavel",
    "var_posicoes": 0,
    "hoje": true,
    "pos": 4
-  },
-  {
-   "chave": "l'oreal paris (elseve)|oleo extraordinario|leave-in",
-   "nome": "L'Oréal Paris Elseve Óleo Extraordinário 100ml - Leave In Anti Frizz Protetor Térmico Tratamento…",
-   "marca": "L'Oréal Paris (Elseve)",
-   "linha": "oleo extraordinario",
-   "lojas": [
-    {
-     "loja": "Amazon",
-     "melhor_posicao": 1,
-     "categoria": "Cuidados com o cabelo",
-     "url": "https://www.amazon.com.br/dp/B07H113TPQ"
-    },
-    {
-     "loja": "Mercado Livre",
-     "melhor_posicao": 1,
-     "categoria": "Beleza e Cuidado Pessoal",
-     "url": "https://produto.mercadolivre.com.br/MLB-3956803727"
-    }
-   ],
-   "melhor_posicao": 1,
-   "categorias": [
-    "Amazon · Beleza (departamento)",
-    "Amazon · Cuidados com o cabelo",
-    "Mercado Livre · Beleza e Cuidado Pessoal"
-   ],
-   "n_listas": 3,
-   "preco_min": 28.91,
-   "preco_max": 36.14,
-   "url": "https://www.amazon.com.br/dp/B07H113TPQ",
-   "promo_foz": {
-    "tipo": "linha",
-    "n_farmacias": 19,
-    "selo": "19 farmácias em promoção em Foz",
-    "redes": [
-     "Preço Justo"
-    ],
-    "chaves": [
-     "elseveoleoextraordinario100ml"
-    ],
-    "nomes": [
-     "Elseve Óleo Extraordinário 100ml"
-    ],
-    "n_semana": 1,
-    "farmacias_semana": [
-     "Preço Justo (@precojustoclubjusto)"
-    ]
-   },
-   "pontos": 8.0,
-   "n_dias": 3,
-   "primeiro": "18/11",
-   "ultimo": "20/11",
-   "tendencia": "estavel",
-   "var_posicoes": 0,
-   "hoje": true,
-   "pos": 5
   },
   {
    "chave": "cetaphil||hidratante",
@@ -2747,12 +2792,71 @@
      "Coperfarma"
     ]
    },
-   "pontos": 7.07,
-   "n_dias": 3,
+   "pontos": 10.1,
+   "n_dias": 4,
    "primeiro": "18/11",
-   "ultimo": "20/11",
+   "ultimo": "21/11",
    "tendencia": "sobe",
-   "var_posicoes": 1,
+   "var_posicoes": 2,
+   "hoje": true,
+   "pos": 5
+  },
+  {
+   "chave": "l'oreal paris (elseve)|oleo extraordinario|leave-in",
+   "nome": "L'Oréal Paris Elseve Óleo Extraordinário 100ml - Leave In Anti Frizz Protetor Térmico Tratamento…",
+   "marca": "L'Oréal Paris (Elseve)",
+   "linha": "oleo extraordinario",
+   "lojas": [
+    {
+     "loja": "Amazon",
+     "melhor_posicao": 1,
+     "categoria": "Cuidados com o cabelo",
+     "url": "https://www.amazon.com.br/dp/B07H113TPQ"
+    },
+    {
+     "loja": "Mercado Livre",
+     "melhor_posicao": 1,
+     "categoria": "Beleza e Cuidado Pessoal",
+     "url": "https://produto.mercadolivre.com.br/MLB-3956803727"
+    }
+   ],
+   "melhor_posicao": 1,
+   "categorias": [
+    "Amazon · Beleza (departamento)",
+    "Amazon · Cuidados com o cabelo",
+    "Mercado Livre · Beleza e Cuidado Pessoal"
+   ],
+   "n_listas": 3,
+   "preco_min": 28.91,
+   "preco_max": 36.14,
+   "url": "https://www.amazon.com.br/dp/B07H113TPQ",
+   "promo_foz": {
+    "tipo": "marca",
+    "n_farmacias": 5,
+    "selo": "marca em promoção em 5 farmácias de Foz (outro item)",
+    "redes": [
+     "Droga Raia",
+     "Farmácia Preço Popular"
+    ],
+    "chaves": [
+     "elseveserumreparacaomolecular",
+     "serumlorealpariselsevelisosonhos100ml"
+    ],
+    "nomes": [
+     "Elseve sérum Reparação Molecular",
+     "Sérum Loreal Paris Elseve Liso Dos Sonhos 100ml"
+    ],
+    "n_semana": 1,
+    "farmacias_semana": [
+     "Preço Justo (@precojustoclubjusto)"
+    ]
+   },
+   "pontos": 10.0,
+   "n_dias": 4,
+   "primeiro": "18/11",
+   "ultimo": "21/11",
+   "tendencia": "estavel",
+   "var_posicoes": 0,
    "hoje": true,
    "pos": 6
   },
@@ -2781,17 +2885,15 @@
    "url": "https://www.amazon.com.br/dp/B077BY8HQV",
    "promo_foz": {
     "tipo": "marca",
-    "n_farmacias": 38,
-    "selo": "marca em promoção em 38 farmácias de Foz (outro item)",
+    "n_farmacias": 19,
+    "selo": "marca em promoção em 19 farmácias de Foz (outro item)",
     "redes": [
      "Droga Raia",
      "Farmácia Preço Popular",
      "Panvel",
-     "Preço Justo",
      "São João"
     ],
     "chaves": [
-     "cremeniveafacial100g",
      "desodoranteaerosolniveamenoriginalprotectprotectcareembalagemeconomica",
      "desodoranteaerosolniveainvisibleblackwhiteclear200ml",
      "nivealocaohidratante",
@@ -2799,7 +2901,6 @@
      "sabonetenivealiquido200mloleobanho"
     ],
     "nomes": [
-     "Creme Nivea facial 100g",
      "Desodorante aerosol Nivea Invisible Black&White Clear 200ml",
      "Desodorante aerosol Nivea Men Original Protect / Protect & Care embalagem econômica",
      "Nivea loção hidratante (Banho Radiante, Milk, Soft Milk)",
@@ -2809,10 +2910,10 @@
     "n_semana": 0,
     "farmacias_semana": []
    },
-   "pontos": 5.8,
-   "n_dias": 3,
+   "pontos": 7.77,
+   "n_dias": 4,
    "primeiro": "18/11",
-   "ultimo": "20/11",
+   "ultimo": "21/11",
    "tendencia": "estavel",
    "var_posicoes": 0,
    "hoje": true,
@@ -2838,23 +2939,23 @@
    ],
    "n_listas": 2,
    "preco_min": 25.19,
-   "preco_max": 32.99,
+   "preco_max": 34.42,
    "url": "https://www.amazon.com.br/dp/B0G3YGYW4Z",
    "promo_foz": {
-    "tipo": "linha",
-    "n_farmacias": 30,
-    "selo": "30 farmácias em promoção em Foz",
+    "tipo": "marca",
+    "n_farmacias": 5,
+    "selo": "marca em promoção em 5 farmácias de Foz (outro item)",
     "redes": [
-     "Nissei",
-     "Preço Justo"
+     "Droga Raia",
+     "Farmácia Preço Popular"
     ],
     "chaves": [
-     "elseveoleoextraordinario100ml",
-     "oleocapilarouleaveinelseve100ml"
+     "elseveserumreparacaomolecular",
+     "serumlorealpariselsevelisosonhos100ml"
     ],
     "nomes": [
-     "Elseve Óleo Extraordinário 100ml",
-     "Óleo capilar ou leave-in Elseve 100ml"
+     "Elseve sérum Reparação Molecular",
+     "Sérum Loreal Paris Elseve Liso Dos Sonhos 100ml"
     ],
     "n_semana": 3,
     "farmacias_semana": [
@@ -2863,78 +2964,14 @@
      "Preço Popular"
     ]
    },
-   "pontos": 5.8,
-   "n_dias": 3,
+   "pontos": 7.57,
+   "n_dias": 4,
    "primeiro": "18/11",
-   "ultimo": "20/11",
-   "tendencia": "estavel",
-   "var_posicoes": 0,
+   "ultimo": "21/11",
+   "tendencia": "cai",
+   "var_posicoes": -1,
    "hoje": true,
    "pos": 8
-  },
-  {
-   "chave": "dove|||B0DC74428B",
-   "nome": "Dove Óleo de Banho Hidratação Intensa e Limpeza Delicada, Glicerinado com 96% Ingredientes de Origem…",
-   "marca": "Dove",
-   "linha": "",
-   "lojas": [
-    {
-     "loja": "Amazon",
-     "melhor_posicao": 1,
-     "categoria": "Corpo e banho",
-     "url": "https://www.amazon.com.br/dp/B0DC74428B"
-    }
-   ],
-   "melhor_posicao": 1,
-   "categorias": [
-    "Amazon · Beleza (departamento)",
-    "Amazon · Corpo e banho"
-   ],
-   "n_listas": 2,
-   "preco_min": 29.9,
-   "preco_max": 32.49,
-   "url": "https://www.amazon.com.br/dp/B0DC74428B",
-   "promo_foz": {
-    "tipo": "marca",
-    "n_farmacias": 31,
-    "selo": "marca em promoção em 31 farmácias de Foz (outro item)",
-    "redes": [
-     "Masterfarma",
-     "Nissei",
-     "Preço Justo Dr. Guilherme",
-     "Preço Justo Três Lagoas"
-    ],
-    "chaves": [
-     "sabonetedove",
-     "kitdoveshampoocondicionador",
-     "desodoranteaerossoldove150ml",
-     "desodorantedoveinvisiblecare250ml",
-     "desodorantedoveserum",
-     "serumcorporaldovefragrancias380ml",
-     "cremetratamentodove10em1250g",
-     "mascaradove2em1320g",
-     "serumcapilaroleodovebondintenseuvrepairglowferulico110ml",
-     "serumcorporaldovecicapan20g"
-    ],
-    "nomes": [
-     "Creme de tratamento Dove 10 em 1 250g",
-     "Desodorante Dove Invisible Care 250ml",
-     "Desodorante Dove Sérum",
-     "Desodorante aerossol Dove 150ml",
-     "Kit Dove shampoo + condicionador",
-     "Máscara Dove 2 em 1 320g"
-    ],
-    "n_semana": 0,
-    "farmacias_semana": []
-   },
-   "pontos": 5.6,
-   "n_dias": 3,
-   "primeiro": "18/11",
-   "ultimo": "20/11",
-   "tendencia": "cai",
-   "var_posicoes": -2,
-   "hoje": true,
-   "pos": 9
   },
   {
    "chave": "nivea||sabonete",
@@ -2944,12 +2981,12 @@
    "lojas": [
     {
      "loja": "Amazon",
-     "melhor_posicao": 2,
+     "melhor_posicao": 1,
      "categoria": "Corpo e banho",
      "url": "https://www.amazon.com.br/dp/B08VGBZGWV"
     }
    ],
-   "melhor_posicao": 2,
+   "melhor_posicao": 1,
    "categorias": [
     "Amazon · Beleza (departamento)",
     "Amazon · Corpo e banho"
@@ -2980,12 +3017,73 @@
      "Panvel (@panvelfarmacias)"
     ]
    },
-   "pontos": 5.53,
-   "n_dias": 3,
+   "pontos": 7.47,
+   "n_dias": 4,
    "primeiro": "18/11",
-   "ultimo": "20/11",
-   "tendencia": "estavel",
-   "var_posicoes": 0,
+   "ultimo": "21/11",
+   "tendencia": "sobe",
+   "var_posicoes": 1,
+   "hoje": true,
+   "pos": 9
+  },
+  {
+   "chave": "dove|||B0DC74428B",
+   "nome": "Dove Óleo de Banho Hidratação Intensa e Limpeza Delicada, Glicerinado com 96% Ingredientes de Origem…",
+   "marca": "Dove",
+   "linha": "",
+   "lojas": [
+    {
+     "loja": "Amazon",
+     "melhor_posicao": 1,
+     "categoria": "Corpo e banho",
+     "url": "https://www.amazon.com.br/dp/B0DC74428B"
+    }
+   ],
+   "melhor_posicao": 1,
+   "categorias": [
+    "Amazon · Beleza (departamento)",
+    "Amazon · Corpo e banho"
+   ],
+   "n_listas": 2,
+   "preco_min": 29.9,
+   "preco_max": 32.49,
+   "url": "https://www.amazon.com.br/dp/B0DC74428B",
+   "promo_foz": {
+    "tipo": "marca",
+    "n_farmacias": 31,
+    "selo": "marca em promoção em 31 farmácias de Foz (outro item)",
+    "redes": [
+     "Masterfarma",
+     "Nissei",
+     "Preço Justo Três Lagoas"
+    ],
+    "chaves": [
+     "sabonetedove",
+     "kitdoveshampoocondicionador",
+     "desodoranteaerossoldove150ml",
+     "desodorantedoveinvisiblecare250ml",
+     "serumcorporaldovefragrancias380ml",
+     "mascaradove2em1320g",
+     "serumcapilaroleodovebondintenseuvrepairglowferulico110ml",
+     "sprayoleocorporaldoveserumdeo150ml"
+    ],
+    "nomes": [
+     "Desodorante Dove Invisible Care 250ml",
+     "Desodorante aerossol Dove 150ml",
+     "Kit Dove shampoo + condicionador",
+     "Máscara Dove 2 em 1 320g",
+     "Sabonete Dove",
+     "Spray óleo corporal Dove Sérum Deo 150ml"
+    ],
+    "n_semana": 0,
+    "farmacias_semana": []
+   },
+   "pontos": 7.17,
+   "n_dias": 4,
+   "primeiro": "18/11",
+   "ultimo": "21/11",
+   "tendencia": "cai",
+   "var_posicoes": -3,
    "hoje": true,
    "pos": 10
   },
@@ -3029,12 +3127,12 @@
      "Preço Popular"
     ]
    },
-   "pontos": 5.33,
-   "n_dias": 3,
+   "pontos": 7.03,
+   "n_dias": 4,
    "primeiro": "18/11",
-   "ultimo": "20/11",
+   "ultimo": "21/11",
    "tendencia": "sobe",
-   "var_posicoes": 4,
+   "var_posicoes": 2,
    "hoje": true,
    "pos": 11
   },
@@ -3071,10 +3169,10 @@
     "n_semana": 0,
     "farmacias_semana": []
    },
-   "pontos": 5.2,
-   "n_dias": 3,
+   "pontos": 7.03,
+   "n_dias": 4,
    "primeiro": "18/11",
-   "ultimo": "20/11",
+   "ultimo": "21/11",
    "tendencia": "estavel",
    "var_posicoes": 0,
    "hoje": true,
@@ -3120,55 +3218,14 @@
      "Preço Justo Três Lagoas (@farmaciaprecojustotreslagoas)"
     ]
    },
-   "pontos": 5.1,
-   "n_dias": 3,
+   "pontos": 6.8,
+   "n_dias": 4,
    "primeiro": "18/11",
-   "ultimo": "20/11",
-   "tendencia": "sobe",
-   "var_posicoes": 1,
+   "ultimo": "21/11",
+   "tendencia": "estavel",
+   "var_posicoes": 0,
    "hoje": true,
    "pos": 13
-  },
-  {
-   "chave": "Amazon:B0B6LZ36XV",
-   "nome": "Gel de Limpeza Facial, Com 2% Ácido Salicílico, 350g | 13% de Tensoativos, 5% de Glicerina",
-   "marca": "",
-   "linha": "",
-   "lojas": [
-    {
-     "loja": "Amazon",
-     "melhor_posicao": 1,
-     "categoria": "Cuidados com a pele",
-     "url": "https://www.amazon.com.br/dp/B0B6LZ36XV"
-    }
-   ],
-   "melhor_posicao": 1,
-   "categorias": [
-    "Amazon · Beleza (departamento)",
-    "Amazon · Cuidados com a pele"
-   ],
-   "n_listas": 2,
-   "preco_min": 49.0,
-   "preco_max": 53.99,
-   "url": "https://www.amazon.com.br/dp/B0B6LZ36XV",
-   "promo_foz": {
-    "tipo": "sem_marca",
-    "n_farmacias": 0,
-    "selo": "marca não identificada no anúncio — sem cruzamento com Foz",
-    "redes": [],
-    "chaves": [],
-    "nomes": [],
-    "n_semana": 0,
-    "farmacias_semana": []
-   },
-   "pontos": 5.07,
-   "n_dias": 3,
-   "primeiro": "18/11",
-   "ultimo": "20/11",
-   "tendencia": "cai",
-   "var_posicoes": -2,
-   "hoje": true,
-   "pos": 14
   },
   {
    "chave": "lola cosmetics|||B07SBXMSGB",
@@ -3202,14 +3259,14 @@
     "n_semana": 0,
     "farmacias_semana": []
    },
-   "pontos": 5.07,
-   "n_dias": 3,
+   "pontos": 6.5,
+   "n_dias": 4,
    "primeiro": "18/11",
-   "ultimo": "20/11",
+   "ultimo": "21/11",
    "tendencia": "cai",
-   "var_posicoes": -1,
+   "var_posicoes": -4,
    "hoje": true,
-   "pos": 15
+   "pos": 14
   },
   {
    "chave": "l'oreal paris (elseve)||mascara capilar",
@@ -3235,62 +3292,54 @@
    "url": "https://www.amazon.com.br/dp/B0G45KPX15",
    "promo_foz": {
     "tipo": "marca",
-    "n_farmacias": 35,
-    "selo": "marca em promoção em 35 farmácias de Foz (outro item)",
+    "n_farmacias": 5,
+    "selo": "marca em promoção em 5 farmácias de Foz (outro item)",
     "redes": [
      "Droga Raia",
-     "Farmácia Preço Popular",
-     "Nissei",
-     "Preço Justo"
+     "Farmácia Preço Popular"
     ],
     "chaves": [
-     "elseveoleoextraordinario100ml",
-     "oleocapilarouleaveinelseve100ml",
-     "cremetratamentoelseve300g",
      "elseveserumreparacaomolecular",
      "serumlorealpariselsevelisosonhos100ml"
     ],
     "nomes": [
-     "Creme de tratamento Elseve 300g",
      "Elseve sérum Reparação Molecular",
-     "Elseve Óleo Extraordinário 100ml",
-     "Sérum Loreal Paris Elseve Liso Dos Sonhos 100ml",
-     "Óleo capilar ou leave-in Elseve 100ml"
+     "Sérum Loreal Paris Elseve Liso Dos Sonhos 100ml"
     ],
     "n_semana": 0,
     "farmacias_semana": []
    },
-   "pontos": 4.67,
-   "n_dias": 3,
+   "pontos": 6.27,
+   "n_dias": 4,
    "primeiro": "18/11",
-   "ultimo": "20/11",
+   "ultimo": "21/11",
    "tendencia": "estavel",
    "var_posicoes": 0,
    "hoje": true,
-   "pos": 16
+   "pos": 15
   },
   {
-   "chave": "la roche-posay|anthelios|",
-   "nome": "La Roche-Posay Anthelios Airlicium",
-   "marca": "La Roche-Posay",
-   "linha": "anthelios",
+   "chave": "lola cosmetics|||B09KCYYZNG",
+   "nome": "Densidade Acidificante Capilar 250g, Lola Cosmetics | Praticidade no dia a dia – 250g",
+   "marca": "Lola Cosmetics",
+   "linha": "",
    "lojas": [
     {
      "loja": "Amazon",
-     "melhor_posicao": 7,
-     "categoria": "Dermocosméticos",
-     "url": "https://www.amazon.com.br/dp/B0BJ347WND"
+     "melhor_posicao": 2,
+     "categoria": "Cuidados com o cabelo",
+     "url": "https://www.amazon.com.br/dp/B09KCYYZNG"
     }
    ],
-   "melhor_posicao": 7,
+   "melhor_posicao": 2,
    "categorias": [
-    "Amazon · Dermocosméticos",
-    "Amazon · Protetores solares"
+    "Amazon · Beleza (departamento)",
+    "Amazon · Cuidados com o cabelo"
    ],
    "n_listas": 2,
-   "preco_min": 69.59,
-   "preco_max": 79.39,
-   "url": "https://www.amazon.com.br/dp/B0BJ347WND",
+   "preco_min": 15.7,
+   "preco_max": 20.78,
+   "url": "https://www.amazon.com.br/dp/B09KCYYZNG",
    "promo_foz": {
     "tipo": "nenhum",
     "n_farmacias": 0,
@@ -3301,75 +3350,14 @@
     "n_semana": 0,
     "farmacias_semana": []
    },
-   "pontos": 4.6,
-   "n_dias": 3,
+   "pontos": 6.13,
+   "n_dias": 4,
    "primeiro": "18/11",
-   "ultimo": "20/11",
+   "ultimo": "21/11",
    "tendencia": "sobe",
-   "var_posicoes": 1,
+   "var_posicoes": 5,
    "hoje": true,
-   "pos": 17
-  },
-  {
-   "chave": "nivea|intimo|sabonete",
-   "nome": "NIVEA Sabonete Líquido Íntimo Suave 250ml, Limpeza Delicada, Mantém pH Natural, Extrato de Camomila,…",
-   "marca": "Nivea",
-   "linha": "intimo",
-   "lojas": [
-    {
-     "loja": "Amazon",
-     "melhor_posicao": 1,
-     "categoria": "Higiene íntima",
-     "url": "https://www.amazon.com.br/dp/B07F3DK2CK"
-    }
-   ],
-   "melhor_posicao": 1,
-   "categorias": [
-    "Amazon · Higiene íntima",
-    "Amazon · Saúde e bem-estar (departamento)"
-   ],
-   "n_listas": 2,
-   "preco_min": 15.39,
-   "preco_max": 15.39,
-   "url": "https://www.amazon.com.br/dp/B07F3DK2CK",
-   "promo_foz": {
-    "tipo": "marca",
-    "n_farmacias": 38,
-    "selo": "marca em promoção em 38 farmácias de Foz (outro item)",
-    "redes": [
-     "Droga Raia",
-     "Farmácia Preço Popular",
-     "Panvel",
-     "Preço Justo",
-     "São João"
-    ],
-    "chaves": [
-     "cremeniveafacial100g",
-     "desodoranteaerosolniveamenoriginalprotectprotectcareembalagemeconomica",
-     "desodoranteaerosolniveainvisibleblackwhiteclear200ml",
-     "nivealocaohidratante",
-     "saboneteliquidoniveaoleobanho200ml",
-     "sabonetenivealiquido200mloleobanho"
-    ],
-    "nomes": [
-     "Creme Nivea facial 100g",
-     "Desodorante aerosol Nivea Invisible Black&White Clear 200ml",
-     "Desodorante aerosol Nivea Men Original Protect / Protect & Care embalagem econômica",
-     "Nivea loção hidratante (Banho Radiante, Milk, Soft Milk)",
-     "Sabonete Nivea Liquido 200ml Oleo De Banho",
-     "Sabonete líquido Nivea Óleo de Banho 200ml"
-    ],
-    "n_semana": 0,
-    "farmacias_semana": []
-   },
-   "pontos": 4.47,
-   "n_dias": 3,
-   "primeiro": "18/11",
-   "ultimo": "20/11",
-   "tendencia": "estavel",
-   "var_posicoes": 0,
-   "hoje": true,
-   "pos": 18
+   "pos": 16
   },
   {
    "chave": "neutrogena|hydro boost|hidratante",
@@ -3413,14 +3401,55 @@
      "Nissei (@farmaciasnissei)"
     ]
    },
-   "pontos": 4.4,
-   "n_dias": 3,
+   "pontos": 6.07,
+   "n_dias": 4,
    "primeiro": "18/11",
-   "ultimo": "20/11",
-   "tendencia": "estavel",
-   "var_posicoes": 0,
+   "ultimo": "21/11",
+   "tendencia": "cai",
+   "var_posicoes": -1,
    "hoje": true,
-   "pos": 19
+   "pos": 17
+  },
+  {
+   "chave": "la roche-posay|anthelios|",
+   "nome": "La Roche-Posay Anthelios Airlicium",
+   "marca": "La Roche-Posay",
+   "linha": "anthelios",
+   "lojas": [
+    {
+     "loja": "Amazon",
+     "melhor_posicao": 7,
+     "categoria": "Dermocosméticos",
+     "url": "https://www.amazon.com.br/dp/B0BJ347WND"
+    }
+   ],
+   "melhor_posicao": 7,
+   "categorias": [
+    "Amazon · Dermocosméticos",
+    "Amazon · Protetores solares"
+   ],
+   "n_listas": 2,
+   "preco_min": 69.59,
+   "preco_max": 79.39,
+   "url": "https://www.amazon.com.br/dp/B0BJ347WND",
+   "promo_foz": {
+    "tipo": "nenhum",
+    "n_farmacias": 0,
+    "selo": "ninguém promove em Foz — oportunidade",
+    "redes": [],
+    "chaves": [],
+    "nomes": [],
+    "n_semana": 0,
+    "farmacias_semana": []
+   },
+   "pontos": 6.0,
+   "n_dias": 4,
+   "primeiro": "18/11",
+   "ultimo": "21/11",
+   "tendencia": "cai",
+   "var_posicoes": -1,
+   "hoje": true,
+   "pos": 18
   },
   {
    "chave": "lola cosmetics||hidratante",
@@ -3454,10 +3483,68 @@
     "n_semana": 0,
     "farmacias_semana": []
    },
-   "pontos": 4.4,
-   "n_dias": 3,
+   "pontos": 5.93,
+   "n_dias": 4,
    "primeiro": "18/11",
-   "ultimo": "20/11",
+   "ultimo": "21/11",
+   "tendencia": "estavel",
+   "var_posicoes": 0,
+   "hoje": true,
+   "pos": 19
+  },
+  {
+   "chave": "nivea|intimo|sabonete",
+   "nome": "NIVEA Sabonete Líquido Íntimo Suave 250ml, Limpeza Delicada, Mantém pH Natural, Extrato de Camomila,…",
+   "marca": "Nivea",
+   "linha": "intimo",
+   "lojas": [
+    {
+     "loja": "Amazon",
+     "melhor_posicao": 1,
+     "categoria": "Higiene íntima",
+     "url": "https://www.amazon.com.br/dp/B07F3DK2CK"
+    }
+   ],
+   "melhor_posicao": 1,
+   "categorias": [
+    "Amazon · Higiene íntima",
+    "Amazon · Saúde e bem-estar (departamento)"
+   ],
+   "n_listas": 2,
+   "preco_min": 15.39,
+   "preco_max": 15.39,
+   "url": "https://www.amazon.com.br/dp/B07F3DK2CK",
+   "promo_foz": {
+    "tipo": "marca",
+    "n_farmacias": 19,
+    "selo": "marca em promoção em 19 farmácias de Foz (outro item)",
+    "redes": [
+     "Droga Raia",
+     "Farmácia Preço Popular",
+     "Panvel",
+     "São João"
+    ],
+    "chaves": [
+     "desodoranteaerosolniveamenoriginalprotectprotectcareembalagemeconomica",
+     "desodoranteaerosolniveainvisibleblackwhiteclear200ml",
+     "nivealocaohidratante",
+     "saboneteliquidoniveaoleobanho200ml",
+     "sabonetenivealiquido200mloleobanho"
+    ],
+    "nomes": [
+     "Desodorante aerosol Nivea Invisible Black&White Clear 200ml",
+     "Desodorante aerosol Nivea Men Original Protect / Protect & Care embalagem econômica",
+     "Nivea loção hidratante (Banho Radiante, Milk, Soft Milk)",
+     "Sabonete Nivea Liquido 200ml Oleo De Banho",
+     "Sabonete líquido Nivea Óleo de Banho 200ml"
+    ],
+    "n_semana": 0,
+    "farmacias_semana": []
+   },
+   "pontos": 5.9,
+   "n_dias": 4,
+   "primeiro": "18/11",
+   "ultimo": "21/11",
    "tendencia": "estavel",
    "var_posicoes": 0,
    "hoje": true,
@@ -3483,7 +3570,7 @@
    ],
    "n_listas": 2,
    "preco_min": 48.99,
-   "preco_max": 52.9,
+   "preco_max": 57.59,
    "url": "https://www.amazon.com.br/dp/B079ZS4Z5Z",
    "promo_foz": {
     "tipo": "linha",
@@ -3507,55 +3594,107 @@
      "Farmácia Preço Popular (CLAMED)"
     ]
    },
-   "pontos": 4.2,
-   "n_dias": 3,
+   "pontos": 5.67,
+   "n_dias": 4,
    "primeiro": "18/11",
-   "ultimo": "20/11",
+   "ultimo": "21/11",
    "tendencia": "sobe",
-   "var_posicoes": 4,
+   "var_posicoes": 3,
    "hoje": true,
    "pos": 21
   },
   {
-   "chave": "lola cosmetics|||B09KCYYZNG",
-   "nome": "Densidade Acidificante Capilar 250g, Lola Cosmetics | Praticidade no dia a dia – 250g",
-   "marca": "Lola Cosmetics",
+   "chave": "Amazon:B0B6LZ36XV",
+   "nome": "Gel de Limpeza Facial, Com 2% Ácido Salicílico, 350g | 13% de Tensoativos, 5% de Glicerina",
+   "marca": "",
    "linha": "",
    "lojas": [
     {
      "loja": "Amazon",
-     "melhor_posicao": 7,
-     "categoria": "Cuidados com o cabelo",
-     "url": "https://www.amazon.com.br/dp/B09KCYYZNG"
+     "melhor_posicao": 1,
+     "categoria": "Cuidados com a pele",
+     "url": "https://www.amazon.com.br/dp/B0B6LZ36XV"
     }
    ],
-   "melhor_posicao": 7,
+   "melhor_posicao": 1,
    "categorias": [
     "Amazon · Beleza (departamento)",
-    "Amazon · Cuidados com o cabelo"
+    "Amazon · Cuidados com a pele"
    ],
    "n_listas": 2,
-   "preco_min": 15.7,
-   "preco_max": 20.78,
-   "url": "https://www.amazon.com.br/dp/B09KCYYZNG",
+   "preco_min": 49.0,
+   "preco_max": 53.99,
+   "url": "https://www.amazon.com.br/dp/B0B6LZ36XV",
    "promo_foz": {
-    "tipo": "nenhum",
+    "tipo": "sem_marca",
     "n_farmacias": 0,
-    "selo": "ninguém promove em Foz — oportunidade",
+    "selo": "marca não identificada no anúncio — sem cruzamento com Foz",
     "redes": [],
     "chaves": [],
     "nomes": [],
     "n_semana": 0,
     "farmacias_semana": []
    },
-   "pontos": 4.2,
-   "n_dias": 3,
+   "pontos": 5.53,
+   "n_dias": 4,
    "primeiro": "18/11",
-   "ultimo": "20/11",
-   "tendencia": "estavel",
-   "var_posicoes": 0,
+   "ultimo": "21/11",
+   "tendencia": "cai",
+   "var_posicoes": -16,
    "hoje": true,
    "pos": 22
+  },
+  {
+   "chave": "dove|sabonete|sabonete",
+   "nome": "Dove Sabonete em Barra Original 90g 6 Unidades | Hidratação clássica em pack",
+   "marca": "Dove",
+   "linha": "sabonete",
+   "lojas": [
+    {
+     "loja": "Amazon",
+     "melhor_posicao": 2,
+     "categoria": "Corpo e banho",
+     "url": "https://www.amazon.com.br/dp/B07LFFGZ93"
+    }
+   ],
+   "melhor_posicao": 2,
+   "categorias": [
+    "Amazon · Beleza (departamento)",
+    "Amazon · Corpo e banho"
+   ],
+   "n_listas": 2,
+   "preco_min": 20.9,
+   "preco_max": 26.99,
+   "url": "https://www.amazon.com.br/dp/B07LFFGZ93",
+   "promo_foz": {
+    "tipo": "linha",
+    "n_farmacias": 20,
+    "selo": "20 farmácias em promoção em Foz",
+    "redes": [
+     "Masterfarma",
+     "Preço Justo Três Lagoas"
+    ],
+    "chaves": [
+     "sabonetedove"
+    ],
+    "nomes": [
+     "Sabonete Dove"
+    ],
+    "n_semana": 3,
+    "farmacias_semana": [
+     "Masterfarma (@masterfarma_foz)",
+     "Preço Justo Três Lagoas (@farmaciaprecojustotreslagoas)",
+     "Preço Popular"
+    ]
+   },
+   "pontos": 5.27,
+   "n_dias": 4,
+   "primeiro": "18/11",
+   "ultimo": "21/11",
+   "tendencia": "sobe",
+   "var_posicoes": 22,
+   "hoje": true,
+   "pos": 23
   },
   {
    "chave": "vichy|dercos|shampoo",
@@ -3590,14 +3729,72 @@
     "n_semana": 0,
     "farmacias_semana": []
    },
-   "pontos": 4.03,
-   "n_dias": 3,
+   "pontos": 5.2,
+   "n_dias": 4,
    "primeiro": "18/11",
-   "ultimo": "20/11",
+   "ultimo": "21/11",
    "tendencia": "sobe",
    "var_posicoes": 1,
    "hoje": true,
-   "pos": 23
+   "pos": 24
+  },
+  {
+   "chave": "nivea|labial|hidratante labial",
+   "nome": "NIVEA Hidratante Labial Amora Shine 4,8g, Hidratação Intensa 24h, Cor Suave, Brilho Delicado, Cuidado…",
+   "marca": "Nivea",
+   "linha": "labial",
+   "lojas": [
+    {
+     "loja": "Amazon",
+     "melhor_posicao": 3,
+     "categoria": "Cuidados com a pele",
+     "url": "https://www.amazon.com.br/dp/B07LFLRQXP"
+    }
+   ],
+   "melhor_posicao": 3,
+   "categorias": [
+    "Amazon · Beleza (departamento)",
+    "Amazon · Cuidados com a pele"
+   ],
+   "n_listas": 2,
+   "preco_min": 12.87,
+   "preco_max": 12.87,
+   "url": "https://www.amazon.com.br/dp/B07LFLRQXP",
+   "promo_foz": {
+    "tipo": "marca",
+    "n_farmacias": 19,
+    "selo": "marca em promoção em 19 farmácias de Foz (outro item)",
+    "redes": [
+     "Droga Raia",
+     "Farmácia Preço Popular",
+     "Panvel",
+     "São João"
+    ],
+    "chaves": [
+     "desodoranteaerosolniveamenoriginalprotectprotectcareembalagemeconomica",
+     "desodoranteaerosolniveainvisibleblackwhiteclear200ml",
+     "nivealocaohidratante",
+     "saboneteliquidoniveaoleobanho200ml",
+     "sabonetenivealiquido200mloleobanho"
+    ],
+    "nomes": [
+     "Desodorante aerosol Nivea Invisible Black&White Clear 200ml",
+     "Desodorante aerosol Nivea Men Original Protect / Protect & Care embalagem econômica",
+     "Nivea loção hidratante (Banho Radiante, Milk, Soft Milk)",
+     "Sabonete Nivea Liquido 200ml Oleo De Banho",
+     "Sabonete líquido Nivea Óleo de Banho 200ml"
+    ],
+    "n_semana": 0,
+    "farmacias_semana": []
+   },
+   "pontos": 4.8,
+   "n_dias": 4,
+   "primeiro": "18/11",
+   "ultimo": "21/11",
+   "tendencia": "sobe",
+   "var_posicoes": 14,
+   "hoje": true,
+   "pos": 25
   },
   {
    "chave": "skin aqua||protetor solar|fps50",
@@ -3631,80 +3828,14 @@
     "n_semana": 0,
     "farmacias_semana": []
    },
-   "pontos": 3.57,
-   "n_dias": 3,
+   "pontos": 4.67,
+   "n_dias": 4,
    "primeiro": "18/11",
-   "ultimo": "20/11",
-   "tendencia": "sobe",
-   "var_posicoes": 1,
+   "ultimo": "21/11",
+   "tendencia": "estavel",
+   "var_posicoes": 0,
    "hoje": true,
-   "pos": 24
-  },
-  {
-   "chave": "dove|hidratante|serum",
-   "nome": "Sérum Hidratante Corporal Para Pele com Tom Irregular 48h de Hidratação Regenerativa Dove Dermo Renovador…",
-   "marca": "Dove",
-   "linha": "hidratante",
-   "lojas": [
-    {
-     "loja": "Amazon",
-     "melhor_posicao": 10,
-     "categoria": "Corpo e banho",
-     "url": "https://www.amazon.com.br/dp/B0D8RHX3C6"
-    }
-   ],
-   "melhor_posicao": 10,
-   "categorias": [
-    "Amazon · Corpo e banho",
-    "Amazon · Cuidados com a pele"
-   ],
-   "n_listas": 2,
-   "preco_min": 39.99,
-   "preco_max": 44.89,
-   "url": "https://www.amazon.com.br/dp/B0D8RHX3C6",
-   "promo_foz": {
-    "tipo": "marca",
-    "n_farmacias": 31,
-    "selo": "marca em promoção em 31 farmácias de Foz (outro item)",
-    "redes": [
-     "Masterfarma",
-     "Nissei",
-     "Preço Justo Dr. Guilherme",
-     "Preço Justo Três Lagoas"
-    ],
-    "chaves": [
-     "sabonetedove",
-     "kitdoveshampoocondicionador",
-     "desodoranteaerossoldove150ml",
-     "desodorantedoveinvisiblecare250ml",
-     "desodorantedoveserum",
-     "serumcorporaldovefragrancias380ml",
-     "cremetratamentodove10em1250g",
-     "mascaradove2em1320g",
-     "serumcapilaroleodovebondintenseuvrepairglowferulico110ml",
-     "serumcorporaldovecicapan20g"
-    ],
-    "nomes": [
-     "Creme de tratamento Dove 10 em 1 250g",
-     "Desodorante Dove Invisible Care 250ml",
-     "Desodorante Dove Sérum",
-     "Desodorante aerossol Dove 150ml",
-     "Kit Dove shampoo + condicionador",
-     "Máscara Dove 2 em 1 320g"
-    ],
-    "n_semana": 1,
-    "farmacias_semana": [
-     "Nissei (@farmaciasnissei)"
-    ]
-   },
-   "pontos": 3.57,
-   "n_dias": 3,
-   "primeiro": "18/11",
-   "ultimo": "20/11",
-   "tendencia": "sobe",
-   "var_posicoes": 2,
-   "hoje": true,
-   "pos": 25
+   "pos": 26
   },
   {
    "chave": "neutrogena|hidrata&repara|hidratante|kit",
@@ -3750,14 +3881,118 @@
     "n_semana": 0,
     "farmacias_semana": []
    },
-   "pontos": 3.57,
-   "n_dias": 3,
+   "pontos": 4.57,
+   "n_dias": 4,
    "primeiro": "18/11",
-   "ultimo": "20/11",
+   "ultimo": "21/11",
+   "tendencia": "cai",
+   "var_posicoes": -2,
+   "hoje": true,
+   "pos": 27
+  },
+  {
+   "chave": "dove|hidratante|serum",
+   "nome": "Sérum Hidratante Corporal Para Pele com Tom Irregular 48h de Hidratação Regenerativa Dove Dermo Renovador…",
+   "marca": "Dove",
+   "linha": "hidratante",
+   "lojas": [
+    {
+     "loja": "Amazon",
+     "melhor_posicao": 10,
+     "categoria": "Corpo e banho",
+     "url": "https://www.amazon.com.br/dp/B0D8RHX3C6"
+    }
+   ],
+   "melhor_posicao": 10,
+   "categorias": [
+    "Amazon · Corpo e banho",
+    "Amazon · Cuidados com a pele"
+   ],
+   "n_listas": 2,
+   "preco_min": 39.99,
+   "preco_max": 44.89,
+   "url": "https://www.amazon.com.br/dp/B0D8RHX3C6",
+   "promo_foz": {
+    "tipo": "marca",
+    "n_farmacias": 31,
+    "selo": "marca em promoção em 31 farmácias de Foz (outro item)",
+    "redes": [
+     "Masterfarma",
+     "Nissei",
+     "Preço Justo Três Lagoas"
+    ],
+    "chaves": [
+     "sabonetedove",
+     "kitdoveshampoocondicionador",
+     "desodoranteaerossoldove150ml",
+     "desodorantedoveinvisiblecare250ml",
+     "serumcorporaldovefragrancias380ml",
+     "mascaradove2em1320g",
+     "serumcapilaroleodovebondintenseuvrepairglowferulico110ml",
+     "sprayoleocorporaldoveserumdeo150ml"
+    ],
+    "nomes": [
+     "Desodorante Dove Invisible Care 250ml",
+     "Desodorante aerossol Dove 150ml",
+     "Kit Dove shampoo + condicionador",
+     "Máscara Dove 2 em 1 320g",
+     "Sabonete Dove",
+     "Spray óleo corporal Dove Sérum Deo 150ml"
+    ],
+    "n_semana": 1,
+    "farmacias_semana": [
+     "Nissei (@farmaciasnissei)"
+    ]
+   },
+   "pontos": 4.5,
+   "n_dias": 4,
+   "primeiro": "18/11",
+   "ultimo": "21/11",
+   "tendencia": "cai",
+   "var_posicoes": -2,
+   "hoje": true,
+   "pos": 28
+  },
+  {
+   "chave": "carefree||absorvente",
+   "nome": "Protetor Diário Carefree Todo Dia, 80 Unidades | Absorvente Externo, Respirável, Uso Diário, Sem Fragrância",
+   "marca": "Carefree",
+   "linha": "",
+   "lojas": [
+    {
+     "loja": "Amazon",
+     "melhor_posicao": 2,
+     "categoria": "Higiene íntima",
+     "url": "https://www.amazon.com.br/dp/B07F1X1K8W"
+    }
+   ],
+   "melhor_posicao": 2,
+   "categorias": [
+    "Amazon · Higiene íntima",
+    "Amazon · Saúde e bem-estar (departamento)"
+   ],
+   "n_listas": 2,
+   "preco_min": 16.88,
+   "preco_max": 20.99,
+   "url": "https://www.amazon.com.br/dp/B07F1X1K8W",
+   "promo_foz": {
+    "tipo": "nenhum",
+    "n_farmacias": 0,
+    "selo": "ninguém promove em Foz — oportunidade",
+    "redes": [],
+    "chaves": [],
+    "nomes": [],
+    "n_semana": 0,
+    "farmacias_semana": []
+   },
+   "pontos": 4.43,
+   "n_dias": 4,
+   "primeiro": "18/11",
+   "ultimo": "21/11",
    "tendencia": "estavel",
    "var_posicoes": 0,
    "hoje": true,
-   "pos": 26
+   "pos": 29
   },
   {
    "chave": "eucerin|anti-pigment|serum",
@@ -3797,166 +4032,12 @@
     "n_semana": 0,
     "farmacias_semana": []
    },
-   "pontos": 3.5,
-   "n_dias": 3,
+   "pontos": 4.2,
+   "n_dias": 4,
    "primeiro": "18/11",
-   "ultimo": "20/11",
+   "ultimo": "21/11",
    "tendencia": "cai",
-   "var_posicoes": -6,
-   "hoje": true,
-   "pos": 27
-  },
-  {
-   "chave": "dove|sabonete|sabonete",
-   "nome": "Dove Sabonete em Barra Original 90g 6 Unidades | Hidratação clássica em pack",
-   "marca": "Dove",
-   "linha": "sabonete",
-   "lojas": [
-    {
-     "loja": "Amazon",
-     "melhor_posicao": 5,
-     "categoria": "Corpo e banho",
-     "url": "https://www.amazon.com.br/dp/B07LFFGZ93"
-    }
-   ],
-   "melhor_posicao": 5,
-   "categorias": [
-    "Amazon · Beleza (departamento)",
-    "Amazon · Corpo e banho"
-   ],
-   "n_listas": 2,
-   "preco_min": 20.9,
-   "preco_max": 23.99,
-   "url": "https://www.amazon.com.br/dp/B07LFFGZ93",
-   "promo_foz": {
-    "tipo": "linha",
-    "n_farmacias": 20,
-    "selo": "20 farmácias em promoção em Foz",
-    "redes": [
-     "Masterfarma",
-     "Preço Justo Três Lagoas"
-    ],
-    "chaves": [
-     "sabonetedove"
-    ],
-    "nomes": [
-     "Sabonete Dove"
-    ],
-    "n_semana": 3,
-    "farmacias_semana": [
-     "Masterfarma (@masterfarma_foz)",
-     "Preço Justo Três Lagoas (@farmaciaprecojustotreslagoas)",
-     "Preço Popular"
-    ]
-   },
-   "pontos": 3.43,
-   "n_dias": 3,
-   "primeiro": "18/11",
-   "ultimo": "20/11",
-   "tendencia": "sobe",
-   "var_posicoes": 19,
-   "hoje": true,
-   "pos": 28
-  },
-  {
-   "chave": "nivea|labial|hidratante labial",
-   "nome": "NIVEA Hidratante Labial Amora Shine 4,8g, Hidratação Intensa 24h, Cor Suave, Brilho Delicado, Cuidado…",
-   "marca": "Nivea",
-   "linha": "labial",
-   "lojas": [
-    {
-     "loja": "Amazon",
-     "melhor_posicao": 3,
-     "categoria": "Cuidados com a pele",
-     "url": "https://www.amazon.com.br/dp/B07LFLRQXP"
-    }
-   ],
-   "melhor_posicao": 3,
-   "categorias": [
-    "Amazon · Beleza (departamento)",
-    "Amazon · Cuidados com a pele"
-   ],
-   "n_listas": 2,
-   "preco_min": 12.87,
-   "preco_max": 12.87,
-   "url": "https://www.amazon.com.br/dp/B07LFLRQXP",
-   "promo_foz": {
-    "tipo": "marca",
-    "n_farmacias": 38,
-    "selo": "marca em promoção em 38 farmácias de Foz (outro item)",
-    "redes": [
-     "Droga Raia",
-     "Farmácia Preço Popular",
-     "Panvel",
-     "Preço Justo",
-     "São João"
-    ],
-    "chaves": [
-     "cremeniveafacial100g",
-     "desodoranteaerosolniveamenoriginalprotectprotectcareembalagemeconomica",
-     "desodoranteaerosolniveainvisibleblackwhiteclear200ml",
-     "nivealocaohidratante",
-     "saboneteliquidoniveaoleobanho200ml",
-     "sabonetenivealiquido200mloleobanho"
-    ],
-    "nomes": [
-     "Creme Nivea facial 100g",
-     "Desodorante aerosol Nivea Invisible Black&White Clear 200ml",
-     "Desodorante aerosol Nivea Men Original Protect / Protect & Care embalagem econômica",
-     "Nivea loção hidratante (Banho Radiante, Milk, Soft Milk)",
-     "Sabonete Nivea Liquido 200ml Oleo De Banho",
-     "Sabonete líquido Nivea Óleo de Banho 200ml"
-    ],
-    "n_semana": 0,
-    "farmacias_semana": []
-   },
-   "pontos": 3.3,
-   "n_dias": 3,
-   "primeiro": "18/11",
-   "ultimo": "20/11",
-   "tendencia": "sobe",
-   "var_posicoes": 13,
-   "hoje": true,
-   "pos": 29
-  },
-  {
-   "chave": "carefree||absorvente",
-   "nome": "Protetor Diário Carefree Todo Dia, 80 Unidades | Absorvente Externo, Respirável, Uso Diário, Sem Fragrância",
-   "marca": "Carefree",
-   "linha": "",
-   "lojas": [
-    {
-     "loja": "Amazon",
-     "melhor_posicao": 2,
-     "categoria": "Higiene íntima",
-     "url": "https://www.amazon.com.br/dp/B07F1X1K8W"
-    }
-   ],
-   "melhor_posicao": 2,
-   "categorias": [
-    "Amazon · Higiene íntima",
-    "Amazon · Saúde e bem-estar (departamento)"
-   ],
-   "n_listas": 2,
-   "preco_min": 16.88,
-   "preco_max": 20.99,
-   "url": "https://www.amazon.com.br/dp/B07F1X1K8W",
-   "promo_foz": {
-    "tipo": "nenhum",
-    "n_farmacias": 0,
-    "selo": "ninguém promove em Foz — oportunidade",
-    "redes": [],
-    "chaves": [],
-    "nomes": [],
-    "n_semana": 0,
-    "farmacias_semana": []
-   },
-   "pontos": 3.23,
-   "n_dias": 3,
-   "primeiro": "18/11",
-   "ultimo": "20/11",
-   "tendencia": "estavel",
-   "var_posicoes": 0,
+   "var_posicoes": -7,
    "hoje": true,
    "pos": 30
   },
@@ -3992,14 +4073,1029 @@
     "n_semana": 0,
     "farmacias_semana": []
    },
-   "pontos": 3.2,
-   "n_dias": 3,
+   "pontos": 4.03,
+   "n_dias": 4,
    "primeiro": "18/11",
-   "ultimo": "20/11",
+   "ultimo": "21/11",
+   "tendencia": "sobe",
+   "var_posicoes": 4,
+   "hoje": true,
+   "pos": 31
+  },
+  {
+   "chave": "Amazon:B099KTRZP7",
+   "nome": "Fralda Turma da Mônica Baby Mega P 62 Unidades | Proteção e conforto o dia todo – B099KTRZP7",
+   "marca": "",
+   "linha": "",
+   "lojas": [
+    {
+     "loja": "Amazon",
+     "melhor_posicao": 1,
+     "categoria": "Fraldas descartáveis",
+     "url": "https://www.amazon.com.br/dp/B099KTRZP7"
+    }
+   ],
+   "melhor_posicao": 1,
+   "categorias": [
+    "Amazon · Fraldas descartáveis"
+   ],
+   "n_listas": 1,
+   "preco_min": 35.77,
+   "preco_max": 35.77,
+   "url": "https://www.amazon.com.br/dp/B099KTRZP7",
+   "promo_foz": {
+    "tipo": "sem_marca",
+    "n_farmacias": 0,
+    "selo": "marca não identificada no anúncio — sem cruzamento com Foz",
+    "redes": [],
+    "chaves": [],
+    "nomes": [],
+    "n_semana": 0,
+    "farmacias_semana": []
+   },
+   "pontos": 4.0,
+   "n_dias": 4,
+   "primeiro": "18/11",
+   "ultimo": "21/11",
+   "tendencia": "estavel",
+   "var_posicoes": 0,
+   "hoje": true,
+   "pos": 32
+  },
+  {
+   "chave": "lola cosmetics|||kit|B0DKVJ1HWB",
+   "nome": "Kit Cronograma Capilar Lola Cosmetics Be(m) Dita Ghee, 3 Produtos | Resultados potencializados em conjunto",
+   "marca": "Lola Cosmetics",
+   "linha": "",
+   "lojas": [
+    {
+     "loja": "Amazon",
+     "melhor_posicao": 8,
+     "categoria": "Cuidados com o cabelo",
+     "url": "https://www.amazon.com.br/dp/B0DKVJ1HWB"
+    }
+   ],
+   "melhor_posicao": 8,
+   "categorias": [
+    "Amazon · Beleza (departamento)",
+    "Amazon · Cuidados com o cabelo"
+   ],
+   "n_listas": 2,
+   "preco_min": 35.64,
+   "preco_max": 35.64,
+   "url": "https://www.amazon.com.br/dp/B0DKVJ1HWB",
+   "promo_foz": {
+    "tipo": "nenhum",
+    "n_farmacias": 0,
+    "selo": "ninguém promove em Foz — oportunidade",
+    "redes": [],
+    "chaves": [],
+    "nomes": [],
+    "n_semana": 0,
+    "farmacias_semana": []
+   },
+   "pontos": 3.9,
+   "n_dias": 4,
+   "primeiro": "18/11",
+   "ultimo": "21/11",
+   "tendencia": "sobe",
+   "var_posicoes": 2,
+   "hoje": true,
+   "pos": 33
+  },
+  {
+   "chave": "Amazon:B0979VS2JH",
+   "nome": "Fralda Pom Pom Protek Proteção de Mãe Hiper G 68 Unidades | Proteção e conforto o dia todo – Proteção Mãe…",
+   "marca": "",
+   "linha": "",
+   "lojas": [
+    {
+     "loja": "Amazon",
+     "melhor_posicao": 2,
+     "categoria": "Fraldas descartáveis",
+     "url": "https://www.amazon.com.br/dp/B0979VS2JH"
+    }
+   ],
+   "melhor_posicao": 2,
+   "categorias": [
+    "Amazon · Fraldas descartáveis"
+   ],
+   "n_listas": 1,
+   "preco_min": 47.9,
+   "preco_max": 47.9,
+   "url": "https://www.amazon.com.br/dp/B0979VS2JH",
+   "promo_foz": {
+    "tipo": "sem_marca",
+    "n_farmacias": 0,
+    "selo": "marca não identificada no anúncio — sem cruzamento com Foz",
+    "redes": [],
+    "chaves": [],
+    "nomes": [],
+    "n_semana": 0,
+    "farmacias_semana": []
+   },
+   "pontos": 3.87,
+   "n_dias": 4,
+   "primeiro": "18/11",
+   "ultimo": "21/11",
+   "tendencia": "estavel",
+   "var_posicoes": 0,
+   "hoje": true,
+   "pos": 34
+  },
+  {
+   "chave": "intimus|||B07W6B8LCZ",
+   "nome": "Protetor Díário Intimus® Tecnologia Antibacteriana - 80 un | Frescor diário em pacote família",
+   "marca": "Intimus",
+   "linha": "",
+   "lojas": [
+    {
+     "loja": "Amazon",
+     "melhor_posicao": 2,
+     "categoria": "Higiene íntima",
+     "url": "https://www.amazon.com.br/dp/B07W6B8LCZ"
+    }
+   ],
+   "melhor_posicao": 2,
+   "categorias": [
+    "Amazon · Higiene íntima"
+   ],
+   "n_listas": 1,
+   "preco_min": 15.99,
+   "preco_max": 17.99,
+   "url": "https://www.amazon.com.br/dp/B07W6B8LCZ",
+   "promo_foz": {
+    "tipo": "nenhum",
+    "n_farmacias": 0,
+    "selo": "ninguém promove em Foz — oportunidade",
+    "redes": [],
+    "chaves": [],
+    "nomes": [],
+    "n_semana": 0,
+    "farmacias_semana": []
+   },
+   "pontos": 3.77,
+   "n_dias": 4,
+   "primeiro": "18/11",
+   "ultimo": "21/11",
+   "tendencia": "cai",
+   "var_posicoes": -1,
+   "hoje": true,
+   "pos": 35
+  },
+  {
+   "chave": "pampers|premium care|fralda",
+   "nome": "Fralda Pampers Premium Care Tamanho G 136 Unidades",
+   "marca": "Pampers",
+   "linha": "premium care",
+   "lojas": [
+    {
+     "loja": "Amazon",
+     "melhor_posicao": 3,
+     "categoria": "Fraldas descartáveis",
+     "url": "https://www.amazon.com.br/dp/B08K4MXDVX"
+    }
+   ],
+   "melhor_posicao": 3,
+   "categorias": [
+    "Amazon · Fraldas descartáveis"
+   ],
+   "n_listas": 1,
+   "preco_min": 181.78,
+   "preco_max": 207.99,
+   "url": "https://www.amazon.com.br/dp/B08K4MXDVX",
+   "promo_foz": {
+    "tipo": "marca",
+    "n_farmacias": 5,
+    "selo": "marca em promoção em 5 farmácias de Foz (outro item)",
+    "redes": [
+     "Farmácia Preço Popular",
+     "Panvel",
+     "Preço Popular"
+    ],
+    "chaves": [
+     "fraldapampersconfortsecjumboxxg112un",
+     "fraldapamperssupersequinhababyshark",
+     "fraldapamperssupersequinhababysharkg60un",
+     "fraldapamperssupersequinhababysharkm68un",
+     "fraldapamperssupersequinhababysharkxg56un",
+     "fraldapamperssupersequinhababysharkxxg50un"
+    ],
+    "nomes": [
+     "Fralda Pampers Confort Sec Jumbo XXG 112un",
+     "Fralda Pampers Supersequinha Baby Shark",
+     "Fralda Pampers Supersequinha Baby Shark G 60 Unidades",
+     "Fralda Pampers Supersequinha Baby Shark M 68 Unidades",
+     "Fralda Pampers Supersequinha Baby Shark Xg 56 Unidades",
+     "Fralda Pampers Supersequinha Baby Shark Xxg 50 Unidades"
+    ],
+    "n_semana": 0,
+    "farmacias_semana": []
+   },
+   "pontos": 3.73,
+   "n_dias": 4,
+   "primeiro": "18/11",
+   "ultimo": "21/11",
+   "tendencia": "estavel",
+   "var_posicoes": 0,
+   "hoje": true,
+   "pos": 36
+  },
+  {
+   "chave": "dove|serum corporal|serum",
+   "nome": "Dove Hidratante Sérum Corporal Glicólico + Reparador de Textura 380ml",
+   "marca": "Dove",
+   "linha": "serum corporal",
+   "lojas": [
+    {
+     "loja": "Amazon",
+     "melhor_posicao": 12,
+     "categoria": "Corpo e banho",
+     "url": "https://www.amazon.com.br/dp/B0GY9B1RQL"
+    }
+   ],
+   "melhor_posicao": 12,
+   "categorias": [
+    "Amazon · Corpo e banho",
+    "Amazon · Cuidados com a pele"
+   ],
+   "n_listas": 2,
+   "preco_min": 27.54,
+   "preco_max": 27.54,
+   "url": "https://www.amazon.com.br/dp/B0GY9B1RQL",
+   "promo_foz": {
+    "tipo": "linha",
+    "n_farmacias": 11,
+    "selo": "11 farmácias em promoção em Foz",
+    "redes": [
+     "Nissei"
+    ],
+    "chaves": [
+     "serumcorporaldovefragrancias380ml"
+    ],
+    "nomes": [
+     "Sérum corporal Dove Fragrâncias 380ml"
+    ],
+    "n_semana": 1,
+    "farmacias_semana": [
+     "Nissei (@farmaciasnissei)"
+    ]
+   },
+   "pontos": 3.7,
+   "n_dias": 4,
+   "primeiro": "18/11",
+   "ultimo": "21/11",
    "tendencia": "sobe",
    "var_posicoes": 5,
    "hoje": true,
-   "pos": 31
+   "pos": 37
+  },
+  {
+   "chave": "la roche-posay|ultra cover|protetor solar|fps60",
+   "nome": "La Roche-Posay, Ultra Cover, Protetor Solar com Cor e Performance de Maquiagem, 12h de cobertura de base…",
+   "marca": "La Roche-Posay",
+   "linha": "ultra cover",
+   "lojas": [
+    {
+     "loja": "Amazon",
+     "melhor_posicao": 6,
+     "categoria": "Protetores solares",
+     "url": "https://www.amazon.com.br/dp/B0BLZVD5S5"
+    }
+   ],
+   "melhor_posicao": 6,
+   "categorias": [
+    "Amazon · Cuidados com a pele",
+    "Amazon · Protetores solares"
+   ],
+   "n_listas": 2,
+   "preco_min": 74.85,
+   "preco_max": 77.17,
+   "url": "https://www.amazon.com.br/dp/B0BLZVD5S5",
+   "promo_foz": {
+    "tipo": "nenhum",
+    "n_farmacias": 0,
+    "selo": "ninguém promove em Foz — oportunidade",
+    "redes": [],
+    "chaves": [],
+    "nomes": [],
+    "n_semana": 0,
+    "farmacias_semana": []
+   },
+   "pontos": 3.67,
+   "n_dias": 4,
+   "primeiro": "18/11",
+   "ultimo": "21/11",
+   "tendencia": "cai",
+   "var_posicoes": -1,
+   "hoje": true,
+   "pos": 38
+  },
+  {
+   "chave": "wella||shampoo",
+   "nome": "Shampoo Invigo Nutri Enrich Wella Professionals 1000 ml",
+   "marca": "Wella",
+   "linha": "",
+   "lojas": [
+    {
+     "loja": "Amazon",
+     "melhor_posicao": 8,
+     "categoria": "Cuidados com o cabelo",
+     "url": "https://www.amazon.com.br/dp/B0BG312BMR"
+    }
+   ],
+   "melhor_posicao": 8,
+   "categorias": [
+    "Amazon · Beleza (departamento)",
+    "Amazon · Cuidados com o cabelo"
+   ],
+   "n_listas": 2,
+   "preco_min": 117.0,
+   "preco_max": 154.9,
+   "url": "https://www.amazon.com.br/dp/B0BG312BMR",
+   "promo_foz": {
+    "tipo": "nenhum",
+    "n_farmacias": 0,
+    "selo": "ninguém promove em Foz — oportunidade",
+    "redes": [],
+    "chaves": [],
+    "nomes": [],
+    "n_semana": 0,
+    "farmacias_semana": []
+   },
+   "pontos": 3.67,
+   "n_dias": 4,
+   "primeiro": "18/11",
+   "ultimo": "21/11",
+   "tendencia": "cai",
+   "var_posicoes": -7,
+   "hoje": true,
+   "pos": 39
+  },
+  {
+   "chave": "nivea|sun|protetor solar|fps70",
+   "nome": "NIVEA SUN Protetor Solar Facial Toque Seco Antissinais FPS 70 40ml - Com muito alta proteção contra raios…",
+   "marca": "Nivea",
+   "linha": "sun",
+   "lojas": [
+    {
+     "loja": "Amazon",
+     "melhor_posicao": 6,
+     "categoria": "Protetores solares",
+     "url": "https://www.amazon.com.br/dp/B0BD6755LC"
+    }
+   ],
+   "melhor_posicao": 6,
+   "categorias": [
+    "Amazon · Cuidados com a pele",
+    "Amazon · Protetores solares"
+   ],
+   "n_listas": 2,
+   "preco_min": 24.9,
+   "preco_max": 34.9,
+   "url": "https://www.amazon.com.br/dp/B0BD6755LC",
+   "promo_foz": {
+    "tipo": "marca",
+    "n_farmacias": 19,
+    "selo": "marca em promoção em 19 farmácias de Foz (outro item)",
+    "redes": [
+     "Droga Raia",
+     "Farmácia Preço Popular",
+     "Panvel",
+     "São João"
+    ],
+    "chaves": [
+     "desodoranteaerosolniveamenoriginalprotectprotectcareembalagemeconomica",
+     "desodoranteaerosolniveainvisibleblackwhiteclear200ml",
+     "nivealocaohidratante",
+     "saboneteliquidoniveaoleobanho200ml",
+     "sabonetenivealiquido200mloleobanho"
+    ],
+    "nomes": [
+     "Desodorante aerosol Nivea Invisible Black&White Clear 200ml",
+     "Desodorante aerosol Nivea Men Original Protect / Protect & Care embalagem econômica",
+     "Nivea loção hidratante (Banho Radiante, Milk, Soft Milk)",
+     "Sabonete Nivea Liquido 200ml Oleo De Banho",
+     "Sabonete líquido Nivea Óleo de Banho 200ml"
+    ],
+    "n_semana": 0,
+    "farmacias_semana": []
+   },
+   "pontos": 3.63,
+   "n_dias": 4,
+   "primeiro": "18/11",
+   "ultimo": "21/11",
+   "tendencia": "sobe",
+   "var_posicoes": 2,
+   "hoje": true,
+   "pos": 40
+  },
+  {
+   "chave": "huggies|natural care|fralda",
+   "nome": "Huggies Fralda Descartável Premium Natural Care Hipoalergênica RN - 34UN | Proteção e conforto o dia todo…",
+   "marca": "Huggies",
+   "linha": "natural care",
+   "lojas": [
+    {
+     "loja": "Amazon",
+     "melhor_posicao": 4,
+     "categoria": "Fraldas descartáveis",
+     "url": "https://www.amazon.com.br/dp/B095R9CKYR"
+    }
+   ],
+   "melhor_posicao": 4,
+   "categorias": [
+    "Amazon · Fraldas descartáveis"
+   ],
+   "n_listas": 1,
+   "preco_min": 38.99,
+   "preco_max": 42.99,
+   "url": "https://www.amazon.com.br/dp/B095R9CKYR",
+   "promo_foz": {
+    "tipo": "marca",
+    "n_farmacias": 21,
+    "selo": "marca em promoção em 21 farmácias de Foz (outro item)",
+    "redes": [
+     "Farmácia Preço Popular",
+     "Preço Justo Três Lagoas"
+    ],
+    "chaves": [
+     "fraldahuggiesmaximaprotecao",
+     "fraldahuggiesgmaximaprotecao92un",
+     "fraldahuggiesmmaximaprotecao104un",
+     "fraldahuggiesxgmaximaprotecao82un",
+     "fraldahuggiesxxgmaximaprotecao80un",
+     "fraldahuggiesxxxgmaximaprotecao70un"
+    ],
+    "nomes": [
+     "Fralda Huggies G Máxima Proteção 92 Unidades",
+     "Fralda Huggies M Máxima Proteção 104 Unidades",
+     "Fralda Huggies Máxima Proteção",
+     "Fralda Huggies Xg Máxima Proteção 82 Unidades",
+     "Fralda Huggies Xxg Máxima Proteção 80 Unidades",
+     "Fralda Huggies Xxxg Máxima Proteção 70 Unidades"
+    ],
+    "n_semana": 0,
+    "farmacias_semana": []
+   },
+   "pontos": 3.6,
+   "n_dias": 4,
+   "primeiro": "18/11",
+   "ultimo": "21/11",
+   "tendencia": "estavel",
+   "var_posicoes": 0,
+   "hoje": true,
+   "pos": 41
+  },
+  {
+   "chave": "amend|||B0DJMP5Z6Z",
+   "nome": "Máscara Acidificante de Equilíbrio do pH 250g | Amend Essencial | Equilibra o pH capilar, sela cutículas e…",
+   "marca": "Amend",
+   "linha": "",
+   "lojas": [
+    {
+     "loja": "Amazon",
+     "melhor_posicao": 9,
+     "categoria": "Cuidados com o cabelo",
+     "url": "https://www.amazon.com.br/dp/B0DJMP5Z6Z"
+    }
+   ],
+   "melhor_posicao": 9,
+   "categorias": [
+    "Amazon · Beleza (departamento)",
+    "Amazon · Cuidados com o cabelo"
+   ],
+   "n_listas": 2,
+   "preco_min": 33.9,
+   "preco_max": 36.18,
+   "url": "https://www.amazon.com.br/dp/B0DJMP5Z6Z",
+   "promo_foz": {
+    "tipo": "nenhum",
+    "n_farmacias": 0,
+    "selo": "ninguém promove em Foz — oportunidade",
+    "redes": [],
+    "chaves": [],
+    "nomes": [],
+    "n_semana": 0,
+    "farmacias_semana": []
+   },
+   "pontos": 3.57,
+   "n_dias": 4,
+   "primeiro": "18/11",
+   "ultimo": "21/11",
+   "tendencia": "cai",
+   "var_posicoes": -2,
+   "hoje": true,
+   "pos": 42
+  },
+  {
+   "chave": "colgate|total|creme dental|kit",
+   "nome": "Colgate Total Antitártaro Creme Dental com Flúor, 3x90g",
+   "marca": "Colgate",
+   "linha": "total",
+   "lojas": [
+    {
+     "loja": "Amazon",
+     "melhor_posicao": 3,
+     "categoria": "Saúde e bem-estar (departamento)",
+     "url": "https://www.amazon.com.br/dp/B08BGQY8RN"
+    }
+   ],
+   "melhor_posicao": 3,
+   "categorias": [
+    "Amazon · Saúde e bem-estar (departamento)"
+   ],
+   "n_listas": 1,
+   "preco_min": 17.41,
+   "preco_max": 17.41,
+   "url": "https://www.amazon.com.br/dp/B08BGQY8RN",
+   "promo_foz": {
+    "tipo": "marca",
+    "n_farmacias": 12,
+    "selo": "marca em promoção em 12 farmácias de Foz (outro item)",
+    "redes": [
+     "Masterfarma",
+     "Nissei"
+    ],
+    "chaves": [
+     "kitcremedentalcolgateluminouswhiteglow70g2un",
+     "colgatecloseup"
+    ],
+    "nomes": [
+     "Colgate + Closeup",
+     "Kit creme dental Colgate Luminous White Glow 70g 2un"
+    ],
+    "n_semana": 0,
+    "farmacias_semana": []
+   },
+   "pontos": 3.53,
+   "n_dias": 4,
+   "primeiro": "18/11",
+   "ultimo": "21/11",
+   "tendencia": "estavel",
+   "var_posicoes": 0,
+   "hoje": true,
+   "pos": 43
+  },
+  {
+   "chave": "darrow|actine|gel de limpeza|kit",
+   "nome": "Darrow Actine Kit Gel de Limpeza Facial Pele Oleosa e Acneica 400g + 40g | Com Vitamina C e Ácido Salicílico",
+   "marca": "Darrow",
+   "linha": "actine",
+   "lojas": [
+    {
+     "loja": "Amazon",
+     "melhor_posicao": 7,
+     "categoria": "Cuidados com a pele",
+     "url": "https://www.amazon.com.br/dp/B0HDVZQPT6"
+    }
+   ],
+   "melhor_posicao": 7,
+   "categorias": [
+    "Amazon · Beleza (departamento)",
+    "Amazon · Cuidados com a pele"
+   ],
+   "n_listas": 2,
+   "preco_min": 63.99,
+   "preco_max": 63.99,
+   "url": "https://www.amazon.com.br/dp/B0HDVZQPT6",
+   "promo_foz": {
+    "tipo": "nenhum",
+    "n_farmacias": 0,
+    "selo": "ninguém promove em Foz — oportunidade",
+    "redes": [],
+    "chaves": [],
+    "nomes": [],
+    "n_semana": 0,
+    "farmacias_semana": []
+   },
+   "pontos": 3.53,
+   "n_dias": 4,
+   "primeiro": "18/11",
+   "ultimo": "21/11",
+   "tendencia": "cai",
+   "var_posicoes": -4,
+   "hoje": true,
+   "pos": 44
+  },
+  {
+   "chave": "mantecorp (epidrat/episol)|epidrat|hidratante",
+   "nome": "MANTECORP - Hidratante Epidrat Calm B5 - Hidrata e Acalma a Pele, Conforto Imediato, D-Pantenol",
+   "marca": "Mantecorp (Epidrat/Episol)",
+   "linha": "epidrat",
+   "lojas": [
+    {
+     "loja": "Amazon",
+     "melhor_posicao": 5,
+     "categoria": "Dermocosméticos",
+     "url": "https://www.amazon.com.br/dp/B09RL3X7RB"
+    }
+   ],
+   "melhor_posicao": 5,
+   "categorias": [
+    "Amazon · Cuidados com a pele",
+    "Amazon · Dermocosméticos"
+   ],
+   "n_listas": 2,
+   "preco_min": 71.94,
+   "preco_max": 75.72,
+   "url": "https://www.amazon.com.br/dp/B09RL3X7RB",
+   "promo_foz": {
+    "tipo": "nenhum",
+    "n_farmacias": 0,
+    "selo": "ninguém promove em Foz — oportunidade",
+    "redes": [],
+    "chaves": [],
+    "nomes": [],
+    "n_semana": 0,
+    "farmacias_semana": []
+   },
+   "pontos": 3.5,
+   "n_dias": 4,
+   "primeiro": "18/11",
+   "ultimo": "21/11",
+   "tendencia": "cai",
+   "var_posicoes": -2,
+   "hoje": true,
+   "pos": 45
+  },
+  {
+   "chave": "nivea|q10|hidratante",
+   "nome": "NIVEA Loção Hidratante Firmador Q10 + Vitamina C 400ml, Hidratação Intensa 48h, Pele Firme e Elasticidade,…",
+   "marca": "Nivea",
+   "linha": "q10",
+   "lojas": [
+    {
+     "loja": "Amazon",
+     "melhor_posicao": 14,
+     "categoria": "Corpo e banho",
+     "url": "https://www.amazon.com.br/dp/B07LFMZBKW"
+    }
+   ],
+   "melhor_posicao": 14,
+   "categorias": [
+    "Amazon · Corpo e banho",
+    "Amazon · Cuidados com a pele"
+   ],
+   "n_listas": 2,
+   "preco_min": 23.2,
+   "preco_max": 23.2,
+   "url": "https://www.amazon.com.br/dp/B07LFMZBKW",
+   "promo_foz": {
+    "tipo": "marca",
+    "n_farmacias": 19,
+    "selo": "marca em promoção em 19 farmácias de Foz (outro item)",
+    "redes": [
+     "Droga Raia",
+     "Farmácia Preço Popular",
+     "Panvel",
+     "São João"
+    ],
+    "chaves": [
+     "desodoranteaerosolniveamenoriginalprotectprotectcareembalagemeconomica",
+     "desodoranteaerosolniveainvisibleblackwhiteclear200ml",
+     "nivealocaohidratante",
+     "saboneteliquidoniveaoleobanho200ml",
+     "sabonetenivealiquido200mloleobanho"
+    ],
+    "nomes": [
+     "Desodorante aerosol Nivea Invisible Black&White Clear 200ml",
+     "Desodorante aerosol Nivea Men Original Protect / Protect & Care embalagem econômica",
+     "Nivea loção hidratante (Banho Radiante, Milk, Soft Milk)",
+     "Sabonete Nivea Liquido 200ml Oleo De Banho",
+     "Sabonete líquido Nivea Óleo de Banho 200ml"
+    ],
+    "n_semana": 0,
+    "farmacias_semana": []
+   },
+   "pontos": 3.5,
+   "n_dias": 4,
+   "primeiro": "18/11",
+   "ultimo": "21/11",
+   "tendencia": "cai",
+   "var_posicoes": -1,
+   "hoje": true,
+   "pos": 46
+  },
+  {
+   "chave": "intimus||absorvente",
+   "nome": "Absorvente Intimus Tripla Proteção Dia Suave Com Abas, Fluxo Moderado, 42 unid",
+   "marca": "Intimus",
+   "linha": "",
+   "lojas": [
+    {
+     "loja": "Amazon",
+     "melhor_posicao": 5,
+     "categoria": "Higiene íntima",
+     "url": "https://www.amazon.com.br/dp/B0DX7BHGWP"
+    }
+   ],
+   "melhor_posicao": 5,
+   "categorias": [
+    "Amazon · Higiene íntima"
+   ],
+   "n_listas": 1,
+   "preco_min": 16.64,
+   "preco_max": 32.49,
+   "url": "https://www.amazon.com.br/dp/B0DX7BHGWP",
+   "promo_foz": {
+    "tipo": "nenhum",
+    "n_farmacias": 0,
+    "selo": "promovido em Foz nos últimos 7 dias (1 farmácia), hoje não",
+    "redes": [],
+    "chaves": [],
+    "nomes": [],
+    "n_semana": 1,
+    "farmacias_semana": [
+     "Preço Justo (@precojustoclubjusto)"
+    ]
+   },
+   "pontos": 3.47,
+   "n_dias": 4,
+   "primeiro": "18/11",
+   "ultimo": "21/11",
+   "tendencia": "estavel",
+   "var_posicoes": 0,
+   "hoje": true,
+   "pos": 47
+  },
+  {
+   "chave": "cremer||absorvente",
+   "nome": "Absorvente Cremer 30Un. Seios",
+   "marca": "Cremer",
+   "linha": "",
+   "lojas": [
+    {
+     "loja": "Amazon",
+     "melhor_posicao": 4,
+     "categoria": "Higiene íntima",
+     "url": "https://www.amazon.com.br/dp/B0CD8T9Q45"
+    }
+   ],
+   "melhor_posicao": 4,
+   "categorias": [
+    "Amazon · Higiene íntima"
+   ],
+   "n_listas": 1,
+   "preco_min": 16.23,
+   "preco_max": 23.42,
+   "url": "https://www.amazon.com.br/dp/B0CD8T9Q45",
+   "promo_foz": {
+    "tipo": "nenhum",
+    "n_farmacias": 0,
+    "selo": "ninguém promove em Foz — oportunidade",
+    "redes": [],
+    "chaves": [],
+    "nomes": [],
+    "n_semana": 0,
+    "farmacias_semana": []
+   },
+   "pontos": 3.43,
+   "n_dias": 4,
+   "primeiro": "18/11",
+   "ultimo": "21/11",
+   "tendencia": "cai",
+   "var_posicoes": -3,
+   "hoje": true,
+   "pos": 48
+  },
+  {
+   "chave": "pampers|confort sec|fralda",
+   "nome": "Fralda Pampers Confort Sec Tamanho M 196 Unidades",
+   "marca": "Pampers",
+   "linha": "confort sec",
+   "lojas": [
+    {
+     "loja": "Amazon",
+     "melhor_posicao": 5,
+     "categoria": "Fraldas descartáveis",
+     "url": "https://www.amazon.com.br/dp/B09FFRMKNQ"
+    }
+   ],
+   "melhor_posicao": 5,
+   "categorias": [
+    "Amazon · Fraldas descartáveis"
+   ],
+   "n_listas": 1,
+   "preco_min": 182.44,
+   "preco_max": 249.0,
+   "url": "https://www.amazon.com.br/dp/B09FFRMKNQ",
+   "promo_foz": {
+    "tipo": "linha",
+    "n_farmacias": 3,
+    "selo": "3 farmácias em promoção em Foz",
+    "redes": [
+     "Panvel"
+    ],
+    "chaves": [
+     "fraldapampersconfortsecjumboxxg112un"
+    ],
+    "nomes": [
+     "Fralda Pampers Confort Sec Jumbo XXG 112un"
+    ],
+    "n_semana": 3,
+    "farmacias_semana": [
+     "Farma D (@farmadfoz)",
+     "Panvel (@panvelfarmacias)",
+     "São João (@farmaciassaojoao)"
+    ]
+   },
+   "pontos": 3.33,
+   "n_dias": 4,
+   "primeiro": "18/11",
+   "ultimo": "21/11",
+   "tendencia": "cai",
+   "var_posicoes": -1,
+   "hoje": true,
+   "pos": 49
+  },
+  {
+   "chave": "isdin|fusion water|protetor solar|fps60",
+   "nome": "ISDIN Protetor Solar Facial Fusion Water 5 Stars Sem Cor FPS 60-50ml",
+   "marca": "ISDIN",
+   "linha": "fusion water",
+   "lojas": [
+    {
+     "loja": "Amazon",
+     "melhor_posicao": 4,
+     "categoria": "Protetores solares",
+     "url": "https://www.amazon.com.br/dp/B08F864LDD"
+    }
+   ],
+   "melhor_posicao": 4,
+   "categorias": [
+    "Amazon · Cuidados com a pele",
+    "Amazon · Protetores solares"
+   ],
+   "n_listas": 2,
+   "preco_min": 87.9,
+   "preco_max": 102.32,
+   "url": "https://www.amazon.com.br/dp/B08F864LDD",
+   "promo_foz": {
+    "tipo": "nenhum",
+    "n_farmacias": 0,
+    "selo": "ninguém promove em Foz — oportunidade",
+    "redes": [],
+    "chaves": [],
+    "nomes": [],
+    "n_semana": 0,
+    "farmacias_semana": []
+   },
+   "pontos": 3.3,
+   "n_dias": 4,
+   "primeiro": "18/11",
+   "ultimo": "21/11",
+   "tendencia": "cai",
+   "var_posicoes": -8,
+   "hoje": true,
+   "pos": 50
+  },
+  {
+   "chave": "oral-b||creme dental",
+   "nome": "Oral-B Pasta de Dente 3D White Brilliant Fresh, 3 Unidades de 70 g | Sorriso branco em trio",
+   "marca": "Oral-B",
+   "linha": "",
+   "lojas": [
+    {
+     "loja": "Amazon",
+     "melhor_posicao": 5,
+     "categoria": "Saúde e bem-estar (departamento)",
+     "url": "https://www.amazon.com.br/dp/B07GMDZX9M"
+    }
+   ],
+   "melhor_posicao": 5,
+   "categorias": [
+    "Amazon · Saúde e bem-estar (departamento)"
+   ],
+   "n_listas": 1,
+   "preco_min": 12.46,
+   "preco_max": 13.99,
+   "url": "https://www.amazon.com.br/dp/B07GMDZX9M",
+   "promo_foz": {
+    "tipo": "linha",
+    "n_farmacias": 2,
+    "selo": "2 farmácias em promoção em Foz",
+    "redes": [
+     "Farmácia Preço Popular"
+    ],
+    "chaves": [
+     "cremedentaloralb3dwhite70g3un"
+    ],
+    "nomes": [
+     "Creme dental Oral-B 3D White 70g 3un"
+    ],
+    "n_semana": 1,
+    "farmacias_semana": [
+     "Farmácia Preço Popular (CLAMED)"
+    ]
+   },
+   "pontos": 3.23,
+   "n_dias": 4,
+   "primeiro": "18/11",
+   "ultimo": "21/11",
+   "tendencia": "sobe",
+   "var_posicoes": 1,
+   "hoje": true,
+   "pos": 51
+  },
+  {
+   "chave": "nivea|men|desodorante|kit",
+   "nome": "Kit NIVEA Desodorante Aerosol Men Black&White Invisible - 2 unidades",
+   "marca": "Nivea",
+   "linha": "men",
+   "lojas": [
+    {
+     "loja": "Amazon",
+     "melhor_posicao": 8,
+     "categoria": "Corpo e banho",
+     "url": "https://www.amazon.com.br/dp/B08NX5DKM1"
+    }
+   ],
+   "melhor_posicao": 8,
+   "categorias": [
+    "Amazon · Beleza (departamento)",
+    "Amazon · Corpo e banho"
+   ],
+   "n_listas": 2,
+   "preco_min": 18.89,
+   "preco_max": 18.89,
+   "url": "https://www.amazon.com.br/dp/B08NX5DKM1",
+   "promo_foz": {
+    "tipo": "linha",
+    "n_farmacias": 11,
+    "selo": "11 farmácias em promoção em Foz",
+    "redes": [
+     "São João"
+    ],
+    "chaves": [
+     "desodoranteaerosolniveamenoriginalprotectprotectcareembalagemeconomica"
+    ],
+    "nomes": [
+     "Desodorante aerosol Nivea Men Original Protect / Protect & Care embalagem econômica"
+    ],
+    "n_semana": 1,
+    "farmacias_semana": [
+     "São João (@farmaciassaojoao)"
+    ]
+   },
+   "pontos": 3.23,
+   "n_dias": 4,
+   "primeiro": "18/11",
+   "ultimo": "21/11",
+   "tendencia": "sobe",
+   "var_posicoes": 1,
+   "hoje": true,
+   "pos": 52
+  },
+  {
+   "chave": "sempre livre||absorvente",
+   "nome": "Absorvente Noturno com Abas Sempre Livre, Cobertura Suave, 32 Unidades | Cobertura Seca, Com Abas,…",
+   "marca": "Sempre Livre",
+   "linha": "",
+   "lojas": [
+    {
+     "loja": "Amazon",
+     "melhor_posicao": 7,
+     "categoria": "Higiene íntima",
+     "url": "https://www.amazon.com.br/dp/B07GM8DW4W"
+    }
+   ],
+   "melhor_posicao": 7,
+   "categorias": [
+    "Amazon · Higiene íntima"
+   ],
+   "n_listas": 1,
+   "preco_min": 14.99,
+   "preco_max": 21.99,
+   "url": "https://www.amazon.com.br/dp/B07GM8DW4W",
+   "promo_foz": {
+    "tipo": "linha",
+    "n_farmacias": 1,
+    "selo": "1 farmácia em promoção em Foz",
+    "redes": [
+     "Farmácia Safira"
+    ],
+    "chaves": [
+     "absorventesemprelivreadaptabas32un",
+     "absorventesemprelivreadaptsemabas8un"
+    ],
+    "nomes": [
+     "Absorvente Sempre Livre Adapt com abas 32un",
+     "Absorvente Sempre Livre Adapt sem abas 8un"
+    ],
+    "n_semana": 1,
+    "farmacias_semana": [
+     "Farmácia Safira (@farmacia_safira)"
+    ]
+   },
+   "pontos": 3.17,
+   "n_dias": 4,
+   "primeiro": "18/11",
+   "ultimo": "21/11",
+   "tendencia": "cai",
+   "var_posicoes": -1,
+   "hoje": true,
+   "pos": 53
   },
   {
    "chave": "dove|sabonete|hidratante",
@@ -4051,1027 +5147,54 @@
    "tendencia": "saiu",
    "var_posicoes": null,
    "hoje": false,
-   "pos": 32
-  },
-  {
-   "chave": "wella||shampoo",
-   "nome": "Shampoo Invigo Nutri Enrich Wella Professionals 1000 ml",
-   "marca": "Wella",
-   "linha": "",
-   "lojas": [
-    {
-     "loja": "Amazon",
-     "melhor_posicao": 8,
-     "categoria": "Cuidados com o cabelo",
-     "url": "https://www.amazon.com.br/dp/B0BG312BMR"
-    }
-   ],
-   "melhor_posicao": 8,
-   "categorias": [
-    "Amazon · Beleza (departamento)",
-    "Amazon · Cuidados com o cabelo"
-   ],
-   "n_listas": 2,
-   "preco_min": 117.0,
-   "preco_max": 154.9,
-   "url": "https://www.amazon.com.br/dp/B0BG312BMR",
-   "promo_foz": {
-    "tipo": "nenhum",
-    "n_farmacias": 0,
-    "selo": "ninguém promove em Foz — oportunidade",
-    "redes": [],
-    "chaves": [],
-    "nomes": [],
-    "n_semana": 0,
-    "farmacias_semana": []
-   },
-   "pontos": 3.13,
-   "n_dias": 3,
-   "primeiro": "18/11",
-   "ultimo": "20/11",
-   "tendencia": "cai",
-   "var_posicoes": -4,
-   "hoje": true,
-   "pos": 33
-  },
-  {
-   "chave": "Amazon:B099KTRZP7",
-   "nome": "Fralda Turma da Mônica Baby Mega P 62 Unidades | Proteção e conforto o dia todo – B099KTRZP7",
-   "marca": "",
-   "linha": "",
-   "lojas": [
-    {
-     "loja": "Amazon",
-     "melhor_posicao": 1,
-     "categoria": "Fraldas descartáveis",
-     "url": "https://www.amazon.com.br/dp/B099KTRZP7"
-    }
-   ],
-   "melhor_posicao": 1,
-   "categorias": [
-    "Amazon · Fraldas descartáveis"
-   ],
-   "n_listas": 1,
-   "preco_min": 35.77,
-   "preco_max": 35.77,
-   "url": "https://www.amazon.com.br/dp/B099KTRZP7",
-   "promo_foz": {
-    "tipo": "sem_marca",
-    "n_farmacias": 0,
-    "selo": "marca não identificada no anúncio — sem cruzamento com Foz",
-    "redes": [],
-    "chaves": [],
-    "nomes": [],
-    "n_semana": 0,
-    "farmacias_semana": []
-   },
-   "pontos": 3.0,
-   "n_dias": 3,
-   "primeiro": "18/11",
-   "ultimo": "20/11",
-   "tendencia": "estavel",
-   "var_posicoes": 0,
-   "hoje": true,
-   "pos": 34
-  },
-  {
-   "chave": "Amazon:B0979VS2JH",
-   "nome": "Fralda Pom Pom Protek Proteção de Mãe Hiper G 68 Unidades | Proteção e conforto o dia todo – Proteção Mãe…",
-   "marca": "",
-   "linha": "",
-   "lojas": [
-    {
-     "loja": "Amazon",
-     "melhor_posicao": 2,
-     "categoria": "Fraldas descartáveis",
-     "url": "https://www.amazon.com.br/dp/B0979VS2JH"
-    }
-   ],
-   "melhor_posicao": 2,
-   "categorias": [
-    "Amazon · Fraldas descartáveis"
-   ],
-   "n_listas": 1,
-   "preco_min": 47.9,
-   "preco_max": 47.9,
-   "url": "https://www.amazon.com.br/dp/B0979VS2JH",
-   "promo_foz": {
-    "tipo": "sem_marca",
-    "n_farmacias": 0,
-    "selo": "marca não identificada no anúncio — sem cruzamento com Foz",
-    "redes": [],
-    "chaves": [],
-    "nomes": [],
-    "n_semana": 0,
-    "farmacias_semana": []
-   },
-   "pontos": 2.9,
-   "n_dias": 3,
-   "primeiro": "18/11",
-   "ultimo": "20/11",
-   "tendencia": "estavel",
-   "var_posicoes": 0,
-   "hoje": true,
-   "pos": 35
-  },
-  {
-   "chave": "amend|||B0DJMP5Z6Z",
-   "nome": "Máscara Acidificante de Equilíbrio do pH 250g | Amend Essencial | Equilibra o pH capilar, sela cutículas e…",
-   "marca": "Amend",
-   "linha": "",
-   "lojas": [
-    {
-     "loja": "Amazon",
-     "melhor_posicao": 9,
-     "categoria": "Cuidados com o cabelo",
-     "url": "https://www.amazon.com.br/dp/B0DJMP5Z6Z"
-    }
-   ],
-   "melhor_posicao": 9,
-   "categorias": [
-    "Amazon · Beleza (departamento)",
-    "Amazon · Cuidados com o cabelo"
-   ],
-   "n_listas": 2,
-   "preco_min": 33.9,
-   "preco_max": 36.18,
-   "url": "https://www.amazon.com.br/dp/B0DJMP5Z6Z",
-   "promo_foz": {
-    "tipo": "nenhum",
-    "n_farmacias": 0,
-    "selo": "ninguém promove em Foz — oportunidade",
-    "redes": [],
-    "chaves": [],
-    "nomes": [],
-    "n_semana": 0,
-    "farmacias_semana": []
-   },
-   "pontos": 2.9,
-   "n_dias": 3,
-   "primeiro": "18/11",
-   "ultimo": "20/11",
-   "tendencia": "cai",
-   "var_posicoes": -1,
-   "hoje": true,
-   "pos": 36
-  },
-  {
-   "chave": "lola cosmetics|||kit|B0DKVJ1HWB",
-   "nome": "Kit Cronograma Capilar Lola Cosmetics Be(m) Dita Ghee, 3 Produtos | Resultados potencializados em conjunto",
-   "marca": "Lola Cosmetics",
-   "linha": "",
-   "lojas": [
-    {
-     "loja": "Amazon",
-     "melhor_posicao": 9,
-     "categoria": "Cuidados com o cabelo",
-     "url": "https://www.amazon.com.br/dp/B0DKVJ1HWB"
-    }
-   ],
-   "melhor_posicao": 9,
-   "categorias": [
-    "Amazon · Beleza (departamento)",
-    "Amazon · Cuidados com o cabelo"
-   ],
-   "n_listas": 2,
-   "preco_min": 35.64,
-   "preco_max": 35.64,
-   "url": "https://www.amazon.com.br/dp/B0DKVJ1HWB",
-   "promo_foz": {
-    "tipo": "nenhum",
-    "n_farmacias": 0,
-    "selo": "ninguém promove em Foz — oportunidade",
-    "redes": [],
-    "chaves": [],
-    "nomes": [],
-    "n_semana": 0,
-    "farmacias_semana": []
-   },
-   "pontos": 2.9,
-   "n_dias": 3,
-   "primeiro": "18/11",
-   "ultimo": "20/11",
-   "tendencia": "sobe",
-   "var_posicoes": 1,
-   "hoje": true,
-   "pos": 37
-  },
-  {
-   "chave": "intimus|||B07W6B8LCZ",
-   "nome": "Protetor Díário Intimus® Tecnologia Antibacteriana - 80 un | Frescor diário em pacote família",
-   "marca": "Intimus",
-   "linha": "",
-   "lojas": [
-    {
-     "loja": "Amazon",
-     "melhor_posicao": 2,
-     "categoria": "Higiene íntima",
-     "url": "https://www.amazon.com.br/dp/B07W6B8LCZ"
-    }
-   ],
-   "melhor_posicao": 2,
-   "categorias": [
-    "Amazon · Higiene íntima"
-   ],
-   "n_listas": 1,
-   "preco_min": 15.99,
-   "preco_max": 17.99,
-   "url": "https://www.amazon.com.br/dp/B07W6B8LCZ",
-   "promo_foz": {
-    "tipo": "marca",
-    "n_farmacias": 19,
-    "selo": "marca em promoção em 19 farmácias de Foz (outro item)",
-    "redes": [
-     "Preço Justo"
-    ],
-    "chaves": [
-     "absorventeintimusinternomedio8un"
-    ],
-    "nomes": [
-     "Absorvente Intimus interno médio 8un"
-    ],
-    "n_semana": 0,
-    "farmacias_semana": []
-   },
-   "pontos": 2.87,
-   "n_dias": 3,
-   "primeiro": "18/11",
-   "ultimo": "20/11",
-   "tendencia": "sobe",
-   "var_posicoes": 1,
-   "hoje": true,
-   "pos": 38
-  },
-  {
-   "chave": "darrow|actine|gel de limpeza|kit",
-   "nome": "Darrow Actine Kit Gel de Limpeza Facial Pele Oleosa e Acneica 400g + 40g | Com Vitamina C e Ácido Salicílico",
-   "marca": "Darrow",
-   "linha": "actine",
-   "lojas": [
-    {
-     "loja": "Amazon",
-     "melhor_posicao": 7,
-     "categoria": "Cuidados com a pele",
-     "url": "https://www.amazon.com.br/dp/B0HDVZQPT6"
-    }
-   ],
-   "melhor_posicao": 7,
-   "categorias": [
-    "Amazon · Beleza (departamento)",
-    "Amazon · Cuidados com a pele"
-   ],
-   "n_listas": 2,
-   "preco_min": 63.99,
-   "preco_max": 63.99,
-   "url": "https://www.amazon.com.br/dp/B0HDVZQPT6",
-   "promo_foz": {
-    "tipo": "nenhum",
-    "n_farmacias": 0,
-    "selo": "ninguém promove em Foz — oportunidade",
-    "redes": [],
-    "chaves": [],
-    "nomes": [],
-    "n_semana": 0,
-    "farmacias_semana": []
-   },
-   "pontos": 2.83,
-   "n_dias": 3,
-   "primeiro": "18/11",
-   "ultimo": "20/11",
-   "tendencia": "cai",
-   "var_posicoes": -1,
-   "hoje": true,
-   "pos": 39
-  },
-  {
-   "chave": "pampers|premium care|fralda",
-   "nome": "Fralda Pampers Premium Care Tamanho G 136 Unidades",
-   "marca": "Pampers",
-   "linha": "premium care",
-   "lojas": [
-    {
-     "loja": "Amazon",
-     "melhor_posicao": 3,
-     "categoria": "Fraldas descartáveis",
-     "url": "https://www.amazon.com.br/dp/B08K4MXDVX"
-    }
-   ],
-   "melhor_posicao": 3,
-   "categorias": [
-    "Amazon · Fraldas descartáveis"
-   ],
-   "n_listas": 1,
-   "preco_min": 181.78,
-   "preco_max": 207.99,
-   "url": "https://www.amazon.com.br/dp/B08K4MXDVX",
-   "promo_foz": {
-    "tipo": "marca",
-    "n_farmacias": 5,
-    "selo": "marca em promoção em 5 farmácias de Foz (outro item)",
-    "redes": [
-     "Farmácia Preço Popular",
-     "Panvel",
-     "Preço Popular"
-    ],
-    "chaves": [
-     "fraldapampersconfortsecjumboxxg112un",
-     "fraldapamperssupersequinhababyshark",
-     "fraldapamperssupersequinhababysharkg60un",
-     "fraldapamperssupersequinhababysharkm68un",
-     "fraldapamperssupersequinhababysharkxg56un",
-     "fraldapamperssupersequinhababysharkxxg50un"
-    ],
-    "nomes": [
-     "Fralda Pampers Confort Sec Jumbo XXG 112un",
-     "Fralda Pampers Supersequinha Baby Shark",
-     "Fralda Pampers Supersequinha Baby Shark G 60 Unidades",
-     "Fralda Pampers Supersequinha Baby Shark M 68 Unidades",
-     "Fralda Pampers Supersequinha Baby Shark Xg 56 Unidades",
-     "Fralda Pampers Supersequinha Baby Shark Xxg 50 Unidades"
-    ],
-    "n_semana": 0,
-    "farmacias_semana": []
-   },
-   "pontos": 2.8,
-   "n_dias": 3,
-   "primeiro": "18/11",
-   "ultimo": "20/11",
-   "tendencia": "estavel",
-   "var_posicoes": 0,
-   "hoje": true,
-   "pos": 40
-  },
-  {
-   "chave": "la roche-posay|ultra cover|protetor solar|fps60",
-   "nome": "La Roche-Posay, Ultra Cover, Protetor Solar com Cor e Performance de Maquiagem, 12h de cobertura de base…",
-   "marca": "La Roche-Posay",
-   "linha": "ultra cover",
-   "lojas": [
-    {
-     "loja": "Amazon",
-     "melhor_posicao": 6,
-     "categoria": "Protetores solares",
-     "url": "https://www.amazon.com.br/dp/B0BLZVD5S5"
-    }
-   ],
-   "melhor_posicao": 6,
-   "categorias": [
-    "Amazon · Cuidados com a pele",
-    "Amazon · Protetores solares"
-   ],
-   "n_listas": 2,
-   "preco_min": 74.85,
-   "preco_max": 77.17,
-   "url": "https://www.amazon.com.br/dp/B0BLZVD5S5",
-   "promo_foz": {
-    "tipo": "nenhum",
-    "n_farmacias": 0,
-    "selo": "ninguém promove em Foz — oportunidade",
-    "redes": [],
-    "chaves": [],
-    "nomes": [],
-    "n_semana": 0,
-    "farmacias_semana": []
-   },
-   "pontos": 2.8,
-   "n_dias": 3,
-   "primeiro": "18/11",
-   "ultimo": "20/11",
-   "tendencia": "cai",
-   "var_posicoes": -1,
-   "hoje": true,
-   "pos": 41
-  },
-  {
-   "chave": "huggies|natural care|fralda",
-   "nome": "Huggies Fralda Descartável Premium Natural Care Hipoalergênica RN - 34UN | Proteção e conforto o dia todo…",
-   "marca": "Huggies",
-   "linha": "natural care",
-   "lojas": [
-    {
-     "loja": "Amazon",
-     "melhor_posicao": 4,
-     "categoria": "Fraldas descartáveis",
-     "url": "https://www.amazon.com.br/dp/B095R9CKYR"
-    }
-   ],
-   "melhor_posicao": 4,
-   "categorias": [
-    "Amazon · Fraldas descartáveis"
-   ],
-   "n_listas": 1,
-   "preco_min": 38.99,
-   "preco_max": 42.99,
-   "url": "https://www.amazon.com.br/dp/B095R9CKYR",
-   "promo_foz": {
-    "tipo": "marca",
-    "n_farmacias": 21,
-    "selo": "marca em promoção em 21 farmácias de Foz (outro item)",
-    "redes": [
-     "Farmácia Preço Popular",
-     "Preço Justo",
-     "Preço Justo Três Lagoas"
-    ],
-    "chaves": [
-     "fraldahuggiesmaximaprotecao",
-     "fraldahuggiessupremecarebag",
-     "fraldahuggiesgmaximaprotecao92un",
-     "fraldahuggiesmmaximaprotecao104un",
-     "fraldahuggiesxgmaximaprotecao82un",
-     "fraldahuggiesxxgmaximaprotecao80un",
-     "fraldahuggiesxxxgmaximaprotecao70un"
-    ],
-    "nomes": [
-     "Fralda Huggies G Máxima Proteção 92 Unidades",
-     "Fralda Huggies M Máxima Proteção 104 Unidades",
-     "Fralda Huggies Máxima Proteção",
-     "Fralda Huggies Supreme Care Bag",
-     "Fralda Huggies Xg Máxima Proteção 82 Unidades",
-     "Fralda Huggies Xxg Máxima Proteção 80 Unidades"
-    ],
-    "n_semana": 0,
-    "farmacias_semana": []
-   },
-   "pontos": 2.7,
-   "n_dias": 3,
-   "primeiro": "18/11",
-   "ultimo": "20/11",
-   "tendencia": "estavel",
-   "var_posicoes": 0,
-   "hoje": true,
-   "pos": 42
-  },
-  {
-   "chave": "mantecorp (epidrat/episol)|epidrat|hidratante",
-   "nome": "MANTECORP - Hidratante Epidrat Calm B5 - Hidrata e Acalma a Pele, Conforto Imediato, D-Pantenol",
-   "marca": "Mantecorp (Epidrat/Episol)",
-   "linha": "epidrat",
-   "lojas": [
-    {
-     "loja": "Amazon",
-     "melhor_posicao": 5,
-     "categoria": "Dermocosméticos",
-     "url": "https://www.amazon.com.br/dp/B09RL3X7RB"
-    }
-   ],
-   "melhor_posicao": 5,
-   "categorias": [
-    "Amazon · Cuidados com a pele",
-    "Amazon · Dermocosméticos"
-   ],
-   "n_listas": 2,
-   "preco_min": 71.94,
-   "preco_max": 75.72,
-   "url": "https://www.amazon.com.br/dp/B09RL3X7RB",
-   "promo_foz": {
-    "tipo": "nenhum",
-    "n_farmacias": 0,
-    "selo": "ninguém promove em Foz — oportunidade",
-    "redes": [],
-    "chaves": [],
-    "nomes": [],
-    "n_semana": 0,
-    "farmacias_semana": []
-   },
-   "pontos": 2.7,
-   "n_dias": 3,
-   "primeiro": "18/11",
-   "ultimo": "20/11",
-   "tendencia": "cai",
-   "var_posicoes": -3,
-   "hoje": true,
-   "pos": 43
-  },
-  {
-   "chave": "nivea|q10|hidratante",
-   "nome": "NIVEA Loção Hidratante Firmador Q10 + Vitamina C 400ml, Hidratação Intensa 48h, Pele Firme e Elasticidade,…",
-   "marca": "Nivea",
-   "linha": "q10",
-   "lojas": [
-    {
-     "loja": "Amazon",
-     "melhor_posicao": 14,
-     "categoria": "Corpo e banho",
-     "url": "https://www.amazon.com.br/dp/B07LFMZBKW"
-    }
-   ],
-   "melhor_posicao": 14,
-   "categorias": [
-    "Amazon · Corpo e banho",
-    "Amazon · Cuidados com a pele"
-   ],
-   "n_listas": 2,
-   "preco_min": 23.2,
-   "preco_max": 23.2,
-   "url": "https://www.amazon.com.br/dp/B07LFMZBKW",
-   "promo_foz": {
-    "tipo": "marca",
-    "n_farmacias": 38,
-    "selo": "marca em promoção em 38 farmácias de Foz (outro item)",
-    "redes": [
-     "Droga Raia",
-     "Farmácia Preço Popular",
-     "Panvel",
-     "Preço Justo",
-     "São João"
-    ],
-    "chaves": [
-     "cremeniveafacial100g",
-     "desodoranteaerosolniveamenoriginalprotectprotectcareembalagemeconomica",
-     "desodoranteaerosolniveainvisibleblackwhiteclear200ml",
-     "nivealocaohidratante",
-     "saboneteliquidoniveaoleobanho200ml",
-     "sabonetenivealiquido200mloleobanho"
-    ],
-    "nomes": [
-     "Creme Nivea facial 100g",
-     "Desodorante aerosol Nivea Invisible Black&White Clear 200ml",
-     "Desodorante aerosol Nivea Men Original Protect / Protect & Care embalagem econômica",
-     "Nivea loção hidratante (Banho Radiante, Milk, Soft Milk)",
-     "Sabonete Nivea Liquido 200ml Oleo De Banho",
-     "Sabonete líquido Nivea Óleo de Banho 200ml"
-    ],
-    "n_semana": 0,
-    "farmacias_semana": []
-   },
-   "pontos": 2.7,
-   "n_dias": 3,
-   "primeiro": "18/11",
-   "ultimo": "20/11",
-   "tendencia": "cai",
-   "var_posicoes": -1,
-   "hoje": true,
-   "pos": 44
-  },
-  {
-   "chave": "colgate|total|creme dental|kit",
-   "nome": "Colgate Total Antitártaro Creme Dental com Flúor, 3x90g",
-   "marca": "Colgate",
-   "linha": "total",
-   "lojas": [
-    {
-     "loja": "Amazon",
-     "melhor_posicao": 3,
-     "categoria": "Saúde e bem-estar (departamento)",
-     "url": "https://www.amazon.com.br/dp/B08BGQY8RN"
-    }
-   ],
-   "melhor_posicao": 3,
-   "categorias": [
-    "Amazon · Saúde e bem-estar (departamento)"
-   ],
-   "n_listas": 1,
-   "preco_min": 17.41,
-   "preco_max": 17.41,
-   "url": "https://www.amazon.com.br/dp/B08BGQY8RN",
-   "promo_foz": {
-    "tipo": "marca",
-    "n_farmacias": 20,
-    "selo": "marca em promoção em 20 farmácias de Foz (outro item)",
-    "redes": [
-     "Masterfarma",
-     "Preço Justo"
-    ],
-    "chaves": [
-     "cremedentalcolgateanticaries90g",
-     "colgatecloseup"
-    ],
-    "nomes": [
-     "Colgate + Closeup",
-     "Creme dental Colgate Anticáries 90g"
-    ],
-    "n_semana": 0,
-    "farmacias_semana": []
-   },
-   "pontos": 2.67,
-   "n_dias": 3,
-   "primeiro": "18/11",
-   "ultimo": "20/11",
-   "tendencia": "sobe",
-   "var_posicoes": 2,
-   "hoje": true,
-   "pos": 45
-  },
-  {
-   "chave": "isdin|fusion water|protetor solar|fps60",
-   "nome": "ISDIN Protetor Solar Facial Fusion Water 5 Stars Sem Cor FPS 60-50ml",
-   "marca": "ISDIN",
-   "linha": "fusion water",
-   "lojas": [
-    {
-     "loja": "Amazon",
-     "melhor_posicao": 4,
-     "categoria": "Protetores solares",
-     "url": "https://www.amazon.com.br/dp/B08F864LDD"
-    }
-   ],
-   "melhor_posicao": 4,
-   "categorias": [
-    "Amazon · Cuidados com a pele",
-    "Amazon · Protetores solares"
-   ],
-   "n_listas": 2,
-   "preco_min": 87.9,
-   "preco_max": 102.32,
-   "url": "https://www.amazon.com.br/dp/B08F864LDD",
-   "promo_foz": {
-    "tipo": "nenhum",
-    "n_farmacias": 0,
-    "selo": "ninguém promove em Foz — oportunidade",
-    "redes": [],
-    "chaves": [],
-    "nomes": [],
-    "n_semana": 0,
-    "farmacias_semana": []
-   },
-   "pontos": 2.67,
-   "n_dias": 3,
-   "primeiro": "18/11",
-   "ultimo": "20/11",
-   "tendencia": "cai",
-   "var_posicoes": -7,
-   "hoje": true,
-   "pos": 46
-  },
-  {
-   "chave": "cremer||absorvente",
-   "nome": "Absorvente Cremer 30Un. Seios",
-   "marca": "Cremer",
-   "linha": "",
-   "lojas": [
-    {
-     "loja": "Amazon",
-     "melhor_posicao": 4,
-     "categoria": "Higiene íntima",
-     "url": "https://www.amazon.com.br/dp/B0CD8T9Q45"
-    }
-   ],
-   "melhor_posicao": 4,
-   "categorias": [
-    "Amazon · Higiene íntima"
-   ],
-   "n_listas": 1,
-   "preco_min": 16.23,
-   "preco_max": 23.42,
-   "url": "https://www.amazon.com.br/dp/B0CD8T9Q45",
-   "promo_foz": {
-    "tipo": "nenhum",
-    "n_farmacias": 0,
-    "selo": "ninguém promove em Foz — oportunidade",
-    "redes": [],
-    "chaves": [],
-    "nomes": [],
-    "n_semana": 0,
-    "farmacias_semana": []
-   },
-   "pontos": 2.63,
-   "n_dias": 3,
-   "primeiro": "18/11",
-   "ultimo": "20/11",
-   "tendencia": "cai",
-   "var_posicoes": -1,
-   "hoje": true,
-   "pos": 47
-  },
-  {
-   "chave": "nivea|sun|protetor solar|fps70",
-   "nome": "NIVEA SUN Protetor Solar Facial Toque Seco Antissinais FPS 70 40ml - Com muito alta proteção contra raios…",
-   "marca": "Nivea",
-   "linha": "sun",
-   "lojas": [
-    {
-     "loja": "Amazon",
-     "melhor_posicao": 6,
-     "categoria": "Protetores solares",
-     "url": "https://www.amazon.com.br/dp/B0BD6755LC"
-    }
-   ],
-   "melhor_posicao": 6,
-   "categorias": [
-    "Amazon · Cuidados com a pele",
-    "Amazon · Protetores solares"
-   ],
-   "n_listas": 2,
-   "preco_min": 34.9,
-   "preco_max": 34.9,
-   "url": "https://www.amazon.com.br/dp/B0BD6755LC",
-   "promo_foz": {
-    "tipo": "marca",
-    "n_farmacias": 38,
-    "selo": "marca em promoção em 38 farmácias de Foz (outro item)",
-    "redes": [
-     "Droga Raia",
-     "Farmácia Preço Popular",
-     "Panvel",
-     "Preço Justo",
-     "São João"
-    ],
-    "chaves": [
-     "cremeniveafacial100g",
-     "desodoranteaerosolniveamenoriginalprotectprotectcareembalagemeconomica",
-     "desodoranteaerosolniveainvisibleblackwhiteclear200ml",
-     "nivealocaohidratante",
-     "saboneteliquidoniveaoleobanho200ml",
-     "sabonetenivealiquido200mloleobanho"
-    ],
-    "nomes": [
-     "Creme Nivea facial 100g",
-     "Desodorante aerosol Nivea Invisible Black&White Clear 200ml",
-     "Desodorante aerosol Nivea Men Original Protect / Protect & Care embalagem econômica",
-     "Nivea loção hidratante (Banho Radiante, Milk, Soft Milk)",
-     "Sabonete Nivea Liquido 200ml Oleo De Banho",
-     "Sabonete líquido Nivea Óleo de Banho 200ml"
-    ],
-    "n_semana": 0,
-    "farmacias_semana": []
-   },
-   "pontos": 2.63,
-   "n_dias": 3,
-   "primeiro": "18/11",
-   "ultimo": "20/11",
-   "tendencia": "sobe",
-   "var_posicoes": 2,
-   "hoje": true,
-   "pos": 48
-  },
-  {
-   "chave": "dove|serum corporal|serum",
-   "nome": "Dove Hidratante Sérum Corporal Glicólico + Reparador de Textura 380ml",
-   "marca": "Dove",
-   "linha": "serum corporal",
-   "lojas": [
-    {
-     "loja": "Amazon",
-     "melhor_posicao": 12,
-     "categoria": "Corpo e banho",
-     "url": "https://www.amazon.com.br/dp/B0GY9B1RQL"
-    }
-   ],
-   "melhor_posicao": 12,
-   "categorias": [
-    "Amazon · Corpo e banho",
-    "Amazon · Cuidados com a pele"
-   ],
-   "n_listas": 2,
-   "preco_min": 27.54,
-   "preco_max": 27.54,
-   "url": "https://www.amazon.com.br/dp/B0GY9B1RQL",
-   "promo_foz": {
-    "tipo": "linha",
-    "n_farmacias": 11,
-    "selo": "11 farmácias em promoção em Foz",
-    "redes": [
-     "Nissei"
-    ],
-    "chaves": [
-     "serumcorporaldovefragrancias380ml",
-     "serumcorporaldovecicapan20g"
-    ],
-    "nomes": [
-     "Sérum corporal Dove Cicapan 20g",
-     "Sérum corporal Dove Fragrâncias 380ml"
-    ],
-    "n_semana": 1,
-    "farmacias_semana": [
-     "Nissei (@farmaciasnissei)"
-    ]
-   },
-   "pontos": 2.63,
-   "n_dias": 3,
-   "primeiro": "18/11",
-   "ultimo": "20/11",
-   "tendencia": "sobe",
-   "var_posicoes": 3,
-   "hoje": true,
-   "pos": 49
-  },
-  {
-   "chave": "intimus||absorvente",
-   "nome": "Absorvente Intimus Tripla Proteção Dia Suave Com Abas, Fluxo Moderado, 42 unid",
-   "marca": "Intimus",
-   "linha": "",
-   "lojas": [
-    {
-     "loja": "Amazon",
-     "melhor_posicao": 5,
-     "categoria": "Higiene íntima",
-     "url": "https://www.amazon.com.br/dp/B0DX7BHGWP"
-    }
-   ],
-   "melhor_posicao": 5,
-   "categorias": [
-    "Amazon · Higiene íntima"
-   ],
-   "n_listas": 1,
-   "preco_min": 16.64,
-   "preco_max": 32.49,
-   "url": "https://www.amazon.com.br/dp/B0DX7BHGWP",
-   "promo_foz": {
-    "tipo": "linha",
-    "n_farmacias": 19,
-    "selo": "19 farmácias em promoção em Foz",
-    "redes": [
-     "Preço Justo"
-    ],
-    "chaves": [
-     "absorventeintimusinternomedio8un"
-    ],
-    "nomes": [
-     "Absorvente Intimus interno médio 8un"
-    ],
-    "n_semana": 1,
-    "farmacias_semana": [
-     "Preço Justo (@precojustoclubjusto)"
-    ]
-   },
-   "pontos": 2.6,
-   "n_dias": 3,
-   "primeiro": "18/11",
-   "ultimo": "20/11",
-   "tendencia": "estavel",
-   "var_posicoes": 0,
-   "hoje": true,
-   "pos": 50
-  },
-  {
-   "chave": "pampers|confort sec|fralda",
-   "nome": "Fralda Pampers Confort Sec Tamanho M 196 Unidades",
-   "marca": "Pampers",
-   "linha": "confort sec",
-   "lojas": [
-    {
-     "loja": "Amazon",
-     "melhor_posicao": 5,
-     "categoria": "Fraldas descartáveis",
-     "url": "https://www.amazon.com.br/dp/B09FFRMKNQ"
-    }
-   ],
-   "melhor_posicao": 5,
-   "categorias": [
-    "Amazon · Fraldas descartáveis"
-   ],
-   "n_listas": 1,
-   "preco_min": 182.44,
-   "preco_max": 249.0,
-   "url": "https://www.amazon.com.br/dp/B09FFRMKNQ",
-   "promo_foz": {
-    "tipo": "linha",
-    "n_farmacias": 3,
-    "selo": "3 farmácias em promoção em Foz",
-    "redes": [
-     "Panvel"
-    ],
-    "chaves": [
-     "fraldapampersconfortsecjumboxxg112un"
-    ],
-    "nomes": [
-     "Fralda Pampers Confort Sec Jumbo XXG 112un"
-    ],
-    "n_semana": 3,
-    "farmacias_semana": [
-     "Farma D (@farmadfoz)",
-     "Panvel (@panvelfarmacias)",
-     "São João (@farmaciassaojoao)"
-    ]
-   },
-   "pontos": 2.5,
-   "n_dias": 3,
-   "primeiro": "18/11",
-   "ultimo": "20/11",
-   "tendencia": "cai",
-   "var_posicoes": -2,
-   "hoje": true,
-   "pos": 51
-  },
-  {
-   "chave": "nivea|men|desodorante|kit",
-   "nome": "Kit NIVEA Desodorante Aerosol Men Black&White Invisible - 2 unidades",
-   "marca": "Nivea",
-   "linha": "men",
-   "lojas": [
-    {
-     "loja": "Amazon",
-     "melhor_posicao": 8,
-     "categoria": "Corpo e banho",
-     "url": "https://www.amazon.com.br/dp/B08NX5DKM1"
-    }
-   ],
-   "melhor_posicao": 8,
-   "categorias": [
-    "Amazon · Beleza (departamento)",
-    "Amazon · Corpo e banho"
-   ],
-   "n_listas": 2,
-   "preco_min": 18.89,
-   "preco_max": 18.89,
-   "url": "https://www.amazon.com.br/dp/B08NX5DKM1",
-   "promo_foz": {
-    "tipo": "linha",
-    "n_farmacias": 11,
-    "selo": "11 farmácias em promoção em Foz",
-    "redes": [
-     "São João"
-    ],
-    "chaves": [
-     "desodoranteaerosolniveamenoriginalprotectprotectcareembalagemeconomica"
-    ],
-    "nomes": [
-     "Desodorante aerosol Nivea Men Original Protect / Protect & Care embalagem econômica"
-    ],
-    "n_semana": 1,
-    "farmacias_semana": [
-     "São João (@farmaciassaojoao)"
-    ]
-   },
-   "pontos": 2.5,
-   "n_dias": 3,
-   "primeiro": "18/11",
-   "ultimo": "20/11",
-   "tendencia": "sobe",
-   "var_posicoes": 2,
-   "hoje": true,
-   "pos": 52
-  },
-  {
-   "chave": "truss|||B0D9YTVXWT",
-   "nome": "Truss Óleo Reconstrutor Uso Obrigatório | Tratamento Capilar para Brilho, Reconstrução e Proteção | 30ml",
-   "marca": "Truss",
-   "linha": "",
-   "lojas": [
-    {
-     "loja": "Amazon",
-     "melhor_posicao": 8,
-     "categoria": "Cuidados com o cabelo",
-     "url": "https://www.amazon.com.br/dp/B0D9YTVXWT"
-    }
-   ],
-   "melhor_posicao": 8,
-   "categorias": [
-    "Amazon · Beleza (departamento)",
-    "Amazon · Cuidados com o cabelo"
-   ],
-   "n_listas": 2,
-   "preco_min": 60.0,
-   "preco_max": 60.0,
-   "url": "https://www.amazon.com.br/dp/B0D9YTVXWT",
-   "promo_foz": {
-    "tipo": "nenhum",
-    "n_farmacias": 0,
-    "selo": "ninguém promove em Foz — oportunidade",
-    "redes": [],
-    "chaves": [],
-    "nomes": [],
-    "n_semana": 0,
-    "farmacias_semana": []
-   },
-   "pontos": 2.47,
-   "n_dias": 2,
-   "primeiro": "19/11",
-   "ultimo": "20/11",
-   "tendencia": "novo",
-   "var_posicoes": null,
-   "hoje": true,
-   "pos": 53
-  },
-  {
-   "chave": "oral-b||creme dental",
-   "nome": "Oral-B Pasta de Dente 3D White Brilliant Fresh, 3 Unidades de 70 g | Sorriso branco em trio",
-   "marca": "Oral-B",
-   "linha": "",
-   "lojas": [
-    {
-     "loja": "Amazon",
-     "melhor_posicao": 5,
-     "categoria": "Saúde e bem-estar (departamento)",
-     "url": "https://www.amazon.com.br/dp/B07GMDZX9M"
-    }
-   ],
-   "melhor_posicao": 5,
-   "categorias": [
-    "Amazon · Saúde e bem-estar (departamento)"
-   ],
-   "n_listas": 1,
-   "preco_min": 12.46,
-   "preco_max": 13.99,
-   "url": "https://www.amazon.com.br/dp/B07GMDZX9M",
-   "promo_foz": {
-    "tipo": "nenhum",
-    "n_farmacias": 0,
-    "selo": "ninguém promove em Foz — oportunidade",
-    "redes": [],
-    "chaves": [],
-    "nomes": [],
-    "n_semana": 0,
-    "farmacias_semana": []
-   },
-   "pontos": 2.43,
-   "n_dias": 3,
-   "primeiro": "18/11",
-   "ultimo": "20/11",
-   "tendencia": "sobe",
-   "var_posicoes": 3,
-   "hoje": true,
    "pos": 54
+  },
+  {
+   "chave": "eucerin|oil control|protetor solar|fps60",
+   "nome": "EUCERIN Protetor Solar Facial Oil Control FPS60 50ml, Antioleosidade, Rosto, Proteção UVA, UVB e Luz Visível",
+   "marca": "Eucerin",
+   "linha": "oil control",
+   "lojas": [
+    {
+     "loja": "Amazon",
+     "melhor_posicao": 11,
+     "categoria": "Dermocosméticos",
+     "url": "https://www.amazon.com.br/dp/B079VW5KT6"
+    }
+   ],
+   "melhor_posicao": 11,
+   "categorias": [
+    "Amazon · Dermocosméticos",
+    "Amazon · Protetores solares"
+   ],
+   "n_listas": 2,
+   "preco_min": 59.89,
+   "preco_max": 59.9,
+   "url": "https://www.amazon.com.br/dp/B079VW5KT6",
+   "promo_foz": {
+    "tipo": "marca",
+    "n_farmacias": 3,
+    "selo": "marca em promoção em 3 farmácias de Foz (outro item)",
+    "redes": [
+     "Droga Raia"
+    ],
+    "chaves": [
+     "eucerinaquaphorpomada"
+    ],
+    "nomes": [
+     "Eucerin Aquaphor pomada"
+    ],
+    "n_semana": 0,
+    "farmacias_semana": []
+   },
+   "pontos": 3.07,
+   "n_dias": 4,
+   "primeiro": "18/11",
+   "ultimo": "21/11",
+   "tendencia": "sobe",
+   "var_posicoes": 7,
+   "hoje": true,
+   "pos": 55
   },
   {
    "chave": "eucerin|aquaphor|hidratante labial",
@@ -5113,202 +5236,14 @@
      "Droga Raia (@raiaoficial)"
     ]
    },
-   "pontos": 2.43,
-   "n_dias": 3,
+   "pontos": 3.03,
+   "n_dias": 4,
    "primeiro": "18/11",
-   "ultimo": "20/11",
+   "ultimo": "21/11",
    "tendencia": "cai",
-   "var_posicoes": -5,
-   "hoje": true,
-   "pos": 55
-  },
-  {
-   "chave": "bepantol|derma|hidratante",
-   "nome": "Bepantol Derma Hidratante Facial Toque Seco, Pele Normal a Seca, 30g | Toque Seco 30g, Oil free, Com…",
-   "marca": "Bepantol",
-   "linha": "derma",
-   "lojas": [
-    {
-     "loja": "Amazon",
-     "melhor_posicao": 16,
-     "categoria": "Corpo e banho",
-     "url": "https://www.amazon.com.br/dp/B07Y38NFPS"
-    }
-   ],
-   "melhor_posicao": 16,
-   "categorias": [
-    "Amazon · Corpo e banho",
-    "Amazon · Cuidados com a pele"
-   ],
-   "n_listas": 2,
-   "preco_min": 26.9,
-   "preco_max": 32.0,
-   "url": "https://www.amazon.com.br/dp/B07Y38NFPS",
-   "promo_foz": {
-    "tipo": "linha",
-    "n_farmacias": 3,
-    "selo": "3 farmácias em promoção em Foz",
-    "redes": [
-     "Droga Raia"
-    ],
-    "chaves": [
-     "bepantoldermafps50protetorlabial"
-    ],
-    "nomes": [
-     "Bepantol Derma FPS50 protetor labial"
-    ],
-    "n_semana": 1,
-    "farmacias_semana": [
-     "Droga Raia (@raiaoficial)"
-    ]
-   },
-   "pontos": 2.43,
-   "n_dias": 3,
-   "primeiro": "18/11",
-   "ultimo": "20/11",
-   "tendencia": "cai",
-   "var_posicoes": -1,
+   "var_posicoes": -6,
    "hoje": true,
    "pos": 56
-  },
-  {
-   "chave": "sempre livre||absorvente",
-   "nome": "Absorvente Noturno com Abas Sempre Livre, Cobertura Suave, 32 Unidades | Cobertura Seca, Com Abas,…",
-   "marca": "Sempre Livre",
-   "linha": "",
-   "lojas": [
-    {
-     "loja": "Amazon",
-     "melhor_posicao": 7,
-     "categoria": "Higiene íntima",
-     "url": "https://www.amazon.com.br/dp/B07GM8DW4W"
-    }
-   ],
-   "melhor_posicao": 7,
-   "categorias": [
-    "Amazon · Higiene íntima"
-   ],
-   "n_listas": 1,
-   "preco_min": 14.99,
-   "preco_max": 21.99,
-   "url": "https://www.amazon.com.br/dp/B07GM8DW4W",
-   "promo_foz": {
-    "tipo": "linha",
-    "n_farmacias": 1,
-    "selo": "1 farmácia em promoção em Foz",
-    "redes": [
-     "Farmácia Safira"
-    ],
-    "chaves": [
-     "absorventesemprelivreadaptabas32un",
-     "absorventesemprelivreadaptsemabas8un"
-    ],
-    "nomes": [
-     "Absorvente Sempre Livre Adapt com abas 32un",
-     "Absorvente Sempre Livre Adapt sem abas 8un"
-    ],
-    "n_semana": 1,
-    "farmacias_semana": [
-     "Farmácia Safira (@farmacia_safira)"
-    ]
-   },
-   "pontos": 2.4,
-   "n_dias": 3,
-   "primeiro": "18/11",
-   "ultimo": "20/11",
-   "tendencia": "estavel",
-   "var_posicoes": 0,
-   "hoje": true,
-   "pos": 57
-  },
-  {
-   "chave": "colgate|tripla acao|creme dental|kit",
-   "nome": "Colgate Tripla Ação Menta Original Creme Dental, 6x90g",
-   "marca": "Colgate",
-   "linha": "tripla acao",
-   "lojas": [
-    {
-     "loja": "Amazon",
-     "melhor_posicao": 7,
-     "categoria": "Saúde e bem-estar (departamento)",
-     "url": "https://www.amazon.com.br/dp/B07L63Y3PT"
-    }
-   ],
-   "melhor_posicao": 7,
-   "categorias": [
-    "Amazon · Saúde e bem-estar (departamento)"
-   ],
-   "n_listas": 1,
-   "preco_min": 22.06,
-   "preco_max": 22.09,
-   "url": "https://www.amazon.com.br/dp/B07L63Y3PT",
-   "promo_foz": {
-    "tipo": "marca",
-    "n_farmacias": 20,
-    "selo": "marca em promoção em 20 farmácias de Foz (outro item)",
-    "redes": [
-     "Masterfarma",
-     "Preço Justo"
-    ],
-    "chaves": [
-     "cremedentalcolgateanticaries90g",
-     "colgatecloseup"
-    ],
-    "nomes": [
-     "Colgate + Closeup",
-     "Creme dental Colgate Anticáries 90g"
-    ],
-    "n_semana": 0,
-    "farmacias_semana": []
-   },
-   "pontos": 2.27,
-   "n_dias": 3,
-   "primeiro": "18/11",
-   "ultimo": "20/11",
-   "tendencia": "sobe",
-   "var_posicoes": 2,
-   "hoje": true,
-   "pos": 58
-  },
-  {
-   "chave": "always||absorvente",
-   "nome": "Absorvente Always Noite Seca com Abas Fluxo Intenso, 48 Unidades",
-   "marca": "Always",
-   "linha": "",
-   "lojas": [
-    {
-     "loja": "Amazon",
-     "melhor_posicao": 8,
-     "categoria": "Higiene íntima",
-     "url": "https://www.amazon.com.br/dp/B09WPFC94R"
-    }
-   ],
-   "melhor_posicao": 8,
-   "categorias": [
-    "Amazon · Higiene íntima"
-   ],
-   "n_listas": 1,
-   "preco_min": 22.98,
-   "preco_max": 27.54,
-   "url": "https://www.amazon.com.br/dp/B09WPFC94R",
-   "promo_foz": {
-    "tipo": "nenhum",
-    "n_farmacias": 0,
-    "selo": "ninguém promove em Foz — oportunidade",
-    "redes": [],
-    "chaves": [],
-    "nomes": [],
-    "n_semana": 0,
-    "farmacias_semana": []
-   },
-   "pontos": 2.27,
-   "n_dias": 3,
-   "primeiro": "18/11",
-   "ultimo": "20/11",
-   "tendencia": "cai",
-   "var_posicoes": -1,
-   "hoje": true,
-   "pos": 59
   },
   {
    "chave": "pampers||fralda",
@@ -5318,12 +5253,12 @@
    "lojas": [
     {
      "loja": "Amazon",
-     "melhor_posicao": 8,
+     "melhor_posicao": 7,
      "categoria": "Fraldas descartáveis",
      "url": "https://www.amazon.com.br/dp/B07GQB93FT"
     }
    ],
-   "melhor_posicao": 8,
+   "melhor_posicao": 7,
    "categorias": [
     "Amazon · Fraldas descartáveis"
    ],
@@ -5365,15 +5300,150 @@
      "São João (@farmaciassaojoao)"
     ]
    },
-   "pontos": 2.23,
-   "n_dias": 3,
+   "pontos": 3.03,
+   "n_dias": 4,
    "primeiro": "18/11",
-   "ultimo": "20/11",
+   "ultimo": "21/11",
+   "tendencia": "sobe",
+   "var_posicoes": 1,
+   "hoje": true,
+   "pos": 57
+  },
+  {
+   "chave": "principia||protetor solar|fps60",
+   "nome": "Principia Protetor Solar 16,5% Mix de Filtros UV + 5% Niacinamida FPS 60 Principia Skincare PS-01 com 40ml",
+   "marca": "Principia",
+   "linha": "",
+   "lojas": [
+    {
+     "loja": "Amazon",
+     "melhor_posicao": 9,
+     "categoria": "Protetores solares",
+     "url": "https://www.amazon.com.br/dp/B0CTR4FL63"
+    }
+   ],
+   "melhor_posicao": 9,
+   "categorias": [
+    "Amazon · Protetores solares"
+   ],
+   "n_listas": 1,
+   "preco_min": 44.65,
+   "preco_max": 48.99,
+   "url": "https://www.amazon.com.br/dp/B0CTR4FL63",
+   "promo_foz": {
+    "tipo": "marca",
+    "n_farmacias": 20,
+    "selo": "marca em promoção em 20 farmácias de Foz (outro item)",
+    "redes": [
+     "Coperfarma"
+    ],
+    "chaves": [
+     "cremeareaolhosco01principia15g",
+     "hidratanteprincipiach02454g",
+     "hidratanteprincipialh02500ml"
+    ],
+    "nomes": [
+     "Creme para Área dos Olhos CO-01 Principia 15g",
+     "Hidratante Principia CH-02 454g",
+     "Hidratante Principia LH-02 500ml"
+    ],
+    "n_semana": 3,
+    "farmacias_semana": [
+     "Farma D (@farmadfoz)",
+     "Mini Preço (@miniprecofarmacias)",
+     "Preço Justo Dr. Guilherme (@precojustodrguilherme)"
+    ]
+   },
+   "pontos": 2.93,
+   "n_dias": 4,
+   "primeiro": "18/11",
+   "ultimo": "21/11",
+   "tendencia": "estavel",
+   "var_posicoes": 0,
+   "hoje": true,
+   "pos": 58
+  },
+  {
+   "chave": "truss|||B0D9YTVXWT",
+   "nome": "Truss Óleo Reconstrutor Uso Obrigatório | Tratamento Capilar para Brilho, Reconstrução e Proteção | 30ml",
+   "marca": "Truss",
+   "linha": "",
+   "lojas": [
+    {
+     "loja": "Amazon",
+     "melhor_posicao": 8,
+     "categoria": "Cuidados com o cabelo",
+     "url": "https://www.amazon.com.br/dp/B0D9YTVXWT"
+    }
+   ],
+   "melhor_posicao": 8,
+   "categorias": [
+    "Amazon · Beleza (departamento)",
+    "Amazon · Cuidados com o cabelo"
+   ],
+   "n_listas": 2,
+   "preco_min": 60.0,
+   "preco_max": 60.0,
+   "url": "https://www.amazon.com.br/dp/B0D9YTVXWT",
+   "promo_foz": {
+    "tipo": "nenhum",
+    "n_farmacias": 0,
+    "selo": "ninguém promove em Foz — oportunidade",
+    "redes": [],
+    "chaves": [],
+    "nomes": [],
+    "n_semana": 0,
+    "farmacias_semana": []
+   },
+   "pontos": 2.93,
+   "n_dias": 3,
+   "primeiro": "19/11",
+   "ultimo": "21/11",
+   "tendencia": "novo",
+   "var_posicoes": null,
+   "hoje": true,
+   "pos": 59
+  },
+  {
+   "chave": "always||absorvente",
+   "nome": "Absorvente Always Noite Seca com Abas Fluxo Intenso, 48 Unidades",
+   "marca": "Always",
+   "linha": "",
+   "lojas": [
+    {
+     "loja": "Amazon",
+     "melhor_posicao": 8,
+     "categoria": "Higiene íntima",
+     "url": "https://www.amazon.com.br/dp/B09WPFC94R"
+    }
+   ],
+   "melhor_posicao": 8,
+   "categorias": [
+    "Amazon · Higiene íntima"
+   ],
+   "n_listas": 1,
+   "preco_min": 22.98,
+   "preco_max": 27.54,
+   "url": "https://www.amazon.com.br/dp/B09WPFC94R",
+   "promo_foz": {
+    "tipo": "nenhum",
+    "n_farmacias": 0,
+    "selo": "ninguém promove em Foz — oportunidade",
+    "redes": [],
+    "chaves": [],
+    "nomes": [],
+    "n_semana": 0,
+    "farmacias_semana": []
+   },
+   "pontos": 2.9,
+   "n_dias": 4,
+   "primeiro": "18/11",
+   "ultimo": "21/11",
    "tendencia": "cai",
-   "var_posicoes": -1,
+   "var_posicoes": -4,
    "hoje": true,
    "pos": 60
   }
  ],
- "n_7dias": 168
+ "n_7dias": 174
 }
