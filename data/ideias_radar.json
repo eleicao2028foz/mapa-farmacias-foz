@@ -1,76 +1,55 @@
 {
- "gerado_em": "21/11/2026 08:22",
- "relatorio": "relatorio_2026-11-20_15h.md",
- "titulo": "Radar de concorrentes — sexta, 20/11/2026, 15h (horário de Brasília)",
+ "gerado_em": "21/11/2026 15:22",
+ "relatorio": "relatorio_2026-11-21_08h.md",
+ "titulo": "Radar de concorrentes: sábado, 21/11/2026, 8h (horário de Brasília)",
  "ideias": [
   {
-   "texto": "República Argentina: a Gabriela, a 393 m, puxa genéricos a preço de isca: losartana a R$ 3,49, ibuprofeno gotas a R$ 9,99 e Torsilax a R$ 9,99. Cobrir com losartana a R$ 3,29 e Torsilax a R$ 9,49 até 27/11.",
+   "texto": "Consalter: a Preço Justo, a 72 m, começa a Black November hoje. Vale lançar já as nossas ofertas nessa loja, antes de ela divulgar os preços.",
+   "itens": []
+  },
+  {
+   "texto": "Muffato JK: cobrir a Nissei até domingo. Koleston abaixo de R$ 23,95 e um combo Dove (sérum corporal + máscara 2 em 1) abaixo de R$ 49,90, que é a soma de R$ 29,95 e R$ 19,95 da Nissei.",
    "itens": [
     {
-     "nome": "losartana",
-     "valor_citado": "3,49"
+     "nome": "Koleston",
+     "valor_citado": "23,95"
+    }
+   ]
+  },
+  {
+   "texto": "Higiene: a Preço Popular está com Seda a R$ 9,90 e Oral-B 3D White a R$ 15,90. Um combo \"banho completo\" (shampoo + creme dental + desodorante) bate essas ofertas de uma vez.",
+   "itens": [
+    {
+     "nome": "Seda",
+     "valor_citado": "9,90"
     },
     {
-     "nome": "ibuprofeno gotas",
-     "valor_citado": "9,99"
+     "nome": "Oral-B 3D White",
+     "valor_citado": "15,90"
+    }
+   ]
+  },
+  {
+   "texto": "Dermo que ninguém promove em Foz e que está entre os mais vendidos online: Cicaplast Baume B5+ (R$ 64,37 na Amazon), loção CeraVe com ácido hialurônico (R$ 112,90) e Minesol Oil Control FPS70 (R$ 55,44). Dá para montar uma campanha \"pele de verão\" com esses três.",
+   "itens": [
+    {
+     "nome": "CeraVe",
+     "foto_id": "cerave"
+    }
+   ]
+  },
+  {
+   "texto": "República Argentina: a Gabriela tem losartana por R$ 3,49 e Torsilax por R$ 9,99 até 27/11. Vale igualar os genéricos de uso contínuo para não perder o cliente recorrente.",
+   "itens": [
+    {
+     "nome": "Gabriela tem losartana",
+     "valor_citado": "3,49"
     },
     {
      "nome": "Torsilax",
      "valor_citado": "9,99"
     }
    ]
-  },
-  {
-   "texto": "Consalter: a Preço Justo, a 71 m, encerrou o Esquenta hoje e anuncia algo para \"amanhã\". Antecipar no sábado um \"Black FARMAIS\" com Ninho Fases 1+ a R$ 39,90 (lá era R$ 40,99) e Elseve óleo a R$ 33,90.",
-   "itens": [
-    {
-     "nome": "Ninho Fases 1+",
-     "valor_citado": "39,90"
-    },
-    {
-     "nome": "Elseve óleo",
-     "valor_citado": "33,90"
-    }
-   ]
-  },
-  {
-   "texto": "Combo cabelo: Três Lagoas tem Seda a R$ 7,99/9,99 e kit Dove a R$ 19,99, e a Gabriela, kit Novex a R$ 17,99. Um \"shampoo + condicionador por R$ 16,90\" no Muffato JK fica abaixo dos três.",
-   "itens": [
-    {
-     "nome": "Três Lagoas tem Seda",
-     "valor_citado": "7,99"
-    },
-    {
-     "nome": "kit Dove",
-     "valor_citado": "19,99",
-     "foto_id": "dove-aero-invisible-dry"
-    },
-    {
-     "nome": "kit Novex",
-     "valor_citado": "17,99"
-    },
-    {
-     "nome": "\"shampoo + condicionador",
-     "valor_citado": "16,90"
-    }
-   ]
-  },
-  {
-   "texto": "Fraldas no fim de semana: Babysec Mega a R$ 28,99 (Três Lagoas) e Babysec Hiper a R$ 54,99 (Dr. Guilherme). Uma Babysec Hiper a R$ 52,90 de sexta a domingo vira o melhor preço visto.",
-   "itens": [
-    {
-     "nome": "Babysec Mega",
-     "valor_citado": "28,99"
-    },
-    {
-     "nome": "Babysec Hiper",
-     "valor_citado": "54,99"
-    }
-   ]
-  },
-  {
-   "texto": "Vitrine dermo: Cicaplast B5+ é o 2º mais vendido online (R$ 64,37 na Amazon) e nenhuma farmácia de Foz promove. Juntar com Neutrogena Sun Fresh FPS70 (1º online, só 2 farmácias em promoção) numa vitrine \"proteção e reparação\".",
-   "itens": []
   }
  ]
 }
