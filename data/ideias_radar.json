@@ -1,58 +1,82 @@
 {
- "gerado_em": "23/11/2026 15:28",
- "relatorio": "relatorio_2026-11-23_08h.md",
- "titulo": "Radar de concorrentes: segunda, 23/11/2026, 8h (horário de Brasília)",
+ "gerado_em": "23/11/2026 15:29",
+ "relatorio": "relatorio_2026-11-23_15h.md",
+ "titulo": "Radar de concorrentes: segunda, 23/11/2026, 15h (horário de Brasília)",
  "ideias": [
   {
-   "texto": "Consalter (a Preço Justo fica a 72 m): a Black November deles vai até 28/11. Cubra os itens que puxam movimento, como repelente spray até R$ 8,99, Dorflex até R$ 9,99 e Ômega 3 até R$ 19,99.",
+   "texto": "Muffato JK, na faixa de dermo: a Nissei (751 m) pôs Epidrat Calm B5 por R$ 14,90 e Cicaplast por R$ 69,90. Vale anunciar um \"Black Dermo\" com um hidratante reparador abaixo de R$ 15 e o Cicaplast perto de R$ 64,37, o preço da Amazon.",
    "itens": [
     {
-     "nome": "Dorflex",
-     "foto_id": "dorflex"
-    }
-   ]
-  },
-  {
-   "texto": "Muffato JK, na faixa de beleza: a Nissei baixou o Koleston para R$ 18,95 e o Intimus 42 para R$ 16,95. Monte um combo \"Black da Beleza\" com tintura + absorvente ou kit shampoo a um preço fechado abaixo da soma deles.",
-   "itens": []
-  },
-  {
-   "texto": "Dermo, na semana da Black: São João, Panvel e Coperfarma brigam por Cetaphil (de R$ 79,90 a R$ 104,90) e por protetor solar (Actine a R$ 20,99 e Nivea Sun a R$ 62,90). Escolha um protetor FPS50+ e o Cetaphil como chamariz, com preço igual ao da loja física deles.",
-   "itens": [
-    {
-     "nome": "Actine",
-     "valor_citado": "20,99"
+     "nome": "pôs Epidrat Calm B5",
+     "valor_citado": "14,90"
     },
     {
-     "nome": "Nivea Sun",
-     "valor_citado": "62,90",
-     "foto_id": "nivea-sun-100"
+     "nome": "Cicaplast",
+     "valor_citado": "69,90"
+    },
+    {
+     "nome": "hidratante reparador",
+     "valor_citado": "15"
     }
    ]
   },
   {
-   "texto": "Online sem concorrência em Foz: Cicaplast B5+ (R$ 64,37 na Amazon) só aparece na São João, levando 2. Já o Minesol Oil Control FPS70 (R$ 55,44) e a linha Lola (Densidade 250 g por R$ 19,48) não aparecem em nenhuma concorrente. Vale uma arte \"pele e cabelo de verão\" com eles.",
+   "texto": "Sol: Panvel (Nivea Invisible FPS70 a R$ 29,90) e São João (Toque Seco a R$ 42,90) brigam por protetor. O Minesol Oil Control FPS70 (R$ 55,44 na Amazon), 6º mais vendido online, não aparece em nenhuma concorrente de Foz e pode ser o protetor-chamariz da semana.",
+   "itens": [
+    {
+     "nome": "Nivea Invisible FPS70",
+     "valor_citado": "29,90"
+    },
+    {
+     "nome": "Toque Seco",
+     "valor_citado": "42,90"
+    }
+   ]
+  },
+  {
+   "texto": "Cabelo: a linha Lola (Densidade 250 g a R$ 19,48, Morte Súbita 450 g a R$ 30,17 e óleo Argan a R$ 23,49) e o Vichy Dercos Energy+ (R$ 61,69) estão entre os mais vendidos online e nenhuma concorrente de Foz promove. Dá para fazer uma arte \"cabelo de verão\" com eles.",
    "itens": [
     {
      "nome": "Densidade 250 g",
      "valor_citado": "19,48"
+    },
+    {
+     "nome": "Morte Súbita 450 g",
+     "valor_citado": "30,17"
+    },
+    {
+     "nome": "óleo Argan",
+     "valor_citado": "23,49"
     }
    ]
   },
   {
-   "texto": "Infantil: a Nissei vende Nestonutri 1+ por R$ 36,90 levando 2 e Babysec Hiper por R$ 54,95. A São João vende Ninho 800 g por R$ 42,99 levando 2. Um combo \"bebê\" com leite + fralda + pomada, no formato \"leve 2\", acompanha esse movimento.",
+   "texto": "Consalter (a Preço Justo fica a 72 m): eles mantêm Ômega 3 a R$ 19,99 e repelente Action Baby a R$ 15,99 até 28/11. Cubra o repelente e o Ômega, e some o protetor diário Carefree 80 un. (R$ 16,88 online, sem promoção em Foz).",
    "itens": [
     {
-     "nome": "Nissei vende Nestonutri 1+",
-     "valor_citado": "36,90"
+     "nome": "eles mantêm Ômega 3",
+     "valor_citado": "19,99"
     },
     {
-     "nome": "Babysec Hiper",
-     "valor_citado": "54,95"
+     "nome": "repelente Action Baby",
+     "valor_citado": "15,99"
+    }
+   ]
+  },
+  {
+   "texto": "Infantil: a São João faz Ninho a R$ 37,49 e Pampers M a R$ 72,90 só hoje, e a Panvel faz Pampers XXG a R$ 72,90. Um combo \"bebê\" no formato \"leve 2\" (leite + fralda + Hipoglós) acompanha esse movimento.",
+   "itens": [
+    {
+     "nome": "São João faz Ninho",
+     "valor_citado": "37,49"
     },
     {
-     "nome": "São João vende Ninho 800 g",
-     "valor_citado": "42,99"
+     "nome": "Pampers M",
+     "valor_citado": "72,90"
+    },
+    {
+     "nome": "Panvel faz Pampers XXG",
+     "valor_citado": "72,90"
     }
    ]
   }
