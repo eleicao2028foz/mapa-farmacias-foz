@@ -1,75 +1,58 @@
 {
- "gerado_em": "23/11/2026 08:22",
- "relatorio": "relatorio_2026-11-21_15h.md",
- "titulo": "Radar de concorrentes: sábado, 21/11/2026, 15h (horário de Brasília)",
+ "gerado_em": "23/11/2026 15:28",
+ "relatorio": "relatorio_2026-11-23_08h.md",
+ "titulo": "Radar de concorrentes: segunda, 23/11/2026, 8h (horário de Brasília)",
  "ideias": [
   {
-   "texto": "Consalter e Muffato JK: a Preço Justo puxa a Black November com repelente (Action spray a R$ 8,99) e Ômega 3 a R$ 19,99. Monte um \"kit verão\" com repelente + protetor solar a preço fechado e destaque o Ômega 3 em até R$ 19,90.",
+   "texto": "Consalter (a Preço Justo fica a 72 m): a Black November deles vai até 28/11. Cubra os itens que puxam movimento, como repelente spray até R$ 8,99, Dorflex até R$ 9,99 e Ômega 3 até R$ 19,99.",
    "itens": [
     {
-     "nome": "Action spray",
-     "valor_citado": "8,99"
-    },
-    {
-     "nome": "Ômega 3",
-     "valor_citado": "19,99"
+     "nome": "Dorflex",
+     "foto_id": "dorflex"
     }
    ]
   },
   {
-   "texto": "Infantil: Farma D, Três Lagoas e Preço Justo concentram as ofertas em fraldas e leites, como Ninho Fases 1+ 800 g a R$ 38,99 na Farma D e Bepantol Baby a R$ 54,90 na Preço Justo. Vale um combo \"bebê\" com fralda, lenço e pomada de assadura, com a Nistatina abaixo de R$ 8,90.",
-   "itens": [
-    {
-     "nome": "Ninho Fases 1+ 800 g",
-     "valor_citado": "38,99"
-    },
-    {
-     "nome": "Bepantol Baby",
-     "valor_citado": "54,90"
-    },
-    {
-     "nome": "Nistatina",
-     "valor_citado": "8,90"
-    }
-   ]
-  },
-  {
-   "texto": "Proteção solar: a São João está com Sundown FPS50 por R$ 38,99 e kit Nivea por R$ 49,90 até domingo. Na segunda-feira (23/11), quando o Esquenta deles acaba, entre com um protetor FPS50 abaixo de R$ 38,99.",
-   "itens": [
-    {
-     "nome": "Sundown FPS50",
-     "valor_citado": "38,99"
-    },
-    {
-     "nome": "kit Nivea",
-     "valor_citado": "49,90",
-     "foto_id": "nivea-creme-56"
-    },
-    {
-     "nome": "protetor FPS50",
-     "valor_citado": "38,99"
-    }
-   ]
-  },
-  {
-   "texto": "Dermo que ninguém promove em Foz e que está entre os mais vendidos online: Cicaplast Baume B5+ (R$ 64,37 na Amazon) e Neutrogena Sun Fresh FPS70 (a partir de R$ 39,00). São bons para a campanha \"pele de verão\".",
+   "texto": "Muffato JK, na faixa de beleza: a Nissei baixou o Koleston para R$ 18,95 e o Intimus 42 para R$ 16,95. Monte um combo \"Black da Beleza\" com tintura + absorvente ou kit shampoo a um preço fechado abaixo da soma deles.",
    "itens": []
   },
   {
-   "texto": "Analgésicos: Dorflex DIP está a R$ 9,99 na Preço Justo e na Três Lagoas, e a dipirona 1 g a R$ 8,99 na Gabriela. Igualar a R$ 9,99 evita perder a venda de balcão.",
+   "texto": "Dermo, na semana da Black: São João, Panvel e Coperfarma brigam por Cetaphil (de R$ 79,90 a R$ 104,90) e por protetor solar (Actine a R$ 20,99 e Nivea Sun a R$ 62,90). Escolha um protetor FPS50+ e o Cetaphil como chamariz, com preço igual ao da loja física deles.",
    "itens": [
     {
-     "nome": "Dorflex DIP",
-     "valor_citado": "9,99"
+     "nome": "Actine",
+     "valor_citado": "20,99"
     },
     {
-     "nome": "dipirona 1 g",
-     "valor_citado": "8,99",
-     "foto_id": "dipirona-500"
+     "nome": "Nivea Sun",
+     "valor_citado": "62,90",
+     "foto_id": "nivea-sun-100"
+    }
+   ]
+  },
+  {
+   "texto": "Online sem concorrência em Foz: Cicaplast B5+ (R$ 64,37 na Amazon) só aparece na São João, levando 2. Já o Minesol Oil Control FPS70 (R$ 55,44) e a linha Lola (Densidade 250 g por R$ 19,48) não aparecem em nenhuma concorrente. Vale uma arte \"pele e cabelo de verão\" com eles.",
+   "itens": [
+    {
+     "nome": "Densidade 250 g",
+     "valor_citado": "19,48"
+    }
+   ]
+  },
+  {
+   "texto": "Infantil: a Nissei vende Nestonutri 1+ por R$ 36,90 levando 2 e Babysec Hiper por R$ 54,95. A São João vende Ninho 800 g por R$ 42,99 levando 2. Um combo \"bebê\" com leite + fralda + pomada, no formato \"leve 2\", acompanha esse movimento.",
+   "itens": [
+    {
+     "nome": "Nissei vende Nestonutri 1+",
+     "valor_citado": "36,90"
     },
     {
-     "nome": "Igualar",
-     "valor_citado": "9,99"
+     "nome": "Babysec Hiper",
+     "valor_citado": "54,95"
+    },
+    {
+     "nome": "São João vende Ninho 800 g",
+     "valor_citado": "42,99"
     }
    ]
   }
