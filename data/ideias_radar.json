@@ -1,40 +1,66 @@
 {
- "gerado_em": "24/11/2026 08:28",
- "relatorio": "relatorio_2026-11-23_15h.md",
- "titulo": "Radar de concorrentes: segunda, 23/11/2026, 15h (horário de Brasília)",
+ "gerado_em": "24/11/2026 08:31",
+ "relatorio": "relatorio_2026-11-24_08h.md",
+ "titulo": "Radar de concorrentes: terça, 24/11/2026, 8h (horário de Brasília)",
  "ideias": [
   {
-   "texto": "Muffato JK, na faixa de dermo: a Nissei (751 m) pôs Epidrat Calm B5 por R$ 14,90 e Cicaplast por R$ 69,90. Vale anunciar um \"Black Dermo\" com um hidratante reparador abaixo de R$ 15 e o Cicaplast perto de R$ 64,37, o preço da Amazon.",
+   "texto": "Muffato JK: a Nissei (751 m) entrou com Episol Color FPS70 por R$ 59,90 e Bepantol Derma por R$ 29,90, além do Epidrat por R$ 14,90. Vale um \"Black Dermo\" com o Cicaplast perto de R$ 64,37 (preço da Amazon) e um FPS facial abaixo de R$ 60.",
    "itens": [
     {
-     "nome": "pôs Epidrat Calm B5",
+     "nome": "Episol Color FPS70",
+     "valor_citado": "59,90"
+    },
+    {
+     "nome": "Bepantol Derma",
+     "valor_citado": "29,90"
+    },
+    {
+     "nome": "além do Epidrat",
      "valor_citado": "14,90"
     },
     {
      "nome": "Cicaplast",
-     "valor_citado": "69,90"
-    },
-    {
-     "nome": "hidratante reparador",
-     "valor_citado": "15"
+     "valor_citado": "64,37"
     }
    ]
   },
   {
-   "texto": "Sol: Panvel (Nivea Invisible FPS70 a R$ 29,90) e São João (Toque Seco a R$ 42,90) brigam por protetor. O Minesol Oil Control FPS70 (R$ 55,44 na Amazon), 6º mais vendido online, não aparece em nenhuma concorrente de Foz e pode ser o protetor-chamariz da semana.",
+   "texto": "República Argentina: a Gabriela (394 m) puxa pelo básico barato, com ibuprofeno gotas a R$ 9,99, Cenevit a R$ 6,99 e losartana a R$ 3,49. Uma vitrine \"farmácia do dia a dia\" com analgésico, vitamina C e genérico de pressão segura esse cliente.",
    "itens": [
     {
-     "nome": "Nivea Invisible FPS70",
-     "valor_citado": "29,90"
+     "nome": "ibuprofeno gotas",
+     "valor_citado": "9,99"
     },
     {
-     "nome": "Toque Seco",
-     "valor_citado": "42,90"
+     "nome": "Cenevit",
+     "valor_citado": "6,99"
+    },
+    {
+     "nome": "losartana",
+     "valor_citado": "3,49"
     }
    ]
   },
   {
-   "texto": "Cabelo: a linha Lola (Densidade 250 g a R$ 19,48, Morte Súbita 450 g a R$ 30,17 e óleo Argan a R$ 23,49) e o Vichy Dercos Energy+ (R$ 61,69) estão entre os mais vendidos online e nenhuma concorrente de Foz promove. Dá para fazer uma arte \"cabelo de verão\" com eles.",
+   "texto": "Consalter: a Preço Justo (72 m) tem Dorflex e Fisiofort a R$ 9,99 e creatina a R$ 37,99 até 28/11. Cubra o Dorflex e junte o protetor diário Carefree 80 un. (R$ 16,88 online), que nenhuma concorrente de Foz promove.",
+   "itens": [
+    {
+     "nome": "Fisiofort",
+     "valor_citado": "9,99"
+    },
+    {
+     "nome": "creatina",
+     "valor_citado": "37,99",
+     "foto_id": "creatina-gummy"
+    },
+    {
+     "nome": "Dorflex",
+     "foto_id": "dorflex"
+    }
+   ]
+  },
+  {
+   "texto": "Cabelo: a linha Lola (Densidade 250 g a R$ 19,48, Morte Súbita 450 g a R$ 30,17 e óleo Argan a R$ 24,99), a máscara acidificante Amend (R$ 27,90) e o Vichy Dercos Energy+ (R$ 61,69) estão entre os mais vendidos online, e nenhuma concorrente de Foz promove esses itens.",
    "itens": [
     {
      "nome": "Densidade 250 g",
@@ -46,39 +72,13 @@
     },
     {
      "nome": "óleo Argan",
-     "valor_citado": "23,49"
+     "valor_citado": "24,99"
     }
    ]
   },
   {
-   "texto": "Consalter (a Preço Justo fica a 72 m): eles mantêm Ômega 3 a R$ 19,99 e repelente Action Baby a R$ 15,99 até 28/11. Cubra o repelente e o Ômega, e some o protetor diário Carefree 80 un. (R$ 16,88 online, sem promoção em Foz).",
-   "itens": [
-    {
-     "nome": "eles mantêm Ômega 3",
-     "valor_citado": "19,99"
-    },
-    {
-     "nome": "repelente Action Baby",
-     "valor_citado": "15,99"
-    }
-   ]
-  },
-  {
-   "texto": "Infantil: a São João faz Ninho a R$ 37,49 e Pampers M a R$ 72,90 só hoje, e a Panvel faz Pampers XXG a R$ 72,90. Um combo \"bebê\" no formato \"leve 2\" (leite + fralda + Hipoglós) acompanha esse movimento.",
-   "itens": [
-    {
-     "nome": "São João faz Ninho",
-     "valor_citado": "37,49"
-    },
-    {
-     "nome": "Pampers M",
-     "valor_citado": "72,90"
-    },
-    {
-     "nome": "Panvel faz Pampers XXG",
-     "valor_citado": "72,90"
-    }
-   ]
+   "texto": "Sol: Isdin (Panvel, R$ 79,90), Episol (Nissei, R$ 59,90) e Lunis FPS70 (Preço Popular, R$ 26,90) disputam o protetor facial. O Minesol Oil Control FPS70 (R$ 55,44 online), que ninguém promove em Foz, pode ser o protetor-chamariz da FARMAIS.",
+   "itens": []
   }
  ]
 }
