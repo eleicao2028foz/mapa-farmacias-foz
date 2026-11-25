@@ -1,70 +1,60 @@
 {
- "gerado_em": "25/11/2026 08:38",
- "relatorio": "relatorio_2026-11-25_08h.md",
- "titulo": "Radar de concorrentes: quarta, 25/11/2026, 8h (horário de Brasília)",
+ "gerado_em": "25/11/2026 15:26",
+ "relatorio": "relatorio_2026-11-25_15h.md",
+ "titulo": "Radar de concorrentes: quarta, 25/11/2026, 15h (horário de Brasília)",
  "ideias": [
   {
-   "texto": "República Argentina: a Gabriela (394 m) faz hoje a Quarta do Bebê com Aptamil 1 a R$ 69,99, NAN Comfor 1 a R$ 74,99 e Huggies Tripla Proteção a R$ 37,99. Uma tabela \"Bebê FARMAIS\" com fórmula e fralda, valendo de quinta a sábado, pega quem ficou para depois.",
+   "texto": "Muffato JK: a Nissei (751 m) voltou com higiene até 30/11: creme dental Colgate 140 g a R$ 10,95, Rexona a R$ 11,95 e Bozzano a R$ 8,95. Uma \"cesta higiene Black\" com creme dental e desodorante a R$ 9,99 cada passa a Nissei.",
    "itens": [
     {
-     "nome": "Aptamil 1",
-     "valor_citado": "69,99"
+     "nome": "creme dental Colgate 140 g",
+     "valor_citado": "10,95",
+     "foto_id": "colgate-total-140"
     },
     {
-     "nome": "NAN Comfor 1",
-     "valor_citado": "74,99"
+     "nome": "Rexona",
+     "valor_citado": "11,95",
+     "foto_id": "rexona-invisible"
     },
     {
-     "nome": "Huggies Tripla Proteção",
-     "valor_citado": "37,99",
-     "foto_id": "huggies-m"
+     "nome": "Bozzano",
+     "valor_citado": "8,95"
+    },
+    {
+     "nome": "desodorante",
+     "valor_citado": "9,99",
+     "foto_id": "dove-aero-invisible-dry"
     }
    ]
   },
   {
-   "texto": "Fraldas: a Farma D subiu Ninho e Mili em R$ 3 desde 21/11, enquanto a Nissei entrou com Babysec Hiper a R$ 54,95 e a Preço Popular mantém Huggies G 92 a R$ 89,90 (online, a partir de R$ 84,90). No Muffato JK, uma Huggies G 92 abaixo de R$ 89,90 cobre as duas.",
-   "itens": [
-    {
-     "nome": "Babysec Hiper",
-     "valor_citado": "54,95"
-    },
-    {
-     "nome": "Preço Popular mantém Huggies G 92",
-     "valor_citado": "89,90"
-    },
-    {
-     "nome": "Huggies G 92",
-     "valor_citado": "89,90"
-    }
-   ]
-  },
-  {
-   "texto": "Antecipar a sexta: a Dr. Guilherme anunciou Adeforte a R$ 32,99 só no dia 27/11. A FARMAIS pode lançar já na quinta um \"Black FARMAIS\" com vitamina e dermo, antes da concorrência.",
-   "itens": [
-    {
-     "nome": "Guilherme anunciou Adeforte",
-     "valor_citado": "32,99"
-    }
-   ]
-  },
-  {
-   "texto": "O sabonete Granado Enxofre 90 g é campeão em 6 sites (R$ 7,49 a R$ 11,59) (https://www.drogariastamoio.com.br/sabonete-granado-enxofre-90g-granado/p), e o Principia FPS60 PS-01 aparece em 5 (R$ 48,99) (https://www.drogal.com.br/protetor-solar-facial-principia-ps-01-fps60-antioleosidade-40ml/p). Nenhuma concorrente de Foz promove esses dois, então dá para fazer um combo \"pele oleosa\" com eles no balcão.",
+   "texto": "Genéricos: a Preço Popular subiu 111 preços desde as 8h, entre eles omeprazol (de R$ 10,68 para R$ 17,35) e rosuvastatina (de R$ 12,89 para R$ 28,90). Vale uma placa \"preço fixo até domingo\" na FARMAIS com omeprazol, losartana e rosuvastatina.",
    "itens": []
   },
   {
-   "texto": "Dermo: o Cicaplast B5+ 40 ml está a R$ 69,90 na Nissei e custa de R$ 77,45 a R$ 104,90 online. O Epidrat Calm B5 está a R$ 14,90 na Nissei e é o nº 1 em dermo na Drogaria São Paulo e na Tamoio. Vale um combo Cicaplast + Epidrat abaixo de R$ 84,80.",
+   "texto": "Antecipar a quinta: a Mini Preço faz live amanhã às 19h, e Farma D e Dr. Guilherme seguram tudo para 27 e 28/11. Se a FARMAIS lançar o \"Black FARMAIS\" já na quinta de manhã, sai na frente das três.",
+   "itens": []
+  },
+  {
+   "texto": "Suplementos: a Preço Popular abriu à tarde a creatina 300 g a R$ 44,90 e o Targifor C 60 a R$ 89,99. Uma creatina abaixo de R$ 44,90 com Targifor ao lado conversa com quem sai da academia no Muffato JK.",
    "itens": [
     {
-     "nome": "Cicaplast B5+ 40 ml",
-     "valor_citado": "69,90"
+     "nome": "Targifor C 60",
+     "valor_citado": "89,99"
     },
     {
-     "nome": "Epidrat Calm B5",
-     "valor_citado": "14,90"
-    },
+     "nome": "creatina",
+     "valor_citado": "44,90",
+     "foto_id": "creatina-gummy"
+    }
+   ]
+  },
+  {
+   "texto": "Sol: a Bem Estar cobra R$ 89,99 só pelo Neutrogena Derm Care 40 g, e o kit corpo 200 ml + facial custa de R$ 72,89 a R$ 87,74 online e R$ 79,90 na Preço Popular. Um kit Neutrogena FARMAIS abaixo de R$ 79,90 é o melhor preço visível em Foz.",
+   "itens": [
     {
-     "nome": "Vale um combo Cicaplast + Epidrat",
-     "valor_citado": "84,80"
+     "nome": "kit Neutrogena FARMAIS",
+     "valor_citado": "79,90"
     }
    ]
   }
