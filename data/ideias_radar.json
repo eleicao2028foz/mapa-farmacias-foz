@@ -1,32 +1,72 @@
 {
- "gerado_em": "25/11/2026 08:21",
- "relatorio": "relatorio_2026-11-24_online.md",
- "titulo": "Mais vendidos online — 24/11/2026, 22h (horário de Brasília)",
+ "gerado_em": "25/11/2026 08:38",
+ "relatorio": "relatorio_2026-11-25_08h.md",
+ "titulo": "Radar de concorrentes: quarta, 25/11/2026, 8h (horário de Brasília)",
  "ideias": [
   {
-   "texto": "Sabonete Granado Enxofre 90g aparece entre os mais vendidos em 6 sites (Drogaria Pacheco, Tamoio, Preço Popular, Drogal, Drogaria São Paulo, Farmácia Indiana) de R$ 7,39 a R$ 11,59. Vale colocar na vitrine da FARMAIS, com foto e preço aparente, porque o produto já está na cabeça de quem pesquisa online.",
-   "itens": []
-  },
-  {
-   "texto": "EUCERIN Creme Corporal Antimanchas Intenso 200ml, Anti-Pigment, Clareador Joelho, Coxa e Cotovelo, Thiamidol sai a R$ 130,05 na Amazon, enquanto em Foz a Farmácia Preço Popular (CLAMED) anuncia de 209,90 por 159,90 (diferença de R$ 29,85). Se a FARMAIS chegar perto do preço online, vira argumento de compra na loja.",
+   "texto": "República Argentina: a Gabriela (394 m) faz hoje a Quarta do Bebê com Aptamil 1 a R$ 69,99, NAN Comfor 1 a R$ 74,99 e Huggies Tripla Proteção a R$ 37,99. Uma tabela \"Bebê FARMAIS\" com fórmula e fralda, valendo de quinta a sábado, pega quem ficou para depois.",
    "itens": [
     {
-     "nome": "Thiamidol",
-     "valor_citado": "130,05"
+     "nome": "Aptamil 1",
+     "valor_citado": "69,99"
+    },
+    {
+     "nome": "NAN Comfor 1",
+     "valor_citado": "74,99"
+    },
+    {
+     "nome": "Huggies Tripla Proteção",
+     "valor_citado": "37,99",
+     "foto_id": "huggies-m"
     }
    ]
   },
   {
-   "texto": "Nas listas de fraldas, o mais recorrente no topo é Fralda Pampers Confort Sec Tamanho XXG 82 Unidades a R$ 149,99 na Drogaria Pacheco (https://www.drogariaspacheco.com.br/fralda-pampers-confort-sec-xxg-82-unidades/p). Pacotão nessa faixa chama atenção no caixa e no WhatsApp; vale ter um preço de referência na FARMAIS.",
+   "texto": "Fraldas: a Farma D subiu Ninho e Mili em R$ 3 desde 21/11, enquanto a Nissei entrou com Babysec Hiper a R$ 54,95 e a Preço Popular mantém Huggies G 92 a R$ 89,90 (online, a partir de R$ 84,90). No Muffato JK, uma Huggies G 92 abaixo de R$ 89,90 cobre as duas.",
+   "itens": [
+    {
+     "nome": "Babysec Hiper",
+     "valor_citado": "54,95"
+    },
+    {
+     "nome": "Preço Popular mantém Huggies G 92",
+     "valor_citado": "89,90"
+    },
+    {
+     "nome": "Huggies G 92",
+     "valor_citado": "89,90"
+    }
+   ]
+  },
+  {
+   "texto": "Antecipar a sexta: a Dr. Guilherme anunciou Adeforte a R$ 32,99 só no dia 27/11. A FARMAIS pode lançar já na quinta um \"Black FARMAIS\" com vitamina e dermo, antes da concorrência.",
+   "itens": [
+    {
+     "nome": "Guilherme anunciou Adeforte",
+     "valor_citado": "32,99"
+    }
+   ]
+  },
+  {
+   "texto": "O sabonete Granado Enxofre 90 g é campeão em 6 sites (R$ 7,49 a R$ 11,59) (https://www.drogariastamoio.com.br/sabonete-granado-enxofre-90g-granado/p), e o Principia FPS60 PS-01 aparece em 5 (R$ 48,99) (https://www.drogal.com.br/protetor-solar-facial-principia-ps-01-fps60-antioleosidade-40ml/p). Nenhuma concorrente de Foz promove esses dois, então dá para fazer um combo \"pele oleosa\" com eles no balcão.",
    "itens": []
   },
   {
-   "texto": "No dermo, o 1º lugar da Amazon é La Roche-Posay Cicaplast Baume B5+ Cuidado Multirreparador Calmante a R$ 64,37 (https://www.amazon.com.br/dp/B072MK7BN2). É o tipo de item que funciona como chamariz de pele na loja, principalmente no Muffato e na República Argentina.",
-   "itens": []
-  },
-  {
-   "texto": "Em saúde e suplementos, 100% Whey Protein Concentrado Max Titanium 900g aparece no topo da Americanas a R$ 161,52 (https://www.americanas.com.br/100--whey-protein-concentrado-max-titanium-900g-8365264/p). Quem pesquisa suplemento online está vendo isso no topo; uma ponta de gôndola com whey, creatina ou vitaminas a preço visível aproveita a demanda.",
-   "itens": []
+   "texto": "Dermo: o Cicaplast B5+ 40 ml está a R$ 69,90 na Nissei e custa de R$ 77,45 a R$ 104,90 online. O Epidrat Calm B5 está a R$ 14,90 na Nissei e é o nº 1 em dermo na Drogaria São Paulo e na Tamoio. Vale um combo Cicaplast + Epidrat abaixo de R$ 84,80.",
+   "itens": [
+    {
+     "nome": "Cicaplast B5+ 40 ml",
+     "valor_citado": "69,90"
+    },
+    {
+     "nome": "Epidrat Calm B5",
+     "valor_citado": "14,90"
+    },
+    {
+     "nome": "Vale um combo Cicaplast + Epidrat",
+     "valor_citado": "84,80"
+    }
+   ]
   }
  ]
 }
