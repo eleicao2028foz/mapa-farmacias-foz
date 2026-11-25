@@ -1,4 +1,4 @@
-/* fm9: "Criar oferta" — botão à direita do mapa que abre o criador de artes promocionais FARMAIS.
+/* fm10: "Criar oferta" — botão no grupo Ofertas da coluna esquerda (mesmo estilo dos outros). Abre o criador de artes promocionais FARMAIS.
    - Modelos: criar/modelos.json + criar/modelos.css (gerados por /workspace/farmais/modelos/exportar_web.py
      a partir de estilo.css e estilos/*; o modelo 22 foi descartado e não entra).
    - A arte é desenhada ao vivo num iframe (criar/render.html + render.js = porta do gerar.py) e exportada
@@ -14,7 +14,7 @@
   const semAcento = s => (s || "").normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
   const brl = v => "R$ " + Number(v).toFixed(2).replace(".", ",");
   const p2 = n => String(n).padStart(2, "0");
-  const V = "fm9";
+  const V = "fm10";
   const FMT_NOME = { quadrado: "Quadrado 1080 (feed)", vertical: "Vertical (stories / status)", a4: "Cartaz A4", folha: "Folha A4 de etiquetas", a6: "Etiqueta A6" };
   const FMT_CURTO = { quadrado: "Quadrado", vertical: "Vertical", a4: "A4", folha: "Folha A4", a6: "A6" };
   const LS = "farmais-criar-oferta-v1";
@@ -24,22 +24,7 @@
     frame: null, pronto: false, sheetSlot: null, timer: null, ocupado: false };
   window.__CRIAR_OFERTA__ = C;
 
-  /* ---------- botão no mapa ---------- */
-  function botao() {
-    const b = document.createElement("button");
-    b.id = "co-btn"; b.type = "button";
-    b.setAttribute("aria-label", "Criar oferta"); b.title = "Criar oferta (arte para postar ou imprimir)";
-    b.innerHTML = `<span class="co-btn-ico">${ICON}</span><span class="co-btn-lbl">Criar <br>oferta</span>`;
-    ["pointerdown", "wheel", "touchstart", "dblclick"].forEach(t => b.addEventListener(t, ev => ev.stopPropagation(), { passive: true }));
-    b.addEventListener("click", ev => { ev.preventDefault(); ev.stopPropagation(); abrir(); });
-    document.body.appendChild(b);
-    const pos = () => {
-      const bar = $("#fm-bar");
-      const topo = bar ? bar.getBoundingClientRect().top : window.innerHeight - 100;
-      b.style.setProperty("--co-bottom", Math.max(90, window.innerHeight - topo + 12) + "px");
-    };
-    pos(); window.addEventListener("resize", pos); setTimeout(pos, 1500); setTimeout(pos, 5000);
-  }
+  /* O botão vive no grupo Ofertas da coluna #fd-dock (farmacias-dock.js). */
 
   /* ---------- dados ---------- */
   async function carregar() {
@@ -226,7 +211,7 @@
     fecharSheet();
     $("#co").hidden = true;
     document.body.classList.remove("co-aberto");
-    const b = $("#co-btn"); if (b) b.focus({ preventScroll: true });
+    const b = $('#fd-dock .fd-btn[data-acao="criar-oferta"]'); if (b) b.focus({ preventScroll: true });
   }
 
   function novoItem() { return { id: null, produto: "", detalhe: "", por: "", de: "", levando_2: false, fotos: [], fotoNome: "", upload: false, dica: "" }; }
@@ -561,8 +546,9 @@
   }
 
   /* ---------- início ---------- */
+  C.abrir = abrir;
+  C.fechar = fechar;
   function iniciar() {
-    botao();
     const q = new URLSearchParams(location.search);
     if (q.get("criar") === "1" || q.get("painel") === "criar") abrir({ modelo: q.get("modelo") });
   }

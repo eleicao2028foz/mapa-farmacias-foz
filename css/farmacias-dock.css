@@ -104,8 +104,27 @@
 @media (max-width:420px){#fd-dock .fd-seg button[data-ordem]{font-size:11.5px;padding:7px 3px}}
 
 /* fm7: grupos da barra lateral (título + botões); novos grupos empilham abaixo */
-#fd-dock .fd-groups{display:flex;flex-direction:column;gap:10px;flex:0 0 auto;pointer-events:none;max-height:100%;overflow:visible}
+#fd-dock .fd-groups{display:flex;flex-direction:column;gap:10px;flex:0 0 auto;pointer-events:auto;max-height:100%;overflow:auto;scrollbar-width:thin}
 #fd-dock .fd-group{pointer-events:none}
+#fd-dock.fd-compact{--fd-btn:44px}
+#fd-dock.fd-compact .fd-groups{gap:6px}
+#fd-dock.fd-compact .fd-rail{padding:6px 4px;gap:5px}
+#fd-dock.fd-compact .fd-gtitle{font-size:8px;padding:1px 0 4px}
+#fd-dock.fd-compact .fd-lbl{font-size:9px}
+#fd-dock.fd-compact .fd-ico svg{width:24px;height:24px}
+#fd-dock.fd-compact .fd-btn{width:60px}
+#fd-dock.fd-mini{--fd-btn:36px}
+#fd-dock.fd-mini .fd-groups{gap:4px}
+#fd-dock.fd-mini .fd-rail{padding:4px 3px;gap:3px}
+#fd-dock.fd-mini .fd-gtitle{font-size:7px;letter-spacing:.03em;padding:0 0 3px}
+#fd-dock.fd-mini .fd-lbl{font-size:8px}
+#fd-dock.fd-mini .fd-ico svg{width:20px;height:20px}
+#fd-dock.fd-mini .fd-btn{width:52px;gap:2px}
+@media (max-width:820px) and (max-height:520px){
+  /* em paisagem baixa, usa o espaço acima (o chip de 1 km só aparece com o modo ligado) */
+  #fd-dock{top:calc(8px + env(safe-area-inset-top,0px))}
+  #fd-dock .fd-panel{top:calc(8px + env(safe-area-inset-top,0px))}
+}
 #fd-dock .fd-rail{padding-top:8px}
 #fd-dock .fd-gtitle{display:block;width:100%;text-align:center;font:800 9px/1 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;letter-spacing:.06em;
   text-transform:uppercase;color:#00428F;padding:2px 0 6px;margin-bottom:-2px;border-bottom:2px solid rgba(0,66,143,.18)}
@@ -126,3 +145,7 @@
 #fd-dock .fd-gtitle.duas{line-height:1.15}
 @media (min-width:821px){#fd-dock .fd-gtitle.duas br{display:none}}
 @media (max-width:820px){#fd-dock .fd-panel{position:fixed;z-index:5}}
+
+/* fm10: "Criar oferta" no grupo Ofertas da coluna esquerda */
+body.co-aberto #fd-dock .fd-btn[data-acao="criar-oferta"] .fd-ico{color:#1e4b8a;box-shadow:inset 0 2px 6px rgba(40,70,110,.25),0 0 0 2px rgba(80,140,200,.35),0 3px 6px rgba(40,50,70,.2)}
+body.co-aberto #fd-dock .fd-btn[data-acao="criar-oferta"] .fd-lbl{color:#DF2110}

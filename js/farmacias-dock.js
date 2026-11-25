@@ -15,15 +15,18 @@
   const ICON_PROMO = '<svg viewBox="0 0 32 32" aria-hidden="true"><path d="M4 15.2V6.5A2.5 2.5 0 0 1 6.5 4h8.7a2.5 2.5 0 0 1 1.77.73l10.3 10.3a2.5 2.5 0 0 1 0 3.54l-8.7 8.7a2.5 2.5 0 0 1-3.54 0L4.73 16.97A2.5 2.5 0 0 1 4 15.2z" fill="currentColor" opacity=".18" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round"/><circle cx="10" cy="10" r="2.3" fill="currentColor"/><path d="M13.2 21.2l7.6-7.6" stroke="#DF2110" stroke-width="2.4" stroke-linecap="round"/><circle cx="14.4" cy="15" r="1.7" fill="#DF2110"/><circle cx="19.6" cy="20.2" r="1.7" fill="#DF2110"/></svg>';
   const ICON_TOP = '<svg viewBox="0 0 32 32" aria-hidden="true"><rect x="4" y="17" width="6" height="11" rx="1.5" fill="currentColor" opacity=".35"/><rect x="13" y="10" width="6" height="18" rx="1.5" fill="currentColor" opacity=".6"/><rect x="22" y="4" width="6" height="24" rx="1.5" fill="currentColor"/><path d="M3 13.5l7-5 5 3 10-7.5" fill="none" stroke="#DF2110" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"/></svg>';
   const ICON_DERMO = '<svg viewBox="0 0 32 32" aria-hidden="true"><rect x="12.2" y="3.5" width="7.6" height="5" rx="1.3" fill="currentColor"/><path d="M11 10.5h10a2 2 0 0 1 2 2v13.2a2.8 2.8 0 0 1-2.8 2.8h-8.4A2.8 2.8 0 0 1 9 25.7V12.5a2 2 0 0 1 2-2z" fill="currentColor" opacity=".18" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round"/><path d="M12.8 17.5h6.4M12.8 21h4.4" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"/><path d="M25.6 3.2l.9 2.3 2.3.9-2.3.9-.9 2.3-.9-2.3-2.3-.9 2.3-.9z" fill="#DF2110"/><path d="M5.6 5.5l.6 1.5 1.5.6-1.5.6-.6 1.5-.6-1.5-1.5-.6 1.5-.6z" fill="#DF2110"/></svg>';
+  const ICON_CRIAR = '<svg viewBox="0 0 32 32" aria-hidden="true"><rect x="5" y="4" width="22" height="24" rx="3.5" fill="currentColor" opacity=".16" stroke="currentColor" stroke-width="2.2"/><path d="M9.5 10h13M9.5 14h8" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/><rect x="9" y="18" width="14" height="6.5" rx="2" fill="#DF2110"/><path d="M12 21.3h8" stroke="#fff" stroke-width="1.8" stroke-linecap="round"/><path d="M26.5 2.5l.9 2.3 2.3.9-2.3.9-.9 2.3-.9-2.3-2.3-.9 2.3-.9z" fill="#DF2110"/></svg>';
 
-  /* Grupos da barra lateral: cada grupo = título + botões. Para um novo grupo (ex.: "Dermo & Beleza"),
-     basta acrescentar um objeto aqui (e tratar a nova "aba" em render()). */
+  /* Grupos da barra lateral: cada grupo = título + botões. Botões com "aba" abrem o painel;
+     botões com "acao" disparam outra função (ex.: "criar-oferta" abre o criador de artes). */
   const GRUPOS = [
     { id: "medicamentos", titulo: "Medicamentos", botoes: [
       { aba: "promos", nome: "Promoções do dia", rotulo: "Promoções<br>do dia", icone: ICON_PROMO, extra: '<span class="fd-dot" hidden></span>' },
       { aba: "mv", nome: "Mais vendidos em Foz", rotulo: "Mais vendidos<br>em Foz", icone: ICON_TOP } ] },
     { id: "dermo", titulo: "Dermo & Beleza", tituloHtml: "Dermo &amp;<br>Beleza", botoes: [
-      { aba: "online", nome: "Mais vendidos online", rotulo: "Mais vendidos<br>online", icone: ICON_DERMO } ] }
+      { aba: "online", nome: "Mais vendidos online", rotulo: "Mais vendidos<br>online", icone: ICON_DERMO } ] },
+    { id: "ofertas", titulo: "Ofertas", botoes: [
+      { acao: "criar-oferta", nome: "Criar oferta", rotulo: "Criar<br>oferta", icone: ICON_CRIAR } ] }
   ];
 
   const D = { aba: null, view: "lista", dia: null, mv: null, q: "", ordem: "farmacias", muni: "foz", mvAba: "top", on: null, onAba: "hoje", qOn: "", sel: null, markers: [], aberto: false };
@@ -41,7 +44,7 @@
         <div class="fd-group" data-grupo="${g.id}">
           <div class="fd-rail" role="toolbar" aria-label="${esc(g.titulo)}">
             <span class="fd-gtitle${g.tituloHtml ? " duas" : ""}" aria-hidden="true">${g.tituloHtml || esc(g.titulo)}</span>
-            ${g.botoes.map(b => `<button type="button" class="fd-btn" data-aba="${b.aba}" aria-pressed="false" aria-label="${esc(b.nome)}" title="${esc(b.nome)}">
+            ${g.botoes.map(b => `<button type="button" class="fd-btn" ${b.aba ? `data-aba="${b.aba}"` : ""} ${b.acao ? `data-acao="${b.acao}"` : ""} aria-pressed="false" aria-label="${esc(b.nome)}" title="${esc(b.nome)}">
               <span class="fd-ico">${b.icone}</span><span class="fd-lbl">${b.rotulo}</span>${b.extra || ""}</button>`).join("")}
           </div>
         </div>`).join("")}
@@ -50,19 +53,42 @@
     document.body.appendChild(dock);
     dock.querySelectorAll(".fd-btn").forEach(b => b.addEventListener("click", ev => {
       ev.preventDefault(); ev.stopPropagation();
+      const acao = b.dataset.acao;
+      if (acao === "criar-oferta") {
+        if (window.__CRIAR_OFERTA__ && typeof window.__CRIAR_OFERTA__.abrir === "function") window.__CRIAR_OFERTA__.abrir();
+        return;
+      }
       const aba = b.dataset.aba;
       if (D.aberto && D.aba === aba) return fechar();
       abrir(aba);
     }));
     ["pointerdown", "wheel", "touchstart", "dblclick"].forEach(t => dock.addEventListener(t, ev => ev.stopPropagation(), { passive: true }));
     window.addEventListener("resize", posicionar);
+    posicionar();
+    setTimeout(posicionar, 400);
+    setTimeout(posicionar, 1500);
   }
 
   function posicionar() {
     const p = $("#fd-panel"), dock = $("#fd-dock"), bar = $("#fm-bar");
     if (!p || !dock) return;
     const topoBarra = bar ? bar.getBoundingClientRect().top : window.innerHeight - 140;
-    dock.style.setProperty("--fd-bottom", Math.max(120, window.innerHeight - topoBarra + 8) + "px");
+    /* folga de 10px acima da barra das lojas, para o grupo Ofertas não ficar por baixo */
+    dock.style.setProperty("--fd-bottom", Math.max(10, window.innerHeight - topoBarra + 10) + "px");
+    encaixar(dock);
+  }
+
+  /* Compacta os cartões até os 3 grupos caberem acima da barra. Se ainda não couber, a coluna rola. */
+  function encaixar(dock) {
+    const groups = dock.querySelector(".fd-groups");
+    if (!groups) return;
+    dock.classList.remove("fd-compact", "fd-mini");
+    void dock.offsetHeight;
+    if (groups.scrollHeight <= groups.clientHeight + 1) return;
+    dock.classList.add("fd-compact");
+    void dock.offsetHeight;
+    if (groups.scrollHeight <= groups.clientHeight + 1) return;
+    dock.classList.add("fd-mini");
   }
 
   function abrir(aba) {
