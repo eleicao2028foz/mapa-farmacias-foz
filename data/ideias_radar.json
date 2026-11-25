@@ -1,83 +1,31 @@
 {
- "gerado_em": "24/11/2026 08:31",
- "relatorio": "relatorio_2026-11-24_08h.md",
- "titulo": "Radar de concorrentes: terça, 24/11/2026, 8h (horário de Brasília)",
+ "gerado_em": "24/11/2026 22:35",
+ "relatorio": "relatorio_2026-11-24_online.md",
+ "titulo": "Mais vendidos online — 24/11/2026, 22h (horário de Brasília)",
  "ideias": [
   {
-   "texto": "Muffato JK: a Nissei (751 m) entrou com Episol Color FPS70 por R$ 59,90 e Bepantol Derma por R$ 29,90, além do Epidrat por R$ 14,90. Vale um \"Black Dermo\" com o Cicaplast perto de R$ 64,37 (preço da Amazon) e um FPS facial abaixo de R$ 60.",
+   "texto": "Sabonete Granado Enxofre 90g aparece entre os mais vendidos em 6 sites (Drogaria Pacheco, Tamoio, Preço Popular, Drogal, Drogaria São Paulo, Farmácia Indiana) de R$ 7,39 a R$ 11,59. Vale colocar na vitrine da FARMAIS, com foto e preço aparente, porque o produto já está na cabeça de quem pesquisa online.",
+   "itens": []
+  },
+  {
+   "texto": "EUCERIN Creme Corporal Antimanchas Intenso 200ml, Anti-Pigment, Clareador Joelho, Coxa e Cotovelo, Thiamidol sai a R$ 130,05 na Amazon, enquanto em Foz a Farmácia Preço Popular (CLAMED) anuncia de 209,90 por 159,90 (diferença de R$ 29,85). Se a FARMAIS chegar perto do preço online, vira argumento de compra na loja.",
    "itens": [
     {
-     "nome": "Episol Color FPS70",
-     "valor_citado": "59,90"
-    },
-    {
-     "nome": "Bepantol Derma",
-     "valor_citado": "29,90"
-    },
-    {
-     "nome": "além do Epidrat",
-     "valor_citado": "14,90"
-    },
-    {
-     "nome": "Cicaplast",
-     "valor_citado": "64,37"
+     "nome": "Thiamidol",
+     "valor_citado": "130,05"
     }
    ]
   },
   {
-   "texto": "República Argentina: a Gabriela (394 m) puxa pelo básico barato, com ibuprofeno gotas a R$ 9,99, Cenevit a R$ 6,99 e losartana a R$ 3,49. Uma vitrine \"farmácia do dia a dia\" com analgésico, vitamina C e genérico de pressão segura esse cliente.",
-   "itens": [
-    {
-     "nome": "ibuprofeno gotas",
-     "valor_citado": "9,99"
-    },
-    {
-     "nome": "Cenevit",
-     "valor_citado": "6,99"
-    },
-    {
-     "nome": "losartana",
-     "valor_citado": "3,49"
-    }
-   ]
+   "texto": "Nas listas de fraldas, o mais recorrente no topo é Fralda Pampers Confort Sec Tamanho XXG 82 Unidades a R$ 149,99 na Drogaria Pacheco (https://www.drogariaspacheco.com.br/fralda-pampers-confort-sec-xxg-82-unidades/p). Pacotão nessa faixa chama atenção no caixa e no WhatsApp; vale ter um preço de referência na FARMAIS.",
+   "itens": []
   },
   {
-   "texto": "Consalter: a Preço Justo (72 m) tem Dorflex e Fisiofort a R$ 9,99 e creatina a R$ 37,99 até 28/11. Cubra o Dorflex e junte o protetor diário Carefree 80 un. (R$ 16,88 online), que nenhuma concorrente de Foz promove.",
-   "itens": [
-    {
-     "nome": "Fisiofort",
-     "valor_citado": "9,99"
-    },
-    {
-     "nome": "creatina",
-     "valor_citado": "37,99",
-     "foto_id": "creatina-gummy"
-    },
-    {
-     "nome": "Dorflex",
-     "foto_id": "dorflex"
-    }
-   ]
+   "texto": "No dermo, o 1º lugar da Amazon é La Roche-Posay Cicaplast Baume B5+ Cuidado Multirreparador Calmante a R$ 64,37 (https://www.amazon.com.br/dp/B072MK7BN2). É o tipo de item que funciona como chamariz de pele na loja, principalmente no Muffato e na República Argentina.",
+   "itens": []
   },
   {
-   "texto": "Cabelo: a linha Lola (Densidade 250 g a R$ 19,48, Morte Súbita 450 g a R$ 30,17 e óleo Argan a R$ 24,99), a máscara acidificante Amend (R$ 27,90) e o Vichy Dercos Energy+ (R$ 61,69) estão entre os mais vendidos online, e nenhuma concorrente de Foz promove esses itens.",
-   "itens": [
-    {
-     "nome": "Densidade 250 g",
-     "valor_citado": "19,48"
-    },
-    {
-     "nome": "Morte Súbita 450 g",
-     "valor_citado": "30,17"
-    },
-    {
-     "nome": "óleo Argan",
-     "valor_citado": "24,99"
-    }
-   ]
-  },
-  {
-   "texto": "Sol: Isdin (Panvel, R$ 79,90), Episol (Nissei, R$ 59,90) e Lunis FPS70 (Preço Popular, R$ 26,90) disputam o protetor facial. O Minesol Oil Control FPS70 (R$ 55,44 online), que ninguém promove em Foz, pode ser o protetor-chamariz da FARMAIS.",
+   "texto": "Em saúde e suplementos, 100% Whey Protein Concentrado Max Titanium 900g aparece no topo da Americanas a R$ 161,52 (https://www.americanas.com.br/100--whey-protein-concentrado-max-titanium-900g-8365264/p). Quem pesquisa suplemento online está vendo isso no topo; uma ponta de gôndola com whey, creatina ou vitaminas a preço visível aproveita a demanda.",
    "itens": []
   }
  ]
