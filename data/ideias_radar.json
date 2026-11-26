@@ -1,60 +1,56 @@
 {
- "gerado_em": "26/11/2026 08:18",
- "relatorio": "relatorio_2026-11-25_15h.md",
- "titulo": "Radar de concorrentes: quarta, 25/11/2026, 15h (horário de Brasília)",
+ "gerado_em": "26/11/2026 08:28",
+ "relatorio": "relatorio_2026-11-26_08h.md",
+ "titulo": "Radar de concorrentes: quinta, 26/11/2026, 8h (horário de Brasília)",
  "ideias": [
   {
-   "texto": "Muffato JK: a Nissei (751 m) voltou com higiene até 30/11: creme dental Colgate 140 g a R$ 10,95, Rexona a R$ 11,95 e Bozzano a R$ 8,95. Uma \"cesta higiene Black\" com creme dental e desodorante a R$ 9,99 cada passa a Nissei.",
+   "texto": "Black Friday: a Mini Preço faz live hoje às 19h. Amanhã têm Black Farma D, Dr. Guilherme (dia único), live da São João ao meio-dia e Yellow Friday. Se o \"Black FARMAIS\" já estiver nas vitrines e no Instagram hoje à tarde, a FARMAIS chega antes de todas.",
+   "itens": []
+  },
+  {
+   "texto": "Higiene bucal (Consalter e República Argentina): a São João vende o kit Colgate Total por R$ 22,49 até 30/11, e o mesmo kit 4 x 90 g é o nº 1 da Tamoio por R$ 18,99. Um kit Colgate FARMAIS abaixo de R$ 18,99 passa os dois.",
    "itens": [
     {
-     "nome": "creme dental Colgate 140 g",
-     "valor_citado": "10,95",
-     "foto_id": "colgate-total-140"
+     "nome": "São João vende o kit Colgate Total",
+     "valor_citado": "22,49"
     },
     {
-     "nome": "Rexona",
-     "valor_citado": "11,95",
-     "foto_id": "rexona-invisible"
-    },
-    {
-     "nome": "Bozzano",
-     "valor_citado": "8,95"
-    },
-    {
-     "nome": "desodorante",
-     "valor_citado": "9,99",
-     "foto_id": "dove-aero-invisible-dry"
+     "nome": "kit Colgate FARMAIS",
+     "valor_citado": "18,99"
     }
    ]
   },
   {
-   "texto": "Genéricos: a Preço Popular subiu 111 preços desde as 8h, entre eles omeprazol (de R$ 10,68 para R$ 17,35) e rosuvastatina (de R$ 12,89 para R$ 28,90). Vale uma placa \"preço fixo até domingo\" na FARMAIS com omeprazol, losartana e rosuvastatina.",
-   "itens": []
-  },
-  {
-   "texto": "Antecipar a quinta: a Mini Preço faz live amanhã às 19h, e Farma D e Dr. Guilherme seguram tudo para 27 e 28/11. Se a FARMAIS lançar o \"Black FARMAIS\" já na quinta de manhã, sai na frente das três.",
-   "itens": []
-  },
-  {
-   "texto": "Suplementos: a Preço Popular abriu à tarde a creatina 300 g a R$ 44,90 e o Targifor C 60 a R$ 89,99. Uma creatina abaixo de R$ 44,90 com Targifor ao lado conversa com quem sai da academia no Muffato JK.",
+   "texto": "Cabelo (Muffato JK e República Argentina): Novex por R$ 12,95 na Nissei e R$ 17,99 na Gabriela, Siàge por R$ 35,95 na Nissei e R$ 41,99 na Coperfarma. O óleo Elseve 100 ml é o nº 1 da Amazon por R$ 19,99 e custa R$ 39,90 na São João. Uma ilha \"cabelo Black\" com Elseve e Siàge pega quem procura isso.",
    "itens": [
     {
-     "nome": "Targifor C 60",
-     "valor_citado": "89,99"
+     "nome": "Novex",
+     "valor_citado": "12,95"
     },
     {
-     "nome": "creatina",
-     "valor_citado": "44,90",
-     "foto_id": "creatina-gummy"
+     "nome": "Siàge",
+     "valor_citado": "35,95"
     }
    ]
   },
   {
-   "texto": "Sol: a Bem Estar cobra R$ 89,99 só pelo Neutrogena Derm Care 40 g, e o kit corpo 200 ml + facial custa de R$ 72,89 a R$ 87,74 online e R$ 79,90 na Preço Popular. Um kit Neutrogena FARMAIS abaixo de R$ 79,90 é o melhor preço visível em Foz.",
+   "texto": "Mais vendidos do Brasil que ninguém promove em Foz: sabonete Granado Enxofre (R$ 7,49 a R$ 11,59 online), kit Sundown FPS50 200 + 100 ml (R$ 42,89 a R$ 49,59) e Eucerin Oil Control FPS60 (R$ 55,90 a R$ 114,90). Uma gôndola \"os mais vendidos do Brasil\" com eles não tem concorrente na cidade.",
+   "itens": []
+  },
+  {
+   "texto": "Adeforte: o Dr. Guilherme anuncia por R$ 32,99 só na sexta, e a Pague Menos vende por R$ 25,99 online (nº 1 em suplementos). Adeforte FARMAIS abaixo de R$ 32,99, já hoje, tira o argumento dele.",
    "itens": [
     {
-     "nome": "kit Neutrogena FARMAIS",
-     "valor_citado": "79,90"
+     "nome": "Guilherme anuncia",
+     "valor_citado": "32,99"
+    },
+    {
+     "nome": "Pague Menos",
+     "valor_citado": "25,99"
+    },
+    {
+     "nome": "Adeforte FARMAIS",
+     "valor_citado": "32,99"
     }
    ]
   }
