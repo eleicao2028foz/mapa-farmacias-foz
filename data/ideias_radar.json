@@ -1,56 +1,84 @@
 {
- "gerado_em": "27/11/2026 08:43",
- "relatorio": "relatorio_2026-11-26_08h.md",
- "titulo": "Radar de concorrentes: quinta, 26/11/2026, 8h (horário de Brasília)",
+ "gerado_em": "27/11/2026 15:46",
+ "relatorio": "relatorio_2026-11-27_08h.md",
+ "titulo": "Radar de concorrentes: sexta, 27/11/2026, 8h (horário de Brasília) — Black Friday",
  "ideias": [
   {
-   "texto": "Black Friday: a Mini Preço faz live hoje às 19h. Amanhã têm Black Farma D, Dr. Guilherme (dia único), live da São João ao meio-dia e Yellow Friday. Se o \"Black FARMAIS\" já estiver nas vitrines e no Instagram hoje à tarde, a FARMAIS chega antes de todas.",
-   "itens": []
-  },
-  {
-   "texto": "Higiene bucal (Consalter e República Argentina): a São João vende o kit Colgate Total por R$ 22,49 até 30/11, e o mesmo kit 4 x 90 g é o nº 1 da Tamoio por R$ 18,99. Um kit Colgate FARMAIS abaixo de R$ 18,99 passa os dois.",
+   "texto": "Fralda Black (Muffato JK primeiro): Huggies Máxima Proteção Hiper virou R$ 67,90 na Farma D e na Preço Popular, e a Nissei, a 751 m, faz Babysec Hiper por R$ 54,95. O Huggies XXG e o G estão entre os 12 mais vendidos online, por R$ 81,99 a R$ 89,90. Huggies Hiper FARMAIS a R$ 67,90 hoje e amanhã empata com as redes.",
    "itens": [
     {
-     "nome": "São João vende o kit Colgate Total",
-     "valor_citado": "22,49"
+     "nome": "faz Babysec Hiper",
+     "valor_citado": "54,95"
     },
     {
-     "nome": "kit Colgate FARMAIS",
+     "nome": "Huggies Hiper FARMAIS",
+     "valor_citado": "67,90"
+    }
+   ]
+  },
+  {
+   "texto": "Leite infantil com limite de 3: Aptamil Premium 2 está a R$ 61,99 na Farma D e no Dr. Guilherme, e Nan Comfor 1 a R$ 68,99 no Dr. Guilherme (só hoje). A partir de sábado (28/11), só a Farma D segue. Uma FARMAIS no mesmo preço no sábado pega quem perdeu a sexta do Dr. Guilherme.",
+   "itens": [
+    {
+     "nome": "Aptamil Premium 2",
+     "valor_citado": "61,99"
+    },
+    {
+     "nome": "Nan Comfor 1",
+     "valor_citado": "68,99"
+    }
+   ]
+  },
+  {
+   "texto": "Higiene até R$ 10: Rexona aerossol a R$ 10,49 na Preço Popular, Dove 90 g a R$ 3,99 na Farma D, Sensodyne Rápido Alívio 90 g a R$ 9,99 na Safira e Dermafeme a R$ 9,99 na Maiis Brasil. Uma gôndola \"Black até R$ 10\" com esses itens serve para chamar cliente.",
+   "itens": [
+    {
+     "nome": "Rexona aerossol",
+     "valor_citado": "10,49",
+     "foto_id": "rexona-invisible"
+    },
+    {
+     "nome": "Dove 90 g",
+     "valor_citado": "3,99",
+     "foto_id": "dove-sabonete-barra"
+    },
+    {
+     "nome": "Sensodyne Rápido Alívio 90 g",
+     "valor_citado": "9,99"
+    },
+    {
+     "nome": "Dermafeme",
+     "valor_citado": "9,99"
+    }
+   ]
+  },
+  {
+   "texto": "República Argentina: a Coperfarma, a 458 m, cobra R$ 19,90 no Johnson's Baby 200 ml e R$ 29,90 no OFF! Family aerossol. A Farma D faz o Johnson's por R$ 11,99 e o OFF! loção 200 ml por R$ 18,99, e a loção é a nº 1 da Tamoio online (de R$ 15,38 a R$ 21,86). Johnson's e OFF! loção FARMAIS abaixo da Coperfarma ganham a vizinhança.",
+   "itens": [
+    {
+     "nome": "Farma D faz o Johnson's",
+     "valor_citado": "11,99"
+    },
+    {
+     "nome": "OFF! loção 200 ml",
      "valor_citado": "18,99"
     }
    ]
   },
   {
-   "texto": "Cabelo (Muffato JK e República Argentina): Novex por R$ 12,95 na Nissei e R$ 17,99 na Gabriela, Siàge por R$ 35,95 na Nissei e R$ 41,99 na Coperfarma. O óleo Elseve 100 ml é o nº 1 da Amazon por R$ 19,99 e custa R$ 39,90 na São João. Uma ilha \"cabelo Black\" com Elseve e Siàge pega quem procura isso.",
+   "texto": "Cabelo: kit Seda a R$ 14,99 na Farma D, kit TRESemmé a R$ 21,95 e kit Alta Moda a R$ 19,95 na Nissei (só hoje). Um kit Seda ou TRESemmé FARMAIS no sábado (28/11) ocupa o espaço que a Nissei deixa depois de hoje.",
    "itens": [
     {
-     "nome": "Novex",
-     "valor_citado": "12,95"
+     "nome": "kit Seda",
+     "valor_citado": "14,99"
     },
     {
-     "nome": "Siàge",
-     "valor_citado": "35,95"
-    }
-   ]
-  },
-  {
-   "texto": "Mais vendidos do Brasil que ninguém promove em Foz: sabonete Granado Enxofre (R$ 7,49 a R$ 11,59 online), kit Sundown FPS50 200 + 100 ml (R$ 42,89 a R$ 49,59) e Eucerin Oil Control FPS60 (R$ 55,90 a R$ 114,90). Uma gôndola \"os mais vendidos do Brasil\" com eles não tem concorrente na cidade.",
-   "itens": []
-  },
-  {
-   "texto": "Adeforte: o Dr. Guilherme anuncia por R$ 32,99 só na sexta, e a Pague Menos vende por R$ 25,99 online (nº 1 em suplementos). Adeforte FARMAIS abaixo de R$ 32,99, já hoje, tira o argumento dele.",
-   "itens": [
-    {
-     "nome": "Guilherme anuncia",
-     "valor_citado": "32,99"
+     "nome": "kit TRESemmé",
+     "valor_citado": "21,95"
     },
     {
-     "nome": "Pague Menos",
-     "valor_citado": "25,99"
-    },
-    {
-     "nome": "Adeforte FARMAIS",
-     "valor_citado": "32,99"
+     "nome": "kit Alta Moda",
+     "valor_citado": "19,95"
     }
    ]
   }
