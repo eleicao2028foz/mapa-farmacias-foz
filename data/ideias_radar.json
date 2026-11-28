@@ -1,59 +1,76 @@
 {
- "gerado_em": "28/11/2026 15:25",
- "relatorio": "relatorio_2026-11-28_08h.md",
- "titulo": "Radar de concorrentes: sábado, 28/11/2026, 8h (horário de Brasília) — último dia de Black Friday",
+ "gerado_em": "28/11/2026 15:32",
+ "relatorio": "relatorio_2026-11-28_15h.md",
+ "titulo": "Radar de concorrentes: sábado, 28/11/2026, 15h (horário de Brasília) — último dia de Black Friday",
  "ideias": [
   {
-   "texto": "Cicaplast Baume B5+: é o nº 1 online hoje, em 7 sites, de R$ 71,55 a R$ 104,90 o de 40 ml e de R$ 36,94 a R$ 54,90 o de 20 ml. Nenhuma concorrente de Foz promove hoje. Uma vitrine Cicaplast FARMAIS no domingo e na segunda (Cyber Monday) fica sem concorrência.",
-   "itens": []
-  },
-  {
-   "texto": "Fralda depois da Black (a partir de domingo, 29/11): Farma D (Huggies Hiper por R$ 67,90), Mini Preço e Farmautil (Bummis e Mili por R$ 59,99) terminam hoje. Ficam a Panvel, com Pampers Confort Sec XG 58 por R$ 69,90, e a Preço Popular, com Babysec Galinha Pintadinha por R$ 49,90. O Huggies Máxima Proteção está no top online de R$ 84,90 a R$ 92,90 e custa R$ 89,90 no site da Preço Popular. Um Huggies FARMAIS abaixo de R$ 89,90 ganha da Preço Popular.",
+   "texto": "Kit Nivea Sun Protect & Hidrata FPS50 200 + 100 ml: está em 8º lugar entre os mais vendidos online, em 4 sites, de R$ 39,89 a R$ 59,39. Em Foz custa R$ 39,99 na Panvel e R$ 44,99 na Preço Popular. Um kit FARMAIS por até R$ 39,90 no domingo empata com o menor preço da internet.",
    "itens": [
     {
-     "nome": "Huggies Hiper",
-     "valor_citado": "67,90"
+     "nome": "Em Foz",
+     "valor_citado": "39,99"
+    }
+   ]
+  },
+  {
+   "texto": "Muffato JK, desodorante: a Nissei (751 m) faz Nivea aerossol por R$ 11,95 até 30/11. A Três Lagoas cobra R$ 10,99 no Rexona e R$ 9,99 no Dove. O Dove aerossol é o nº 1 em higiene na Pague Menos, por R$ 10,90. Um aerossol FARMAIS por até R$ 10,90 ganha da Nissei.",
+   "itens": [
+    {
+     "nome": "faz Nivea aerossol",
+     "valor_citado": "11,95"
+    }
+   ]
+  },
+  {
+   "texto": "República Argentina, Adeforte: o Dr. Guilherme (Morumbi) vende a ampola por R$ 32,99 no fim de semana. O Adeforte é o nº 1 de saúde na Pague Menos (1 ampola de 3 ml por R$ 25,99) e na Pacheco (Turbo por R$ 44,29). Um Adeforte FARMAIS abaixo de R$ 32,99 entra bem.",
+   "itens": [
+    {
+     "nome": "vende a ampola",
+     "valor_citado": "32,99"
     },
     {
-     "nome": "Mili",
+     "nome": "1 ampola de 3 ml",
+     "valor_citado": "25,99"
+    },
+    {
+     "nome": "Turbo",
+     "valor_citado": "44,29"
+    },
+    {
+     "nome": "Adeforte FARMAIS",
+     "valor_citado": "32,99"
+    }
+   ]
+  },
+  {
+   "texto": "Fralda no domingo: Farma D, Mini Preço e Farmautil (fraldas por R$ 59,99 a R$ 77,99) encerram hoje. Ficam a Nissei, com Huggies Supreme Care Max por R$ 89,90 até 30/11, e a Panvel, com Pampers XXG 56 por R$ 78,90. O Huggies Máxima Proteção custa de R$ 84,90 a R$ 92,90 nos mais vendidos online. Um Huggies FARMAIS abaixo de R$ 84,90 a partir de domingo pega quem perdeu a Black.",
+   "itens": [
+    {
+     "nome": "fraldas",
      "valor_citado": "59,99"
     },
     {
-     "nome": "Pampers Confort Sec XG 58",
-     "valor_citado": "69,90"
+     "nome": "Huggies Supreme Care Max",
+     "valor_citado": "89,90"
     },
     {
-     "nome": "Babysec Galinha Pintadinha",
-     "valor_citado": "49,90"
-    }
-   ]
-  },
-  {
-   "texto": "Leite no Muffato JK: a Nissei, a 751 m, faz Ninho Fases 3+ por R$ 39,90 (levando 2) até 30/11. O Ninho Fases 1+ sai hoje de R$ 38,99 (Farma D) e de R$ 43,99 (Mini Preço e Farmautil). Um Ninho FARMAIS a partir de domingo pega quem chegar atrasado.",
-   "itens": [
-    {
-     "nome": "faz Ninho Fases 3+",
-     "valor_citado": "39,90"
-    }
-   ]
-  },
-  {
-   "texto": "Consalter: a Preço Justo, a 72 m, é da mesma marca da Três Lagoas, que faz Rexona aerossol por R$ 10,99, Dove aerossol por R$ 9,99 e Colgate Tripla Ação por R$ 3,99 até o fim do mês. Uma ilha \"até R$ 10\" FARMAIS com Rexona, Oral-B e Dove 90 g (R$ 3,99 na Farma D) responde no mesmo nível.",
-   "itens": [
-    {
-     "nome": "Dove aerossol",
-     "valor_citado": "9,99",
-     "foto_id": "dove-aero-invisible-dry"
+     "nome": "Pampers XXG 56",
+     "valor_citado": "78,90"
     },
     {
-     "nome": "Colgate Tripla Ação",
-     "valor_citado": "3,99"
+     "nome": "Huggies FARMAIS",
+     "valor_citado": "84,90"
     }
    ]
   },
   {
-   "texto": "República Argentina: a Coperfarma, a 458 m, cobra R$ 19,90 no Johnson's Baby 200 ml e R$ 29,90 no OFF! Family aerossol. O Granado Enxofre (6 sites, de R$ 7,49 a R$ 11,59) só está em promoção na Preço Popular, por R$ 7,90. Johnson's e Granado FARMAIS abaixo desses preços chamam a vizinhança.",
-   "itens": []
+   "texto": "Elseve no Muffato: a Nissei cobra R$ 34,95 no óleo Extraordinário. O site da Preço Popular cobra R$ 28,90, e online o óleo sai de R$ 19,99 a R$ 31,90. O kit Elseve Collagen Lifter é o nº 1 em beleza na Indiana (R$ 33,39). Óleo e kit Elseve FARMAIS abaixo de R$ 28,90 superam a Nissei vizinha.",
+   "itens": [
+    {
+     "nome": "kit Elseve FARMAIS",
+     "valor_citado": "28,90"
+    }
+   ]
   }
  ]
 }
